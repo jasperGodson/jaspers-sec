@@ -1,1 +1,2198 @@
-{"updated":"","sources":[],"items":[]}
+{
+ "updated": "2026-10-22T17:01:55.536292+00:00",
+ "sources": [
+  {
+   "id": "kev",
+   "name": "CISA KEV",
+   "ok": true,
+   "count": 40,
+   "error": ""
+  },
+  {
+   "id": "nvd",
+   "name": "NVD high severity",
+   "ok": true,
+   "count": 40,
+   "error": ""
+  },
+  {
+   "id": "cisa-adv",
+   "name": "CISA advisories",
+   "ok": true,
+   "count": 30,
+   "error": ""
+  },
+  {
+   "id": "thn",
+   "name": "The Hacker News",
+   "ok": true,
+   "count": 40,
+   "error": ""
+  },
+  {
+   "id": "bleeping",
+   "name": "BleepingComputer",
+   "ok": true,
+   "count": 15,
+   "error": ""
+  },
+  {
+   "id": "krebs",
+   "name": "Krebs on Security",
+   "ok": true,
+   "count": 10,
+   "error": ""
+  },
+  {
+   "id": "feodo",
+   "name": "Feodo botnet C2",
+   "ok": true,
+   "count": 5,
+   "error": ""
+  },
+  {
+   "id": "urlhaus",
+   "name": "URLhaus recent",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: HTTP Error 410: Gone"
+  }
+ ],
+ "items": [
+  {
+   "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+   "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+   "date": "2026-10-22T16:12:31+00:00",
+   "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018. According to multiple reports from the Associated Press, the New York ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+   "date": "2026-10-22T15:49:32+00:00",
+   "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Machine speed attacks require machine speed detection and response",
+   "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+   "date": "2026-10-22T14:02:12+00:00",
+   "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical.",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+   "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+   "date": "2026-10-22T13:38:22+00:00",
+   "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the c",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+   "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+   "date": "2026-10-22T13:09:12+00:00",
+   "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Managing AI Token Consumption for Operational Resilience",
+   "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+   "date": "2026-10-22T12:00:00+00:00",
+   "summary": "CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, Managing AI Token Consumption for Operational Resilience , to help organizations understand and manage token usage in support of operations. As organizations adopt third-party super intelligence (",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+   "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+   "date": "2026-10-22T11:45:00+00:00",
+   "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little over",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "GitLab warns of new max severity code execution vulnerability",
+   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+   "date": "2026-10-22T11:41:48+00:00",
+   "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+   "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+   "date": "2026-10-22T11:15:42+00:00",
+   "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in so",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+   "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+   "date": "2026-10-22T10:44:05+00:00",
+   "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access.",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+   "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+   "date": "2026-10-22T08:28:48+00:00",
+   "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub r",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+   "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+   "date": "2026-10-22T08:27:11+00:00",
+   "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+   "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+   "date": "2026-10-22T07:47:22+00:00",
+   "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could ru",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+   "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+   "date": "2026-10-22T06:38:31+00:00",
+   "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+   "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+   "date": "2026-10-22T06:34:10+00:00",
+   "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit atte",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+   "date": "2026-10-22T04:21:26+00:00",
+   "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source i",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+   "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+   "date": "2026-10-21T22:16:26+00:00",
+   "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+   "date": "2026-10-21T21:43:27+00:00",
+   "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+   "date": "2026-10-21T20:31:48+00:00",
+   "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+   "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+   "date": "2026-10-21T18:57:34+00:00",
+   "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update co",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+   "date": "2026-10-21T18:34:42+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-111184 (CVSS 7.8)",
+   "cve": "CVE-2026-111184",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111184",
+   "date": "2026-10-21T18:17:23.620",
+   "summary": "NoMachine Named Pipe Incorrect Permission Assignment Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in ord",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-111183 (CVSS 9.8)",
+   "cve": "CVE-2026-111183",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111183",
+   "date": "2026-10-21T18:17:23.477",
+   "summary": "GStreamer rtpL16depay Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depen",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-110744 (CVSS 7.2)",
+   "cve": "CVE-2026-110744",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110744",
+   "date": "2026-10-21T18:17:23.350",
+   "summary": "A flaw was found in multicluster-global-hub-operator-bundle. The operator is configured with overly broad role-based access control (RBAC) permissions that grant cluster-wide impersonation of arbitrary users, groups, and service accounts without restriction. An attacker who compromises the operator ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-105869 (CVSS 9.2)",
+   "cve": "CVE-2026-105869",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105869",
+   "date": "2026-10-21T18:17:22.293",
+   "summary": "Apache Pulsar's MultiRolesTokenAuthorizationProvider authorizes a client with all roles listed in a claim of its JSON Web Token (JWT). The provider is intended for use with token authentication, which verifies the token before authorization. The provider did not verify the token itself: it parsed th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+   "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+   "date": "2026-10-21T18:01:57+00:00",
+   "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docke",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-76524 (CVSS 7.8)",
+   "cve": "CVE-2026-76524",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76524",
+   "date": "2026-10-21T17:19:09.610",
+   "summary": "A vulnerability in the control channel socket implementation of&nbsp;Open Source Snort 3 could allow an authenticated, local attacker with low privileges to execute arbitrary commands as the Snort 3 process user.\r\n\r\nThis vulnerability is due to a lack of authentication when a local user connects to ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76505 (CVSS 7.5)",
+   "cve": "CVE-2026-76505",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76505",
+   "date": "2026-10-21T17:19:09.450",
+   "summary": "A vulnerability in the IPv4 packet processing functionality of Cisco IOS XR Software that affects Cisco ASR 9000 and 9900 Series Aggregation Services Routers as well as Cisco ASR 9902 and 9903 Compact High-Performance Routers could allow an unauthenticated, remote attacker to cause network processor",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76496 (CVSS 7.0)",
+   "cve": "CVE-2026-76496",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76496",
+   "date": "2026-10-21T17:19:09.177",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76495 (CVSS 7.8)",
+   "cve": "CVE-2026-76495",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76495",
+   "date": "2026-10-21T17:19:09.037",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76494 (CVSS 7.8)",
+   "cve": "CVE-2026-76494",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76494",
+   "date": "2026-10-21T17:19:08.897",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76493 (CVSS 7.5)",
+   "cve": "CVE-2026-76493",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76493",
+   "date": "2026-10-21T17:19:08.760",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76492 (CVSS 7.5)",
+   "cve": "CVE-2026-76492",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76492",
+   "date": "2026-10-21T17:19:08.620",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76491 (CVSS 7.5)",
+   "cve": "CVE-2026-76491",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76491",
+   "date": "2026-10-21T17:19:08.480",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76490 (CVSS 8.6)",
+   "cve": "CVE-2026-76490",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76490",
+   "date": "2026-10-21T17:19:08.340",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabiliti",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76481 (CVSS 7.5)",
+   "cve": "CVE-2026-76481",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76481",
+   "date": "2026-10-21T17:19:07.910",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76479 (CVSS 7.8)",
+   "cve": "CVE-2026-76479",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76479",
+   "date": "2026-10-21T17:19:07.780",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76478 (CVSS 8.8)",
+   "cve": "CVE-2026-76478",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76478",
+   "date": "2026-10-21T17:19:07.650",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76477 (CVSS 8.8)",
+   "cve": "CVE-2026-76477",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76477",
+   "date": "2026-10-21T17:19:07.520",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76476 (CVSS 8.8)",
+   "cve": "CVE-2026-76476",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76476",
+   "date": "2026-10-21T17:19:07.387",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76475 (CVSS 9.3)",
+   "cve": "CVE-2026-76475",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76475",
+   "date": "2026-10-21T17:19:07.253",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76474 (CVSS 9.8)",
+   "cve": "CVE-2026-76474",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
+   "date": "2026-10-21T17:19:07.113",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76473 (CVSS 9.8)",
+   "cve": "CVE-2026-76473",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
+   "date": "2026-10-21T17:19:06.973",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76466 (CVSS 9.8)",
+   "cve": "CVE-2026-76466",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+   "date": "2026-10-21T17:19:06.813",
+   "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as&nbsp;root.\r\n\r\nThis vulnerability is due to the use of persistent cookies. Addi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-20356 (CVSS 7.5)",
+   "cve": "CVE-2026-20356",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20356",
+   "date": "2026-10-21T17:18:28.703",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulne",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-20291 (CVSS 7.8)",
+   "cve": "CVE-2026-20291",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20291",
+   "date": "2026-10-21T17:18:28.473",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulne",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-20236 (CVSS 7.5)",
+   "cve": "CVE-2026-20236",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20236",
+   "date": "2026-10-21T17:18:28.247",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulne",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-20043 (CVSS 9.0)",
+   "cve": "CVE-2026-20043",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
+   "date": "2026-10-21T17:18:27.087",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulne",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114261 (CVSS 7.3)",
+   "cve": "CVE-2026-114261",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114261",
+   "date": "2026-10-21T17:18:26.397",
+   "summary": "A vulnerability was found in MomoTommy file-management-system dc9ce1bf27f94b23d906cb1e86ce374dc94ca5df. This issue affects the function index/store/update/destroy of the file app/Http/Controllers/FileController.php of the component Files API. The manipulation of the argument Request results in missi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114259 (CVSS 7.3)",
+   "cve": "CVE-2026-114259",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114259",
+   "date": "2026-10-21T17:18:26.057",
+   "summary": "A flaw has been found in oretnom23 file-management-system-php up to 2e3c1ebe60f121e8df4fb3f544f0e9591d9a01e4. This affects the function save_files of the file admin_class.php. Executing a manipulation of the argument Upload can lead to unrestricted upload. It is possible to launch the attack remotel",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114258 (CVSS 7.3)",
+   "cve": "CVE-2026-114258",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114258",
+   "date": "2026-10-21T17:18:25.883",
+   "summary": "A vulnerability was detected in oretnom23 file-management-system-php up to 2e3c1ebe60f121e8df4fb3f544f0e9591d9a01e4. Affected by this issue is some unknown functionality of the file files.php of the component File Management. Performing a manipulation of the argument fid/id results in sql injection.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114123 (CVSS 7.5)",
+   "cve": "CVE-2026-114123",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114123",
+   "date": "2026-10-21T17:18:25.737",
+   "summary": "D365 F&O MCP Server is a Model Context Protocol server for querying Dynamics 365 Finance & Operations X++ code and metadata. Prior to version 1.11.0, the officially documented Azure one-click deployment uses infrastructure/azuredeploy.json and infrastructure/main.bicep to default the apiKey paramete",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+   "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+   "date": "2026-10-21T16:33:47+00:00",
+   "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "OpenAI agents disabled safety monitoring, one lied about it",
+   "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+   "date": "2026-10-21T16:26:53+00:00",
+   "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-114490 (CVSS 7.8)",
+   "cve": "CVE-2026-114490",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114490",
+   "date": "2026-10-21T16:17:35.647",
+   "summary": "Incorrect authorization in the COM administration API of Progressive Robot hMailServer 6.3.4 through 6.3.6 allows an account assigned the serveradmin role with a list of domains - a credential an administrator may create meaning to confine it to those domains - to act as the whole-server administrat",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114489 (CVSS 8.1)",
+   "cve": "CVE-2026-114489",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114489",
+   "date": "2026-10-21T16:17:35.500",
+   "summary": "Missing authorization in the REST and COM administration APIs of Progressive Robot hMailServer 6.0.0 through 6.3.6 allows a remote authenticated user whose credential is confined to named domains to change mail routing and domain configuration beyond those domains on a multi-tenant server. A domain ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114476 (CVSS 7.5)",
+   "cve": "CVE-2026-114476",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114476",
+   "date": "2026-10-21T16:17:34.947",
+   "summary": "Incorrect authorization in the REST administration API of Progressive Robot hMailServer 6.3.4 through 6.3.6 allows a remote authenticated user whose credential holds the manage_roles permission in named domains - a full-scope API key issued for those domains, or an account assigned the serveradmin r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114257 (CVSS 7.3)",
+   "cve": "CVE-2026-114257",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114257",
+   "date": "2026-10-21T16:17:33.000",
+   "summary": "A security vulnerability has been detected in oretnom23 file-management-system-php up to 2e3c1ebe60f121e8df4fb3f544f0e9591d9a01e4. Affected by this vulnerability is the function readfile of the file download.php of the component File Download. Such manipulation of the argument ID leads to sql inject",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114256 (CVSS 7.3)",
+   "cve": "CVE-2026-114256",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114256",
+   "date": "2026-10-21T16:17:32.830",
+   "summary": "A weakness has been identified in oretnom23 file-management-system-php up to 2e3c1ebe60f121e8df4fb3f544f0e9591d9a01e4. Affected is the function save_folder/delete_folder/delete_file/file_rename/save_files of the file admin_class.php of the component Folder Management. This manipulation of the argume",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114255 (CVSS 7.3)",
+   "cve": "CVE-2026-114255",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114255",
+   "date": "2026-10-21T16:17:32.667",
+   "summary": "A security flaw has been discovered in oretnom23 file-management-system-php up to 2e3c1ebe60f121e8df4fb3f544f0e9591d9a01e4. This impacts the function save_user of the file admin_class.php of the component User Account Management. The manipulation of the argument name/username/password/type/id result",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114254 (CVSS 7.3)",
+   "cve": "CVE-2026-114254",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114254",
+   "date": "2026-10-21T16:17:32.493",
+   "summary": "A vulnerability was identified in oretnom23 file-management-system-php up to 2e3c1ebe60f121e8df4fb3f544f0e9591d9a01e4. This affects the function Login of the file admin_class.php. The manipulation of the argument username/password leads to sql injection. Remote exploitation of the attack is possible",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-113788 (CVSS 9.4)",
+   "cve": "CVE-2026-113788",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113788",
+   "date": "2026-10-21T16:17:26.440",
+   "summary": "Lagoon is an application delivery platform for Kubernetes. Versions prior to 2.33.1 have a vulnerability in the `ssh` service in Lagoon core that would allow an attacker to execute arbitrary code which could lead to, among other things, elevated administrative permissions. It is mitigated by the fac",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-102486 (CVSS 7.5)",
+   "cve": "CVE-2026-102486",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102486",
+   "date": "2026-10-21T16:17:14.313",
+   "summary": "Out-of-bounds read in NTS extension field parsing in NTPsec ntpd 1.1.4 through 1.2.5 allows a remote attacker to crash the daemon via an NTS Authenticator and Encrypted Extension Fields (AEEF) field with an oversized nonce length.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-102483 (CVSS 7.5)",
+   "cve": "CVE-2026-102483",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102483",
+   "date": "2026-10-21T16:17:13.910",
+   "summary": "Reachable exit in NTPsec ntpd 1.1.4 through 1.2.5 allows a remote attacker to terminate the daemon via an NTS request with excess NTS Cookie Placeholder extension fields.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "date": "2026-10-21T15:26:07+00:00",
+   "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaw",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+   "date": "2026-10-21T14:07:05+00:00",
+   "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+   "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+   "date": "2026-10-21T14:00:10+00:00",
+   "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+   "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+   "date": "2026-10-21T14:00:00+00:00",
+   "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+   "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+   "date": "2026-10-21T13:15:09+00:00",
+   "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled. ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into the",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+   "date": "2026-10-21T12:20:34+00:00",
+   "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+   "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+   "date": "2026-10-21T12:05:00+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. \"The most distinctive technical marker for Bronze Sandcastle is its consistent use o",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+   "date": "2026-10-21T12:00:00+00:00",
+   "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 . These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web reques",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+   "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+   "date": "2026-10-21T11:53:34+00:00",
+   "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fad",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+   "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+   "date": "2026-10-21T10:36:53+00:00",
+   "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "The Harness Is the Hard Part of Agentic Pentesting",
+   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+   "date": "2026-10-21T10:32:40+00:00",
+   "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness i",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+   "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+   "date": "2026-10-21T10:30:27+00:00",
+   "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Microsoft says October updates didn’t actually fix VPN issues",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+   "date": "2026-10-21T10:14:53+00:00",
+   "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+   "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+   "date": "2026-10-21T09:05:17+00:00",
+   "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vuln",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+   "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+   "date": "2026-10-21T09:01:12+00:00",
+   "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+   "date": "2026-10-21T08:36:24+00:00",
+   "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+   "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+   "date": "2026-10-21T08:04:17+00:00",
+   "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology produc",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+   "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+   "date": "2026-10-21T07:44:22+00:00",
+   "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+   "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+   "date": "2026-10-21T07:26:49+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-20",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+   "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+   "date": "2026-10-21T06:05:15+00:00",
+   "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisan",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+   "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+   "date": "2026-10-20T17:09:53+00:00",
+   "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issu",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+   "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+   "date": "2026-10-20T15:38:52+00:00",
+   "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that c",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+   "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+   "date": "2026-10-20T15:32:27+00:00",
+   "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+   "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+   "date": "2026-10-20T14:07:17+00:00",
+   "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belong",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+   "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+   "date": "2026-10-20T12:59:44+00:00",
+   "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19. The finding came six days before Serbia's October 25 snap parliamentar",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer to the Recommended Immediate Actions for information about ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "#StopRansomware: SafePay Ransomware",
+   "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "Advisory at a Glance Title #StopRansomware: SafePay Ransomware Original Publication&nbsp; October 20, 2026 Executive Summary This advisory details recent activity by the SafePay ransomware group. SafePay actors have been highly active since August 2024, targeting businesses and critical infrastructu",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Hitachi Energy RTU500 Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for informatio",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "HMS Networks PEAK-System PCAN Windows drivers",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the Windows kernel. The following versions of HMS Networks PEAK-System PCAN Windows drivers are affected: PEAK-System Device Driver Setup &lt;=5.1.2.1151 (CVE-2026-109576, CVE-2026-101103, CVE-2026-94188, CVE-2026-103672,",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Moxa AIG-302 ThingsPro Edge",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information. The following versions of Moxa AIG-302 ThingsPro Edge are affected: Moxa AIG-302 ThingsPro Edge firmware &lt;=1.4.0 (CVE-2026-109812, CVE-2026-109813) CVSS Vendor ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96652 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96654 Plex Media Server Improper Neutralization of Encoded URI Schemes in",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+   "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+   "date": "2026-10-20T11:41:06+00:00",
+   "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "What Security Teams Can Do To Tame Wild Code",
+   "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+   "date": "2026-10-20T11:33:04+00:00",
+   "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+   "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+   "date": "2026-10-20T11:32:59+00:00",
+   "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+   "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+   "date": "2026-10-20T11:06:25+00:00",
+   "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+   "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+   "date": "2026-10-20T10:56:08+00:00",
+   "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+   "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+   "date": "2026-10-20T08:21:29+00:00",
+   "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, th",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+   "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+   "date": "2026-10-20T07:11:45+00:00",
+   "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the a",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+   "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+   "date": "2026-10-20T05:53:16+00:00",
+   "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that A",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+   "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+   "date": "2026-10-20T04:05:58+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landi",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-106931 · EG Secure Solutions SiteGuard Server Edition: EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "cve": "CVE-2026-106931",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+   "date": "2026-10-20",
+   "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "EG Secure Solutions"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-96656 · Plex Media Server: Plex Media Server External Control of File Name or Path Vulnerability",
+   "cve": "CVE-2026-96656",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+   "date": "2026-10-20",
+   "summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Plex"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-96655 · Plex Media Server: Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "cve": "CVE-2026-96655",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+   "date": "2026-10-20",
+   "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Plex"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-96654 · Plex Media Server: Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "cve": "CVE-2026-96654",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+   "date": "2026-10-20",
+   "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Plex"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-96652 · Plex Media Server: Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "cve": "CVE-2026-96652",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+   "date": "2026-10-20",
+   "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. ",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Plex"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-110936 · Siemens Software Center: Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "cve": "CVE-2026-110936",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+   "date": "2026-10-20",
+   "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Siemens"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+   "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+   "date": "2026-10-19T13:48:56+00:00",
+   "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources c",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+   "date": "2026-10-16T12:00:00+00:00",
+   "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat act",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+   "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+   "date": "2026-10-16T12:00:00+00:00",
+   "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and smishing techniques to steal login credentials and other sen",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+   "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+   "date": "2026-10-16T12:00:00+00:00",
+   "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness and&nbsp;Response in Super Intelligence Training and Evaluati",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "date": "2026-10-16T12:00:00+00:00",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability CVE-2026-102764 BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability&nb",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CVE-2026-102764 · BeyondTrust Remote Support: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+   "cve": "CVE-2026-102764",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+   "date": "2026-10-16",
+   "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "BeyondTrust"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2025-61624 · Fortinet Multiple Products: Fortinet Multiple Products Path Traversal Vulnerability",
+   "cve": "CVE-2025-61624",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+   "date": "2026-10-16",
+   "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Fortinet"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "date": "2026-10-15T12:00:00+00:00",
+   "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability&nbsp; This type of vulnerability is a frequent atta",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CISA Malcolm",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-280-01",
+   "date": "2026-10-15T12:00:00+00:00",
+   "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm &lt;=v26.07.1 (CVE-2026-107336, CVE-2026-107361, CVE-2026-107337, CVE-2026-107335, CVE-2026-107334) Malcolm &lt;=v26.08.0 (CVE-2026-107333, CVE-2026-107362) CVSS Vendor Equipment v3 8.1 CISA Malcolm 6 Vulnerabilities Auth",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Eclipse Foundation Eclipse Milo",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+   "date": "2026-10-15T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients. The following versions of Eclipse Foundation Eclipse Milo are affecte",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Guangzhou Juan IoT Technology EseeCloud",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+   "date": "2026-10-15T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras. The following versions of Guangzhou Juan IoT Technology EseeCloud are affected: EseeCloud App &lt;=4.9.6 (CVE-2026-107617, CVE-2026-97858, CVE-2026-105664) EseeCloud F",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "J4Care dcm4che",
+   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+   "date": "2026-10-15T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-of-service condition. The following versions of J4Care dcm4ch",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Thermo Fisher Torrent Suite Software",
+   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+   "date": "2026-10-15T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server. The following versions of Thermo Fisher Torrent Suite Software are affected: Torrent Suite Software &lt;=5.18 (CVE-2026-107777) CVSS Vendor Equipment v3 6.5 Thermo F",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CVE-2026-21589 · Atlassian Multiple Products: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+   "cve": "CVE-2026-21589",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+   "date": "2026-10-15",
+   "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Atlassian"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+   "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+   "date": "2026-10-14T14:22:49+00:00",
+   "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "date": "2026-10-14T12:00:00+00:00",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.&nbsp; CVE-2026-0322 Palo Alto Networks PAN-OS Code Injection Vulnerability&nbsp; CVE-2026-76519 Cisco Secure Email Gateway Relative Path Traversal Vulnerability CV",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CVE-2026-105134 · Ahsay AhsayCBS: Ahsay AhsayCBS Command Injection Vulnerability",
+   "cve": "CVE-2026-105134",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+   "date": "2026-10-14",
+   "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Ahsay"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-76519 · Cisco Secure Email Gateway: Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+   "cve": "CVE-2026-76519",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+   "date": "2026-10-14",
+   "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Cisco"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-105133 · Ahsay AhsayCBS: Ahsay AhsayCBS Improper Authentication Vulnerability",
+   "cve": "CVE-2026-105133",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+   "date": "2026-10-14",
+   "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Ahsay"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-0322 · Palo Alto Networks PAN-OS: Palo Alto Networks PAN-OS Code Injection Vulnerability",
+   "cve": "CVE-2026-0322",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+   "date": "2026-10-14",
+   "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Palo Alto Networks"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "Microsoft Patches More Than 1,400 Security Flaws",
+   "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "date": "2026-10-13T23:24:53+00:00",
+   "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "date": "2026-10-13T12:00:00+00:00",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Injection Vulnerability CVE-2026-104935 Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability These types o",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+   "date": "2026-10-13T12:00:00+00:00",
+   "summary": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935 , affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior. CISA is aware of cyber threat actors exploiting this zero-day authentication bypass vulnerability, which",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Swann Communications SWIFI-SE2KIC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+   "date": "2026-10-13T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to view video information without authentication. The following versions of Swann Communications SWIFI-SE2KIC are affected: SWIFI-SE2KIC firmware &lt;=2.0.22 (CVE-2026-107605, CVE-2026-107606, CVE-2026-107607)",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Inductive Automation Ignition Software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+   "date": "2026-10-13T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level. The following versions of Inductive Automation Ignition Software are affected: Ignition &gt;=8.1.0|&lt;=8.1.54 (CVE-2026-92817) Ignition &gt;=8.",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CVE-2026-104935 · Ivanti Connect Secure: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+   "cve": "CVE-2026-104935",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+   "date": "2026-10-13",
+   "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Ivanti"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-96951 · Microsoft Windows: Microsoft Windows Command Injection Vulnerability",
+   "cve": "CVE-2026-96951",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+   "date": "2026-10-13",
+   "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Microsoft"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+   "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "date": "2026-10-10T00:17:42+00:00",
+   "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "Grid Protection Alliance openPDC and openHistorian",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02",
+   "date": "2026-10-08T12:00:00+00:00",
+   "summary": "View CSAF Summary The following versions of Grid Protection Alliance openPDC and openHistorian are affected: openPDC &lt;2.9.477, &lt;2.9.482 (CVE-2026-104629, CVE-2026-100730, CVE-2026-105281, CVE-2026-85479, CVE-2026-101022) openPDC (Docker image) &lt;2.9.477, &lt;2.9.482 (CVE-2026-104629, CVE-202",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Satel Netco Design",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03",
+   "date": "2026-10-08T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary scripts in a user's browser, consume excessive system resources, enumerate files, create or modify files, and potentially execute arbitrary code. The following versions of Satel Netco Desi",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Red Lion Controls N-Tron 700 Series (Update A)",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
+   "date": "2026-10-08T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a malicious user can cause the switch to reboot by navigating ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+   "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+   "date": "2026-10-08T12:00:00+00:00",
+   "summary": "Advisory at a Glance&nbsp; Title&nbsp; Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data&nbsp; Original Publication&nbsp; October 8, 2026 &nbsp; Executive Summary&nbsp; Chinese government-linked cyber threat actors, enabled by the Inte",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CVE-2015-5477 · ISC BIND:  ISC BIND Data Processing Errors Vulnerability",
+   "cve": "CVE-2015-5477",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+   "date": "2026-10-08",
+   "summary": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "ISC"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2016-3081 · Apache Struts: Apache Struts Command Injection Vulnerability",
+   "cve": "CVE-2016-3081",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
+   "date": "2026-10-08",
+   "summary": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Apache"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2023-22894 · Strapi Strapi: Strapi Cleartext Storage of Sensitive Information Vulnerability",
+   "cve": "CVE-2023-22894",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
+   "date": "2026-10-08",
+   "summary": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution. ",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Strapi"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2021-3199 · ONLYOFFICE Docs: ONLYOFFICE Docs Server Path Traversal Vulnerability",
+   "cve": "CVE-2021-3199",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
+   "date": "2026-10-08",
+   "summary": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "ONLYOFFICE"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2015-3306 · ProFTPD ProFTPD: ProFTPD Improper Access Control Vulnerability",
+   "cve": "CVE-2015-3306",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
+   "date": "2026-10-08",
+   "summary": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "ProFTPD"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+   "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+   "date": "2026-10-07T13:48:45+00:00",
+   "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was ",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "Hitachi Energy Asset Suite",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03",
+   "date": "2026-10-06T12:00:00+00:00",
+   "summary": "View CSAF Summary Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause confidentiality, integrity and availability impact on the product. Please refer to",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Johnson Controls EasyIO FG",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
+   "date": "2026-10-06T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device. The following versions of Johnson Controls EasyIO FG are affected: EasyIO FG firmware &lt;=2.0b52 (CVE-2026-27872, CVE-2026-27873) CVSS Vendor Equipment v3 7.7 J",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Hitachi Energy SOI",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04",
+   "date": "2026-10-06T12:00:00+00:00",
+   "summary": "View CSAF Summary Hitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks affecting confidentiality, integrity, and availability of the produ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CVE-2026-88779 · Citrix NetScaler: Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "cve": "CVE-2026-88779",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+   "date": "2026-10-04",
+   "summary": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Citrix"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-102490 · Zammad GmbH Zammad: Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+   "cve": "CVE-2026-102490",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
+   "date": "2026-10-02",
+   "summary": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Zammad GmbH"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-102489 · Zammad GmbH Zammad: Zammad GmbH Zammad Session Fixation Vulnerability",
+   "cve": "CVE-2026-102489",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
+   "date": "2026-10-02",
+   "summary": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Zammad GmbH"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-104286 · Fortinet FortiMail: Fortinet FortiMail Path Traversal Vulnerability",
+   "cve": "CVE-2026-104286",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+   "date": "2026-10-01",
+   "summary": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Fortinet"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-76504 · Cisco Catalyst SD-WAN Manager: Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+   "cve": "CVE-2026-76504",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+   "date": "2026-09-30",
+   "summary": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Cisco"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-86950 · Apple Multiple Products: Apple Multiple Products Out-of-Bounds Write Vulnerability",
+   "cve": "CVE-2026-86950",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
+   "date": "2026-09-29",
+   "summary": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Apple"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+   "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+   "date": "2026-09-28T15:08:57+00:00",
+   "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "CVE-2026-88772 · Citrix NetScaler: Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "cve": "CVE-2026-88772",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
+   "date": "2026-09-27",
+   "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Citrix"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-88771 · Citrix NetScaler: Citrix NetScaler Improper Input Validation Vulnerability",
+   "cve": "CVE-2026-88771",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
+   "date": "2026-09-27",
+   "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Citrix"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+   "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+   "date": "2026-09-25T21:44:40+00:00",
+   "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victim",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "CVE-2026-67279 · MikroTik RouterOS: Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+   "cve": "CVE-2026-67279",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
+   "date": "2026-09-25",
+   "summary": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "MikroTik"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-65660 · Microsoft SharePoint: Microsoft SharePoint Code Injection Vulnerability",
+   "cve": "CVE-2026-65660",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
+   "date": "2026-09-25",
+   "summary": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Microsoft"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-87902 · WordPress Core: WordPress Core Remote File Inclusion Vulnerability",
+   "cve": "CVE-2026-87902",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
+   "date": "2026-09-25",
+   "summary": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "WordPress"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-5430 · WSO2 Multiple Products: WSO2 Multiple Products Path Traversal Vulnerability ",
+   "cve": "CVE-2026-5430",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+   "date": "2026-09-24",
+   "summary": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "WSO2"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-71362 · Adobe Commerce and Magento : Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+   "cve": "CVE-2026-71362",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
+   "date": "2026-09-24",
+   "summary": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Adobe"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-93952 · Arista VeloCloud Orchestrator: Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+   "cve": "CVE-2026-93952",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+   "date": "2026-09-22",
+   "summary": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Arista"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-94127 · F5 BIG-IP APM: F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+   "cve": "CVE-2026-94127",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
+   "date": "2026-09-22",
+   "summary": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "F5"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-93616 · Check Point Multiple Products: Check Point Multiple Products Path Traversal Vulnerability",
+   "cve": "CVE-2026-93616",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
+   "date": "2026-09-22",
+   "summary": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Check Point"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-85102 · Check Point Multiple Products: Check Point Multiple Products Improper Certificate Validation Vulnerability",
+   "cve": "CVE-2026-85102",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
+   "date": "2026-09-22",
+   "summary": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Check Point"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-7273 · Zyxel GS1900 Series Switches: Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+   "cve": "CVE-2026-7273",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
+   "date": "2026-09-21",
+   "summary": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Zyxel"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2025-39964 · Linux Kernel: Linux Kernel Race Condition Vulnerability",
+   "cve": "CVE-2025-39964",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
+   "date": "2026-09-18",
+   "summary": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Linux"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-53266 · Linux Kernel: Linux Kernel Out-of-Bounds Write Vulnerability",
+   "cve": "CVE-2026-53266",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
+   "date": "2026-09-18",
+   "summary": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "Linux"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+   "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+   "date": "2026-09-16T18:14:22+00:00",
+   "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+   "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+   "date": "2026-09-08T21:44:22+00:00",
+   "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many o",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "27.133.154.218:443 · QakBot C2",
+   "url": "https://feodotracker.abuse.ch/browse/host/27.133.154.218",
+   "date": "2026-03-04T14:28:39+00:00",
+   "summary": "Status offline, country JP",
+   "kind": "ioc",
+   "tags": [
+    "QakBot",
+    "offline"
+   ],
+   "source": "feodo",
+   "source_name": "Feodo botnet C2"
+  },
+  {
+   "title": "178.62.3.223:443 · QakBot C2",
+   "url": "https://feodotracker.abuse.ch/browse/host/178.62.3.223",
+   "date": "2026-02-17T05:41:23+00:00",
+   "summary": "Status offline, country GB",
+   "kind": "ioc",
+   "tags": [
+    "QakBot",
+    "offline"
+   ],
+   "source": "feodo",
+   "source_name": "Feodo botnet C2"
+  },
+  {
+   "title": "34.204.119.63:443 · QakBot C2",
+   "url": "https://feodotracker.abuse.ch/browse/host/34.204.119.63",
+   "date": "2026-01-13T21:41:15+00:00",
+   "summary": "Status offline, country US",
+   "kind": "ioc",
+   "tags": [
+    "QakBot",
+    "offline"
+   ],
+   "source": "feodo",
+   "source_name": "Feodo botnet C2"
+  },
+  {
+   "title": "50.16.16.211:443 · QakBot C2",
+   "url": "https://feodotracker.abuse.ch/browse/host/50.16.16.211",
+   "date": "2025-12-30T13:56:31+00:00",
+   "summary": "Status online, country US",
+   "kind": "ioc",
+   "tags": [
+    "QakBot",
+    "online"
+   ],
+   "source": "feodo",
+   "source_name": "Feodo botnet C2"
+  },
+  {
+   "title": "162.243.103.246:8080 · Emotet C2",
+   "url": "https://feodotracker.abuse.ch/browse/host/162.243.103.246",
+   "date": "2022-06-04T21:24:53+00:00",
+   "summary": "Status offline, country US",
+   "kind": "ioc",
+   "tags": [
+    "Emotet",
+    "offline"
+   ],
+   "source": "feodo",
+   "source_name": "Feodo botnet C2"
+  }
+ ]
+}
