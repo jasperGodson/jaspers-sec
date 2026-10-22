@@ -1,0 +1,15 @@
+{
+  "defaults": {"keep": 40, "timeout": 25},
+  "sources": [
+    {"id":"kev","name":"CISA KEV","type":"kev","url":"https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json","enabled":true},
+    {"id":"nvd","name":"NVD high severity","type":"nvd","min_cvss":7.0,"days":2,"key_env":"NVD_API_KEY","key_optional":true,"enabled":true},
+    {"id":"cisa-adv","name":"CISA advisories","type":"rss","kind":"news","url":"https://www.cisa.gov/cybersecurity-advisories/all.xml","enabled":true},
+    {"id":"thn","name":"The Hacker News","type":"rss","kind":"news","url":"https://feeds.feedburner.com/TheHackersNews","enabled":true},
+    {"id":"bleeping","name":"BleepingComputer","type":"rss","kind":"news","url":"https://www.bleepingcomputer.com/feed/","enabled":true},
+    {"id":"krebs","name":"Krebs on Security","type":"rss","kind":"news","url":"https://krebsonsecurity.com/feed/","enabled":true},
+    {"id":"feodo","name":"Feodo botnet C2","type":"feodo","url":"https://feodotracker.abuse.ch/downloads/ipblocklist.json","enabled":true},
+    {"id":"urlhaus","name":"URLhaus recent","type":"urlhaus","url":"https://urlhaus.abuse.ch/downloads/csv_recent/","enabled":true},
+    {"id":"otx","name":"AlienVault OTX pulses","type":"otx","key_env":"OTX_API_KEY","enabled":false},
+    {"id":"example-api","name":"Any JSON API (template)","type":"json","kind":"ioc","url":"https://api.example.com/v1/indicators","headers":{"Authorization":"Bearer ${EXAMPLE_KEY}"},"key_env":"EXAMPLE_KEY","list":"data.items","map":{"title":"value","url":"link","date":"created","summary":"description","tags":"labels"},"enabled":false}
+  ]
+}

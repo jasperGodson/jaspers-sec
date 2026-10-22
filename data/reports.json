@@ -1,0 +1,3 @@
+[
+  {"id":"welcome","title":"Welcome to Jasper's Sec","date":"2026-10-22","type":"Note","tags":["meta"],"summary":"How to publish your first report. Delete this entry once you have your own.","body":"## Publishing a report\n\nReports live in `data/reports.json`. Add an object with `id`, `title`, `date`, `type`, `tags`, `summary` and `body`.\n\nThe body is Markdown: headings, **bold**, `inline code`, lists, links and fenced code blocks.\n\n- Use `tools/new_report.py \"Title\"` to add a skeleton from the terminal.\n- Or open `admin.html`, edit the JSON in the browser and download it."}
+]

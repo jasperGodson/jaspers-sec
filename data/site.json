@@ -1,0 +1,18 @@
+{
+  "name": "Jasper's Sec",
+  "tagline": "Threat intelligence, DFIR notes and detections, tracked daily from open sources.",
+  "logo": "assets/logo.svg",
+  "nav": [["Home","index.html"],["Reports","reports.html"],["Feeds","feeds.html"],["Detections","detections.html"],["Projects","projects.html"],["About","about.html"]],
+  "links": [{"label":"GitHub","url":""},{"label":"X","url":""},{"label":"RSS","url":""}],
+  "disclaimer": "Personal research from open sources. Not affiliated with any employer or institution.",
+  "about": {
+    "intro": "I'm **J4sp3r**, a cybersecurity student in Nigeria building toward blue team and DFIR work. This site is where I publish threat intelligence notes, investigation write-ups and detections, and where I keep a live view of open threat feeds.\n\nEverything here comes from public sources and my own lab work.",
+    "focus": [
+      {"t":"Threat intelligence","d":"Tracking actors, campaigns and exploited vulnerabilities from open sources."},
+      {"t":"DFIR","d":"Host and network forensics, log analysis and incident triage in a home lab."},
+      {"t":"Detection engineering","d":"Sigma, YARA and Splunk SPL rules mapped to MITRE ATT&CK."},
+      {"t":"OSINT","d":"Open-source investigation workflows and cybercrime-focused research."}
+    ],
+    "contact": ""
+  }
+}

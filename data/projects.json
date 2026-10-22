@@ -1,0 +1,5 @@
+[
+  {"name":"Jasper's Sec portal","status":"Live","desc":"This site: reports, a live multi-source threat feed aggregator and a detection library, all driven from JSON files.","stack":["HTML","JavaScript","Python"]},
+  {"name":"CTI lab","status":"In progress","desc":"A self-hosted threat intelligence lab on Garuda Linux, integrated with an OSINT platform.","stack":["Linux","OSINT","CTI"]},
+  {"name":"DFIR lab","status":"In progress","desc":"A VirtualBox multi-VM lab for forensics practice and write-ups.","stack":["VirtualBox","Forensics"]}
+]
