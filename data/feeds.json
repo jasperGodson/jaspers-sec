@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:27:25.547261+00:00",
+ "updated": "2026-10-23T11:25:52.530233+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,46 @@
   }
  ],
  "items": [
+  {
+   "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+   "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "date": "2026-10-23T09:36:00+00:00",
+   "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a se",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "date": "2026-10-23T08:40:43+00:00",
+   "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by f",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "date": "2026-10-23T08:35:45+00:00",
+   "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 1",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+   "date": "2026-10-23T07:40:45+00:00",
+   "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-20",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
   {
    "title": "Railway warns devs to rotate secrets after potential breach",
    "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
@@ -844,46 +884,6 @@
    "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
    "date": "2026-10-20T11:41:06+00:00",
    "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "What Security Teams Can Do To Tame Wild Code",
-   "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-   "date": "2026-10-20T11:33:04+00:00",
-   "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-   "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-   "date": "2026-10-20T11:32:59+00:00",
-   "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-   "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-   "date": "2026-10-20T11:06:25+00:00",
-   "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-   "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-   "date": "2026-10-20T10:56:08+00:00",
-   "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated",
    "kind": "news",
    "tags": [],
    "source": "thn",
