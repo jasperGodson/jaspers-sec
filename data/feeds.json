@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T11:25:52.530233+00:00",
+ "updated": "2026-10-23T16:53:35.094284+00:00",
  "sources": [
   {
    "id": "kev",
@@ -11,9 +11,9 @@
   {
    "id": "nvd",
    "name": "NVD high severity",
-   "ok": false,
-   "count": 0,
-   "error": "TimeoutError: The read operation timed out"
+   "ok": true,
+   "count": 40,
+   "error": ""
   },
   {
    "id": "cisa-adv",
@@ -59,6 +59,636 @@
   }
  ],
  "items": [
+  {
+   "title": "Quest Diagnostics confirms data breach exposed patient records",
+   "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+   "date": "2026-10-23T16:40:07+00:00",
+   "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-57845 (CVSS 8.8)",
+   "cve": "CVE-2026-57845",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57845",
+   "date": "2026-10-23T16:16:52.000",
+   "summary": "Hugging Face Datasets through 5.1.0 contains an insecure deserialization vulnerability that allows attackers to execute arbitrary Python code by crafting a malicious pickle file loaded through the deprecated pandas packaged builder. Attackers can supply a pickle-backed dataset that is processed by P",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+   "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+   "date": "2026-10-23T15:38:05+00:00",
+   "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-58497 (CVSS 8.6)",
+   "cve": "CVE-2026-58497",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58497",
+   "date": "2026-10-23T15:17:34.257",
+   "summary": "Uni-CLI gives people and agents one command interface for websites, browsers, desktop applications, local tools, and MCP. Prior to version 0.225.2, Uni-CLI exposed the legacy JSON-RPC-over-HTTP MCP transport on loopback without validating browser Origin headers before routing requests. A malicious w",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-55486 (CVSS 9.3)",
+   "cve": "CVE-2026-55486",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55486",
+   "date": "2026-10-23T15:17:33.657",
+   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. From version 25.08 to before version 26.05, the IIIF Auth 2.0 endpoints auth/login and auth/token in AuthorizationFlowResource accept an origin query parameter without validation and then (1) embed",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-55459 (CVSS 7.4)",
+   "cve": "CVE-2026-55459",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55459",
+   "date": "2026-10-23T15:17:33.207",
+   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. From version 25.01 to before version 26.05, AuthenticationEndpoint.verifyOpenIdToken builds its verifier as JWT.require(algorithm).withIssuer(issuer).build() and does not enforce the aud claim duri",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-55457 (CVSS 7.4)",
+   "cve": "CVE-2026-55457",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55457",
+   "date": "2026-10-23T15:17:33.060",
+   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. Prior to version 26.05, Configuration.getWebApiToken returns the empty string when webapi.authorization.token is not configured. AuthorizationFilter compares the supplied token against this default",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-54668 (CVSS 8.7)",
+   "cve": "CVE-2026-54668",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54668",
+   "date": "2026-10-23T15:17:32.427",
+   "summary": "Kitodo.Production is a workflow management tool for mass digitization and is part of the Kitodo Digital Library Suite. Prior to version 3.9.2, org.kitodo.production.helper.XMLUtils exposes several XML parsing helpers that construct a JAXP parser with the default, non-secure configuration. The method",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-53942 (CVSS 9.9)",
+   "cve": "CVE-2026-53942",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53942",
+   "date": "2026-10-23T15:17:32.157",
+   "summary": "Conda Organization Infrastructure is a centralized location for infrastructure codes. Prior to commit 9c0f238, a GitHub Actions Pwn Request vulnerability appears to remain present in conda/conda. The affected workflow is .github/workflows/update.yml. It is triggered by issue_comment events containin",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-46652 (CVSS 9.8)",
+   "cve": "CVE-2026-46652",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46652",
+   "date": "2026-10-23T15:17:31.593",
+   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. From version 24.03 to before version 26.05, ExternalFilesDownloader.getFilename() extracts the destination filename from a server-supplied Content-Disposition response header and passes it directly",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-46651 (CVSS 9.8)",
+   "cve": "CVE-2026-46651",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46651",
+   "date": "2026-10-23T15:17:31.453",
+   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. From version 24.03 to before version 26.05, the DownloadTaskEndpoint WebSocket endpoint (/tasks/download/monitor.socket) in goobi-viewer-core accepts download requests from unauthenticated users. T",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-39902 (CVSS 7.2)",
+   "cve": "CVE-2026-39902",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39902",
+   "date": "2026-10-23T15:17:30.873",
+   "summary": "Cacti is an open source performance and fault management framework. Prior to version 1.2.31, the prior blocklist ([;&| `$\\\\n\\r]) omitted single-quote, double-quote, redirect operators, subshell parens and braces. An authenticated admin could save an input_string` containing single-quote, redirect op",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115478 (CVSS 7.1)",
+   "cve": "CVE-2026-115478",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115478",
+   "date": "2026-10-23T15:17:30.023",
+   "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.0.1 until 1.31.4, `create_entity`, `link_entities`, `rename_entity`, `unlink_entities` and `delete_entity` regenerate memory notes from SQLite at the computed `memory/<type>/<name>.md` path without relia",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115477 (CVSS 7.1)",
+   "cve": "CVE-2026-115477",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115477",
+   "date": "2026-10-23T15:17:29.840",
+   "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.13.0 until 1.31.4, on a Streamable HTTP deployment with `auth.jwtSecret` configured and a 2026-07-28-era client declaring `elicitation.form` support, a dispatch-gated tool call offered an `inputRequired`",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-106765 (CVSS 7.5)",
+   "cve": "CVE-2026-106765",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106765",
+   "date": "2026-10-23T15:17:23.333",
+   "summary": "An issue in @rog0x/mcp-docker-tools 1.0.1 allows a remote attacker to execute arbitrary code via the handleImageList function.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-106764 (CVSS 7.5)",
+   "cve": "CVE-2026-106764",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106764",
+   "date": "2026-10-23T15:17:23.203",
+   "summary": "An issue in @rog0x/mcp-git-tools 1.0.1 allows a remote attacker to execute arbitrary code via the resolveBaseBranch function.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-106763 (CVSS 7.5)",
+   "cve": "CVE-2026-106763",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106763",
+   "date": "2026-10-23T15:17:23.063",
+   "summary": "An issue in @justice8096/sagemath-mcp-server 1.0.1 allows a remote attacker to execute arbitrary code via the escapeShellString and sanitizeCode functions.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-102786 (CVSS 8.6)",
+   "cve": "CVE-2026-102786",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102786",
+   "date": "2026-10-23T15:17:22.807",
+   "summary": "Joomla Extension - phoca.cz - Authenticated stored cross-site scripting through HTML attribute injection in Phoca Gallery 4.5.0 - 6.1.5",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-93640 (CVSS 7.8)",
+   "cve": "CVE-2026-93640",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93640",
+   "date": "2026-10-23T14:17:57.757",
+   "summary": "A local privilege escalation vulnerability in the optional dnscache package of Zimbra Collaboration Suite (ZCS) allows the Unix zimbra account to access files with root privileges. The passwordless sudo policy permits arbitrary arguments to zmunbound, whose wrapper forwards them to Unbound without r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-93639 (CVSS 8.7)",
+   "cve": "CVE-2026-93639",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93639",
+   "date": "2026-10-23T14:17:57.640",
+   "summary": "A missing authorization vulnerability in Zimbra Collaboration Suite (ZCS) allows a delegated administrator with no explicit administrative grants to overwrite global Zimlet configuration through ConfigureZimletRequest. The uploaded configuration can also add an attacker-controlled domain to the prox",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-93631 (CVSS 7.1)",
+   "cve": "CVE-2026-93631",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93631",
+   "date": "2026-10-23T14:17:57.023",
+   "summary": "A cross-site request forgery vulnerability in the OAuth extension of Zimbra Collaboration Suite (ZCS) Network Edition allows an attacker to link an attacker-controlled external account to a victim's mailbox. The OAuth callback does not bind its state value or authorization code to the initiating Zim",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-55826 (CVSS 8.7)",
+   "cve": "CVE-2026-55826",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55826",
+   "date": "2026-10-23T14:17:54.017",
+   "summary": "The GTM Server Side plugin by stape.io implements server-side tracking on WordPress websites. From version 2.0.0 to before version 2.1.48, the WooCommerce purchase event tracking mechanism allows an unauthenticated attacker to trigger the rendering of another customer's full order data — including p",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-53921 (CVSS 9.8)",
+   "cve": "CVE-2026-53921",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53921",
+   "date": "2026-10-23T14:17:53.710",
+   "summary": "odhcpd is the DHCPv6, DHCPv4, and router-advertisement server used by OpenWrt. Prior to version 25.12, odhcpd's DHCPv6 IA response handler writes past the end of a fixed 512-byte stack buffer (pdbuf) when a single DHCPv6 REQUEST carries enough IA options to nearly exhaust the reply space. Two indepe",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-53920 (CVSS 8.7)",
+   "cve": "CVE-2026-53920",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53920",
+   "date": "2026-10-23T14:17:53.573",
+   "summary": "odhcpd is the DHCPv6, DHCPv4, and router-advertisement server used by OpenWrt. From version 17.01.0 to before version 25.12.3, odhcpd's DHCPv6 IA parser accepts an IA_NA or IA_PD option whose body is shorter than struct dhcpv6_ia_hdr, casts the option header to that full structure, and reads ia->iai",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-53918 (CVSS 8.8)",
+   "cve": "CVE-2026-53918",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53918",
+   "date": "2026-10-23T14:17:53.423",
+   "summary": "odhcpd is the DHCPv6, DHCPv4, and router-advertisement server used by OpenWrt. Prior to version 25.12, odhcpd's DHCPv6 IA handler keeps a per-message `first` lease pointer so multiple IA options in one message reuse the same Reconfigure authentication key. A DHCPv6 REQUEST from an adjacent-network c",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-50057 (CVSS 7.8)",
+   "cve": "CVE-2026-50057",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50057",
+   "date": "2026-10-23T14:17:53.303",
+   "summary": "A local privilege escalation vulnerability in the Zimbra Collaboration Suite (ZCS) MTA package allows the Unix zimbra account to execute arbitrary commands as root. The installed sudo policy permits passwordless root execution of Postfix administration commands without restricting their arguments. A",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-50056 (CVSS 7.8)",
+   "cve": "CVE-2026-50056",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50056",
+   "date": "2026-10-23T14:17:53.187",
+   "summary": "A local privilege escalation vulnerability in the zmmailboxdmgr launcher of Zimbra Collaboration Suite (ZCS) allows the Unix zimbra account to execute arbitrary commands as root. The passwordless sudo interface accepts JVM arguments that are not adequately restricted. An attacker can postpone Jetty'",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-50053 (CVSS 8.7)",
+   "cve": "CVE-2026-50053",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50053",
+   "date": "2026-10-23T14:17:53.060",
+   "summary": "A request attribute override vulnerability in Zimbra Collaboration Suite (ZCS) allows unauthenticated requests to /h/* to populate servlet attributes intended for trusted internal dispatch. RestFilter copies URL parameters specifying an authentication token, target account, target item and dispatch ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115481 (CVSS 8.5)",
+   "cve": "CVE-2026-115481",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115481",
+   "date": "2026-10-23T14:17:52.307",
+   "summary": "baserCMS is a website development framework. Starting in version 5.0.0-beta1 and prior to versions 5.3.2 and 5.4.2, `PermissionGroupsService::build()` reads a plugin's `config/permission.php` to decide what each user group may reach. When that file is absent it writes a wildcard allow rule instead: ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115457 (CVSS 7.1)",
+   "cve": "CVE-2026-115457",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115457",
+   "date": "2026-10-23T14:17:51.867",
+   "summary": "baserCMS is a website development framework. In versions 5.0.0 before 5.3.2 and 5.4.0 before 5.4.2, global shortcode expansion runs over the complete rendered page, including HTML-escaped blog comments supplied by unauthenticated visitors. A comment containing the BcBaser.getGoogleMaps shortcode can",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114624 (CVSS 7.2)",
+   "cve": "CVE-2026-114624",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114624",
+   "date": "2026-10-23T14:17:51.583",
+   "summary": "baserCMS is a website development framework. In versions 5.0.0 before 5.3.2 and 5.4.0 before 5.4.2, the widget-area entity serializes widgets only when the submitted value is an array, allowing a string submitted through the admin JSON API to be stored unchanged. Entity reads, including front-end re",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114622 (CVSS 7.2)",
+   "cve": "CVE-2026-114622",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114622",
+   "date": "2026-10-23T14:17:51.283",
+   "summary": "baserCMS is a website development framework. In versions 5.2.3 before 5.3.2 and 5.4.0 before 5.4.2, the optional BcThemeFile plugin's Admin API validates a raw path in ThemeFilesService::update() and getFullpath(), but ThemeFileForm::_execute() subsequently applies rawurldecode() to fullpath before ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114621 (CVSS 8.8)",
+   "cve": "CVE-2026-114621",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114621",
+   "date": "2026-10-23T14:17:51.143",
+   "summary": "baserCMS is a website development framework. In versions 5.0.0 before 5.3.2 and 5.4.0 before 5.4.2, list and detail actions in the Admin and Api/Admin prefixes pass request query parameters, including contain, conditions, fields, finder, and order, directly to the ORM as options. A user able to log ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114357 (CVSS 9.3)",
+   "cve": "CVE-2026-114357",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114357",
+   "date": "2026-10-23T14:17:49.820",
+   "summary": "Missing authentication for a critical function in the Android Debug Bridge daemon (adbd) in DJI CrystalSky ZS600C firmware v0.3.9.7 through v0.6.6.9 allows an attacker to obtain an unauthenticated shell (uid 2000), a foothold for privilege escalation to root. The device ships with ro.adb.secure=0 (n",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114356 (CVSS 7.0)",
+   "cve": "CVE-2026-114356",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114356",
+   "date": "2026-10-23T14:17:36.507",
+   "summary": "Missing authorization in the system-privileged 'DJIUpdateService' binder in DJI CrystalSky ZS600C firmware v0.3.9.7 through v0.6.6.9 on Android allows a local application with no permissions to invoke privileged operations, including factory reset with user-data wipe (transaction 153), shutdown (105",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114355 (CVSS 8.6)",
+   "cve": "CVE-2026-114355",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114355",
+   "date": "2026-10-23T14:17:36.323",
+   "summary": "OS command injection in the root-privileged 'hardware_monitor' helper in DJI CrystalSky ZS600C firmware v0.3.9.7 through v0.6.6.9 on Android allows a local unprivileged process to execute arbitrary commands as root by writing a crafted line to the Android log (logcat), which the helper reads and pas",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114354 (CVSS 8.6)",
+   "cve": "CVE-2026-114354",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114354",
+   "date": "2026-10-23T14:17:35.297",
+   "summary": "Missing authorization in the native binder service 'android.dji.server' (transaction code 1018) in DJI CrystalSky ZS600C firmware v0.3.9.7 through v0.6.6.9 on Android allows a local application with no permissions to execute arbitrary OS commands as root, because the handler passes a caller-supplied",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114353 (CVSS 7.0)",
+   "cve": "CVE-2026-114353",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114353",
+   "date": "2026-10-23T14:17:33.397",
+   "summary": "Hidden functionality (undocumented backdoor) in the root-privileged 'assistant' daemon in DJI CrystalSky ZS600C firmware v0.3.9.7 through v0.6.6.9 on Android allows a physically-present attacker with USB access to execute arbitrary OS commands as root by sending the hard-coded magic string 'dji26656",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-10632 (CVSS 8.7)",
+   "cve": "CVE-2026-10632",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10632",
+   "date": "2026-10-23T14:17:31.107",
+   "summary": "A reflected cross-site scripting vulnerability in the Classic Web Client of Zimbra Collaboration Suite (ZCS) allows an attacker to inject JavaScript through the packages parameter of the /h/rest document editor. The editor inserts package names into script attributes without HTML encoding. When comb",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "You gave your AI agent access, but who is giving it orders?",
+   "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+   "date": "2026-10-23T14:00:10+00:00",
+   "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime co",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+   "date": "2026-10-23T13:50:56+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access t",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-63120 (CVSS 8.4)",
+   "cve": "CVE-2026-63120",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63120",
+   "date": "2026-10-23T13:17:12.010",
+   "summary": "pghoard is a PostgreSQL backup daemon and restore tooling that stores backup data in cloud object stores. Prior to version 2.7.2, an incomplete path traversal fix in pghoard allows an attacker with write access to the backup object storage (such as S3, GCS, or Azure) to execute arbitrary file writes",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57210 (CVSS 7.0)",
+   "cve": "CVE-2026-57210",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57210",
+   "date": "2026-10-23T13:17:11.847",
+   "summary": "Heimdall is a cloud native Identity Aware Proxy and Access Control Decision service. Prior to version 0.17.17, when the trusted_proxies option is configured, heimdall extracts client IP addresses from the Forwarded (for= parameter) and X-Forwarded-For headers and exposes them as Request.ClientIPAddr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57209 (CVSS 7.0)",
+   "cve": "CVE-2026-57209",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57209",
+   "date": "2026-10-23T13:17:11.687",
+   "summary": "Heimdall is a cloud native Identity Aware Proxy and Access Control Decision service. Prior to version 0.17.17, when Heimdall operates in proxy mode, it constructs the Forwarded HTTP header after executing the matched rule pipeline by inserting the incoming request's Host header value directly into t",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+   "date": "2026-10-23T12:48:00+00:00",
+   "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "date": "2026-10-23T11:25:43+00:00",
+   "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+   "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+   "date": "2026-10-23T11:11:23+00:00",
+   "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 20",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
   {
    "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
    "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
@@ -550,16 +1180,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-   "date": "2026-10-21T20:31:48+00:00",
-   "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
    "date": "2026-10-21T18:57:34+00:00",
@@ -568,16 +1188,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-   "date": "2026-10-21T18:34:42+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
@@ -600,16 +1210,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "OpenAI agents disabled safety monitoring, one lied about it",
-   "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-   "date": "2026-10-21T16:26:53+00:00",
-   "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
    "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
    "date": "2026-10-21T15:26:07+00:00",
@@ -618,16 +1218,6 @@
    "tags": [],
    "source": "krebs",
    "source_name": "Krebs on Security"
-  },
-  {
-   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-   "date": "2026-10-21T14:07:05+00:00",
-   "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
@@ -800,26 +1390,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-   "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-   "date": "2026-10-20T14:07:17+00:00",
-   "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belong",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-   "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-   "date": "2026-10-20T12:59:44+00:00",
-   "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19. The finding came six days before Serbia's October 25 snap parliamentar",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
    "title": "#StopRansomware: SafePay Ransomware",
    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
    "date": "2026-10-20T12:00:00+00:00",
@@ -878,16 +1448,6 @@
    "tags": [],
    "source": "cisa-adv",
    "source_name": "CISA advisories"
-  },
-  {
-   "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-   "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-   "date": "2026-10-20T11:41:06+00:00",
-   "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
   },
   {
    "title": "CVE-2026-106931 · EG Secure Solutions SiteGuard Server Edition: EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
