@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T15:46:27.475523+00:00",
+ "updated": "2026-10-24T20:34:38.362801+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,62 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-115973 (CVSS 7.3)",
+   "cve": "CVE-2026-115973",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115973",
+   "date": "2026-10-24T19:17:04.553",
+   "summary": "A vulnerability was identified in FaveoSuite Faveo Helpdesk 2.0.3. Affected by this issue is the function ForgotPasswordController::sendResetLinkEmail/PasswordController::reset of the file app/Http/Controllers/Auth/ForgotPasswordController.php. The manipulation leads to weak password recovery. The a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-114820 (CVSS 9.1)",
+   "cve": "CVE-2026-114820",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114820",
+   "date": "2026-10-24T19:17:04.413",
+   "summary": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511-b32, 8u511-perf-b32, 11.0.33.0.2, 17.0.21.0.2, 21.0.13.0.2, 25.0.5.0.2, 27.0.1.0.2; Oracle Graal",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115970 (CVSS 7.3)",
+   "cve": "CVE-2026-115970",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115970",
+   "date": "2026-10-24T18:16:48.367",
+   "summary": "A vulnerability has been found in Travisun Opptrix 0.4.0. This impacts an unknown function of the file /api/system-update/import of the component Import Endpoint. Such manipulation leads to code injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115969 (CVSS 7.3)",
+   "cve": "CVE-2026-115969",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115969",
+   "date": "2026-10-24T16:16:25.343",
+   "summary": "A flaw has been found in Travisun Opptrix 0.4.0. This affects an unknown function of the file /api/auth/setup of the component Schedule API. This manipulation causes command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The project has bee",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-115933 (CVSS 9.9)",
    "cve": "CVE-2026-115933",
@@ -615,62 +671,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115887",
    "date": "2026-10-23T22:16:58.253",
    "summary": "GraphQL Scalars is a library of custom GraphQL scalars for creating precise type-safe GraphQL schemas. From 1.24.1 until 2.0.1, GraphQLPhoneNumber in src/scalars/PhoneNumber.ts uses ambiguous nested digit quantifiers that backtrack exponentially when a PhoneNumber value contains a run of digits foll",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-65825 (CVSS 7.5)",
-   "cve": "CVE-2026-65825",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65825",
-   "date": "2026-10-23T21:17:24.870",
-   "summary": "OpenReception's appointment booking software provides an end-to-end encrypted appointment booking platform. In versions 2.1.0 and prior, a returning client's six-digit booking PIN can be brute-forced online in the victim tenant. A successful guess yields the client's booking access token, granting a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-65824 (CVSS 7.4)",
-   "cve": "CVE-2026-65824",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65824",
-   "date": "2026-10-23T21:17:24.730",
-   "summary": "OpenReception's appointment booking software provides an end-to-end encrypted appointment booking platform. Prior to version 2.2.1, an attacker who captures a pending invite token can replay it to obtain a passkey-registration credential and register their own passkey on the invited account, taking ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58202 (CVSS 8.3)",
-   "cve": "CVE-2026-58202",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58202",
-   "date": "2026-10-23T21:17:24.473",
-   "summary": "OpenReception's appointment booking software provides an end-to-end encrypted appointment booking platform. Prior to version 2.0.0, the account-confirmation link in emails is built from the request Host header, with no allowlist. The unauthenticated POST /api/auth/resend-confirmation rotates a pendi",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115778 (CVSS 7.5)",
-   "cve": "CVE-2026-115778",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115778",
-   "date": "2026-10-23T21:17:23.320",
-   "summary": "Twisted is an event-based framework for internet applications, supporting Python 3.6+. Prior to 26.10.0rc1, twisted.conch.telnet.Telnet.dataReceived appends every byte received after IAC SB to a persistent subnegotiation buffer until IAC SE is received, without applying a maximum length. Telnet opti",
    "kind": "vuln",
    "tags": [
     "NVD",
