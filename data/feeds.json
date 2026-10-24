@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T21:17:46.669106+00:00",
+ "updated": "2026-10-24T04:18:34.879009+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,118 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-115931 (CVSS 9.9)",
+   "cve": "CVE-2026-115931",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115931",
+   "date": "2026-10-23T23:17:43.263",
+   "summary": "Postiz lets a signed-in user ask the backend to run a function on one of their connected channels. The backend did not restrict which functions can be requested, so a user could call internal helper functions that were never meant to be reachable from the web interface.\n\nOne of those helpers reads a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115938 (CVSS 8.8)",
+   "cve": "CVE-2026-115938",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115938",
+   "date": "2026-10-23T22:16:59.597",
+   "summary": "Craft CMS allows any authenticated control panel user to submit an element-search condition whose element selector is evaluated as a sandboxed Twig object template. Craft’s allowed column filter delegates property lookup to Yii ArrayHelper, outside Twig’s SecurityPolicy. Repeated single-segment look",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115937 (CVSS 7.5)",
+   "cve": "CVE-2026-115937",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115937",
+   "date": "2026-10-23T22:16:59.453",
+   "summary": "The Mollie webhook endpoint accepts two independent, attacker-controlled parameters and never verifies that they belong together:\n\n  *  commerceTransactionHash — selects which Craft Commerce transaction is completed\n  *  id — selects which Mollie payment is queried for its status\n\n\n\n\nAn unauthentica",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115935 (CVSS 8.8)",
+   "cve": "CVE-2026-115935",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115935",
+   "date": "2026-10-23T22:16:59.290",
+   "summary": "The app/process-api-response-headers action accepts fake Craft API response headers from any authenticated control panel user.\n\n\n\nA non-admin user with only accessCp can place newline characters in X-Craft-Plugin-Licenses. Craft passes this value to its .env writer without removing the newlines.\n\n\n\n",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115895 (CVSS 8.8)",
+   "cve": "CVE-2026-115895",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115895",
+   "date": "2026-10-23T22:16:58.987",
+   "summary": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. From 17.0.0 until 21.0.4, packages/happy-dom/src/module/ECMAScriptModuleCompiler.ts accepts a named ESM import alias without validating that it is a JavaScript binding identifier before inserting it into ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115893 (CVSS 9.9)",
+   "cve": "CVE-2026-115893",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115893",
+   "date": "2026-10-23T22:16:58.820",
+   "summary": "Wasmtime is a runtime for WebAssembly. Prior to 36.0.19, 48.0.7, and 49.0.4, the Cranelift compiler backend on aarch64 can compile a Wasm br_table instruction with more than approximately 256,000 targets so that it has an incorrect conditional branch target. The branch can then jump to arbitrary oth",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115889 (CVSS 9.9)",
+   "cve": "CVE-2026-115889",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115889",
+   "date": "2026-10-23T22:16:58.400",
+   "summary": "Wasmtime is a runtime for WebAssembly. Prior to 36.0.19 and 43.0.0, the Cranelift compiler backend bit-packs SSA value indices in a way that can silently overflow in release builds when compiling a sufficiently large or specially crafted Wasm function with many SSA values. The overflow can make Cran",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115887 (CVSS 7.5)",
+   "cve": "CVE-2026-115887",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115887",
+   "date": "2026-10-23T22:16:58.253",
+   "summary": "GraphQL Scalars is a library of custom GraphQL scalars for creating precise type-safe GraphQL schemas. From 1.24.1 until 2.0.1, GraphQLPhoneNumber in src/scalars/PhoneNumber.ts uses ambiguous nested digit quantifiers that backtrack exponentially when a PhoneNumber value contains a run of digits foll",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-65825 (CVSS 7.5)",
    "cve": "CVE-2026-65825",
@@ -144,7 +256,7 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
    "date": "2026-10-23T20:55:05+00:00",
    "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
@@ -583,118 +695,6 @@
    "tags": [
     "NVD",
     "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-46652 (CVSS 9.8)",
-   "cve": "CVE-2026-46652",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46652",
-   "date": "2026-10-23T15:17:31.593",
-   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. From version 24.03 to before version 26.05, ExternalFilesDownloader.getFilename() extracts the destination filename from a server-supplied Content-Disposition response header and passes it directly",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-46651 (CVSS 9.8)",
-   "cve": "CVE-2026-46651",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46651",
-   "date": "2026-10-23T15:17:31.453",
-   "summary": "The Goobi viewer is a web application that allows digitised material to be displayed in a web browser. From version 24.03 to before version 26.05, the DownloadTaskEndpoint WebSocket endpoint (/tasks/download/monitor.socket) in goobi-viewer-core accepts download requests from unauthenticated users. T",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-39902 (CVSS 7.2)",
-   "cve": "CVE-2026-39902",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39902",
-   "date": "2026-10-23T15:17:30.873",
-   "summary": "Cacti is an open source performance and fault management framework. Prior to version 1.2.31, the prior blocklist ([;&| `$\\\\n\\r]) omitted single-quote, double-quote, redirect operators, subshell parens and braces. An authenticated admin could save an input_string` containing single-quote, redirect op",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115478 (CVSS 7.1)",
-   "cve": "CVE-2026-115478",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115478",
-   "date": "2026-10-23T15:17:30.023",
-   "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.0.1 until 1.31.4, `create_entity`, `link_entities`, `rename_entity`, `unlink_entities` and `delete_entity` regenerate memory notes from SQLite at the computed `memory/<type>/<name>.md` path without relia",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115477 (CVSS 7.1)",
-   "cve": "CVE-2026-115477",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115477",
-   "date": "2026-10-23T15:17:29.840",
-   "summary": "obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.13.0 until 1.31.4, on a Streamable HTTP deployment with `auth.jwtSecret` configured and a 2026-07-28-era client declaring `elicitation.form` support, a dispatch-gated tool call offered an `inputRequired`",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-106765 (CVSS 7.5)",
-   "cve": "CVE-2026-106765",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106765",
-   "date": "2026-10-23T15:17:23.333",
-   "summary": "An issue in @rog0x/mcp-docker-tools 1.0.1 allows a remote attacker to execute arbitrary code via the handleImageList function.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-106764 (CVSS 7.5)",
-   "cve": "CVE-2026-106764",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106764",
-   "date": "2026-10-23T15:17:23.203",
-   "summary": "An issue in @rog0x/mcp-git-tools 1.0.1 allows a remote attacker to execute arbitrary code via the resolveBaseBranch function.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-106763 (CVSS 7.5)",
-   "cve": "CVE-2026-106763",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106763",
-   "date": "2026-10-23T15:17:23.063",
-   "summary": "An issue in @justice8096/sagemath-mcp-server 1.0.1 allows a remote attacker to execute arbitrary code via the escapeShellString and sanitizeCode functions.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
@@ -1331,7 +1331,7 @@
    "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
    "date": "2026-10-21T12:00:00+00:00",
-   "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 . These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web reques",
+   "summary": "Update October 23, 2026 : CISA has updated this Alert to: (1) provide a SIGMA detection rule to help identify potentially suspicious activity; (2) incorporate partner resources; and (3) reinforce existing mitigation guidance. Purpose CISA strongly urges organizations to immediately patch the recentl",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
