@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:03:33.202203+00:00",
+ "updated": "2026-10-25T04:20:28.896674+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,62 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-116006 (CVSS 7.3)",
+   "cve": "CVE-2026-116006",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116006",
+   "date": "2026-10-25T04:17:34.083",
+   "summary": "A vulnerability was detected in YunaiV/zhijiantianya ruoyi-vue-pro up to 2026.09. The affected element is an unknown function of the file AuthController.java of the component SMS Code Verification. The manipulation of the argument mobile/code results in improper authentication. The attack can be lau",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116000 (CVSS 7.3)",
+   "cve": "CVE-2026-116000",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116000",
+   "date": "2026-10-25T03:16:26.617",
+   "summary": "A security flaw has been discovered in Zylon PrivateGPT 1.0.0/1.0.1. This vulnerability affects the function load_file_from_uri of the file private_gpt/server/ingest/uri_loader.py of the component URI Artifact Loader. Performing a manipulation of the argument Value results in server-side request for",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115999 (CVSS 7.3)",
+   "cve": "CVE-2026-115999",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115999",
+   "date": "2026-10-25T02:16:26.913",
+   "summary": "A vulnerability has been found in mansi-k Restaurant_IMS d7ad49f61ab7cc1ec6eb359ac2b5378bdbde0694. Affected is the function mysqli_connect of the file lsmodal.php. The manipulation of the argument login_id/epsw leads to sql injection. Remote exploitation of the attack is possible. This product follo",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115995 (CVSS 9.6)",
+   "cve": "CVE-2026-115995",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115995",
+   "date": "2026-10-24T23:16:58.323",
+   "summary": "A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4. The impacted element is the function set_volume of the file gpt_thread.py of the component chat_go. Such manipulation of the argument Value leads to os command injection. The attack can be launched remotely. U",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-115973 (CVSS 7.3)",
    "cve": "CVE-2026-115973",
@@ -619,62 +675,6 @@
    "tags": [
     "NVD",
     "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115895 (CVSS 8.8)",
-   "cve": "CVE-2026-115895",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115895",
-   "date": "2026-10-23T22:16:58.987",
-   "summary": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. From 17.0.0 until 21.0.4, packages/happy-dom/src/module/ECMAScriptModuleCompiler.ts accepts a named ESM import alias without validating that it is a JavaScript binding identifier before inserting it into ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115893 (CVSS 9.9)",
-   "cve": "CVE-2026-115893",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115893",
-   "date": "2026-10-23T22:16:58.820",
-   "summary": "Wasmtime is a runtime for WebAssembly. Prior to 36.0.19, 48.0.7, and 49.0.4, the Cranelift compiler backend on aarch64 can compile a Wasm br_table instruction with more than approximately 256,000 targets so that it has an incorrect conditional branch target. The branch can then jump to arbitrary oth",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115889 (CVSS 9.9)",
-   "cve": "CVE-2026-115889",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115889",
-   "date": "2026-10-23T22:16:58.400",
-   "summary": "Wasmtime is a runtime for WebAssembly. Prior to 36.0.19 and 43.0.0, the Cranelift compiler backend bit-packs SSA value indices in a way that can silently overflow in release builds when compiling a sufficiently large or specially crafted Wasm function with many SSA values. The overflow can make Cran",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115887 (CVSS 7.5)",
-   "cve": "CVE-2026-115887",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115887",
-   "date": "2026-10-23T22:16:58.253",
-   "summary": "GraphQL Scalars is a library of custom GraphQL scalars for creating precise type-safe GraphQL schemas. From 1.24.1 until 2.0.1, GraphQLPhoneNumber in src/scalars/PhoneNumber.ts uses ambiguous nested digit quantifiers that backtrack exponentially when a PhoneNumber value contains a run of digits foll",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
