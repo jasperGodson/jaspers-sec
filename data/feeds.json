@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:57:51.157657+00:00",
+ "updated": "2026-10-25T20:41:52.669530+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,68 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-116062 (CVSS 7.3)",
+   "cve": "CVE-2026-116062",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116062",
+   "date": "2026-10-25T18:16:46.950",
+   "summary": "A security flaw has been discovered in SourceCodester Performance Indicator System 1.0. This issue affects some unknown processing of the file /opils/staff/save_profile.php. The manipulation of the argument Contact results in sql injection. The attack may be launched remotely. The exploit has been r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116061 (CVSS 7.3)",
+   "cve": "CVE-2026-116061",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116061",
+   "date": "2026-10-25T18:16:46.790",
+   "summary": "A vulnerability was identified in SourceCodester Performance Indicator System 1.0. This vulnerability affects unknown code of the file /opils/staff/edit_dealer.php. The manipulation of the argument Contact leads to sql injection. The attack may be initiated remotely. The exploit is publicly availabl",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "date": "2026-10-25T17:44:09+00:00",
+   "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls on",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "date": "2026-10-25T17:19:46+00:00",
+   "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-116060 (CVSS 7.3)",
+   "cve": "CVE-2026-116060",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116060",
+   "date": "2026-10-25T17:17:02.123",
+   "summary": "A vulnerability was determined in SourceCodester Performance Indicator System 1.0. This affects an unknown part of the file /opils/staff/adddealer.php. Executing a manipulation of the argument Contact can lead to sql injection. The attack can be launched remotely. The exploit has been publicly discl",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
@@ -603,48 +665,6 @@
    "tags": [
     "NVD",
     "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116014 (CVSS 8.1)",
-   "cve": "CVE-2026-116014",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116014",
-   "date": "2026-10-24T12:16:57.607",
-   "summary": "open62541 1.5.0 before 1.5.7 contains an integer overflow in UA_DataType_fromStructureDescription() that wraps the 16-bit memSize field for large custom structure definitions. A malicious OPC UA server can supply DataType definitions via UA_Client_getRemoteDataTypes(), causing decodeBinaryStructure(",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116011 (CVSS 7.5)",
-   "cve": "CVE-2026-116011",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116011",
-   "date": "2026-10-24T12:16:57.070",
-   "summary": "Crow before 1.3.4 contains an uncontrolled recursion vulnerability in crow::json::load() that allows remote unauthenticated attackers to crash the server by sending deeply nested JSON. Attackers can send a request body with thousands of nested objects to exhaust the worker thread stack, terminating ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116009 (CVSS 8.8)",
-   "cve": "CVE-2026-116009",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116009",
-   "date": "2026-10-24T12:16:56.640",
-   "summary": "Camaleon CMS before 2.9.3 contains a path traversal vulnerability that allows users with only the media permission to write arbitrary files by supplying ../ sequences in the name parameter. Attackers can send a base64 data: URI to the crop_url media action to write an ERB template into a theme's vie",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
@@ -1412,26 +1432,6 @@
    "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
    "date": "2026-10-21T10:36:53+00:00",
    "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "The Harness Is the Hard Part of Agentic Pentesting",
-   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-   "date": "2026-10-21T10:32:40+00:00",
-   "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness i",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-   "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-   "date": "2026-10-21T10:30:27+00:00",
-   "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to ",
    "kind": "news",
    "tags": [],
    "source": "thn",
