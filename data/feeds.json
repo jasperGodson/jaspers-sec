@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:20:28.896674+00:00",
+ "updated": "2026-10-25T11:09:42.056151+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,58 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-116050 (CVSS 7.3)",
+   "cve": "CVE-2026-116050",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116050",
+   "date": "2026-10-25T09:16:27.740",
+   "summary": "A vulnerability has been found in krupalshah Employee Recruitment System up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. This affects an unknown part of the file /source/registerform3.php of the component Registration. The manipulation of the argument pemail leads to sql injection. The attack can be",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116049 (CVSS 7.3)",
+   "cve": "CVE-2026-116049",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116049",
+   "date": "2026-10-25T09:16:27.543",
+   "summary": "A flaw has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this issue is the function mysql_query of the file /source/registerform2.php of the component Registration Wizard. Executing a manipulation of the argument university/institute/b",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116048 (CVSS 7.3)",
+   "cve": "CVE-2026-116048",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116048",
+   "date": "2026-10-25T08:16:26.780",
+   "summary": "A vulnerability was detected in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this vulnerability is the function mysql_query of the file /source/registerform1.php of the component Registration. Performing a manipulation of the argument firstname/mid",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "date": "2026-10-25T06:54:29+00:00",
+   "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet in",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
   {
    "title": "CVE-2026-116006 (CVSS 7.3)",
    "cve": "CVE-2026-116006",
@@ -633,48 +685,6 @@
    "tags": [
     "NVD",
     "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115938 (CVSS 8.8)",
-   "cve": "CVE-2026-115938",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115938",
-   "date": "2026-10-23T22:16:59.597",
-   "summary": "Craft CMS allows any authenticated control panel user to submit an element-search condition whose element selector is evaluated as a sandboxed Twig object template. Craft’s allowed column filter delegates property lookup to Yii ArrayHelper, outside Twig’s SecurityPolicy. Repeated single-segment look",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115937 (CVSS 7.5)",
-   "cve": "CVE-2026-115937",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115937",
-   "date": "2026-10-23T22:16:59.453",
-   "summary": "The Mollie webhook endpoint accepts two independent, attacker-controlled parameters and never verifies that they belong together:\n\n  *  commerceTransactionHash — selects which Craft Commerce transaction is completed\n  *  id — selects which Mollie payment is queried for its status\n\n\n\n\nAn unauthentica",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115935 (CVSS 8.8)",
-   "cve": "CVE-2026-115935",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115935",
-   "date": "2026-10-23T22:16:59.290",
-   "summary": "The app/process-api-response-headers action accepts fake Craft API response headers from any authenticated control panel user.\n\n\n\nA non-admin user with only accessCp can place newline characters in X-Craft-Plugin-Licenses. Craft passes this value to its .env writer without removing the newlines.\n\n\n\n",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
@@ -1422,16 +1432,6 @@
    "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
    "date": "2026-10-21T10:30:27+00:00",
    "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-   "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-   "date": "2026-10-21T09:05:17+00:00",
-   "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vuln",
    "kind": "news",
    "tags": [],
    "source": "thn",
