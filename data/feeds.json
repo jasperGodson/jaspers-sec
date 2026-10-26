@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:43:18.409488+00:00",
+ "updated": "2026-10-26T20:24:31.402702+00:00",
  "sources": [
   {
    "id": "kev",
@@ -11,9 +11,9 @@
   {
    "id": "nvd",
    "name": "NVD high severity",
-   "ok": true,
-   "count": 40,
-   "error": ""
+   "ok": false,
+   "count": 0,
+   "error": "TimeoutError: The read operation timed out"
   },
   {
    "id": "cisa-adv",
@@ -60,46 +60,104 @@
  ],
  "items": [
   {
-   "title": "CVE-2026-94380 (CVSS 8.1)",
-   "cve": "CVE-2026-94380",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94380",
-   "date": "2026-10-26T12:17:08.260",
-   "summary": "Weak Password Recovery Mechanism for Forgotten Password vulnerability in HAVELSAN Inc. Liman MYS allows Password Recovery Exploitation.\n\nThis issue affects Liman MYS: from 2.3.4-1124 before 2.3.5-1131.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
+   "title": "DreamHost forces password resets in ongoing \"incident\"",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+   "date": "2026-10-26T19:26:20+00:00",
+   "summary": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-116260 (CVSS 7.3)",
-   "cve": "CVE-2026-116260",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116260",
-   "date": "2026-10-26T12:17:06.230",
-   "summary": "A weakness has been identified in libimobiledevice up to 1.4.0. This issue affects the function service_receive of the file src/afc.c of the component AFC Service. Executing a manipulation can lead to double free. The attack may be performed from remote. The exploit has been made available to the pu",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
+   "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+   "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+   "date": "2026-10-26T18:12:22+00:00",
+   "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by uns",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-115717 (CVSS 7.7)",
-   "cve": "CVE-2026-115717",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115717",
-   "date": "2026-10-26T12:17:04.957",
-   "summary": "Frappe Builder versions before 1.36.1 contain a server-side request forgery vulnerability in the convert_to_webp API endpoint, which lacks the has_page_write access control applied to similar asset-ingest handlers and performs an unprotected requests.get call that follows redirects without re-valida",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
+   "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+   "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+   "date": "2026-10-26T17:45:57+00:00",
+   "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "date": "2026-10-26T16:27:57+00:00",
+   "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+   "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+   "date": "2026-10-26T15:52:40+00:00",
+   "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker beh",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+   "date": "2026-10-26T15:38:24+00:00",
+   "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+   "date": "2026-10-26T14:06:13+00:00",
+   "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "date": "2026-10-26T14:00:10+00:00",
+   "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+   "date": "2026-10-26T13:56:44+00:00",
+   "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+   "date": "2026-10-26T11:52:41+00:00",
+   "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they ",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
   },
   {
    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
@@ -112,76 +170,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-116469 (CVSS 7.1)",
-   "cve": "CVE-2026-116469",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116469",
-   "date": "2026-10-26T11:16:37.840",
-   "summary": "MISP Guard, a proxy-based security filter for MISP (Malware Information Sharing Platform) feed distribution, contains a case-sensitivity flaw in multiple policy enforcement checks. The functions check_required_taxonomy_exists, check_required_taxonomy_tags_allowed, check_blocked_attribute_categories,",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116257 (CVSS 7.3)",
-   "cve": "CVE-2026-116257",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116257",
-   "date": "2026-10-26T11:16:37.327",
-   "summary": "A vulnerability was determined in BillaBear up to 2025.01.03. Affected by this issue is the function processInstall of the file src/BillaBear/Controller/InstallController.php of the component Installation Handler. This manipulation causes missing authentication. Remote exploitation of the attack is ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116256 (CVSS 7.3)",
-   "cve": "CVE-2026-116256",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116256",
-   "date": "2026-10-26T11:16:37.130",
-   "summary": "A vulnerability was found in geesondog RhaPHP up to 7ae639ccf8dcb627faace096d030bd4cb4cfb905. Affected by this vulnerability is the function image of the file application/mp/controller/Show.php of the component Mp Module Media Proxy. The manipulation of the argument url results in server-side reques",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115948 (CVSS 8.5)",
-   "cve": "CVE-2026-115948",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115948",
-   "date": "2026-10-26T11:16:35.550",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in David Lingren Media LIbrary Assistant media-library-assistant allows Blind SQL Injection.This issue affects Media LIbrary Assistant: from n/a through 3.42.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115608 (CVSS 8.5)",
-   "cve": "CVE-2026-115608",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115608",
-   "date": "2026-10-26T11:16:35.190",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Crocoblock JetEngine jet-engine allows SQL Injection.This issue affects JetEngine: from n/a through 3.9.0.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
    "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
    "date": "2026-10-26T10:26:52+00:00",
@@ -190,34 +178,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-116253 (CVSS 7.3)",
-   "cve": "CVE-2026-116253",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116253",
-   "date": "2026-10-26T10:16:52.693",
-   "summary": "A vulnerability was determined in DedeCMS 5.7.118. This vulnerability affects the function common.inc.php::_RunMagicQuotes of the file plus/ad_js.php of the component Advertisement Rendering. Executing a manipulation of the argument aid can lead to code injection. The attack can be executed remotely",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116237 (CVSS 8.4)",
-   "cve": "CVE-2026-116237",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116237",
-   "date": "2026-10-26T10:16:52.477",
-   "summary": "A vulnerability was found in Oray Pugongying X5 Pro 7.6.1. This affects an unknown part of the component Dnsmasq. Performing a manipulation results in crlf injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used. The vendor was contacted early abo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
@@ -240,132 +200,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-82947 (CVSS 7.1)",
-   "cve": "CVE-2026-82947",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82947",
-   "date": "2026-10-26T09:16:36.473",
-   "summary": "SOEM version 2.0.0 and earlier contains multiple vulnerabilities in frame processing where a malicious device can cause the master to read data outside allocated buffers. The software uses length and offset values from device messages without validating them against buffer sizes. This can cause the ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-82944 (CVSS 8.8)",
-   "cve": "CVE-2026-82944",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82944",
-   "date": "2026-10-26T09:16:36.140",
-   "summary": "SOEM version 2.0.0 and earlier contains a vulnerability in multi-segment data transfers where a malicious device can overflow memory buffers. The software checks the total size only once at the beginning, but doesn't track the cumulative size as multiple segments arrive. An attacker can declare a sm",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-70388 (CVSS 8.3)",
-   "cve": "CVE-2026-70388",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70388",
-   "date": "2026-10-26T09:16:35.860",
-   "summary": "SOEM version 2.0.0 and earlier contains vulnerabilities where a malicious device on the network can send specially crafted messages that cause the master to write data outside allocated memory boundaries. The software performs arithmetic on message length values without proper validation, allowing n",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116372 (CVSS 7.7)",
-   "cve": "CVE-2026-116372",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116372",
-   "date": "2026-10-26T09:16:35.580",
-   "summary": "MISP mispguard is a security filtering proxy that inspects and blocks MISP feed responses based on configured rules. The process_feed_response method in src/mispguard.py was responsible for evaluating feed responses before they reached the MISP instance. The original logic only explicitly handled th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116236 (CVSS 7.2)",
-   "cve": "CVE-2026-116236",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116236",
-   "date": "2026-10-26T09:16:35.370",
-   "summary": "A vulnerability has been found in Oray Pugongying X5 Pro 7.6.1. Affected by this issue is the function plugin_init of the file /tmp/upload_files of the component PPPoE WAN Setting Handler. Such manipulation of the argument pppd_options leads to unrestricted upload. The attack may be launched remotel",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116235 (CVSS 9.1)",
-   "cve": "CVE-2026-116235",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116235",
-   "date": "2026-10-26T09:16:35.163",
-   "summary": "A flaw has been found in Oray Pugongying X5 Pro 7.6.1. Affected by this vulnerability is an unknown functionality of the component L2TP Authentication. This manipulation of the argument Username causes crlf injection. The attack may be initiated remotely. The exploit has been published and may be us",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116234 (CVSS 9.1)",
-   "cve": "CVE-2026-116234",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116234",
-   "date": "2026-10-26T09:16:34.953",
-   "summary": "A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1. Affected is an unknown function of the file /etc/ipsec.conf of the component IPsec Policy Handler. The manipulation of the argument secproto results in crlf injection. The attack can be launched remotely. The exploit is now public and may",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116233 (CVSS 9.1)",
-   "cve": "CVE-2026-116233",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116233",
-   "date": "2026-10-26T09:16:34.787",
-   "summary": "A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1. This impacts an unknown function of the component Dnsmasq. The manipulation of the argument rent_time leads to crlf injection. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. Th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-111841 (CVSS 8.8)",
-   "cve": "CVE-2026-111841",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111841",
-   "date": "2026-10-26T09:16:34.207",
-   "summary": "Cross-Site Request Forgery (CSRF) vulnerability in Aman FunnelKit Automations wp-marketing-automations allows Cross Site Request Forgery.This issue affects FunnelKit Automations: from n/a through 3.8.5.2.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
    "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
    "date": "2026-10-26T08:35:51+00:00",
@@ -374,48 +208,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-96581 (CVSS 7.6)",
-   "cve": "CVE-2026-96581",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96581",
-   "date": "2026-10-26T08:17:20.423",
-   "summary": "Authorization Bypass Through User-Controlled Key vulnerability in ash-project ash allows a user of one tenant to read, overwrite and take over another tenant's records via an upserting create action.\n\nUnder attribute multitenancy, Ash.Actions.Create (lib/ash/actions/create/create.ex) and Ash.Actions",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116232 (CVSS 9.9)",
-   "cve": "CVE-2026-116232",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116232",
-   "date": "2026-10-26T08:17:17.837",
-   "summary": "A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function snmp_set of the component SNMP Handler. Executing a manipulation of the argument info.community can lead to crlf injection. It is possible to launch the attack remotely. The exploit has been made available to t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116231 (CVSS 9.9)",
-   "cve": "CVE-2026-116231",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116231",
-   "date": "2026-10-26T08:17:17.620",
-   "summary": "A security flaw has been discovered in Oray Pugongying X5 Pro 7.6.1. The impacted element is an unknown function of the component Ser2net. Performing a manipulation of the argument regmsg results in crlf injection. It is possible to initiate the attack remotely. The exploit has been released to the ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
@@ -428,104 +220,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-107900 (CVSS 7.8)",
-   "cve": "CVE-2026-107900",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107900",
-   "date": "2026-10-26T07:17:08.360",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds read vulnerability in VS6ComFile!CCheck::ItemCheck. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107899 (CVSS 7.8)",
-   "cve": "CVE-2026-107899",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107899",
-   "date": "2026-10-26T07:17:08.223",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds read vulnerability in VS6EditData!CDataRomErrorCheck::CheckSymbolMacroParam. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107898 (CVSS 7.8)",
-   "cve": "CVE-2026-107898",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107898",
-   "date": "2026-10-26T07:17:07.950",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds read vulnerability in VS6EditData!CDataRomErrorCheck::MacroCommandCheck. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107897 (CVSS 7.8)",
-   "cve": "CVE-2026-107897",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107897",
-   "date": "2026-10-26T07:17:07.827",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds read vulnerability in VS6MemInIF!set_temp_type_default. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107896 (CVSS 7.8)",
-   "cve": "CVE-2026-107896",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107896",
-   "date": "2026-10-26T07:17:07.700",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds read vulnerability in VS6ComFile!load_gr_item. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107895 (CVSS 7.8)",
-   "cve": "CVE-2026-107895",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107895",
-   "date": "2026-10-26T07:17:07.570",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds write vulnerability. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107894 (CVSS 7.8)",
-   "cve": "CVE-2026-107894",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107894",
-   "date": "2026-10-26T07:17:07.397",
-   "summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains a stack-based buffer overflow vulnerability. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
    "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
    "date": "2026-10-26T06:03:48+00:00",
@@ -534,132 +228,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-116117 (CVSS 7.3)",
-   "cve": "CVE-2026-116117",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116117",
-   "date": "2026-10-26T05:17:54.180",
-   "summary": "A flaw has been found in halo-dev halo up to 2.27.0-beta.1. Affected by this vulnerability is the function run.halo.app.theme.DefaultViewNameResolver.resolveViewNameOrDefault of the file application/src/main/java/run/halo/app/theme/DefaultViewNameResolver.java of the component View Name Resolver. Ex",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113345 (CVSS 8.5)",
-   "cve": "CVE-2026-113345",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113345",
-   "date": "2026-10-26T05:17:54.020",
-   "summary": "Electronic delivery item Inspection Support System provided by Japan's Ministry of Land, Infrastructure, Transport and Tourism contains an improper file access permission vulnerability. Files in the installation folder of the application may be tampered with, resulting in arbitrary code execution.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116116 (CVSS 8.2)",
-   "cve": "CVE-2026-116116",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116116",
-   "date": "2026-10-26T04:17:55.047",
-   "summary": "A vulnerability was detected in Yoosee GM8135S Camera 21.00.01.36. Affected is an unknown function of the component Secure Boot. Performing a manipulation results in improper verification of cryptographic signature. The attack needs to be approached locally. The exploit is now public and may be used",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116112 (CVSS 7.3)",
-   "cve": "CVE-2026-116112",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116112",
-   "date": "2026-10-26T03:17:11.780",
-   "summary": "A vulnerability was identified in HashenUdara edoc-doctor-appointment-system up to cc258425b915d1af9e298777ccd26d160493e68d. The affected element is an unknown function of the file admin/add-new.php. The manipulation of the argument spec leads to sql injection. It is possible to initiate the attack ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116110 (CVSS 7.3)",
-   "cve": "CVE-2026-116110",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116110",
-   "date": "2026-10-26T03:17:11.417",
-   "summary": "A vulnerability was found in GiantappMan LiveWallPaper 2.6.8.0 on Windows. This issue affects some unknown processing of the file /LiveWallpaper/UploadFile of the component SignalR Hub. Performing a manipulation results in missing authentication. The attack is possible to be carried out remotely. Th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116106 (CVSS 7.3)",
-   "cve": "CVE-2026-116106",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116106",
-   "date": "2026-10-26T02:17:06.493",
-   "summary": "A security vulnerability has been detected in HeyCyan App 1.0.103 on Android. Affected by this vulnerability is an unknown functionality of the component FileProvider. The manipulation leads to improper access controls. The attack may be initiated remotely. The vendor was contacted early about this ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116094 (CVSS 7.3)",
-   "cve": "CVE-2026-116094",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116094",
-   "date": "2026-10-25T22:16:29.253",
-   "summary": "A vulnerability was determined in EyouCMS up to 1.8.3. This impacts the function remote_file_to_local of the file application/function.php. Executing a manipulation can lead to server-side request forgery. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116062 (CVSS 7.3)",
-   "cve": "CVE-2026-116062",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116062",
-   "date": "2026-10-25T18:16:46.950",
-   "summary": "A security flaw has been discovered in SourceCodester Performance Indicator System 1.0. This issue affects some unknown processing of the file /opils/staff/save_profile.php. The manipulation of the argument Contact results in sql injection. The attack may be launched remotely. The exploit has been r",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116061 (CVSS 7.3)",
-   "cve": "CVE-2026-116061",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116061",
-   "date": "2026-10-25T18:16:46.790",
-   "summary": "A vulnerability was identified in SourceCodester Performance Indicator System 1.0. This vulnerability affects unknown code of the file /opils/staff/edit_dealer.php. The manipulation of the argument Contact leads to sql injection. The attack may be initiated remotely. The exploit is publicly availabl",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
@@ -682,20 +250,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-116060 (CVSS 7.3)",
-   "cve": "CVE-2026-116060",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116060",
-   "date": "2026-10-25T17:17:02.123",
-   "summary": "A vulnerability was determined in SourceCodester Performance Indicator System 1.0. This affects an unknown part of the file /opils/staff/adddealer.php. Executing a manipulation of the argument Contact can lead to sql injection. The attack can be launched remotely. The exploit has been publicly discl",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
    "date": "2026-10-25T15:49:38+00:00",
@@ -704,20 +258,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-116211 (CVSS 8.2)",
-   "cve": "CVE-2026-116211",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116211",
-   "date": "2026-10-25T14:17:02.187",
-   "summary": "YesWiki 4.5.0 before 4.7.0 contains an SQL injection vulnerability in PageManager::save(), where the date_maj_fiche field of a Bazar entry-creation request is concatenated unescaped into an INSERT statement. Unauthenticated attackers on default installs can inject a sub-SELECT against wiki_users to ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
@@ -890,16 +430,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-   "date": "2026-10-23T12:48:00+00:00",
-   "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
    "date": "2026-10-23T12:00:00+00:00",
@@ -1008,36 +538,6 @@
    "source_name": "CISA KEV"
   },
   {
-   "title": "Railway warns devs to rotate secrets after potential breach",
-   "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-   "date": "2026-10-22T21:25:31+00:00",
-   "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Capcom confirms data breach affecting 11.7 million accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-   "date": "2026-10-22T20:22:45+00:00",
-   "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-   "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-   "date": "2026-10-22T19:12:51+00:00",
-   "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
    "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
    "date": "2026-10-22T19:05:35+00:00",
@@ -1076,16 +576,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-   "date": "2026-10-22T17:18:22+00:00",
-   "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
@@ -1362,56 +852,6 @@
    "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
    "date": "2026-10-22T06:38:31+00:00",
    "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-   "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-   "date": "2026-10-22T06:34:10+00:00",
-   "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-   "date": "2026-10-22T04:21:26+00:00",
-   "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source i",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-   "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-   "date": "2026-10-21T18:57:34+00:00",
-   "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update co",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-   "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-   "date": "2026-10-21T18:01:57+00:00",
-   "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docke",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-   "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-   "date": "2026-10-21T16:33:47+00:00",
-   "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, ",
    "kind": "news",
    "tags": [],
    "source": "thn",
