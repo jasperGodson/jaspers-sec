@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T23:08:06.875503+00:00",
+ "updated": "2026-10-26T04:24:04.059788+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,62 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-116116 (CVSS 8.2)",
+   "cve": "CVE-2026-116116",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116116",
+   "date": "2026-10-26T04:17:55.047",
+   "summary": "A vulnerability was detected in Yoosee GM8135S Camera 21.00.01.36. Affected is an unknown function of the component Secure Boot. Performing a manipulation results in improper verification of cryptographic signature. The attack needs to be approached locally. The exploit is now public and may be used",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116112 (CVSS 7.3)",
+   "cve": "CVE-2026-116112",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116112",
+   "date": "2026-10-26T03:17:11.780",
+   "summary": "A vulnerability was identified in HashenUdara edoc-doctor-appointment-system up to cc258425b915d1af9e298777ccd26d160493e68d. The affected element is an unknown function of the file admin/add-new.php. The manipulation of the argument spec leads to sql injection. It is possible to initiate the attack ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116110 (CVSS 7.3)",
+   "cve": "CVE-2026-116110",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116110",
+   "date": "2026-10-26T03:17:11.417",
+   "summary": "A vulnerability was found in GiantappMan LiveWallPaper 2.6.8.0 on Windows. This issue affects some unknown processing of the file /LiveWallpaper/UploadFile of the component SignalR Hub. Performing a manipulation results in missing authentication. The attack is possible to be carried out remotely. Th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116106 (CVSS 7.3)",
+   "cve": "CVE-2026-116106",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116106",
+   "date": "2026-10-26T02:17:06.493",
+   "summary": "A security vulnerability has been detected in HeyCyan App 1.0.103 on Android. Affected by this vulnerability is an unknown functionality of the component FileProvider. The manipulation leads to improper access controls. The attack may be initiated remotely. The vendor was contacted early about this ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-116094 (CVSS 7.3)",
    "cve": "CVE-2026-116094",
@@ -612,62 +668,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-114704 (CVSS 7.2)",
-   "cve": "CVE-2026-114704",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114704",
-   "date": "2026-10-24T14:16:39.313",
-   "summary": "Deserialization of Untrusted Data vulnerability in Christoph Vielgrader Relevanssi  relevanssi allows Object Injection.This issue affects Relevanssi : from n/a through 4.28.4.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-114191 (CVSS 7.5)",
-   "cve": "CVE-2026-114191",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114191",
-   "date": "2026-10-24T14:16:38.870",
-   "summary": "Missing Authorization vulnerability in Knit Pay UPI QR Code Payment Gateway for WooCommerce upi-qr-code-payment-for-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects UPI QR Code Payment Gateway for WooCommerce: from n/a through 1.6.3.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115932 (CVSS 9.6)",
-   "cve": "CVE-2026-115932",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115932",
-   "date": "2026-10-24T13:16:37.217",
-   "summary": "When a post is published, Postiz treats a media path that is not a web address as a file on the server's disk, but it does not check that the file lies inside the upload directory. A registered user can store a crafted media path with a post, get it past the checks that normally restrict it, and hav",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116019 (CVSS 8.8)",
-   "cve": "CVE-2026-116019",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116019",
-   "date": "2026-10-24T12:16:58.473",
-   "summary": "Grav 2.0.15 before 2.2.13 contains an allowlist bypass vulnerability that allows page editors to invoke arbitrary public static methods by relocating data-*@ directives with unset-name@ or integer keys. Attackers with page-edit permission can embed crafted fields in Flex form overrides in page front",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
