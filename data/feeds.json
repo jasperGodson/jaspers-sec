@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T20:24:31.402702+00:00",
+ "updated": "2026-10-27T00:19:55.760201+00:00",
  "sources": [
   {
    "id": "kev",
@@ -11,9 +11,9 @@
   {
    "id": "nvd",
    "name": "NVD high severity",
-   "ok": false,
-   "count": 0,
-   "error": "TimeoutError: The read operation timed out"
+   "ok": true,
+   "count": 40,
+   "error": ""
   },
   {
    "id": "cisa-adv",
@@ -59,6 +59,596 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-116819 (CVSS 8.5)",
+   "cve": "CVE-2026-116819",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116819",
+   "date": "2026-10-27T00:17:16.293",
+   "summary": "OpenPanel before 3.0.0 contains an information disclosure vulnerability that allows read-level project members to obtain plaintext integration secrets because the notification.rules query skips redactIntegration. Attackers can call the notification.rules tRPC query to retrieve Slack bot tokens, webh",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116818 (CVSS 8.2)",
+   "cve": "CVE-2026-116818",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116818",
+   "date": "2026-10-27T00:17:16.007",
+   "summary": "OpenPanel before 3.0.0 contains an unauthenticated ClickHouse sql injection vulnerability that allows remote attackers to inject SQL through the projectId parameter of the /live/visitors/:projectId WebSocket, which lacks session and project-access checks. Attackers can use UNION or boolean count ora",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116811 (CVSS 8.8)",
+   "cve": "CVE-2026-116811",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116811",
+   "date": "2026-10-27T00:17:14.263",
+   "summary": "OpenPanel before 3.0.0 contains a sandbox escape vulnerability in the js-runtime validator that allows a project member to bypass the AST allowlist by aliasing the Function constructor. Attackers with write access can read payload.constructor.constructor into a local and call it to run arbitrary cod",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116808 (CVSS 7.2)",
+   "cve": "CVE-2026-116808",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116808",
+   "date": "2026-10-27T00:17:13.347",
+   "summary": "OpenPanel before 3.0.0 contains an sql injection vulnerability that allows authenticated users to read cross-tenant data by supplying a crafted property parameter to profile.values. Attackers can inject a SELECT expression with their own FROM/WHERE clauses and comment out the project_id scope to exf",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "University of Copenhagen data breach exposes data of 525,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+   "date": "2026-10-26T22:20:36+00:00",
+   "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-116748 (CVSS 8.8)",
+   "cve": "CVE-2026-116748",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116748",
+   "date": "2026-10-26T22:16:59.610",
+   "summary": "Transmission 4.0.0 before 4.1.3 contains a permissive CORS vulnerability in handle_request() in rpc-server.cc that exposes the X-Transmission-Session-Id anti-CSRF token to any web origin. Malicious web pages can read the token from the 409 handshake response and replay it to issue RPC calls, enablin",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116747 (CVSS 8.1)",
+   "cve": "CVE-2026-116747",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116747",
+   "date": "2026-10-26T22:16:59.463",
+   "summary": "Kener 3.0.0 before 4.1.10 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge session tokens by using the hardcoded DUMMY_SECRET fallback key. When KENER_SECRET_KEY is empty or unset, attackers knowing an administrator email can sign a kener-user cookie to ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116738 (CVSS 8.8)",
+   "cve": "CVE-2026-116738",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116738",
+   "date": "2026-10-26T22:16:58.090",
+   "summary": "VMime through 0.9.2 contains an integer underflow in the uuEncoder::decode function that allows remote attackers to trigger a stack-based buffer overflow via crafted uuencoded MIME parts. Attackers can send an email with a uuencoded line whose length character is 'b' but is not a 'begin' line, corru",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116724 (CVSS 7.8)",
+   "cve": "CVE-2026-116724",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116724",
+   "date": "2026-10-26T22:16:56.070",
+   "summary": "FLTK through 1.4.5 contains an integer overflow vulnerability in Fl_BMP_Image::load_bmp_() that causes undersized pixel buffer allocation from file-supplied width and height. Attackers can supply a crafted BMP or ICO file with large dimensions so row decoding writes file-derived data past the heap b",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116723 (CVSS 7.8)",
+   "cve": "CVE-2026-116723",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116723",
+   "date": "2026-10-26T22:16:55.923",
+   "summary": "FLTK through 1.4.5 contains a stack-based buffer overflow vulnerability in Fl_BMP_Image::load_bmp_() that allows attackers to corrupt stack memory by supplying an oversized BMP colors_used field. Attackers can craft BMP or ICO files with colors_used above 256 to overflow the 768-byte colormap array,",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116591 (CVSS 8.7)",
+   "cve": "CVE-2026-116591",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116591",
+   "date": "2026-10-26T22:16:55.783",
+   "summary": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can panic when a crafted two-block frame reaches huff0.ReadTable with an FSE normalized count of 32768 that readNCount stores in int16 as -32768. The wrapped count allows buildDtable to ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116589 (CVSS 8.2)",
+   "cve": "CVE-2026-116589",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116589",
+   "date": "2026-10-26T22:16:55.490",
+   "summary": "Datadog dd-trace-py is the Datadog Python APM client. From 3.13.0 until 4.15.5, the IAST string-processing instrumentation does not properly handle certain internal errors while old-style % string formatting processes attacker-controlled input. An unhandled error can terminate the Python process and",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116588 (CVSS 8.7)",
+   "cve": "CVE-2026-116588",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116588",
+   "date": "2026-10-26T22:16:55.340",
+   "summary": "Datadog dd-trace-py is the Datadog Python APM client. From 1.5.0 until 3.19.9 and 4.15.6, the default query-string obfuscation regular expression can exhibit excessive backtracking while synchronously processing attacker-controlled URL query strings for HTTP span metadata. A remote attacker can caus",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116587 (CVSS 7.5)",
+   "cve": "CVE-2026-116587",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116587",
+   "date": "2026-10-26T22:16:55.193",
+   "summary": "Go JOSE provides an implementation of the Javascript Object Signing and Encryption set of standards in Go, including support for JSON Web Encryption (JWE), JSON Web Signature (JWS), and JSON Web Token (JWT) standards. Prior to 4.1.6, go-jose parses attacker-controlled RSA modulus and prime values fr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116508 (CVSS 10.0)",
+   "cve": "CVE-2026-116508",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116508",
+   "date": "2026-10-26T22:16:54.373",
+   "summary": "A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function sub_402340 of the file infostat.cgi of the component Device-Information CGI. Performing a manipulation of the argument CONTENT_LENGTH results in stack-based buffer overflow. Remote e",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-86929 (CVSS 8.8)",
+   "cve": "CVE-2026-86929",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86929",
+   "date": "2026-10-26T21:20:30.323",
+   "summary": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Processing a maliciously crafted file may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-86916 (CVSS 7.8)",
+   "cve": "CVE-2026-86916",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86916",
+   "date": "2026-10-26T21:20:28.087",
+   "summary": "A use after free issue was addressed with improved memory management. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7.2. An app may be able to execute arbitrary code with kernel privileges.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-65327 (CVSS 8.4)",
+   "cve": "CVE-2026-65327",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65327",
+   "date": "2026-10-26T21:18:36.653",
+   "summary": "A logic issue was addressed with improved checks. This issue is fixed in macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. A local attacker may be able to elevate their privileges.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-64759 (CVSS 8.8)",
+   "cve": "CVE-2026-64759",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64759",
+   "date": "2026-10-26T21:18:33.897",
+   "summary": "An integer overflow was addressed with improved input validation. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. Processing a maliciously crafted image may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116584 (CVSS 7.5)",
+   "cve": "CVE-2026-116584",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116584",
+   "date": "2026-10-26T21:18:17.053",
+   "summary": "Seroval facilitates JavaScript value stringification, including complex structures beyond JSON.stringify capabilities. From 1.4.1 until 1.6.8, fromJSON and fromCrossJSON do not require an array node's element list to be an actual array. A small crafted payload can supply an attacker-controlled lengt",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116581 (CVSS 7.5)",
+   "cve": "CVE-2026-116581",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116581",
+   "date": "2026-10-26T21:18:15.903",
+   "summary": "Seroval facilitates JavaScript value stringification, including complex structures beyond JSON.stringify capabilities. Prior to 1.6.8, fromJSON and fromCrossJSON do not validate a sequence node's done index. A crafted done index can create an iterator that never finishes when application code consum",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116580 (CVSS 7.3)",
+   "cve": "CVE-2026-116580",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116580",
+   "date": "2026-10-26T21:18:15.523",
+   "summary": "Seroval facilitates JavaScript value stringification, including complex structures beyond JSON.stringify capabilities. Prior to 1.6.8, fromJSON rebuilds an AsyncIteratorFactoryInstance by calling source.on(listener) without requiring source to be a genuine internal stream. With untrusted Seroval inp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116576 (CVSS 7.8)",
+   "cve": "CVE-2026-116576",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116576",
+   "date": "2026-10-26T21:18:13.720",
+   "summary": "systeminformation is a System and OS information library for node.js. Prior to 5.33.16, services() in lib/processes.js inserts a caller-supplied service name into a PowerShell Get-CimInstance filter after processing it with sanitizeShellString() in lib/util.js. On Windows, the sanitizer removes ASCI",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116506 (CVSS 9.9)",
+   "cve": "CVE-2026-116506",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116506",
+   "date": "2026-10-26T21:18:13.047",
+   "summary": "A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the function apmib_set of the file firewall.so. This manipulation causes command injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116505 (CVSS 9.1)",
+   "cve": "CVE-2026-116505",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116505",
+   "date": "2026-10-26T21:18:12.730",
+   "summary": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack can be launched remo",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116504 (CVSS 9.9)",
+   "cve": "CVE-2026-116504",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116504",
+   "date": "2026-10-26T21:18:12.420",
+   "summary": "A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setCloudUpgradeFW of the file lib/cste_modules/upgrade.so of the component Cloud Upgrade. The manipulation of the argument FileName leads to command injection. The attack can be initiated remotely. Th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-113947 (CVSS 8.8)",
+   "cve": "CVE-2026-113947",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113947",
+   "date": "2026-10-26T21:18:11.100",
+   "summary": "This issue was addressed with improved access restrictions. This issue is fixed in macOS Golden Gate 27.2. Unpacking a maliciously crafted archive may lead to unexpected app termination or arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112688 (CVSS 8.8)",
+   "cve": "CVE-2026-112688",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112688",
+   "date": "2026-10-26T21:18:03.177",
+   "summary": "A memory corruption issue was addressed with improved memory handling. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Parsing a file may lead to an unexpected app termination or arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112659 (CVSS 8.8)",
+   "cve": "CVE-2026-112659",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112659",
+   "date": "2026-10-26T21:17:59.497",
+   "summary": "A type confusion issue was addressed with improved memory handling. This issue is fixed in Safari 27.2, iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, visionOS 27.2. Processing maliciously crafted web content may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112655 (CVSS 8.8)",
+   "cve": "CVE-2026-112655",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112655",
+   "date": "2026-10-26T21:17:59.020",
+   "summary": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 27.2, iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. Processing maliciously crafted web content may lead to arbitrary code exec",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112651 (CVSS 8.8)",
+   "cve": "CVE-2026-112651",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112651",
+   "date": "2026-10-26T21:17:58.397",
+   "summary": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 27.2, iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, visionOS 27.2. Processing maliciously crafted web content may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112637 (CVSS 8.8)",
+   "cve": "CVE-2026-112637",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112637",
+   "date": "2026-10-26T21:17:57.297",
+   "summary": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 27.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. Processing maliciously crafted web content may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112626 (CVSS 8.8)",
+   "cve": "CVE-2026-112626",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112626",
+   "date": "2026-10-26T21:17:55.980",
+   "summary": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 27.2, iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. Processing maliciously crafted web content may lead to arbitrary code exec",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112623 (CVSS 8.8)",
+   "cve": "CVE-2026-112623",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112623",
+   "date": "2026-10-26T21:17:55.493",
+   "summary": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 27.2, iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, visionOS 27.2. Processing maliciously crafted web content may lead to arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112484 (CVSS 7.8)",
+   "cve": "CVE-2026-112484",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112484",
+   "date": "2026-10-26T21:17:39.277",
+   "summary": "This issue was addressed with improved file handling. This issue is fixed in macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. A malicious application may be able to execute arbitrary code with system privileges.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112438 (CVSS 8.8)",
+   "cve": "CVE-2026-112438",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112438",
+   "date": "2026-10-26T21:17:33.680",
+   "summary": "A logic issue was addressed with improved state management. This issue is fixed in macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. An unprivileged attacker may be able to execute arbitrary code as root.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-112427 (CVSS 8.1)",
+   "cve": "CVE-2026-112427",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112427",
+   "date": "2026-10-26T21:17:32.437",
+   "summary": "An authentication issue was addressed with improved state management. This issue is fixed in macOS Golden Gate 27.2. A remote attacker may be able to cause arbitrary code execution.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2025-13833 (CVSS 7.7)",
+   "cve": "CVE-2025-13833",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13833",
+   "date": "2026-10-26T21:17:01.887",
+   "summary": "A vulnerability exists in SecureConnector for Windows when the “Additional Appliance Connections” setting is enabled and the agent’s configuration file contains more than three trusted‑server entries. Some entries omit TLS certificate fingerprints, which allows the agent to accept and establish sess",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+   "date": "2026-10-26T21:08:28+00:00",
+   "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "date": "2026-10-26T20:46:49+00:00",
+   "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-65629 (CVSS 7.4)",
+   "cve": "CVE-2026-65629",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65629",
+   "date": "2026-10-26T20:17:58.647",
+   "summary": "Use of Password Hash With Insufficient Computational Effort in the jose library allows an attacker who obtains a password-encrypted private-key export to recover the private key through an offline password-cracking attack.\n\nWhen jose exports a password-encrypted private key with jose_jwk:to_der/2 (J",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57187 (CVSS 7.1)",
+   "cve": "CVE-2026-57187",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57187",
+   "date": "2026-10-26T20:17:56.700",
+   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an authenticated attacker may cause a heap-use-after-free in `PJSIP TCP/SDP` handling by sending a `SIP INVITE` over a connect",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115924 (CVSS 8.6)",
+   "cve": "CVE-2026-115924",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115924",
+   "date": "2026-10-26T20:17:52.250",
+   "summary": "Rembg is a tool to remove images background. Prior to 2.0.82, the public /api/remove endpoint passes attacker-controlled extras.sam_model through rembg/commands/s_command.py to rembg/sessions/sam.py, where it is interpolated into SAM filenames and GitHub download URLs passed to pooch.retrieve() with",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "DreamHost forces password resets in ongoing \"incident\"",
    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
@@ -150,6 +740,16 @@
    "source_name": "BleepingComputer"
   },
   {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "date": "2026-10-26T12:00:00+00:00",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : &nbsp; CVE-2026-109618 – PHP Memory Corruption Vulnerability&nbsp; CVE-2026-109619 – PHP Stale Internal Request-State Vu",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
    "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
    "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
    "date": "2026-10-26T11:52:41+00:00",
@@ -228,6 +828,34 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-109618 · PHP Group PHP: PHP Memory Corruption Vulnerability",
+   "cve": "CVE-2026-109618",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+   "date": "2026-10-26",
+   "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "PHP Group"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
+  },
+  {
+   "title": "CVE-2026-109619 · PHP Group PHP: PHP Stale Internal Request-State Vulnerability",
+   "cve": "CVE-2026-109619",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+   "date": "2026-10-26",
+   "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+   "kind": "vuln",
+   "tags": [
+    "KEV",
+    "PHP Group"
+   ],
+   "source": "kev",
+   "source_name": "CISA KEV"
   },
   {
    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
@@ -384,36 +1012,6 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
    "date": "2026-10-23T17:05:07+00:00",
    "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Quest Diagnostics confirms data breach exposed patient records",
-   "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-   "date": "2026-10-23T16:40:07+00:00",
-   "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-   "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-   "date": "2026-10-23T15:38:05+00:00",
-   "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "You gave your AI agent access, but who is giving it orders?",
-   "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-   "date": "2026-10-23T14:00:10+00:00",
-   "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime co",
    "kind": "news",
    "tags": [],
    "source": "bleeping",
@@ -728,30 +1326,10 @@
    "source_name": "CISA advisories"
   },
   {
-   "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
-   "date": "2026-10-22T12:00:00+00:00",
-   "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a new version for RUGGEDC",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
    "title": "Siemens SIMATIC IPCs",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
    "date": "2026-10-22T12:00:00+00:00",
    "summary": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has released new versions for the affected prod",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens SIMATIC S7 PLCs Web Server",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
-   "date": "2026-10-22T12:00:00+00:00",
-   "summary": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s authorization. Siemens is preparing fixes and recomme",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -778,10 +1356,10 @@
    "source_name": "CISA advisories"
   },
   {
-   "title": "Siemens SENTRON 3NA COM Fuse",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+   "title": "Siemens SIMATIC S7-1500 TM MFP",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
    "date": "2026-10-22T12:00:00+00:00",
-   "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be re-established to restore normal",
+   "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC ",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -798,10 +1376,30 @@
    "source_name": "CISA advisories"
   },
   {
-   "title": "Siemens SIMATIC S7-1500 TM MFP",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+   "title": "Siemens SENTRON 3NA COM Fuse",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
    "date": "2026-10-22T12:00:00+00:00",
-   "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC ",
+   "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be re-established to restore normal",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Siemens SIMATIC S7 PLCs Web Server",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+   "date": "2026-10-22T12:00:00+00:00",
+   "summary": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s authorization. Siemens is preparing fixes and recomme",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+   "date": "2026-10-22T12:00:00+00:00",
+   "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a new version for RUGGEDC",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -871,7 +1469,7 @@
    "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
    "date": "2026-10-21T12:00:00+00:00",
-   "summary": "Update October 23, 2026 : CISA has updated this Alert to: (1) provide a SIGMA detection rule to help identify potentially suspicious activity; (2) incorporate partner resources; and (3) reinforce existing mitigation guidance. Purpose CISA strongly urges organizations to immediately patch the recentl",
+   "summary": "Update October 26, 2026: &nbsp; CISA has updated this Alert to reflect the addition of CVE-2026-109618 and CVE-2026-109619 to its Known Exploited Vulnerabilities (KEV) Catalog on Oct. 26, 2026.&nbsp; &nbsp; Update October 23, 2026 :&nbsp; CISA has updated this Alert to: (1) provide a SIGMA detection",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -888,20 +1486,30 @@
    "source_name": "CISA advisories"
   },
   {
-   "title": "Hitachi Energy MicroSCADA X SYS600 Product",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+   "title": "Hitachi Energy RTU500 Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
    "date": "2026-10-20T12:00:00+00:00",
-   "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer to the Recommended Immediate Actions for information about ",
+   "summary": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for informatio",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
    "source_name": "CISA advisories"
   },
   {
-   "title": "Hitachi Energy RTU500 Product",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+   "title": "Moxa AIG-302 ThingsPro Edge",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
    "date": "2026-10-20T12:00:00+00:00",
-   "summary": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for informatio",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information. The following versions of Moxa AIG-302 ThingsPro Edge are affected: Moxa AIG-302 ThingsPro Edge firmware &lt;=1.4.0 (CVE-2026-109812, CVE-2026-109813) CVSS Vendor ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+   "date": "2026-10-20T12:00:00+00:00",
+   "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer to the Recommended Immediate Actions for information about ",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -922,16 +1530,6 @@
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
    "date": "2026-10-20T12:00:00+00:00",
    "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96652 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96654 Plex Media Server Improper Neutralization of Encoded URI Schemes in",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Moxa AIG-302 ThingsPro Edge",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
-   "date": "2026-10-20T12:00:00+00:00",
-   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information. The following versions of Moxa AIG-302 ThingsPro Edge are affected: Moxa AIG-302 ThingsPro Edge firmware &lt;=1.4.0 (CVE-2026-109812, CVE-2026-109813) CVSS Vendor ",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -1030,16 +1628,6 @@
    "tags": [],
    "source": "krebs",
    "source_name": "Krebs on Security"
-  },
-  {
-   "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-   "date": "2026-10-16T12:00:00+00:00",
-   "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat act",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
   },
   {
    "title": "CVE-2026-102764 · BeyondTrust Remote Support: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
@@ -1517,34 +2105,6 @@
    "tags": [
     "KEV",
     "Check Point"
-   ],
-   "source": "kev",
-   "source_name": "CISA KEV"
-  },
-  {
-   "title": "CVE-2026-85102 · Check Point Multiple Products: Check Point Multiple Products Improper Certificate Validation Vulnerability",
-   "cve": "CVE-2026-85102",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
-   "date": "2026-09-22",
-   "summary": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
-   "kind": "vuln",
-   "tags": [
-    "KEV",
-    "Check Point"
-   ],
-   "source": "kev",
-   "source_name": "CISA KEV"
-  },
-  {
-   "title": "CVE-2026-7273 · Zyxel GS1900 Series Switches: Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-   "cve": "CVE-2026-7273",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
-   "date": "2026-09-21",
-   "summary": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
-   "kind": "vuln",
-   "tags": [
-    "KEV",
-    "Zyxel"
    ],
    "source": "kev",
    "source_name": "CISA KEV"
