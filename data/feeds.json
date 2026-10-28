@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T22:03:50.791278+00:00",
+ "updated": "2026-10-28T05:17:10.970762+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,442 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-1928 (CVSS 8.8)",
+   "cve": "CVE-2026-1928",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1928",
+   "date": "2026-10-28T04:18:02.320",
+   "summary": "The Rank Math SEO – AI SEO Tools to Dominate SEO Rankings plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.0.276 via deserialization of untrusted input in the updateMeta REST API endpoint. This makes it possible forauthenticated attackers, with Contr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116613 (CVSS 7.5)",
+   "cve": "CVE-2026-116613",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116613",
+   "date": "2026-10-28T04:17:57.390",
+   "summary": "The Animated Text Block plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.2.6 via the 'animated-text' shortcode. This is due to the atb_shortcode_handler() function fetching an arbitrary post by attacker-supplied ID and, in the 'publish' branch,",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-111255 (CVSS 7.5)",
+   "cve": "CVE-2026-111255",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111255",
+   "date": "2026-10-28T04:17:56.390",
+   "summary": "The affiliate-toolkit – Multi-Network Affiliate & Amazon Product Display plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.9.2 via the upload_image function. This is due to insufficient file type validation in upload_image due to a weak Content-Type ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-97019 (CVSS 7.2)",
+   "cve": "CVE-2026-97019",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97019",
+   "date": "2026-10-28T03:17:16.317",
+   "summary": "The AMP for WP – Accelerated Mobile Pages plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'headline-*' Shortcode Attribute in all versions up to, and including, 1.1.17 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attacke",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-84999 (CVSS 9.8)",
+   "cve": "CVE-2026-84999",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84999",
+   "date": "2026-10-28T03:17:16.157",
+   "summary": "The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 via the piereg_file_upload function. This is due to the plugin performing file type validation via wp_check_filetype and wp_check_filetype_and_ext but never chec",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118378 (CVSS 7.8)",
+   "cve": "CVE-2026-118378",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118378",
+   "date": "2026-10-28T03:17:14.570",
+   "summary": "Tabularis before 0.28.0 contains an SQL injection vulnerability in its SQLite driver that allows MCP clients to execute stacked statements by supplying a crafted table_name to the describe_table tool. Attackers, including AI agents steered by untrusted content, can close the quoted PRAGMA argument a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118377 (CVSS 7.5)",
+   "cve": "CVE-2026-118377",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118377",
+   "date": "2026-10-28T03:17:14.410",
+   "summary": "mews/pos through 2.0.0 contains an insufficient verification of data authenticity vulnerability that allows unauthenticated attackers to forge payment results by submitting unverified callbacks. GarantiPos, PayForPos and InterPos 3D Pay and 3D Host handlers skip check3DHash(), letting attackers post",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118375 (CVSS 8.1)",
+   "cve": "CVE-2026-118375",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118375",
+   "date": "2026-10-28T03:17:14.077",
+   "summary": "llama.cpp b8841 before b11865 contains an out-of-bounds write vulnerability in the ggml-rpc RDMA transport rdma_recv() function that allows unauthenticated peers to overflow the rpc-server stack. Attackers advertising RDMA capabilities in the HELLO message can send up to 256 KiB into a 1-byte stack ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-117609 (CVSS 7.1)",
+   "cve": "CVE-2026-117609",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117609",
+   "date": "2026-10-28T03:17:12.607",
+   "summary": "rtl_433 through 25.12 contains a stack-based buffer overflow vulnerability in proflame2_mc() that allows nearby attackers to write past a 7-byte stack buffer by sending more than seven valid Manchester-coded words. Attackers can transmit a crafted OOK radio signal or supply a crafted signal file to ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-117607 (CVSS 7.2)",
+   "cve": "CVE-2026-117607",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117607",
+   "date": "2026-10-28T03:17:12.283",
+   "summary": "Xerte Online Toolkits through 3.15.5 contains a remote code execution vulnerability that allows authenticated users with system permission to run PHP by importing a crafted language pack. Attackers can upload a ZIP via import_language.php containing a .inc file, then request it through the language ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-111314 (CVSS 7.2)",
+   "cve": "CVE-2026-111314",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111314",
+   "date": "2026-10-28T03:17:09.817",
+   "summary": "The affiliate-toolkit – Multi-Network Affiliate & Amazon Product Display plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'atkp_product_producturl' parameter in all versions up to, and including, 3.9.2 due to insufficient input sanitization and output escaping. This makes it",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-109999 (CVSS 7.2)",
+   "cve": "CVE-2026-109999",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109999",
+   "date": "2026-10-28T03:17:09.630",
+   "summary": "The AI Marketing Expert — AI Email Marketing, AI Content Generator, SEO Analyzer, AI Workflow Automation, Social Media & Ai Chatbot plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'name' parameter in all versions up to, and including, 1.2.8 due to insufficient inp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2015-20129 (CVSS 8.8)",
+   "cve": "CVE-2015-20129",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20129",
+   "date": "2026-10-28T03:17:08.223",
+   "summary": "CrushFTP before 7.3.0 contains a cross-site request forgery vulnerability that allows attackers to perform administrative actions because CSRF protection is disabled by default. Attackers can lure an authenticated administrator to a malicious page that submits POST requests to commands like setUserI",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2014-125138 (CVSS 8.8)",
+   "cve": "CVE-2014-125138",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-125138",
+   "date": "2026-10-28T03:17:08.043",
+   "summary": "C97net qEngine CMS through 6.0.0, Kemana Directory through 1.5.6, and Cart Engine through 3.0.0 contain an unrestricted file upload vulnerability in administrative image fields. Editor-role users can upload PHP scripts via the page_image or cat_image parameters to the web-accessible /public/image di",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2013-20007 (CVSS 7.2)",
+   "cve": "CVE-2013-20007",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-20007",
+   "date": "2026-10-28T03:17:07.210",
+   "summary": "Linksys WAG200G through 1.01.06 contains an OS command injection vulnerability that allows authenticated attackers to execute commands by injecting backtick-delimited input into the timer_interval parameter. Attackers can send a crafted POST request to setup.cgi to start telnetd or download and run ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-106013 (CVSS 9.8)",
+   "cve": "CVE-2026-106013",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106013",
+   "date": "2026-10-28T02:17:01.303",
+   "summary": "The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to and including 4.61.0. The vulnerability exists within the verify_twitter_callback function because after exchanging the visitor's oauth_verifier for their acces",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-110879 (CVSS 9.8)",
+   "cve": "CVE-2026-110879",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110879",
+   "date": "2026-10-28T01:16:55.180",
+   "summary": "jackson-databind validates the outer class of a class-name type ID but accepts attacker-selected classes inside its generic arguments, even when those classes violate the declared type or would be rejected as direct type IDs. This bypasses the generic-argument validation added for CVE-2026-54512 (GH",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-110747 (CVSS 7.5)",
+   "cve": "CVE-2026-110747",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110747",
+   "date": "2026-10-28T01:16:55.017",
+   "summary": "ProtobufParser._readStringKey() reads the length prefix of a protobuf map entry's string key into an attacker-controlled int and then checks (_inputPtr + len) <= _inputEnd using signed arithmetic. For values near Integer.MAX_VALUE the addition overflows to a negative value and the check passes even ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-104895 (CVSS 7.5)",
+   "cve": "CVE-2026-104895",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104895",
+   "date": "2026-10-28T00:17:11.357",
+   "summary": "The asynchronous Smile parser (NonBlockingByteArrayParser) uses a raw-binary length prefix taken from untrusted input to allocate a byte[] before the body is read, with no upper bound and no overflow check. On the raw-binary marker 0xFD, _decodeVInt() computes (value << 6) + (i & 0x3F) without the (",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-104016 (CVSS 7.5)",
+   "cve": "CVE-2026-104016",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104016",
+   "date": "2026-10-28T00:17:10.530",
+   "summary": "ProtobufParser parses length-prefixed protobuf string and bytes fields by checking (_inputPtr + len) <= _inputEnd and then, on the fast path, calling _finishShortText(len). Both use 32-bit signed integer arithmetic. When an attacker supplies a varint decoding to a length near Integer.MAX_VALUE, _inp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+   "date": "2026-10-27T23:35:51+00:00",
+   "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-59158 (CVSS 7.5)",
+   "cve": "CVE-2026-59158",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59158",
+   "date": "2026-10-27T23:17:06.570",
+   "summary": "Nuxt Ollama integrates the official Ollama JavaScript library into Nuxt applications. Prior to 1.3.1, `src/module.ts` unconditionally merges all module options, including a configured cloud `api_key`, into `runtimeConfig.public.ollama`. Nuxt serializes this public configuration into the server-rende",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-58257 (CVSS 7.2)",
+   "cve": "CVE-2026-58257",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58257",
+   "date": "2026-10-27T23:17:06.280",
+   "summary": "GRR is a resource management and reservation application. Prior to the advisory-reported fixed version 4.5.0, the database restoration feature fails to enforce or validate file paths. A user with administrator privileges can manipulate the input to read or delete arbitrary files on the server, causi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-58256 (CVSS 9.1)",
+   "cve": "CVE-2026-58256",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58256",
+   "date": "2026-10-27T23:17:06.140",
+   "summary": "GRR is a resource management and reservation application. Prior to the advisory-reported fixed version 4.5.0, an administrator can inject malicious PHP through LDAP connector configuration parameters such as `ldap_filter`, poisoning `/personnalisation/config_ldap.inc.php` and permitting remote code ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-58255 (CVSS 8.8)",
+   "cve": "CVE-2026-58255",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58255",
+   "date": "2026-10-27T23:17:05.990",
+   "summary": "Cronicle is a multi-server task scheduler and runner, with a web based front-end UI. Prior to 0.9.121, a non-administrator user or scoped API key with `create_events` and `run_events` privileges can inject top-level `uid` and `gid` fields through `/api/app/create_event` or `/api/app/update_event`. I",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-58205 (CVSS 8.1)",
+   "cve": "CVE-2026-58205",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58205",
+   "date": "2026-10-27T23:17:05.840",
+   "summary": "GRR is a resource management and reservation application. Prior to version 4.5.0, `maj.php` reflects the `forcemaj` parameter without adequate escaping when installation files remain accessible. Removal of these files is not automatic. An attacker can craft a URL that executes arbitrary JavaScript i",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+   "date": "2026-10-27T22:43:27+00:00",
+   "summary": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-62765 (CVSS 7.5)",
+   "cve": "CVE-2026-62765",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62765",
+   "date": "2026-10-27T22:17:29.267",
+   "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57191 (CVSS 8.2)",
+   "cve": "CVE-2026-57191",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57191",
+   "date": "2026-10-27T22:17:27.390",
+   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an unbounded `sscanf` in `res_pjsip_pubsub` when parsing the `MWI NOTIFY` `Message-Account` field may allow an unauthenticated",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57190 (CVSS 7.0)",
+   "cve": "CVE-2026-57190",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57190",
+   "date": "2026-10-27T22:17:27.197",
+   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, the `PostgreSQL` and `TDS/MSSQL` Channel Event Log backends `cel_pgsql` and `cel_tds` may permit arbitrary SQL execution when ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57186 (CVSS 7.5)",
+   "cve": "CVE-2026-57186",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57186",
+   "date": "2026-10-27T22:17:26.990",
+   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. From 21.0.0-pre1 until Asterisk 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 22.8-cert3, the `chan_ooh323` `Q.931 party-number parser` lacks the `CVE-2022-37325` fix because that fix was never forward-ported from Asterisk 2",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+   "date": "2026-10-27T22:07:34+00:00",
+   "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
   {
    "title": "CVE-2026-85898 (CVSS 8.8)",
    "cve": "CVE-2026-85898",
@@ -224,48 +660,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-112350 (CVSS 7.5)",
-   "cve": "CVE-2026-112350",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112350",
-   "date": "2026-10-27T20:17:12.693",
-   "summary": "Sunhillo SureLine before 9.1.5 contains a path traversal vulnerability in the radarUpdater.cgi endpoint that allows unauthenticated remote attackers to read arbitrary files with root privileges due to missing authentication checks and insufficient sanitization of the filename parameter. Attackers ca",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116683 (CVSS 7.1)",
-   "cve": "CVE-2026-116683",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116683",
-   "date": "2026-10-27T19:17:11.047",
-   "summary": "CTFer.io's CTFd Terraform Provider manages CTFd resources as code. From 0.1.5 until 2.8.2, ctfd_team.password is stored as a non-sensitive value in Terraform state. A local or remote user with access to that state can read the team password without an additional decryption step. This issue is fixed ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115413 (CVSS 7.8)",
-   "cve": "CVE-2026-115413",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115413",
-   "date": "2026-10-27T19:17:10.593",
-   "summary": "Missing token audience validation in the OAuth authentication mode of AWS API MCP Server before version 1.6.0 might allow local users to run AWS operations with the server's configured AWS credentials via an access token issued to another application by the same identity provider.\n\n\n\nTo remediate th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
    "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
    "date": "2026-10-27T18:26:46+00:00",
@@ -284,370 +678,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-88812 (CVSS 7.8)",
-   "cve": "CVE-2026-88812",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88812",
-   "date": "2026-10-27T18:17:38.120",
-   "summary": "A double free in XKB SetGeometryin X.Org X Server before 21.1.25 and X Wayland before 24.1.14 could be used by attached clients to cause a crash or potentially code in the x server context.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-87086 (CVSS 7.5)",
-   "cve": "CVE-2026-87086",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87086",
-   "date": "2026-10-27T18:17:38.000",
-   "summary": "Tanium addressed a denial of service vulnerability in Provision.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-57202 (CVSS 8.1)",
-   "cve": "CVE-2026-57202",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57202",
-   "date": "2026-10-27T18:17:37.550",
-   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an authenticated Asterisk REST Interface (ARI) attacker with read-only privileges may use `setChannelVar` to execute write dia",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-57188 (CVSS 7.1)",
-   "cve": "CVE-2026-57188",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57188",
-   "date": "2026-10-27T18:17:37.367",
-   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an authenticated attacker may cause a stack buffer overflow in `res_xmpp` `XMPP namespace prefix` handling using carefully cra",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-117516 (CVSS 7.3)",
-   "cve": "CVE-2026-117516",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117516",
-   "date": "2026-10-27T18:17:36.343",
-   "summary": "A weakness has been identified in oretnom23 php-travel-agency-system. The affected element is an unknown function of the file contact_insert.php of the component Contact Form Handler. This manipulation of the argument name/company/email/topic/phone/comments causes sql injection. The attack can be in",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-117515 (CVSS 7.3)",
-   "cve": "CVE-2026-117515",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117515",
-   "date": "2026-10-27T18:17:36.163",
-   "summary": "A security flaw has been discovered in oretnom23 php-travel-agency-system 4e28b8f84d72420373dd15c3ae32900beb7e0635. Impacted is an unknown function of the file traceapplication.php. The manipulation of the argument Search results in sql injection. It is possible to launch the attack remotely. The ex",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116682 (CVSS 8.6)",
-   "cve": "CVE-2026-116682",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116682",
-   "date": "2026-10-27T18:17:36.003",
-   "summary": "FileBrowser Quantum is a free, self-hosted, web-based file manager. Prior to 1.5.2-stable and 2.0.1-beta, file read handling in backend/pkg/indexing/indexingFiles.go resolves symbolic links through GetRealPath without confirming that the resolved target remains inside the source root and the user's ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116676 (CVSS 8.8)",
-   "cve": "CVE-2026-116676",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116676",
-   "date": "2026-10-27T18:17:35.220",
-   "summary": "Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. From version 0.4.0 until 0.47.1, Atlantis passes the pull-request-controlled workspace value from atlantis.yaml into Terraform command arguments that are joined with strings.Join(args, \" \") and ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116662 (CVSS 7.5)",
-   "cve": "CVE-2026-116662",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116662",
-   "date": "2026-10-27T18:17:35.100",
-   "summary": "Tanium addressed a compression bomb vulnerability in Enforce.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116656 (CVSS 7.5)",
-   "cve": "CVE-2026-116656",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116656",
-   "date": "2026-10-27T18:17:34.487",
-   "summary": "Tanium addressed an uncontrolled resource consumption vulnerability in Enforce.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116649 (CVSS 7.1)",
-   "cve": "CVE-2026-116649",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116649",
-   "date": "2026-10-27T18:17:34.360",
-   "summary": "Tanium addressed an improper output sanitization vulnerability in Enforce.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116647 (CVSS 7.1)",
-   "cve": "CVE-2026-116647",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116647",
-   "date": "2026-10-27T18:17:34.233",
-   "summary": "Tanium addressed an improper output sanitization vulnerability in Comply.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-108329 (CVSS 8.8)",
-   "cve": "CVE-2026-108329",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108329",
-   "date": "2026-10-27T18:17:33.530",
-   "summary": "Tanium addressed an unauthorized code execution vulnerability in Threat Response.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-108307 (CVSS 7.8)",
-   "cve": "CVE-2026-108307",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108307",
-   "date": "2026-10-27T18:17:32.297",
-   "summary": "Tanium addressed a heap-based buffer overflow vulnerability in Index.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-108306 (CVSS 7.8)",
-   "cve": "CVE-2026-108306",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108306",
-   "date": "2026-10-27T18:17:32.163",
-   "summary": "Tanium addressed a local privilege escalation vulnerability in End-User Notifications.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-108305 (CVSS 7.8)",
-   "cve": "CVE-2026-108305",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108305",
-   "date": "2026-10-27T18:17:32.037",
-   "summary": "Tanium addressed a local privilege escalation vulnerability in End-User Notifications.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-108304 (CVSS 7.8)",
-   "cve": "CVE-2026-108304",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108304",
-   "date": "2026-10-27T18:17:31.907",
-   "summary": "Tanium addressed a local privilege escalation vulnerability in End-User Notifications.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-108303 (CVSS 8.8)",
-   "cve": "CVE-2026-108303",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108303",
-   "date": "2026-10-27T18:17:31.777",
-   "summary": "Tanium addressed an unauthorized code execution vulnerability in Certificate Manager.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-102814 (CVSS 8.7)",
-   "cve": "CVE-2026-102814",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102814",
-   "date": "2026-10-27T18:17:30.157",
-   "summary": "An\nauthentication weakness exists in the TP-Link TDDP v2 service of TP-Link RE305\nV3. TDDP v2 uses a fixed and derivable cryptographic key, which may allow an\nunauthenticated attacker on the same local network to forge protocol packets\nand access privileged TDDP operations, including functionality t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-77167 (CVSS 7.5)",
-   "cve": "CVE-2026-77167",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77167",
-   "date": "2026-10-27T17:17:02.673",
-   "summary": "Abusing the federated share endpoint, an attacker can write arbitrary rows into the oc_share_external database table. These rows persist indefinitely — there is no automatic cleanup mechanism. Three distinct denial-of-service conditions follow from this write primitive, all triggered from the same u",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-57201 (CVSS 7.5)",
-   "cve": "CVE-2026-57201",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57201",
-   "date": "2026-10-27T17:17:02.117",
-   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, a stack buffer overflow in the H.323 `ooTrace()` trace-logging function can occur when unbounded `vsprintf` writes into a fixe",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-57197 (CVSS 7.7)",
-   "cve": "CVE-2026-57197",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57197",
-   "date": "2026-10-27T17:17:01.793",
-   "summary": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an unbounded `memcpy` of `OGG/Speex` packet data in `format_ogg_speex` can cause a heap buffer overflow and crash Asterisk whe",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-48379 (CVSS 7.8)",
-   "cve": "CVE-2026-48379",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48379",
-   "date": "2026-10-27T17:17:00.870",
-   "summary": "Substance3D - Painter is affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-48360 (CVSS 9.6)",
-   "cve": "CVE-2026-48360",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48360",
-   "date": "2026-10-27T17:17:00.740",
-   "summary": "Adobe Connect is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue requires user i",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-117514 (CVSS 7.3)",
-   "cve": "CVE-2026-117514",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117514",
-   "date": "2026-10-27T17:17:00.153",
-   "summary": "A vulnerability was identified in oretnom23 php-travel-agency-system. This issue affects some unknown processing of the file admin/customer_detail.php of the component Admin Record Pages. The manipulation of the argument costomer_id/ticket_id/emp_id/salary_id/page_id leads to sql injection. It is po",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-117513 (CVSS 7.3)",
-   "cve": "CVE-2026-117513",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117513",
-   "date": "2026-10-27T17:16:59.947",
-   "summary": "A vulnerability was determined in oretnom23 php-travel-agency-system. This vulnerability affects unknown code of the file admin/customer_search.php of the component Admin Search Pages. Executing a manipulation of the argument customer_name/voucher_no/emp_name can lead to sql injection. The attack ma",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
@@ -928,16 +958,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-   "date": "2026-10-26T16:27:57+00:00",
-   "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
    "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
    "date": "2026-10-26T15:52:40+00:00",
@@ -948,16 +968,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-   "date": "2026-10-26T15:38:24+00:00",
-   "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
    "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
    "date": "2026-10-26T14:06:13+00:00",
@@ -966,16 +976,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-   "date": "2026-10-26T14:00:10+00:00",
-   "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
