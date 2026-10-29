@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:11:35.148290+00:00",
+ "updated": "2026-10-29T00:44:47.877953+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,6 +60,534 @@
  ],
  "items": [
   {
+   "title": "CVE-2026-85749 (CVSS 8.1)",
+   "cve": "CVE-2026-85749",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85749",
+   "date": "2026-10-28T23:17:11.100",
+   "summary": "MailWatch for MailScanner is a web-based front-end to MailScanner. Prior to 1.2.27, any authenticated MailWatch user, including the U/user, D/domain-admin, and H/host roles, can release to inbox or permanently delete the quarantined mail of any other user or domain by supplying an arbitrary message ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118579 (CVSS 9.8)",
+   "cve": "CVE-2026-118579",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118579",
+   "date": "2026-10-28T23:17:09.940",
+   "summary": "A weakness has been identified in D-Link DIR-505 1.10B02. The impacted element is the function main of the file /secmark1524.cgi of the component Web Management CGI. This manipulation of the argument accu/pass/code/hash/cmds causes backdoor. The attack is possible to be carried out remotely. The exp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-93851 (CVSS 8.0)",
+   "cve": "CVE-2026-93851",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93851",
+   "date": "2026-10-28T22:17:17.310",
+   "summary": "Mattermost versions 11.9.x <= 11.9.1, 11.8.x <= 11.8.5, 11.7.x <= 11.7.10 fail to validate the target post ID in the Agents plugin's mention reminder component, which allows an authenticated user who can post in a channel visible to a system administrator to cause the administrator's browser to send",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61572 (CVSS 8.6)",
+   "cve": "CVE-2026-61572",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61572",
+   "date": "2026-10-28T22:17:16.347",
+   "summary": "AVideo is a video-sharing Platform. Before the initial remediation attempt in 8.1.0, `url_get_contents` in `objects/functions.php` accepts caller-controlled destinations after only `FILTER_VALIDATE_URL` syntax validation, without rejecting private, loopback, or link-local addresses, and disables TLS",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61571 (CVSS 7.3)",
+   "cve": "CVE-2026-61571",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61571",
+   "date": "2026-10-28T22:17:16.193",
+   "summary": "AVideo is a video-sharing Platform. Prior to 8.1.0, the encoder lacks a global authentication layer and exposes control and status PHP endpoints to anonymous network callers. `view/run.php` has a commented-out guard and invokes `Encoder::run()`. `view/queue.json.php` calls `Encoder::getAll(true)`, r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61569 (CVSS 7.5)",
+   "cve": "CVE-2026-61569",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61569",
+   "date": "2026-10-28T22:17:16.043",
+   "summary": "AVideo is a video-sharing Platform. Prior to 8.1.0, the unauthenticated streamer login at `objects/login.json.php` passes the `user` parameter to `Streamer::get` in `objects/Streamer.php`, where it is interpolated into a single-quoted MariaDB SELECT without parameterization or escaping. Although `ob",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61567 (CVSS 10.0)",
+   "cve": "CVE-2026-61567",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61567",
+   "date": "2026-10-28T22:17:15.900",
+   "summary": "AVideo is a video-sharing Platform. Prior to 8.1.0, the live-streaming endpoint `view/videosListToLive.php` accepts an attacker-named streamer in `webSiteRootURL`, calls `Login::run` in `objects/Login.php`, and trusts the returned JSON as session state. An unauthenticated remote attacker who can hos",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61564 (CVSS 10.0)",
+   "cve": "CVE-2026-61564",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61564",
+   "date": "2026-10-28T22:17:15.750",
+   "summary": "AVideo is a video-sharing Platform. Prior to 8.1.0, the unauthenticated installer endpoint `install/checkConfiguration.php` assembles `videos/configuration.php` by interpolating request parameters, including `webSiteRootURL`, into single-quoted PHP string literals without escaping. An attacker can t",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61546 (CVSS 8.8)",
+   "cve": "CVE-2026-61546",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61546",
+   "date": "2026-10-28T22:17:15.590",
+   "summary": "AnkiMCP is an Anki addon that implements an MCP server, enabling AI assistants to interact with the Anki flashcard application. Prior to version 0.21.0, `anki_mcp_server/mcp_server.py` globally disables FastMCP DNS-rebinding protection through `TransportSecuritySettings` with `enable_dns_rebinding_p",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-54455 (CVSS 7.6)",
+   "cve": "CVE-2026-54455",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54455",
+   "date": "2026-10-28T22:17:15.273",
+   "summary": "OpenCATS is an open-source applicant tracking system and recruitment CRM for staffing agencies and hiring teams. Prior to version 0.10.0, activity DataGrid date filtering in `home:CallsDataGrid` and `activity:ActivityDataGrid` uses request-controlled `period`, `startDate` and `endDate` parameters wi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-54453 (CVSS 7.2)",
+   "cve": "CVE-2026-54453",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54453",
+   "date": "2026-10-28T22:17:15.100",
+   "summary": "OpenCATS is an open-source applicant tracking system and recruitment CRM for staffing agencies and hiring teams. Prior to version 0.10.0, the Professional License configuration feature in `SettingsUI` (`manageProfessional`) accepts administrator-controlled license key input that is reconstructed int",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118804 (CVSS 7.5)",
+   "cve": "CVE-2026-118804",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118804",
+   "date": "2026-10-28T22:17:14.963",
+   "summary": "Bricks Builder 2.4.3 and before contains a broken access control vulnerability that allows unauthenticated attackers to access restricted post content by submitting crafted post_status and post_type values in the originalQueryVars parameter to the POST /wp-json/bricks/v1/query_result REST endpoint u",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118803 (CVSS 7.5)",
+   "cve": "CVE-2026-118803",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118803",
+   "date": "2026-10-28T22:17:14.827",
+   "summary": "Bricks Theme 2.4.3 and before contains an unauthenticated dynamic-data tag injection vulnerability that allows anonymous attackers to control the urlParams object in the query_result REST endpoint, causing the submitted value to be re-parsed as a Bricks dynamic data tag. Attackers can inject tags su",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118755 (CVSS 7.2)",
+   "cve": "CVE-2026-118755",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118755",
+   "date": "2026-10-28T22:17:14.370",
+   "summary": "Volmarg Personal Management System through 2.1.0 contains an OS command injection vulnerability that allows authenticated users to execute shell commands via unescaped folder paths in the storage module's tree command. Attackers can create a directory under upload/files containing shell metacharacte",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118753 (CVSS 7.8)",
+   "cve": "CVE-2026-118753",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118753",
+   "date": "2026-10-28T22:17:14.047",
+   "summary": "FreeImage (danoli3 fork) before 3.19.25 contains a heap buffer overflow vulnerability in PluginGIF.cpp that allows attackers to write past the canvas allocation via unclipped GIF frame rectangles. Attackers can craft a GIF whose frame left plus width exceeds the logical screen width, causing GifPlay",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118752 (CVSS 7.8)",
+   "cve": "CVE-2026-118752",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118752",
+   "date": "2026-10-28T22:17:13.857",
+   "summary": "FreeImage (danoli3 fork) before 3.19.22 contains a heap buffer overflow vulnerability in the PBM RLE decoder of PluginIFF.cpp that lacks bounds checks on ByteRun1 runs. Attackers can supply a crafted IFF/LBM PBM file with runs straddling scanline ends to write up to 127 controlled bytes past the hea",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118694 (CVSS 7.5)",
+   "cve": "CVE-2026-118694",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118694",
+   "date": "2026-10-28T22:17:13.700",
+   "summary": "python-markdown2 through 2.5.5 contains a denial of service vulnerability that allows remote users to exhaust CPU by submitting Markdown with unclosed inline link destinations. Attackers can submit repeated '[a](' or '![a](' sequences, causing _find_balanced to rescan the remaining document for each",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118692 (CVSS 7.0)",
+   "cve": "CVE-2026-118692",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118692",
+   "date": "2026-10-28T22:17:13.387",
+   "summary": "CherryTree through 1.7.2 contains an OS command injection vulnerability in CtActions::link_clicked that allows attackers to execute commands by embedding shell metacharacters in web link URLs. When the non-default Custom Web Link Clicked Action option is enabled, attackers can supply crafted documen",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118690 (CVSS 9.8)",
+   "cve": "CVE-2026-118690",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118690",
+   "date": "2026-10-28T22:17:13.070",
+   "summary": "Signal K Server before 2.33.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to download log archives via the /skServer/ziplogs endpoint. Attackers can extract the JWT secretKey from security.json in the ZIP, forge administrator tokens, and create persis",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118689 (CVSS 7.5)",
+   "cve": "CVE-2026-118689",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118689",
+   "date": "2026-10-28T22:17:12.920",
+   "summary": "OvenMediaEngine through 0.21.0 contains a denial of service vulnerability in OvtPacket::LoadHeader() that allows unauthenticated attackers to stall connections by sending payload_length values above 32750. Attackers can send crafted OVT packets to the OVT listener to hold connections open indefinite",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118682 (CVSS 7.5)",
+   "cve": "CVE-2026-118682",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118682",
+   "date": "2026-10-28T22:17:12.763",
+   "summary": "KaringX ClashMi through 1.0.32.1801 disables TLS certificate validation by default in the HttpUtils helper, allowing attackers to intercept HTTPS traffic by presenting any certificate. Attackers operating the user's proxy node can serve a forged update manifest omitting sha256 to deliver a malicious",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118669 (CVSS 8.4)",
+   "cve": "CVE-2026-118669",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118669",
+   "date": "2026-10-28T22:17:12.610",
+   "summary": "OAuthLib is an implementation of the OAuth request-signing logic for Python 3.6+. Prior to 4.0.0, the client_credentials and Resource Owner Password Credentials token grant handlers can authenticate request.client as one confidential client while retaining an attacker-supplied request.client_id for ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118668 (CVSS 8.6)",
+   "cve": "CVE-2026-118668",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118668",
+   "date": "2026-10-28T21:16:57.263",
+   "summary": "langgraph-api implements the LangGraph API for rapid development and testing. From 0.1.2 until 0.15.0, JavaScript or TypeScript custom authentication Store authorization handlers can return a rewritten namespace that is not carried across the runtime boundary and applied before the Store operation. ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118665 (CVSS 8.2)",
+   "cve": "CVE-2026-118665",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118665",
+   "date": "2026-10-28T21:16:56.827",
+   "summary": "GraphQL Tools provides utilities for building, stitching, and mocking GraphQL schemas. Prior to version 1.1.36 of the GraphQL Tools legacy WebSocket executor package, buildWSLegacyExecutor in packages/executors/legacy-ws/src/index.ts retains request.extensions.connectionParams in the closure-scoped ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118664 (CVSS 8.2)",
+   "cve": "CVE-2026-118664",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118664",
+   "date": "2026-10-28T21:16:56.687",
+   "summary": "decode-uri-component provides a more robust alternative to decodeURIComponent. Prior to 0.5.1, decodeUriComponent in index.js falls back to customDecodeURIComponent after native decoding throws, and the fallback collects every distinct percent-encoded run before performing a full-string regular-expr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118660 (CVSS 8.6)",
+   "cve": "CVE-2026-118660",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118660",
+   "date": "2026-10-28T21:16:56.123",
+   "summary": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. Prior to 21.0.0, Happy DOM loads iframe src URLs and link rel=\"stylesheet\" href URLs by default while parsing untrusted HTML on the server because disableIframePageLoading and disableCSSFileLoading defaul",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118659 (CVSS 7.5)",
+   "cve": "CVE-2026-118659",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118659",
+   "date": "2026-10-28T21:16:55.967",
+   "summary": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. Prior to 21.0.2, the Happy DOM server-renderer package's ServerRendererServer accepts unauthenticated HTTP/2 requests and resolves attacker-controlled :path values against server.targetOrigin in #onIncomi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+   "date": "2026-10-28T20:47:22+00:00",
+   "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-78674 (CVSS 8.8)",
+   "cve": "CVE-2026-78674",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78674",
+   "date": "2026-10-28T20:18:47.330",
+   "summary": "The BPMN System REST APIs do not sufficiently validate input parameters, allowing authenticated users to submit crafted requests that can lead to the execution of arbitrary commands on the server.\n\nAn authenticated user can leverage this vulnerability to execute arbitrary commands with the privilege",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76418 (CVSS 8.6)",
+   "cve": "CVE-2026-76418",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+   "date": "2026-10-28T20:18:47.063",
+   "summary": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of servic",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-6647 (CVSS 7.4)",
+   "cve": "CVE-2026-6647",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6647",
+   "date": "2026-10-28T20:18:44.080",
+   "summary": "In deployments of WSO2 Identity Server configured with a case-insensitive user store and a case-sensitive database for identity data, mismatches in username case handling can occur. This inconsistency results in OAuth token revocation operations failing to correctly identify usernames containing mix",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-63190 (CVSS 9.4)",
+   "cve": "CVE-2026-63190",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63190",
+   "date": "2026-10-28T20:18:37.470",
+   "summary": "FearlessCMS is a flat-file `content` management system centered on simplicity and open source. Prior to version 0.1.4, five debug/test PHP scripts under `admin/` perform privileged operations without `isLoggedIn()` authentication checks, CSRF protection or adequate `path` validation. On PHP's built-",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-61542 (CVSS 8.6)",
+   "cve": "CVE-2026-61542",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61542",
+   "date": "2026-10-28T20:18:27.213",
+   "summary": "Gearboy is a Game Boy, Game Boy Color, and Super Game Boy emulator and debugger with an embedded MCP server. Gearsystem, the affected component, has an optional `--mcp-http` mode that accepts unauthenticated MCP requests from any reachable network peer despite localhost-only documentation and loggin",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-13451 (CVSS 7.7)",
+   "cve": "CVE-2026-13451",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13451",
+   "date": "2026-10-28T20:17:23.037",
+   "summary": "A flaw was found in KServe. A namespace-scoped user with create/update permissions on InferenceService custom resources can exploit this vulnerability by providing a malicious `storageUri`. This Server-Side Request Forgery (SSRF) vulnerability allows the `storage-initializer` init container to issue",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118650 (CVSS 7.5)",
+   "cve": "CVE-2026-118650",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118650",
+   "date": "2026-10-28T20:17:21.850",
+   "summary": "Echo is a Go web framework. Prior to 4.16.0 and 5.4.0, a globally mounted middleware.Static instance can interpret an encoded request path differently from Echo's router because the router matches the still-encoded path while the static handler uses the decoded URL.Path. The advisory demonstrates an",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-117574 (CVSS 9.1)",
+   "cve": "CVE-2026-117574",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117574",
+   "date": "2026-10-28T20:17:21.417",
+   "summary": "A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can exploit this vulnerability by submitting a request specifying another tenant's model identifier in the request body or header. Because the service does not verify authorization before retrieving credentials from ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-109411 (CVSS 8.1)",
+   "cve": "CVE-2026-109411",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109411",
+   "date": "2026-10-28T20:17:17.007",
+   "summary": "An access control bypass flaw was found in Samba's vfs_ceph_rgw module in it's openat() function. An authenticated user can bypass access controls to read or overwrite restricted files on shares configured with the experimental vfs_ceph_rgw module. When a client requests an existing file using misma",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2025-14260 (CVSS 8.3)",
+   "cve": "CVE-2025-14260",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14260",
+   "date": "2026-10-28T20:17:14.790",
+   "summary": "Due to the improper implementation of access control rules, the WSO2 product accepts user-supplied input related to resource location without enforcing expected validation constraints. This can be exploited by an unauthenticated actor to direct the server to make requests to arbitrary network locati",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
    "title": "CVE-2026-118688 (CVSS 7.9)",
    "cve": "CVE-2026-118688",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118688",
@@ -102,328 +630,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-118679 (CVSS 7.5)",
-   "cve": "CVE-2026-118679",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118679",
-   "date": "2026-10-28T19:17:34.120",
-   "summary": "n8n before 1.123.83, 2.41.4, and 2.42.1 contains a server-side request forgery vulnerability in the Slack Trigger webhook that allows unauthenticated attackers to exfiltrate Slack tokens by bypassing signature verification when no signing secret is set. Attackers who know the webhook URL can name a ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118678 (CVSS 7.1)",
-   "cve": "CVE-2026-118678",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118678",
-   "date": "2026-10-28T19:17:33.957",
-   "summary": "n8n before 2.41.4 and 2.42.x before 2.42.1 contains a prototype pollution vulnerability that allows low-privileged users to alter built-in object behaviour by saving workflows with specially named connection keys. Attackers can add keys such as __proto__ to workflow connections, which the periodic h",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118676 (CVSS 7.1)",
-   "cve": "CVE-2026-118676",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118676",
-   "date": "2026-10-28T19:17:33.587",
-   "summary": "n8n before 1.123.85, 2.43.5, and 2.44.1 contains an authorization bypass vulnerability that allows member users to use credentials they cannot access by omitting default node parameters. Attackers can save and run workflows where pre-execution checks skip credential slots, causing decrypted credenti",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118675 (CVSS 7.1)",
-   "cve": "CVE-2026-118675",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118675",
-   "date": "2026-10-28T19:17:33.420",
-   "summary": "n8n before 1.123.85, 2.43.5, and 2.44.1 contains a credential guard bypass vulnerability that allows editors of shared workflows to use restricted credentials by loading sub-workflows from URLs or local files. Attackers can configure the Execute Sub-workflow node with source url or localFile to serv",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118649 (CVSS 8.3)",
-   "cve": "CVE-2026-118649",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118649",
-   "date": "2026-10-28T19:17:33.263",
-   "summary": "n8n before 2.43.5 and 2.44.x before 2.44.1 accepts a client-supplied workflow ID and caches each workflow's owner project in memory by that ID, so a crafted ID such as __proto__ makes the Data Table project check match every project. An authenticated member who can create and run workflows can list,",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118648 (CVSS 7.3)",
-   "cve": "CVE-2026-118648",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118648",
-   "date": "2026-10-28T19:17:33.093",
-   "summary": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 contains a stored cross-site scripting vulnerability because some webhook response paths, such as error responses and responses without headers, omit the sandbox Content-Security-Policy. Authenticated members who can create and activat",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118647 (CVSS 8.2)",
-   "cve": "CVE-2026-118647",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118647",
-   "date": "2026-10-28T19:17:32.927",
-   "summary": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 saves the SeaTable Trigger node's API token in error execution data, because failed poll requests store raw request headers. Users who can view workflow executions but cannot read the credential can recover the token and access the con",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118645 (CVSS 8.7)",
-   "cve": "CVE-2026-118645",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118645",
-   "date": "2026-10-28T19:17:32.597",
-   "summary": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 contains a filter injection vulnerability in the Quick Base node, which sends the Where filter to the Quick Base API as raw query text. Attackers supplying untrusted input such as webhook data used to build the filter can make Get Many",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118644 (CVSS 7.7)",
-   "cve": "CVE-2026-118644",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118644",
-   "date": "2026-10-28T19:17:32.420",
-   "summary": "n8n before 2.41.5 and 2.42.x before 2.42.2 passes a failed workflow's full execution context, including the identity of the user who started the run, to the configured error workflow. A project editor can set a colleague's workflow settings.errorWorkflow to an error workflow they own, inherit the co",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118643 (CVSS 8.2)",
-   "cve": "CVE-2026-118643",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118643",
-   "date": "2026-10-28T19:17:32.247",
-   "summary": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 stores credential secrets in execution error data when operations fail in the Git, MongoDB Atlas Vector Store, and Google Cloud Storage nodes. Users who can view a workflow's executions but cannot read the credential can recover Git pa",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118642 (CVSS 7.1)",
-   "cve": "CVE-2026-118642",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118642",
-   "date": "2026-10-28T19:17:32.070",
-   "summary": "n8n before 1.123.85, 2.43.5, and 2.44.1 contains an authorization bypass vulnerability that allows authenticated members to use inaccessible credentials through inline sub-workflow nodes with non-boolean disabled values. Attackers knowing a credential id can run Execute Workflow nodes in inline JSON",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118641 (CVSS 7.5)",
-   "cve": "CVE-2026-118641",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118641",
-   "date": "2026-10-28T19:17:31.897",
-   "summary": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 contains an OData $filter injection vulnerability in the Microsoft Outlook contact lookup and Microsoft SharePoint v1 item update nodes, which build $filter string literals from expression-bindable parameters without escaping. Attacker",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118633 (CVSS 8.1)",
-   "cve": "CVE-2026-118633",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118633",
-   "date": "2026-10-28T19:17:31.537",
-   "summary": "A path traversal vulnerability allows a remote unauthenticated attacker to execute arbitrary code as root in Sophos UTM (all versions) after winning a race condition by sustaining repeated attacks for a few minutes when the email proxy is used with scanning enabled. Sophos UTM is end-of-life and the",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118264 (CVSS 9.1)",
-   "cve": "CVE-2026-118264",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118264",
-   "date": "2026-10-28T19:17:31.237",
-   "summary": "Echo is a Go web framework. From 4.0.0 until 4.16.1 and 5.4.1, Echo's Proxy middleware selects a raw tunnel from a client WebSocket upgrade request before verifying that the configured upstream accepted the upgrade. If the upstream rejects the upgrade with an ordinary keep-alive response, later HTTP",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118262 (CVSS 8.2)",
-   "cve": "CVE-2026-118262",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118262",
-   "date": "2026-10-28T19:17:30.950",
-   "summary": "Echo is a Go web framework. From 4.15.0 until 4.16.1 and 5.4.1, Echo's Proxy middleware can retain a handler, copy goroutines, and network connections after a WebSocket client disconnects when the upstream keeps its connection open. The raw proxy waits for both copy directions without reliably closi",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118261 (CVSS 8.2)",
-   "cve": "CVE-2026-118261",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118261",
-   "date": "2026-10-28T19:17:30.810",
-   "summary": "Echo is a Go web framework. From 4.0.0 until 4.16.1, Echo v4's opt-in Decompress middleware exposes a gzip-decoded request stream without limiting its expanded size. A small compressed request can expand into a very large body when a handler reads or binds it, consuming excessive memory or CPU and a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118260 (CVSS 8.2)",
-   "cve": "CVE-2026-118260",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118260",
-   "date": "2026-10-28T19:17:30.663",
-   "summary": "Echo is a Go web framework. From 4.0.0 until 4.16.1, Echo v4's opt-in BodyDump middleware reads complete request bodies into memory before handlers run and retains complete response bodies for the dump callback without capture limits. An unauthenticated client that can reach a route using BodyDump c",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118257 (CVSS 7.2)",
-   "cve": "CVE-2026-118257",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118257",
-   "date": "2026-10-28T19:17:30.207",
-   "summary": "Vue I18n is the internationalization plugin for Vue.js. From 11.1.10 until 11.4.14 and from 12.0.0-alpha.4 until 12.0.0-alpha.5, sanitizeTranslatedHtml() escapes markup and event-handler text inside an iframe srcdoc value but leaves the srcdoc attribute active. Browsers decode the character referenc",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118255 (CVSS 8.4)",
-   "cve": "CVE-2026-118255",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118255",
-   "date": "2026-10-28T19:17:29.900",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 2.0.0 until 3.2.0, Highcharts Grid applies credits.href to the credits link without validating the URL scheme. An attacker who controls Grid configuration can provide a javascript URL, and activating the credits link runs script in th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118254 (CVSS 8.6)",
-   "cve": "CVE-2026-118254",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118254",
-   "date": "2026-10-28T19:17:29.763",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 2.0.0 until 3.2.0, Highcharts Grid writes pagination language strings into the DOM as markup instead of text. An attacker who controls the Grid language configuration can provide elements with event handlers, which execute in the host",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118253 (CVSS 8.4)",
-   "cve": "CVE-2026-118253",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118253",
-   "date": "2026-10-28T19:17:29.627",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 1.0.0 until 4.2.3, Highcharts Dashboards edit mode parses fullscreen language labels as HTML rather than inserting them as text. An attacker who controls Dashboards language options can supply markup with event handlers, which execute",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118252 (CVSS 8.4)",
-   "cve": "CVE-2026-118252",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118252",
-   "date": "2026-10-28T19:17:29.483",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 1.0.0 until 4.2.3, Highcharts Dashboards edit-mode sidebar parses component language strings as HTML rather than inserting them as text. An attacker who controls the Dashboards language configuration can provide markup containing even",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118251 (CVSS 8.4)",
-   "cve": "CVE-2026-118251",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118251",
-   "date": "2026-10-28T19:17:29.340",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. Prior to 11.4.9, 12.6.1, and 13.1.0, Highcharts assigns credits.href to the window location when the credits label is clicked without checking the URL against the allowed-scheme list. An attacker who controls chart configuration can provid",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Discord to let search engines index public server messages",
    "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
    "date": "2026-10-28T18:44:16+00:00",
@@ -434,160 +640,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-84725 (CVSS 8.1)",
-   "cve": "CVE-2026-84725",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84725",
-   "date": "2026-10-28T18:17:20.420",
-   "summary": "when EAP runs with -secmgr, the openjdk-orb's JDKBridge honours attacker-supplied CDR codebase URLs during object unmarshalling on :3528, allowing an unauthenticated attacker to load and instantiate arbitrary classes from a remote URL in the server JVM before EJB security interceptors run.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118250 (CVSS 7.2)",
-   "cve": "CVE-2026-118250",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118250",
-   "date": "2026-10-28T18:17:16.543",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 6.1.0 until 11.4.9, 12.6.1, and 3.1.0, Highcharts follows dot-separated series.keys paths without filtering each segment. An attacker who controls series.keys and matching point data can use a path through __proto__ to assign arbitrar",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118249 (CVSS 7.2)",
-   "cve": "CVE-2026-118249",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118249",
-   "date": "2026-10-28T18:17:16.273",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 13.0.0 until 13.1.0, Highcharts builds series data columns by using point option keys directly as column IDs. Own enumerable __proto__ and constructor keys from parsed point objects can therefore direct integer-indexed writes to Objec",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118246 (CVSS 8.4)",
-   "cve": "CVE-2026-118246",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118246",
-   "date": "2026-10-28T18:17:15.540",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 10.0.0 until 11.4.9, 12.6.1, and 13.1.0, Highcharts applies breadcrumbs.style as SVG attributes rather than CSS and does not filter the attribute names. An attacker who controls chart configuration can provide event-handler keys throu",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118245 (CVSS 8.6)",
-   "cve": "CVE-2026-118245",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118245",
-   "date": "2026-10-28T18:17:15.403",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 1.0.0 until 4.2.2, Highcharts Dashboards uses chartConstructor as an unchecked property lookup in the Highcharts namespace and invokes the selected member with the component container and chartOptions. An attacker who controls dashboa",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118244 (CVSS 7.2)",
-   "cve": "CVE-2026-118244",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118244",
-   "date": "2026-10-28T18:17:15.260",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 12.0.0 until 12.6.1 and 13.1.0, Highcharts falls back to assigning raw markup to innerHTML when DOMParser cannot return a document, before its allow-list is applied. In Chromium, the Trusted Types callback can throw while a beforeprin",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118242 (CVSS 8.5)",
-   "cve": "CVE-2026-118242",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118242",
-   "date": "2026-10-28T18:17:14.963",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 2.3.0 until 3.2.0, Highcharts Grid creates SVG path elements from rendering.icons object definitions and previously copied every child key with setAttribute. An attacker who controls Grid configuration can supply event-handler attribu",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116797 (CVSS 8.5)",
-   "cve": "CVE-2026-116797",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116797",
-   "date": "2026-10-28T18:17:14.607",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 2.0.0 until 3.2.0, Highcharts Grid Pro input renderers copy the cells.renderer.attributes and cells.editMode.renderer.attributes maps to input or select elements with raw setAttribute calls. An attacker who controls column configurati",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116796 (CVSS 7.2)",
-   "cve": "CVE-2026-116796",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116796",
-   "date": "2026-10-28T18:17:14.460",
-   "summary": "Highcharts JS is a JavaScript charting library based on SVG. From 10.3.2 until 11.4.9, 12.6.2, and 13.1.1, Highcharts accepts an SVG anchor xlink:href attribute without applying the allowed-scheme check used for href and src. An attacker who controls a chart text option can preserve a javascript URL",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116795 (CVSS 7.5)",
-   "cve": "CVE-2026-116795",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116795",
-   "date": "2026-10-28T18:17:14.303",
-   "summary": "RE2JS is the JavaScript port of RE2, a regular expression engine that provides linear time matching. From 2.2.0 until 2.8.7, enabling LOOKBEHINDS and using repeated matching through matcher().find(), matchAll(), split(), or matcher().replaceAll() can cause quadratic total work. Machine.match restart",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116794 (CVSS 8.3)",
-   "cve": "CVE-2026-116794",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116794",
-   "date": "2026-10-28T18:17:14.127",
-   "summary": "russh is a Rust SSH client and server library that includes an SSH agent protocol implementation. From 0.50.0-beta.12 until 0.65.0, the agent server's Connection::try_sign path in russh/src/keys/agent/server.rs recognizes SSH_AGENT_CONSTRAIN_CONFIRM but returns a hard-coded successful result instead",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
    "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
    "date": "2026-10-28T18:08:33+00:00",
@@ -596,48 +648,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-93523 (CVSS 7.8)",
-   "cve": "CVE-2026-93523",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93523",
-   "date": "2026-10-28T17:18:53.220",
-   "summary": "A heap buffer overflow caused by a XIPassiveUngrabDevice request with an out-of-range modifier value in X.Org X Server before 21.1.15 and XWayland before 24.1.14 could be used by authenticated X clients to crash or potentially execute code in X server context.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-88967 (CVSS 7.7)",
-   "cve": "CVE-2026-88967",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88967",
-   "date": "2026-10-28T17:18:46.090",
-   "summary": "A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that disclose the data source's Azure access token (server-side request forgery).",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-82961 (CVSS 7.8)",
-   "cve": "CVE-2026-82961",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82961",
-   "date": "2026-10-28T17:18:43.680",
-   "summary": "The GPIO syscall handlers in drivers/gpio/gpio_handlers.c did not validate the pin argument supplied by a user-mode caller. z_vrfy_gpio_pin_configure(), z_vrfy_gpio_pin_get_config() and z_vrfy_gpio_pin_interrupt_configure() verified only the device object (K_SYSCALL_DRIVER_GPIO() / K_SYSCALL_OBJ()) ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
@@ -952,16 +962,6 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
    "date": "2026-10-27T18:20:28+00:00",
    "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-   "date": "2026-10-27T16:15:39+00:00",
-   "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
    "kind": "news",
    "tags": [],
    "source": "bleeping",
