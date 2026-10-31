@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:06:00.031024+00:00",
+ "updated": "2026-10-31T19:12:32.786616+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,164 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-120209 (CVSS 9.8)",
+   "cve": "CVE-2026-120209",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
+   "date": "2026-10-31T18:17:09.263",
+   "summary": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execut",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120208 (CVSS 7.5)",
+   "cve": "CVE-2026-120208",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120208",
+   "date": "2026-10-31T18:17:09.083",
+   "summary": "libheif 1.18.0 before 1.23.3 contains a heap-based buffer overflow vulnerability in unc_decoder_mixed_interleave::processTile() that allows attackers to write out of bounds by supplying chroma components with unequal bit depths. Attackers can craft a HEIF file declaring, for example, 16-bit Cb and 8",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120207 (CVSS 7.1)",
+   "cve": "CVE-2026-120207",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120207",
+   "date": "2026-10-31T18:17:08.920",
+   "summary": "Thelia Page Module before 2.0.4 contains a cross-site request forgery vulnerability that allows remote attackers to delete page tags, documents and images by abusing back-office delete routes lacking CSRF tokens and permission checks. Attackers can lure a logged-in administrator into navigating to c",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120205 (CVSS 8.0)",
+   "cve": "CVE-2026-120205",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120205",
+   "date": "2026-10-31T18:17:08.570",
+   "summary": "Thelia before 3.1.0 contains a stored cross-site scripting vulnerability in ForSomeCustomers::getSummary() that allows unauthenticated attackers to inject scripts via unescaped customer names. Attackers can register with a script payload as their name that executes when administrators view related c",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120203 (CVSS 8.8)",
+   "cve": "CVE-2026-120203",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120203",
+   "date": "2026-10-31T18:17:08.237",
+   "summary": "ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a template via MockController::add with escaped parentheses that mockjs evaluates with eval(), then trigger ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120201 (CVSS 9.8)",
+   "cve": "CVE-2026-120201",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120201",
+   "date": "2026-10-31T18:17:07.890",
+   "summary": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condition parser treats as",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "date": "2026-10-31T18:01:12+00:00",
+   "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-102212 (CVSS 8.4)",
+   "cve": "CVE-2026-102212",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102212",
+   "date": "2026-10-31T16:16:52.553",
+   "summary": "Heap-based buffer overflow in Opengear IM72XX, CM71XX, and ACM70XX firmware versions 4.8.0 through 5.5.2 on console server appliances allows an unauthenticated remote attacker to crash the index.cgi process via a crafted multipart/form-data POST request containing an overlong Content-Disposition nam",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "date": "2026-10-31T15:35:11+00:00",
+   "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "date": "2026-10-31T14:05:15+00:00",
+   "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "date": "2026-10-31T13:10:19+00:00",
+   "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to s",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "date": "2026-10-31T12:50:09+00:00",
+   "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "date": "2026-10-31T12:01:56+00:00",
+   "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials,",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
   {
    "title": "CVE-2026-76010 (CVSS 8.8)",
    "cve": "CVE-2026-76010",
@@ -532,76 +690,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-107653 (CVSS 7.2)",
-   "cve": "CVE-2026-107653",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107653",
-   "date": "2026-10-31T07:16:32.940",
-   "summary": "The SureCart – Ecommerce Made Easy For Selling Physical Products, Digital Downloads, Subscriptions, Donations, & Payments plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 4.9.4 due to insufficient input sanitization a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119977 (CVSS 8.1)",
-   "cve": "CVE-2026-119977",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
-   "date": "2026-10-31T06:16:34.550",
-   "summary": "WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116520 (CVSS 7.2)",
-   "cve": "CVE-2026-116520",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116520",
-   "date": "2026-10-31T06:16:32.630",
-   "summary": "The PPWP – Password Protect Pages plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment / shortcode attribute desc_below_form (and placeholder as the marker-smuggling helper)' parameter in all versions up to, and including, 1.9.26 due to insufficient input sanitization a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109997 (CVSS 7.2)",
-   "cve": "CVE-2026-109997",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109997",
-   "date": "2026-10-31T06:16:31.853",
-   "summary": "The Ninja Forms – Contact Form Builder with Calculators, Quizzes, Signatures & AI Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'formData.extra' parameter in all versions up to, and including, 3.15.5 due to insufficient input sanitization and output escaping.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109234 (CVSS 7.2)",
-   "cve": "CVE-2026-109234",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109234",
-   "date": "2026-10-31T06:16:31.510",
-   "summary": "The Meow Lightbox plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'post_content (bbPress reply body)' parameter in all versions up to, and including, 5.6.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to in",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
    "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
    "date": "2026-10-31T05:33:41+00:00",
@@ -620,34 +708,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-116755 (CVSS 7.4)",
-   "cve": "CVE-2026-116755",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116755",
-   "date": "2026-10-31T02:17:33.957",
-   "summary": "Improper Neutralization of Special Elements used in a Command ('Command Injection') in the Orchestrator component of SoftIron HyperCloud allows an authenticated user with access to the management plane to execute arbitrary operating system commands on hypervisor hosts as the privileged orchestration",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-110176 (CVSS 8.7)",
-   "cve": "CVE-2026-110176",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110176",
-   "date": "2026-10-31T01:17:05.153",
-   "summary": "The File Force Download module for Drupal 7 implements hook_file_download() to add a Content-Disposition header when a file URL carries the download query parameter. In Drupal 7, returning a non-empty header array from that hook is itself a grant of access to the file.\n\n\n\nIn versions 7.1.0 through 7",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
@@ -888,46 +948,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-   "date": "2026-10-29T22:09:24+00:00",
-   "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-   "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-   "date": "2026-10-29T22:08:04+00:00",
-   "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-   "date": "2026-10-29T21:47:25+00:00",
-   "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-   "date": "2026-10-29T19:23:41+00:00",
-   "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
    "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
    "date": "2026-10-29T19:11:58+00:00",
@@ -936,16 +956,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-   "date": "2026-10-29T18:38:26+00:00",
-   "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
@@ -1270,16 +1280,6 @@
    "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
    "date": "2026-10-28T07:13:21+00:00",
    "summary": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-   "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-   "date": "2026-10-28T06:20:37+00:00",
-   "summary": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch. The flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job th",
    "kind": "news",
    "tags": [],
    "source": "thn",
