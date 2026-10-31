@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:12:32.786616+00:00",
+ "updated": "2026-10-31T23:59:44.068696+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,48 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-120135 (CVSS 8.2)",
+   "cve": "CVE-2026-120135",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120135",
+   "date": "2026-10-31T21:16:53.397",
+   "summary": "Uncontrolled Recursion vulnerability in Apache Thrift Java bindings.\n\n\n\nThis issue affects Apache Thrift: before 0.24.0.\n\n\n\nUsers are recommended to upgrade to version 0.24.0, which fixes the issue.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118636 (CVSS 9.8)",
+   "cve": "CVE-2026-118636",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118636",
+   "date": "2026-10-31T21:16:53.203",
+   "summary": "**UNSUPPORTED WHEN ASSIGNED** \n\nJavaNativeMessageDecoder in the MINA 3.0 codec module calls ObjectInputStream.readObject() on frame bytes with no class filter, so an\napplication that puts it in front of an untrusted peer is open to gadget-chain RCE.\n\nAs the 3.0.0 branch is inactive, we do not plan t",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118147 (CVSS 7.4)",
+   "cve": "CVE-2026-118147",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118147",
+   "date": "2026-10-31T19:16:47.213",
+   "summary": "Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-120209 (CVSS 9.8)",
    "cve": "CVE-2026-120209",
@@ -639,48 +681,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115840",
    "date": "2026-10-31T07:16:35.140",
    "summary": "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'poplink' parameter in all versions up to, and including, 1.4.9 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to in",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-111254 (CVSS 7.2)",
-   "cve": "CVE-2026-111254",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111254",
-   "date": "2026-10-31T07:16:34.987",
-   "summary": "The W3 Total Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 2.10.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scrip",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109220 (CVSS 9.8)",
-   "cve": "CVE-2026-109220",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109220",
-   "date": "2026-10-31T07:16:34.367",
-   "summary": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 7.1.1 via the 'customer_note' parameter parameter. This is due to insufficient sanitization of the customer_note checkout field, which is ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107750 (CVSS 7.2)",
-   "cve": "CVE-2026-107750",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107750",
-   "date": "2026-10-31T07:16:33.920",
-   "summary": "The PDF Invoices & Packing Slips for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'billing_address.first_name / last_name / company, customer_note' parameter in all versions up to, and including, 5.16.4 due to insufficient input sanitization and output escapi",
    "kind": "vuln",
    "tags": [
     "NVD",
