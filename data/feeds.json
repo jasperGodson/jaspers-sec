@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T13:05:45.958508+00:00",
+ "updated": "2026-11-01T19:29:01.476351+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,250 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-120241 (CVSS 7.5)",
+   "cve": "CVE-2026-120241",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120241",
+   "date": "2026-11-01T19:16:59.393",
+   "summary": "A vulnerability was identified in Ruijie RG-ES205GC, RG-ES206GC-P, RG-ES208GC, RG-ES210GC-LP and RG-ES210GS-P ESW_1.0(1)B1P48. Impacted is an unknown function of the file httpupg.cgi of the component Local Firmware Upgrade Interface. The manipulation leads to buffer overflow. It is possible to initi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120240 (CVSS 9.9)",
+   "cve": "CVE-2026-120240",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120240",
+   "date": "2026-11-01T19:16:57.950",
+   "summary": "A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. This issue affects the function sub_41A748 of the file /bin/ioos of the component WireGuard CLI Group Handler. Executing a manipulation of the argument group_id/group_name can lead to os command injection. The attack may be performed",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120239 (CVSS 9.9)",
+   "cve": "CVE-2026-120239",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120239",
+   "date": "2026-11-01T18:17:13.920",
+   "summary": "A vulnerability was found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects the function sub_419DA8 of the file /bin/ioos of the component WireGuard CLI Handler. Performing a manipulation of the argument file_id results in os command injection. The attack is possible to be carried out r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120238 (CVSS 9.9)",
+   "cve": "CVE-2026-120238",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120238",
+   "date": "2026-11-01T18:17:13.720",
+   "summary": "A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This affects the function sub_4162A8 of the file /bin/ioos of the component ovpn_file Handler. Such manipulation of the argument file_id leads to os command injection. The attack can be executed remotely. The exploit has been disclose",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-66570 (CVSS 7.1)",
+   "cve": "CVE-2026-66570",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66570",
+   "date": "2026-11-01T16:18:15.323",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Nickboss WordPress File Upload wp-file-upload allows Stored XSS.This issue affects WordPress File Upload: from n/a through 5.2.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-62048 (CVSS 9.3)",
+   "cve": "CVE-2026-62048",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62048",
+   "date": "2026-11-01T16:18:15.170",
+   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Liquid Web / StellarWP BookIt bookit allows SQL Injection.This issue affects BookIt: from n/a through 2.6.0.6.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120338 (CVSS 10.0)",
+   "cve": "CVE-2026-120338",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120338",
+   "date": "2026-11-01T16:18:14.970",
+   "summary": "Prefab UI's Generative UI sandbox runs caller-supplied Python inside Pyodide, Python compiled to WebAssembly, in a Deno subprocess. The feature is documented as isolation for untrusted code, including LLM-written UI. From prefab-ui 0.14.0 through 0.20.2 the launcher starts Deno with unrestricted --a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120232 (CVSS 8.8)",
+   "cve": "CVE-2026-120232",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120232",
+   "date": "2026-11-01T15:17:23.263",
+   "summary": "A vulnerability was identified in Horizon DataSys Reboot Restore Standard up to 13.2. The impacted element is the function sub_23908 in the library shield.sys of the component Kernel Driver. Such manipulation leads to memory corruption. The attack can only be performed from a local environment. The ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120231 (CVSS 9.9)",
+   "cve": "CVE-2026-120231",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120231",
+   "date": "2026-11-01T15:17:23.053",
+   "summary": "A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. The affected element is the function sub_416568 of the file /bin/ioos of the component OpenVPN CLI Handler. This manipulation of the argument file_id causes os command injection. It is possible to initiate the attack remotely. The ex",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120230 (CVSS 9.9)",
+   "cve": "CVE-2026-120230",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120230",
+   "date": "2026-11-01T15:17:22.830",
+   "summary": "A vulnerability was found in WAVLINK WN701AE 260105. Impacted is the function del_vlan_group of the component ioos Web Backend. The manipulation of the argument vlan_name results in os command injection. The attack may be performed from remote. The exploit has been made public and could be used. The",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "date": "2026-11-01T15:11:21+00:00",
+   "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-120229 (CVSS 9.1)",
+   "cve": "CVE-2026-120229",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120229",
+   "date": "2026-11-01T14:18:53.123",
+   "summary": "A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This issue affects the function sub_416B50 of the file /bin/ioos. The manipulation of the argument file_id leads to os command injection. The attack is possible to be carried out remotely. The exploit has been disclosed to the public ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120228 (CVSS 9.9)",
+   "cve": "CVE-2026-120228",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120228",
+   "date": "2026-11-01T14:18:52.883",
+   "summary": "A flaw has been found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects the function sub_416D88 of the file /bin/ioos of the component ioos Service. Executing a manipulation of the argument group_id/group_name can lead to os command injection. The attack can be executed remotely. The ex",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "date": "2026-11-01T13:53:11+00:00",
+   "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-120308 (CVSS 9.9)",
+   "cve": "CVE-2026-120308",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120308",
+   "date": "2026-11-01T13:18:01.670",
+   "summary": "A Beta9 tenant can attach a volume when deploying a function, endpoint, or task queue. The gateway builds the host path by joining the shared volumes root, the workspace name, and the volume identifier from the stub configuration. Nothing checks that the identifier names a volume that workspace owns",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120307 (CVSS 9.9)",
+   "cve": "CVE-2026-120307",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120307",
+   "date": "2026-11-01T13:18:01.497",
+   "summary": "The Beta9 worker serves the sandbox file API from outside the container. getHostPathFromContainerPath turns the tenant's container path into a worker path. If the unresolved path starts with a mount destination, including the default upload mount at /tmp/.beta9, the remainder is joined onto that mou",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120306 (CVSS 9.9)",
+   "cve": "CVE-2026-120306",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120306",
+   "date": "2026-11-01T13:18:01.300",
+   "summary": "Beta9 turns each shell command in a tenant image definition into a Dockerfile RUN line and executes it with Buildah on the build worker. The worker image sets BUILDAH_ISOLATION=chroot, and no buildah invocation passes --isolation, so the step only changes its filesystem root. It keeps the worker pod",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120227 (CVSS 9.9)",
+   "cve": "CVE-2026-120227",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120227",
+   "date": "2026-11-01T13:18:00.643",
+   "summary": "A vulnerability was detected in WAVLINK WN701AE M01AE_V260105. This affects the function del_staticrule of the file static_route_setting.sh of the component ioos Web Backend. Performing a manipulation of the argument rule_name results in os command injection. Remote exploitation of the attack is pos",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-120225 (CVSS 9.1)",
    "cve": "CVE-2026-120225",
@@ -496,90 +740,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-117681 (CVSS 8.0)",
-   "cve": "CVE-2026-117681",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117681",
-   "date": "2026-10-31T09:16:33.487",
-   "summary": "A flaw was found in konflux-ci. This vulnerability allows privilege escalation when the user interface proxy automatically disables Transport Layer Security (TLS) certificate verification for connections to internal backend services in environments lacking a default service certificate authority. Be",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116964 (CVSS 8.4)",
-   "cve": "CVE-2026-116964",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116964",
-   "date": "2026-10-31T09:16:33.357",
-   "summary": "A flaw was found in konflux-ci. An attacker with repository write access can achieve arbitrary code execution within the Continuous Integration and Continuous Delivery (CI/CD) workflow environment. By injecting shell commands into environment export scripts, the attacker causes manifest synchronizat",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116086 (CVSS 8.8)",
-   "cve": "CVE-2026-116086",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116086",
-   "date": "2026-10-31T09:16:33.223",
-   "summary": "A flaw was found in konflux-ci. An attacker with permission to trigger automated workflow runs can cause an information disclosure by providing crafted issue titles to workflow scripts. The affected script incorporates user-provided titles directly into data queries without adequate sanitization, al",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-114217 (CVSS 8.6)",
-   "cve": "CVE-2026-114217",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114217",
-   "date": "2026-10-31T09:16:33.077",
-   "summary": "A flaw was found in konflux-ci. Continuous Integration (CI) automation scripts store sensitive GitHub access tokens in plaintext on the runner without cleaning them up after execution. A local attacker with access to the CI environment can read these stored credentials to gain unauthorized repositor",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-110530 (CVSS 7.2)",
-   "cve": "CVE-2026-110530",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110530",
-   "date": "2026-10-31T09:16:32.933",
-   "summary": "The FeedWordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 2026.0517 via syndicated RSS/Atom feed content. The plugin's SyndicatedPost::sanitize_content() function only strips the 'target' attribute (the lines that would strip 'style' and 'o",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-103882 (CVSS 9.1)",
-   "cve": "CVE-2026-103882",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103882",
-   "date": "2026-10-31T09:16:32.510",
-   "summary": "The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the post_delete_assessment_file_by_id function in all versions up to, and including, 1.1.9. This makes it possible for ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
    "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
    "date": "2026-10-31T08:27:43+00:00",
@@ -588,146 +748,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-120070 (CVSS 8.8)",
-   "cve": "CVE-2026-120070",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120070",
-   "date": "2026-10-31T08:16:49.183",
-   "summary": "The User Frontend – Membership, User Registration, User Profile, User Directory & Content Restriction with Frontend Post Submission plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.3.13 via the `post_content` parameter of the `submit_post()` function",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119096 (CVSS 9.8)",
-   "cve": "CVE-2026-119096",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096",
-   "date": "2026-10-31T08:16:49.043",
-   "summary": "The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.8.2 via the `email` parameter of the `uo_login_action()` function. This is due to a parser-differential flaw in which the plugin's account-verification gate resolves the ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118057 (CVSS 7.2)",
-   "cve": "CVE-2026-118057",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118057",
-   "date": "2026-10-31T08:16:48.903",
-   "summary": "The Shield Security – Smart Bot Blocking, Brute-Force Login Protection & File Scanning plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'REQUEST_URI' parameter in all versions up to, and including, 22.3.2 due to insufficient input sanitization and output escaping. This makes",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116512 (CVSS 9.8)",
-   "cve": "CVE-2026-116512",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512",
-   "date": "2026-10-31T08:16:48.603",
-   "summary": "The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is due to unsanitized 'id' parameter value concatenated dir",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107759 (CVSS 7.2)",
-   "cve": "CVE-2026-107759",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107759",
-   "date": "2026-10-31T08:16:48.033",
-   "summary": "The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via wp_mail/PHPMailer, e.g. CF7 your-subject)' parameter in all versions up to, and including, 6.2 due to insufficient input sanitization and output escaping. This makes it pos",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-104012 (CVSS 8.8)",
-   "cve": "CVE-2026-104012",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104012",
-   "date": "2026-10-31T08:16:47.893",
-   "summary": "The Rox Appointment Booking – Appointment Booking Scheduling Solution plugin for WordPress is vulnerable to Privilege Escalation via Mass Assignment in all versions up to, and including, 1.3.1 This is due to the public `/rox-appointment-booking/v1/public/booking` REST endpoint performing mass-assign",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-103898 (CVSS 8.1)",
-   "cve": "CVE-2026-103898",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103898",
-   "date": "2026-10-31T08:16:47.460",
-   "summary": "The Wp Social Login and Register Social Counter plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 3.2.2. This is due to the social login REST callback registered at `/wp-json/wslu-social-login/type/{provider}/` with `permission_callback => __return_tru",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-89270 (CVSS 9.1)",
-   "cve": "CVE-2026-89270",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89270",
-   "date": "2026-10-31T07:16:37.707",
-   "summary": "The Popup Builder – Create highly converting, mobile friendly marketing popups. plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 4.4.5 This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possib",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120040 (CVSS 7.5)",
-   "cve": "CVE-2026-120040",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120040",
-   "date": "2026-10-31T07:16:37.370",
-   "summary": "The Mail logging & Catcher plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.2.0 via the 'message' parameter. This makes it possible for authenticated attackers, with subscriber-level access and above, to extract valid administrator password",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119163 (CVSS 7.5)",
-   "cve": "CVE-2026-119163",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119163",
-   "date": "2026-10-31T07:16:36.600",
-   "summary": "The FunnelKit Automations – Email Marketing Automation and CRM for WordPress & WooCommerce plugin for WordPress is vulnerable to time-based SQL Injection via the 'bwfan_cart_id' parameter in all versions up to, and including, 3.8.5.2 due to insufficient escaping on the user supplied parameter and la",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
@@ -966,26 +986,6 @@
    ],
    "source": "kev",
    "source_name": "CISA KEV"
-  },
-  {
-   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-   "date": "2026-10-29T23:35:52+00:00",
-   "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Binance probes potential $5.8 billion crypto-theft hack",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-   "date": "2026-10-29T22:45:23+00:00",
-   "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
