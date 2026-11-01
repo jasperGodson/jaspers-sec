@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T23:59:44.068696+00:00",
+ "updated": "2026-11-01T05:52:10.926206+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,76 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-120197 (CVSS 9.9)",
+   "cve": "CVE-2026-120197",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120197",
+   "date": "2026-11-01T04:18:47.147",
+   "summary": "A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_forward of the file /cgi-bin/wapi.cgi. This manipulation of the argument Name causes os command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendo",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120196 (CVSS 9.9)",
+   "cve": "CVE-2026-120196",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120196",
+   "date": "2026-11-01T04:18:46.943",
+   "summary": "A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_forward of the file /cgi-bin/wapi.cgi. The manipulation of the argument Name results in os command injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was c",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120195 (CVSS 10.0)",
+   "cve": "CVE-2026-120195",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195",
+   "date": "2026-11-01T04:18:46.687",
+   "summary": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection. The attack is possib",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120191 (CVSS 7.3)",
+   "cve": "CVE-2026-120191",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120191",
+   "date": "2026-11-01T01:17:17.383",
+   "summary": "A weakness has been identified in Presenton up to 0.9.11-beta. Affected by this issue is some unknown functionality of the component API. This manipulation causes missing authentication. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be us",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120189 (CVSS 10.0)",
+   "cve": "CVE-2026-120189",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189",
+   "date": "2026-11-01T01:17:16.877",
+   "summary": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The e",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-120135 (CVSS 8.2)",
    "cve": "CVE-2026-120135",
@@ -611,76 +681,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119065",
    "date": "2026-10-31T07:16:36.163",
    "summary": "The Shipping Zones by Drawing for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'szbd-picked' checkout parameter in versions up to, and including, 3.3.0 The szbd_checkout_field_update_order_meta() handler stores stripslashes(sanitize_text_field($_POST['szbd-pi",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118070 (CVSS 7.2)",
-   "cve": "CVE-2026-118070",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118070",
-   "date": "2026-10-31T07:16:36.007",
-   "summary": "The Welcart e-Commerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'gid' parameter in all versions up to, and including, 2.12.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scrip",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116557 (CVSS 9.1)",
-   "cve": "CVE-2026-116557",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116557",
-   "date": "2026-10-31T07:16:35.857",
-   "summary": "The WP Booking System - Booking Calendar plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the wpbs_action_ajax_calendar_remove_note() function in versions up to, and including, 2.1.0.5 This makes it possible for authenticated attackers, wit",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116548 (CVSS 7.2)",
-   "cve": "CVE-2026-116548",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116548",
-   "date": "2026-10-31T07:16:35.717",
-   "summary": "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'optionals' parameter in all versions up to, and including, 1.4.10 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116522 (CVSS 7.2)",
-   "cve": "CVE-2026-116522",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116522",
-   "date": "2026-10-31T07:16:35.410",
-   "summary": "The Relevanssi – A Better Search plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 4.28.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbit",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115840 (CVSS 7.2)",
-   "cve": "CVE-2026-115840",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115840",
-   "date": "2026-10-31T07:16:35.140",
-   "summary": "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'poplink' parameter in all versions up to, and including, 1.4.9 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to in",
    "kind": "vuln",
    "tags": [
     "NVD",
