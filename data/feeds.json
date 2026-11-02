@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T00:30:36.126502+00:00",
+ "updated": "2026-11-02T10:51:14.702220+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,376 @@
   }
  ],
  "items": [
+  {
+   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+   "date": "2026-11-02T09:33:26+00:00",
+   "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-18199 (CVSS 8.8)",
+   "cve": "CVE-2026-18199",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18199",
+   "date": "2026-11-02T08:17:36.083",
+   "summary": "Zohocorp ManageEngine Password Manager Pro versions before 13236 and PAM360 versions before 8601 are vulnerable to an authenticated Remote Code Execution vulnerability.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120349 (CVSS 7.3)",
+   "cve": "CVE-2026-120349",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120349",
+   "date": "2026-11-02T07:18:03.843",
+   "summary": "A security flaw has been discovered in dayrui XunRuiCMS up to 4.7.4. Affected by this issue is the function str_replace of the file /var/www/html/zzmob/index.php of the component Mobile Site Directory. The manipulation of the argument dirname results in code injection. The attack can be launched rem",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-101186 (CVSS 7.5)",
+   "cve": "CVE-2026-101186",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101186",
+   "date": "2026-11-02T07:18:03.617",
+   "summary": "DoS vulnerability in the window module.\nImpact: Successful exploitation of this vulnerability may affect availability.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-101176 (CVSS 7.1)",
+   "cve": "CVE-2026-101176",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101176",
+   "date": "2026-11-02T07:18:02.577",
+   "summary": "Permission control vulnerability in the event notification management module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120348 (CVSS 7.3)",
+   "cve": "CVE-2026-120348",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120348",
+   "date": "2026-11-02T06:17:43.787",
+   "summary": "A vulnerability was identified in dayrui XunRuiCMS up to 4.7.4. Affected by this vulnerability is the function _get_tpl_content of the file dayrui/Fcms/Library/Notice.php of the component Email Template Rendering. The manipulation leads to code injection. The attack can be initiated remotely. The ex",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120347 (CVSS 7.3)",
+   "cve": "CVE-2026-120347",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120347",
+   "date": "2026-11-02T06:17:43.600",
+   "summary": "A vulnerability was determined in dayrui XunRuiCMS up to 4.7.4. Affected is the function View of the file dayrui/Fcms/Core/View.php of the component Member Module. Executing a manipulation of the argument catid can lead to sql injection. It is possible to launch the attack remotely. The exploit has ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120345 (CVSS 10.0)",
+   "cve": "CVE-2026-120345",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120345",
+   "date": "2026-11-02T06:17:43.410",
+   "summary": "A vulnerability was found in WAVLINK WN551X3-A M51X3_V251020-WO-182e965. This impacts the function sub_41a430 of the file /bin/ioos of the component DNS Resolution Handler. Performing a manipulation of the argument data results in os command injection. It is possible to initiate the attack remotely.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2025-11969 (CVSS 9.4)",
+   "cve": "CVE-2025-11969",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11969",
+   "date": "2026-11-02T06:17:42.087",
+   "summary": "The System REST APIs do not correctly enforce access control mechanisms, allowing users with lower privilege roles to execute administrative actions that should be restricted. This weakness permits unauthorized operations on the affected product.\n\nSuccessful exploitation could enable a malicious act",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+   "date": "2026-11-02T05:51:07+00:00",
+   "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and co",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-120344 (CVSS 10.0)",
+   "cve": "CVE-2026-120344",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120344",
+   "date": "2026-11-02T05:18:25.450",
+   "summary": "A vulnerability has been found in WAVLINK WN551X3-A M51X3_V251020-WO-182e965. This affects the function system of the file /bin/ioos of the component WireGuard CLI Group Handler. Such manipulation of the argument group_name leads to os command injection. The attack may be performed from remote. The ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120342 (CVSS 7.3)",
+   "cve": "CVE-2026-120342",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120342",
+   "date": "2026-11-02T05:18:24.310",
+   "summary": "A vulnerability was detected in mathurvishal CloudClassroom-PHP-Project. The affected element is an unknown function of the file viewquery.php. The manipulation of the argument eid results in sql injection. The attack can be executed remotely. The exploit is now public and may be used. This product ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120341 (CVSS 7.3)",
+   "cve": "CVE-2026-120341",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120341",
+   "date": "2026-11-02T05:18:23.700",
+   "summary": "A security vulnerability has been detected in mathurvishal CloudClassroom-PHP-Project. Impacted is an unknown function of the file studentdetails.php. The manipulation leads to execution after redirect. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120337 (CVSS 7.3)",
+   "cve": "CVE-2026-120337",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120337",
+   "date": "2026-11-02T04:16:53.237",
+   "summary": "A vulnerability was determined in VStarcam O-KAM SuperIPCam 1.3.3.32. Affected by this issue is the function FUN_005a2d44 of the file SuperIPCam.exe of the component P2P Session Teardown. This manipulation causes use after free. The attack can be initiated remotely. The exploit has been publicly dis",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120336 (CVSS 7.3)",
+   "cve": "CVE-2026-120336",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120336",
+   "date": "2026-11-02T04:16:53.033",
+   "summary": "A vulnerability was found in VStarcam O-KAM Client 1.3.3.32. Affected by this vulnerability is the function FUN_10003EA0 in the library DevDll_925.dll. The manipulation results in stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been made public and could be",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120324 (CVSS 8.3)",
+   "cve": "CVE-2026-120324",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120324",
+   "date": "2026-11-02T03:17:30.157",
+   "summary": "A weakness has been identified in Aklivity Zilla up to 1.3.4/2.4.7/2.5.0-rc2. The affected element is the function Path.resolve of the file FileSystemServerFactory of the component http-filesystem Binding. This manipulation of the argument params causes path traversal. Remote exploitation of the att",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120315 (CVSS 8.8)",
+   "cve": "CVE-2026-120315",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120315",
+   "date": "2026-11-02T03:17:29.457",
+   "summary": "LobeHub Chat from 1.84.26 before 2.1.49 contains a path traversal vulnerability that allows authenticated users to write arbitrary files by supplying unsanitized file names to writeTempFile(). Attackers can create a file record via file.createFile with a traversal name, then trigger document parsing",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120314 (CVSS 7.3)",
+   "cve": "CVE-2026-120314",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120314",
+   "date": "2026-11-02T03:17:29.260",
+   "summary": "Network-AI from 5.14.0 before 5.15.5 contains a missing authentication vulnerability in the A2AServer class that allows unauthenticated attackers to access task operations when no secret is configured. Attackers can send JSON-RPC requests to tasks/send, tasks/get, and tasks/cancel without a Bearer t",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120313 (CVSS 7.5)",
+   "cve": "CVE-2026-120313",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120313",
+   "date": "2026-11-02T03:17:29.053",
+   "summary": "Network-AI before 5.15.5 contains a path traversal vulnerability in InputSanitizer.sanitizePath() that allows attackers to escape the base directory using sibling-directory paths. Attackers can supply paths whose directory name shares a string prefix with the base, bypassing the unanchored startsWit",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120312 (CVSS 8.8)",
+   "cve": "CVE-2026-120312",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120312",
+   "date": "2026-11-02T03:17:28.863",
+   "summary": "Network-AI from 5.13.4 before 5.15.5 contains a path traversal vulnerability in AgentVCR that allows attackers controlling the cassette name to read or write arbitrary .json files. Attackers can pass traversal sequences to load() or save() to disclose sensitive JSON data or overwrite policy files su",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120311 (CVSS 8.8)",
+   "cve": "CVE-2026-120311",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120311",
+   "date": "2026-11-02T03:17:28.663",
+   "summary": "Network-AI from 5.13.4 before 5.15.5 contains a path traversal vulnerability in FileJobStore that allows attackers to read or delete arbitrary .json files by supplying traversal sequences in the job id. Attackers controlling the id passed to FileJobStore.get(), FileJobStore.delete(), or JobQueue.get",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120322 (CVSS 9.9)",
+   "cve": "CVE-2026-120322",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120322",
+   "date": "2026-11-02T02:18:47.550",
+   "summary": "A vulnerability was identified in Termix-SSH Termix up to 2.9.2. This issue affects some unknown processing of the file /plugin-api/file-manager/transferToHost. The manipulation of the argument destPath leads to path traversal. The attack may be initiated remotely. The exploit is publicly available ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120283 (CVSS 10.0)",
+   "cve": "CVE-2026-120283",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120283",
+   "date": "2026-11-02T01:17:27.500",
+   "summary": "A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function strcpy of the file /www/cgi-bin/portal.cgi. Such manipulation of the argument hidden_timezone leads to stack-based buffer overflow. The attack can be executed remotely. The vendor was contacted early about this d",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120282 (CVSS 9.9)",
+   "cve": "CVE-2026-120282",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120282",
+   "date": "2026-11-02T01:17:27.293",
+   "summary": "A vulnerability was determined in WAVLINK WN536AX6-A V260507. This impacts the function host_black of the file /protocol.csp. This manipulation of the argument mac causes os command injection. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120281 (CVSS 10.0)",
+   "cve": "CVE-2026-120281",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120281",
+   "date": "2026-11-02T01:17:27.070",
+   "summary": "A vulnerability was found in WAVLINK WN536AX6-A V260507. This affects the function strcpy of the file /protocol.csp of the component OpenVPN Handler. The manipulation of the argument openvpn_ip results in stack-based buffer overflow. The attack may be launched remotely. The exploit has been made pub",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120280 (CVSS 10.0)",
+   "cve": "CVE-2026-120280",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120280",
+   "date": "2026-11-02T01:17:26.873",
+   "summary": "A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the function wireguard_cli_group handler of the file /protocol.csp of the component WireGuard. The manipulation of the argument group_id/group_name leads to os command injection. The attack may be initiated remotel",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120279 (CVSS 10.0)",
+   "cve": "CVE-2026-120279",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120279",
+   "date": "2026-11-02T01:17:26.677",
+   "summary": "A flaw has been found in WAVLINK WN536AX6-A V260507. The affected element is an unknown function of the file /protocol.csp of the component openvpn_cli Handler. Executing a manipulation of the argument file_id can lead to os command injection. The attack can be launched remotely. The exploit has bee",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-120277 (CVSS 10.0)",
    "cve": "CVE-2026-120277",
@@ -280,90 +650,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-66570 (CVSS 7.1)",
-   "cve": "CVE-2026-66570",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66570",
-   "date": "2026-11-01T16:18:15.323",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Nickboss WordPress File Upload wp-file-upload allows Stored XSS.This issue affects WordPress File Upload: from n/a through 5.2.1.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-62048 (CVSS 9.3)",
-   "cve": "CVE-2026-62048",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62048",
-   "date": "2026-11-01T16:18:15.170",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Liquid Web / StellarWP BookIt bookit allows SQL Injection.This issue affects BookIt: from n/a through 2.6.0.6.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120338 (CVSS 10.0)",
-   "cve": "CVE-2026-120338",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120338",
-   "date": "2026-11-01T16:18:14.970",
-   "summary": "Prefab UI's Generative UI sandbox runs caller-supplied Python inside Pyodide, Python compiled to WebAssembly, in a Deno subprocess. The feature is documented as isolation for untrusted code, including LLM-written UI. From prefab-ui 0.14.0 through 0.20.2 the launcher starts Deno with unrestricted --a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120232 (CVSS 8.8)",
-   "cve": "CVE-2026-120232",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120232",
-   "date": "2026-11-01T15:17:23.263",
-   "summary": "A vulnerability was identified in Horizon DataSys Reboot Restore Standard up to 13.2. The impacted element is the function sub_23908 in the library shield.sys of the component Kernel Driver. Such manipulation leads to memory corruption. The attack can only be performed from a local environment. The ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120231 (CVSS 9.9)",
-   "cve": "CVE-2026-120231",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120231",
-   "date": "2026-11-01T15:17:23.053",
-   "summary": "A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. The affected element is the function sub_416568 of the file /bin/ioos of the component OpenVPN CLI Handler. This manipulation of the argument file_id causes os command injection. It is possible to initiate the attack remotely. The ex",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120230 (CVSS 9.9)",
-   "cve": "CVE-2026-120230",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120230",
-   "date": "2026-11-01T15:17:22.830",
-   "summary": "A vulnerability was found in WAVLINK WN701AE 260105. Impacted is the function del_vlan_group of the component ioos Web Backend. The manipulation of the argument vlan_name results in os command injection. The attack may be performed from remote. The exploit has been made public and could be used. The",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
    "date": "2026-11-01T15:11:21+00:00",
@@ -374,34 +660,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-120229 (CVSS 9.1)",
-   "cve": "CVE-2026-120229",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120229",
-   "date": "2026-11-01T14:18:53.123",
-   "summary": "A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This issue affects the function sub_416B50 of the file /bin/ioos. The manipulation of the argument file_id leads to os command injection. The attack is possible to be carried out remotely. The exploit has been disclosed to the public ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120228 (CVSS 9.9)",
-   "cve": "CVE-2026-120228",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120228",
-   "date": "2026-11-01T14:18:52.883",
-   "summary": "A flaw has been found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects the function sub_416D88 of the file /bin/ioos of the component ioos Service. Executing a manipulation of the argument group_id/group_name can lead to os command injection. The attack can be executed remotely. The ex",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
    "date": "2026-11-01T13:53:11+00:00",
@@ -410,90 +668,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-120308 (CVSS 9.9)",
-   "cve": "CVE-2026-120308",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120308",
-   "date": "2026-11-01T13:18:01.670",
-   "summary": "A Beta9 tenant can attach a volume when deploying a function, endpoint, or task queue. The gateway builds the host path by joining the shared volumes root, the workspace name, and the volume identifier from the stub configuration. Nothing checks that the identifier names a volume that workspace owns",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120307 (CVSS 9.9)",
-   "cve": "CVE-2026-120307",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120307",
-   "date": "2026-11-01T13:18:01.497",
-   "summary": "The Beta9 worker serves the sandbox file API from outside the container. getHostPathFromContainerPath turns the tenant's container path into a worker path. If the unresolved path starts with a mount destination, including the default upload mount at /tmp/.beta9, the remainder is joined onto that mou",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120306 (CVSS 9.9)",
-   "cve": "CVE-2026-120306",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120306",
-   "date": "2026-11-01T13:18:01.300",
-   "summary": "Beta9 turns each shell command in a tenant image definition into a Dockerfile RUN line and executes it with Buildah on the build worker. The worker image sets BUILDAH_ISOLATION=chroot, and no buildah invocation passes --isolation, so the step only changes its filesystem root. It keeps the worker pod",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120227 (CVSS 9.9)",
-   "cve": "CVE-2026-120227",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120227",
-   "date": "2026-11-01T13:18:00.643",
-   "summary": "A vulnerability was detected in WAVLINK WN701AE M01AE_V260105. This affects the function del_staticrule of the file static_route_setting.sh of the component ioos Web Backend. Performing a manipulation of the argument rule_name results in os command injection. Remote exploitation of the attack is pos",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120225 (CVSS 9.1)",
-   "cve": "CVE-2026-120225",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120225",
-   "date": "2026-11-01T11:18:57.843",
-   "summary": "A weakness has been identified in Oray Pugongying X5 Pro up to 7.6.1. Affected by this vulnerability is the function config_restore_ex of the file /etc/openwrt_release. This manipulation of the argument filename causes relative path traversal. The attack may be initiated remotely. The exploit has be",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120224 (CVSS 9.9)",
-   "cve": "CVE-2026-120224",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120224",
-   "date": "2026-11-01T11:18:57.437",
-   "summary": "A security flaw has been discovered in Oray Pugongying X5 Pro up to 7.6.1. Affected is the function run_apis_by_json/run_async_task of the component API Authorization. The manipulation results in improper authorization. The attack can be launched remotely. The exploit has been released to the public",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
@@ -519,7 +693,7 @@
    "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
    "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
    "date": "2026-11-01T07:03:00+00:00",
-   "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Sec",
+   "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with",
    "kind": "news",
    "tags": [],
    "source": "thn",
@@ -534,160 +708,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-120198 (CVSS 10.0)",
-   "cve": "CVE-2026-120198",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120198",
-   "date": "2026-11-01T05:18:57.620",
-   "summary": "A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117. Affected is the function con_check_read_finish of the file /protocol.csp. Such manipulation of the argument group_name/IP-FROM leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120197 (CVSS 9.9)",
-   "cve": "CVE-2026-120197",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120197",
-   "date": "2026-11-01T04:18:47.147",
-   "summary": "A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_forward of the file /cgi-bin/wapi.cgi. This manipulation of the argument Name causes os command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120196 (CVSS 9.9)",
-   "cve": "CVE-2026-120196",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120196",
-   "date": "2026-11-01T04:18:46.943",
-   "summary": "A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_forward of the file /cgi-bin/wapi.cgi. The manipulation of the argument Name results in os command injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was c",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120195 (CVSS 10.0)",
-   "cve": "CVE-2026-120195",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195",
-   "date": "2026-11-01T04:18:46.687",
-   "summary": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection. The attack is possib",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120191 (CVSS 7.3)",
-   "cve": "CVE-2026-120191",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120191",
-   "date": "2026-11-01T01:17:17.383",
-   "summary": "A weakness has been identified in Presenton up to 0.9.11-beta. Affected by this issue is some unknown functionality of the component API. This manipulation causes missing authentication. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be us",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120189 (CVSS 10.0)",
-   "cve": "CVE-2026-120189",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189",
-   "date": "2026-11-01T01:17:16.877",
-   "summary": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The e",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120135 (CVSS 8.2)",
-   "cve": "CVE-2026-120135",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120135",
-   "date": "2026-10-31T21:16:53.397",
-   "summary": "Uncontrolled Recursion vulnerability in Apache Thrift Java bindings.\n\n\n\nThis issue affects Apache Thrift: before 0.24.0.\n\n\n\nUsers are recommended to upgrade to version 0.24.0, which fixes the issue.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118636 (CVSS 9.8)",
-   "cve": "CVE-2026-118636",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118636",
-   "date": "2026-10-31T21:16:53.203",
-   "summary": "**UNSUPPORTED WHEN ASSIGNED** \n\nJavaNativeMessageDecoder in the MINA 3.0 codec module calls ObjectInputStream.readObject() on frame bytes with no class filter, so an\napplication that puts it in front of an untrusted peer is open to gadget-chain RCE.\n\nAs the 3.0.0 branch is inactive, we do not plan t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118147 (CVSS 7.4)",
-   "cve": "CVE-2026-118147",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118147",
-   "date": "2026-10-31T19:16:47.213",
-   "summary": "Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120209 (CVSS 9.8)",
-   "cve": "CVE-2026-120209",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
-   "date": "2026-10-31T18:17:09.263",
-   "summary": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execut",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120208 (CVSS 7.5)",
-   "cve": "CVE-2026-120208",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120208",
-   "date": "2026-10-31T18:17:09.083",
-   "summary": "libheif 1.18.0 before 1.23.3 contains a heap-based buffer overflow vulnerability in unc_decoder_mixed_interleave::processTile() that allows attackers to write out of bounds by supplying chroma components with unequal bit depths. Attackers can craft a HEIF file declaring, for example, 16-bit Cb and 8",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Northflank security breach leads to abuse of customers' AI API keys",
@@ -908,16 +928,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-   "date": "2026-10-30T10:16:07+00:00",
-   "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
@@ -1270,16 +1280,6 @@
    "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
    "date": "2026-10-28T11:30:00+00:00",
    "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cyber",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-   "date": "2026-10-28T11:15:51+00:00",
-   "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9)",
    "kind": "news",
    "tags": [],
    "source": "thn",
