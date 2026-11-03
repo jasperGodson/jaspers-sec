@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:38:46.620062+00:00",
+ "updated": "2026-11-03T06:21:32.985418+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,6 +60,326 @@
  ],
  "items": [
   {
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "date": "2026-11-03T05:34:41+00:00",
+   "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an u",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "date": "2026-11-03T05:34:37+00:00",
+   "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the fl",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-77800 (CVSS 7.7)",
+   "cve": "CVE-2026-77800",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77800",
+   "date": "2026-11-03T05:18:52.577",
+   "summary": "ManageEngine Key Manager Plus versions before 7151 are vulnerable to a SAML authentication bypass that allows attackers to log in using SAML assertions meant for another service provider.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-77799 (CVSS 7.4)",
+   "cve": "CVE-2026-77799",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77799",
+   "date": "2026-11-03T05:18:52.380",
+   "summary": "ManageEngine Key Manager Plus versions before 7150 are vulnerable to a Two-Factor Authentication bypass that allows attackers with valid credentials to log in without a verification code.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120577 (CVSS 8.1)",
+   "cve": "CVE-2026-120577",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120577",
+   "date": "2026-11-03T05:18:34.257",
+   "summary": "The FluentCart A New Era of eCommerce – Faster, Lighter, and Simpler plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the deleteFile function in all versions up to, and including, 1.6.2. This makes it possible for authenticated attackers, with",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120574 (CVSS 8.1)",
+   "cve": "CVE-2026-120574",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120574",
+   "date": "2026-11-03T05:18:33.840",
+   "summary": "The SureCart plugin for WordPress is vulnerable to unauthenticated account takeover in all versions up to, and including, 4.9.5. The passwordless one-time-code login REST route (VerificationCodeController::verify(), whose permission callback returns true) resolves an attacker-supplied login to any W",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120559 (CVSS 7.5)",
+   "cve": "CVE-2026-120559",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120559",
+   "date": "2026-11-03T05:18:33.230",
+   "summary": "The Contact Form Extender for Divi Builder plugin for WordPress is vulnerable to Arbitrary File Deletion due to insufficient file path validation in the cfefd_remove_uploaded_file() function in all versions up to, and including, 1.0.6. This makes it possible for unauthenticated attackers to delete a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120558 (CVSS 7.2)",
+   "cve": "CVE-2026-120558",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120558",
+   "date": "2026-11-03T05:18:33.030",
+   "summary": "The Advanced Shipment Tracking for WooCommerce plugin for WordPress is vulnerable to SQL Injection via the `tracking_provider` parameter of the `POST /wp-json/wc-ast/v3/orders/<order_id>/shipment-trackings` REST endpoint in all versions up to, and including, 3.9. This is due to insufficient escaping",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120538 (CVSS 8.1)",
+   "cve": "CVE-2026-120538",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120538",
+   "date": "2026-11-03T05:18:32.193",
+   "summary": "The Easy Digital Downloads plugin for WordPress is vulnerable to authentication bypass leading to administrator account takeover in all versions up to, and including, 3.7.2. During a PayPal guest checkout, the email address entered in the guest-checkout field is trusted as proof of identity: edd_get",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120534 (CVSS 9.8)",
+   "cve": "CVE-2026-120534",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120534",
+   "date": "2026-11-03T05:18:31.987",
+   "summary": "The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 0.9.2.6 via the render_field function. This is due to insufficient validation of form configuration parameters before merging into field settings and passing to",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120518 (CVSS 9.1)",
+   "cve": "CVE-2026-120518",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120518",
+   "date": "2026-11-03T05:18:31.380",
+   "summary": "The BuddyPress XProfile Image Field plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 3.1.0. This is due to bpxp_image_field_update_on_user_activation() calling unlink() on a path built from visitor-supplied signup metadata with no realpath() resolut",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+   "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "date": "2026-11-03T02:24:31+00:00",
+   "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "CVE-2026-76955 (CVSS 8.8)",
+   "cve": "CVE-2026-76955",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76955",
+   "date": "2026-11-03T02:16:53.720",
+   "summary": "A buffer overflow vulnerability in the zdp_wtp binary in Zyxel NWA110AX firmware versions through 7.12(ABTG.0)C0 could allow a LAN-based attacker to escalate privileges on an affected device.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-107441 (CVSS 8.8)",
+   "cve": "CVE-2026-107441",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107441",
+   "date": "2026-11-03T02:16:52.617",
+   "summary": "An out-of-bounds write vulnerability in the CGI program of Zyxel GS1900-24E firmware versions through 2.90(AAHK.2)C0 could allow an unauthenticated adjacent attacker  to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120833 (CVSS 7.8)",
+   "cve": "CVE-2026-120833",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120833",
+   "date": "2026-11-03T01:16:52.260",
+   "summary": "labbench before 0.46.1 contains a deserialization of untrusted data vulnerability in read() and read_relational() that passes any file with a .p or .pickle extension to pandas.read_pickle based on the extension alone. Attackers who supply a crafted data file or relational data archive can execute ar",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120830 (CVSS 7.4)",
+   "cve": "CVE-2026-120830",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120830",
+   "date": "2026-11-03T00:17:18.947",
+   "summary": "A flaw was found in libslirp in icmp_forward_error(). When building an ICMP error response, the length of the quoted original IPv4 packet was taken from the IP header without clamping it to the actual buffer length. A truncated or malformed packet could cause an out-of-bounds heap read, leaking host",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-71450 (CVSS 8.7)",
+   "cve": "CVE-2026-71450",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71450",
+   "date": "2026-11-02T23:17:21.200",
+   "summary": "Authentication bypass using an alternate path or channel vulnerability in Johnson Controls EasyIO Neo EC and CW Edge Controller allows Authentication Bypass.\n\nThis issue affects EasyIO Neo EC and CW Edge Controller: from EC 3.3b62 through EC 3.3b63 and from CW 3.3b24 through CW 3.3b25.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120752 (CVSS 7.5)",
+   "cve": "CVE-2026-120752",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120752",
+   "date": "2026-11-02T23:17:20.243",
+   "summary": "PyMuPDF 1.25.3 before 2.0 contains a stack-based buffer overflow vulnerability in JM_set_annot_callout_line() that copies a caller-supplied number of callout points into a fixed three-element stack array. Attackers who control the callout argument passed to Page.add_freetext_annot() can supply four ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-86596 (CVSS 9.8)",
+   "cve": "CVE-2026-86596",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86596",
+   "date": "2026-11-02T22:17:23.490",
+   "summary": "The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, <= 260927 via the 'item_name' parameter parameter. This is due to insufficient sanitization in strip_php_tags_deep(), which only strips literal '<?' sequences, combined with a post-interpol",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120091 (CVSS 8.7)",
+   "cve": "CVE-2026-120091",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120091",
+   "date": "2026-11-02T22:17:20.567",
+   "summary": "Temporal Server compiles a Worker Controller Instance module, go.temporal.io/auto-scaled-workers, into its Worker Service, and that module registers a compute provider named k8s whose function is to manage workers running in a Kubernetes cluster. The k8s provider built its Kubernetes client from the",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115403 (CVSS 8.2)",
+   "cve": "CVE-2026-115403",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115403",
+   "date": "2026-11-02T22:17:18.543",
+   "summary": "In Eclipse ThreadX NetX Duo versions 6.0 through 6.5.2.202603a, built with BSD raw socket and IPv6 support, the IPv6 raw send path uses the destination-table entry it adds without checking that the add succeeded. When the destination table is full and an off-link destination is reached through a def",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115215 (CVSS 8.7)",
+   "cve": "CVE-2026-115215",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115215",
+   "date": "2026-11-02T22:17:18.397",
+   "summary": "In Eclipse ThreadX NetX Duo versions 6.0 through 6.5.2.202603a, the NetX Secure DTLS server allocates a session from its fixed session pool for the first datagram from any unrecognised address and port, before the cookie exchange, and never releases a session whose handshake stalls. A remote, unauth",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "date": "2026-11-02T21:40:14+00:00",
+   "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-58873 (CVSS 8.4)",
+   "cve": "CVE-2026-58873",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58873",
+   "date": "2026-11-02T21:17:35.373",
+   "summary": "In addDragDropListener of WindowManagerService.java, there is a possible permission bypass due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
    "title": "CVE-2026-29508 (CVSS 8.8)",
    "cve": "CVE-2026-29508",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29508",
@@ -111,6 +431,20 @@
    "tags": [
     "NVD",
     "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-105476 (CVSS 8.8)",
+   "cve": "CVE-2026-105476",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105476",
+   "date": "2026-11-02T21:17:22.707",
+   "summary": "Improper link resolution before file access in cPanel allows remote authenticated users to write arbitrary root-owned files and escalate privileges.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
@@ -317,300 +651,6 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58943",
    "date": "2026-11-02T20:17:51.290",
    "summary": "In run of AddAccountSettings.java, there is a possible background activity launch due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58942 (CVSS 8.4)",
-   "cve": "CVE-2026-58942",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58942",
-   "date": "2026-11-02T20:17:51.170",
-   "summary": "In do_fault_around of memory.c, there is a possible use after free due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58934 (CVSS 8.4)",
-   "cve": "CVE-2026-58934",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58934",
-   "date": "2026-11-02T20:17:50.720",
-   "summary": "In prepareWindowToDisplayDuringRelayout of WindowState.java, there is a possible permission bypass due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58885 (CVSS 8.4)",
-   "cve": "CVE-2026-58885",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58885",
-   "date": "2026-11-02T20:17:50.387",
-   "summary": "In multiple locations, there is a possible permission bypass due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58884 (CVSS 8.4)",
-   "cve": "CVE-2026-58884",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58884",
-   "date": "2026-11-02T20:17:50.280",
-   "summary": "In startTetheredHotspotRequest of WifiServiceImpl.java, there is a possible permission bypass due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58866 (CVSS 8.4)",
-   "cve": "CVE-2026-58866",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58866",
-   "date": "2026-11-02T20:17:49.013",
-   "summary": "In setAccessibilityWindowAttributes of AccessibilityWindowManager.java, there is a possible untrusted/misleading UI issue due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitatio",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58853 (CVSS 7.5)",
-   "cve": "CVE-2026-58853",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58853",
-   "date": "2026-11-02T20:17:48.780",
-   "summary": "In multiple functions of ipphelper.c, there is a possible stack bugger overflow due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58837 (CVSS 8.4)",
-   "cve": "CVE-2026-58837",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58837",
-   "date": "2026-11-02T20:17:48.170",
-   "summary": "In multiple locations, there is a possible background activity launch due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58836 (CVSS 7.8)",
-   "cve": "CVE-2026-58836",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58836",
-   "date": "2026-11-02T20:17:48.053",
-   "summary": "In handlePackagePostInstall of InstallPackageHelper.java, there is a possible Enhanced Confirmation Mode (ECM) bypass vulnerability that allows a sideloaded application to modify the package source during a self-update due to a logic error in the code. This could lead to local escalation of privileg",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58829 (CVSS 8.4)",
-   "cve": "CVE-2026-58829",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58829",
-   "date": "2026-11-02T20:17:47.940",
-   "summary": "In fuse_backing_mmap of backing.c, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58828 (CVSS 8.4)",
-   "cve": "CVE-2026-58828",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58828",
-   "date": "2026-11-02T20:17:47.817",
-   "summary": "In multiple functions of base.c, there is a possible use-after-free due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58827 (CVSS 8.4)",
-   "cve": "CVE-2026-58827",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58827",
-   "date": "2026-11-02T20:17:47.703",
-   "summary": "In multiple functions of dma-buf.c, there is a possible use after free due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58826 (CVSS 8.4)",
-   "cve": "CVE-2026-58826",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58826",
-   "date": "2026-11-02T20:17:47.573",
-   "summary": "In ksys_unshare of fork.c, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58825 (CVSS 8.4)",
-   "cve": "CVE-2026-58825",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58825",
-   "date": "2026-11-02T20:17:47.447",
-   "summary": "In multiple functions of fork.c, there is a possible use after free due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-55289 (CVSS 8.4)",
-   "cve": "CVE-2026-55289",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55289",
-   "date": "2026-11-02T20:17:45.293",
-   "summary": "In multiple functions in multiple locations, there is a possible execution of sensitive USSD codes due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-55287 (CVSS 8.4)",
-   "cve": "CVE-2026-55287",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55287",
-   "date": "2026-11-02T20:17:45.017",
-   "summary": "In onCreate of GrantCredentialsPermissionActivity.java, there is a possible way to trick the user into granting account credentials due to misleading or insufficient UI. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed fo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-55283 (CVSS 8.4)",
-   "cve": "CVE-2026-55283",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55283",
-   "date": "2026-11-02T20:17:44.900",
-   "summary": "In multiple locations, there is a possible memory safety issue due to a use-after-free. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-55275 (CVSS 8.4)",
-   "cve": "CVE-2026-55275",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55275",
-   "date": "2026-11-02T20:17:44.783",
-   "summary": "In multiple locations, there is a possible use-after-free due to a race condition. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-55271 (CVSS 8.4)",
-   "cve": "CVE-2026-55271",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55271",
-   "date": "2026-11-02T20:17:44.563",
-   "summary": "In forwardToPreferredActionPickHandler of ContactsPickerActivity.kt, there is a possible intent redirection due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-55257 (CVSS 8.4)",
-   "cve": "CVE-2026-55257",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55257",
-   "date": "2026-11-02T20:17:43.983",
-   "summary": "In UsbDialogHelper of UsbDialogHelper.java, there is a possible UI confusion due to misleading or insufficient UI. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-49931 (CVSS 8.4)",
-   "cve": "CVE-2026-49931",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49931",
-   "date": "2026-11-02T20:17:43.170",
-   "summary": "In onActivityResult in multiple locations, there is a possible contact leak from protected profile due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-49923 (CVSS 8.4)",
-   "cve": "CVE-2026-49923",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49923",
-   "date": "2026-11-02T20:17:42.940",
-   "summary": "In onResult of AccountManagerService.java, there is a possible untrusted/misleading UI issue due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -874,16 +914,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
    "date": "2026-10-31T15:35:11+00:00",
    "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Reddit to lock content behind logins to fight scrapers",
-   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-   "date": "2026-10-31T14:05:15+00:00",
-   "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
    "kind": "news",
    "tags": [],
    "source": "bleeping",
@@ -1222,26 +1252,6 @@
    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
    "date": "2026-10-29T08:24:22+00:00",
    "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-   "date": "2026-10-29T06:22:33+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-   "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-   "date": "2026-10-29T05:50:17+00:00",
-   "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the networ",
    "kind": "news",
    "tags": [],
    "source": "thn",
@@ -2114,16 +2124,6 @@
    "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
    "date": "2026-09-16T18:14:22+00:00",
    "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides",
-   "kind": "news",
-   "tags": [],
-   "source": "krebs",
-   "source_name": "Krebs on Security"
-  },
-  {
-   "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-   "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-   "date": "2026-09-08T21:44:22+00:00",
-   "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many o",
    "kind": "news",
    "tags": [],
    "source": "krebs",
