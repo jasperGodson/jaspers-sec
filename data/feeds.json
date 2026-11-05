@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:13:03.251753+00:00",
+ "updated": "2026-11-05T06:17:52.181585+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,161 +60,25 @@
  ],
  "items": [
   {
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "date": "2026-11-04T20:58:19+00:00",
-   "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-97705 (CVSS 7.5)",
-   "cve": "CVE-2026-97705",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97705",
-   "date": "2026-11-04T20:19:13.137",
-   "summary": "Moleculer is a progressive microservices framework for Node.js. Prior to 0.14.36 and 0.15.2, Parser._write in src/transporters/tcp/parser.js used Buffer.prototype.readInt32BE to read a signed packet length, so a remote unauthenticated peer could supply a negative value that caused packet.slice(lengt",
+   "title": "CVE-2026-123014 (CVSS 8.7)",
+   "cve": "CVE-2026-123014",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123014",
+   "date": "2026-11-05T06:17:07.707",
+   "summary": "iTerm2 before 3.7.7beta2 has an argument injection vulnerability in the x-man-page: URL handler, allowing an attacker to execute arbitrary commands with the privileges of the logged-in user by inducing the user to open a crafted URL in iTerm2. Percent-encoded NUL characters survive input sanitizatio",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.5"
+    "CVSS 8.7"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-122220 (CVSS 7.4)",
-   "cve": "CVE-2026-122220",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122220",
-   "date": "2026-11-04T20:19:12.397",
-   "summary": "WPO365 | LOGIN (wpo365-login) plugin before version 45.2 contains an authentication bypass by capture-replay vulnerability caused by a non-functional anti-replay check in Saml2_Service::check_message_id(), which never persists processed SAML message IDs to the wpo365_saml_message_ids transient due t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-122192 (CVSS 7.5)",
-   "cve": "CVE-2026-122192",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122192",
-   "date": "2026-11-04T20:19:12.210",
-   "summary": "Improper handling of a failed memory remap in Firecracker versions 0.23.0 through 1.16.1 might allow a guest user with root privileges to read or modify Firecracker VMM process memory via balloon or virtio-mem discard requests on microVMs restored from a snapshot with the File memory backend, if the",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121933 (CVSS 10.0)",
-   "cve": "CVE-2026-121933",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121933",
-   "date": "2026-11-04T20:19:11.607",
-   "summary": "A flaw has been found in Linksys E5350 1.0.00.037. This impacts the function save_settings of the file /wizard/apply.cgi of the component Setup Wizard. Executing a manipulation of the argument wizard_router_pwd can lead to missing authentication. The attack may be launched remotely. The exploit has ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113374 (CVSS 8.6)",
-   "cve": "CVE-2026-113374",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113374",
-   "date": "2026-11-04T20:18:57.057",
-   "summary": "Sonatype Nexus Repository 3 does not require realm administration permission when a user creates a Rut Auth capability. A user who holds only the capability creation permission (nexus:capabilities:create) can create this capability, which turns on header-based authentication for the instance. A remo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113373 (CVSS 9.1)",
-   "cve": "CVE-2026-113373",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113373",
-   "date": "2026-11-04T20:18:56.750",
-   "summary": "Sonatype Nexus Repository 3 Pro does not check the local account status when a user signs in through a configured SAML or OAuth2/OpenID Connect identity provider. A user whose account was disabled or locked by an administrator in Nexus Repository can sign in again with valid identity provider creden",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113372 (CVSS 7.1)",
-   "cve": "CVE-2026-113372",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113372",
-   "date": "2026-11-04T20:18:56.483",
-   "summary": "Sonatype Nexus Repository 3 returns the private signing key of a YUM proxy or group repository to an account that holds only the read privilege for administering that repository. The account does not need the privilege to edit the repository. A party that holds the key can sign repository metadata a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113371 (CVSS 7.1)",
-   "cve": "CVE-2026-113371",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113371",
-   "date": "2026-11-04T20:18:56.297",
-   "summary": "Sonatype Nexus Repository 3 returns the signing passphrase of an APT or YUM repository, through an internal REST endpoint, to a user account that holds only the read privilege for administering that repository. The account does not need the privilege to edit the repository.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113370 (CVSS 7.7)",
-   "cve": "CVE-2026-113370",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113370",
-   "date": "2026-11-04T20:18:56.137",
-   "summary": "Sonatype Nexus Repository 3 contains a SQL injection vulnerability in the optional \"Reindex Search Tables By Pattern\" task. A user who holds the nexus:tasks:create privilege can supply a crafted filter condition that the database runs as SQL. This allows the user to modify data in the Nexus database",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-82033 (CVSS 8.4)",
-   "cve": "CVE-2026-82033",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82033",
-   "date": "2026-11-04T19:17:41.533",
-   "summary": "DeepSeek Harness prior to 0.1.2-alpha.2, and specifically commit 3e24087, contains a missing authentication vulnerability in its web profile HTTP and WebSocket RPC control plane, allowing any local process, including those running as a different OS user, to reach unauthenticated session methods such",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-122148 (CVSS 8.2)",
-   "cve": "CVE-2026-122148",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122148",
-   "date": "2026-11-04T19:17:39.890",
-   "summary": "In Yealink MeetingBoard Pro before 331.320.0.64, the Web management module has a front-end validation bypass vulnerability. An attacker with administrator privileges can modify the page DOM to bypass front-end UI control logic and invoke screenshot-related interfaces, triggering the screenshot funct",
+   "title": "CVE-2026-93389 (CVSS 8.2)",
+   "cve": "CVE-2026-93389",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93389",
+   "date": "2026-11-05T05:18:40.127",
+   "summary": "The LiteSpeed Cache plugin for WordPress is vulnerable to unauthenticated disclosure of sensitive WooCommerce customer data in all versions up to, and including, 7.9.1 With Cache REST enabled (the shipped default cache-rest=1), LiteSpeed stores WooCommerce Store API GET responses (/wc/store/v1/cart ",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -224,81 +88,11 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-122120 (CVSS 9.0)",
-   "cve": "CVE-2026-122120",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122120",
-   "date": "2026-11-04T19:17:39.560",
-   "summary": "In Yealink Plug-in Softwares before 2.35.219.0, there is an unauthorized file write vulnerability under specific scenarios, which may be exploited by attackers to achieve remote code execution.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121932 (CVSS 10.0)",
-   "cve": "CVE-2026-121932",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121932",
-   "date": "2026-11-04T19:17:33.440",
-   "summary": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manipulation of the argument ping_ip/traceroute_ip results in os command injection. The attack may be initiated remotely. The exploit is now public and may be used. ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121931 (CVSS 9.1)",
-   "cve": "CVE-2026-121931",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121931",
-   "date": "2026-11-04T19:17:33.157",
-   "summary": "A security vulnerability has been detected in Linksys WRT54GL 4.30.18. The impacted element is the function system of the file apply.cgi of the component Traceroute Diagnostic Function. Such manipulation of the argument traceroute_ip leads to os command injection. The attack can be launched remotely",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121930 (CVSS 9.1)",
-   "cve": "CVE-2026-121930",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121930",
-   "date": "2026-11-04T19:17:32.883",
-   "summary": "A weakness has been identified in Linksys WRT54GL 4.30.18. The affected element is the function system of the file apply.cgi of the component Ping Diagnostic. This manipulation of the argument ping_ip causes os command injection. The attack can be initiated remotely. The exploit has been made availa",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113783 (CVSS 7.4)",
-   "cve": "CVE-2026-113783",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113783",
-   "date": "2026-11-04T19:17:18.907",
-   "summary": "ESP-IDF is the Espressif Internet of Things (IOT) Development Framework. From 5.2.3 until 5.3.7, 5.4.5, 5.5.6, and 6.0.3, the lwIP DNS resolver's cached-lookup path in dns_lookup() in dns.c copies every cached address into a caller-provided single ip_addr_t output buffer without a length parameter o",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-113782 (CVSS 7.1)",
-   "cve": "CVE-2026-113782",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113782",
-   "date": "2026-11-04T19:17:18.717",
-   "summary": "ESP-IDF is the Espressif Internet of Things (IOT) Development Framework. From 5.2.0 until 5.2.8, 5.3.6, 5.4.5, 5.5.5, and 6.0.3, the OpenThread Border Router Neighbor Discovery packet handler trusts an attacker-controlled ICMPv6 option length while copying into a fixed stack buffer. A host on the sa",
+   "title": "CVE-2026-123012 (CVSS 7.1)",
+   "cve": "CVE-2026-123012",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123012",
+   "date": "2026-11-05T05:18:36.790",
+   "summary": "In Gogs 0.14.3, the Git Smart HTTP authorization layer in internal/route/repo/http.go allows a push when only read access was intended, a different vulnerability than CVE-2026-52810. This occurs because of inconsistency about whether a verb is checked in a case-sensitive manner.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -308,32 +102,572 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-113780 (CVSS 9.3)",
-   "cve": "CVE-2026-113780",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113780",
-   "date": "2026-11-04T19:17:18.493",
-   "summary": "ESF-IDF is the Espressif Internet of Things (IOT) Development Framework. From 5.5.5 until 5.5.6, 6.0.4, and 6.1.1, the esp_tee trap entry in esp_tee_vectors_plic.S and esp_tee_vectors_clic.S saves a caller-controlled register frame through the REE-supplied stack pointer before switching to the trust",
+   "title": "CVE-2026-123010 (CVSS 7.2)",
+   "cve": "CVE-2026-123010",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123010",
+   "date": "2026-11-05T05:18:36.383",
+   "summary": "@twilio-labs/netlify-okta-auth through 1.0.2 relies on an unverified iss claim. This affects an outbound HTTP request to retrieve a public signing key. There may be other impacts in a misconfiguration where oktaUrl isn't set.",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.3"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-107846 (CVSS 9.3)",
-   "cve": "CVE-2026-107846",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107846",
-   "date": "2026-11-04T19:17:18.130",
-   "summary": "bitcoinjs-lib is a JavaScript Bitcoin library for Node.js and browsers. From 2.3.0 until 5.2.1, 6.1.8, and 7.0.2, fastMerkleRoot pads odd Merkle-tree levels by hashing the final node with itself but does not report adjacent duplicate hashes. The affected block-root verifier was introduced as Block.c",
+   "title": "CVE-2026-118193 (CVSS 8.8)",
+   "cve": "CVE-2026-118193",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118193",
+   "date": "2026-11-05T05:18:19.427",
+   "summary": "The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.19.1 via the `donor_default_user_role` parameter. This is due to the `sanitize_option_donor_default_user_role()` function applying only a narrow li",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.3"
+    "CVSS 8.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116617 (CVSS 8.1)",
+   "cve": "CVE-2026-116617",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116617",
+   "date": "2026-11-05T05:18:19.240",
+   "summary": "The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to File Deletion in all versions up to, and including, 1.4.128 The vulnerability exists because `stm_save_user_extra_fields()`, hooked to `personal_options_update`, writes the attacker-controlled `stm_dealer_",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "date": "2026-11-05T05:17:04+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-278",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Want to Rent an Internet Address at the White House?",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "date": "2026-11-05T04:36:17+00:00",
+   "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was g",
+   "kind": "news",
+   "tags": [],
+   "source": "krebs",
+   "source_name": "Krebs on Security"
+  },
+  {
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "date": "2026-11-05T04:31:16+00:00",
+   "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-122992 (CVSS 9.2)",
+   "cve": "CVE-2026-122992",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122992",
+   "date": "2026-11-05T03:17:25.513",
+   "summary": "In G4KLX DStarGateway and F4FXL DStarGateway before 7b75de6, dstarCallsignToAPRS in APRSUtils.cpp has an integer underflow via an empty RS-MS1A sender field.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122323 (CVSS 7.5)",
+   "cve": "CVE-2026-122323",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122323",
+   "date": "2026-11-05T03:17:25.343",
+   "summary": "Kyverno from 1.11.0 before 1.19.2 contains an unbounded decompression vulnerability in FetchSignatureBlob that allows attackers to exhaust memory by supplying highly compressed notary signature layers. Attackers who control registry referrers or signatures can publish small gzip layers that decompre",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122322 (CVSS 7.5)",
+   "cve": "CVE-2026-122322",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122322",
+   "date": "2026-11-05T03:17:25.187",
+   "summary": "Kyverno from 1.11.0 before 1.19.2 contains an unbounded decompression vulnerability in extractStatement that allows remote attackers to exhaust memory by supplying highly compressed attestation layers. Attackers controlling registry referrer artifacts can push gzip predicate layers exceeding maxPayl",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122321 (CVSS 9.1)",
+   "cve": "CVE-2026-122321",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122321",
+   "date": "2026-11-05T03:17:25.023",
+   "summary": "Kyverno 1.18.0 before 1.19.2 contains a signature verification bypass in verifyImages because cached verification results are keyed by the image reference string (such as a tag) rather than bound to the verified digest, so cache hits skip signature and attestation checks. An attacker who can submit ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122320 (CVSS 7.7)",
+   "cve": "CVE-2026-122320",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122320",
+   "date": "2026-11-05T03:17:24.867",
+   "summary": "Kyverno before 1.19.2 contains a missing authorization vulnerability that allows namespaced Policy authors to read resources in other namespaces by templating generate.clone or cloneList namespace values. Attackers can annotate a triggering ConfigMap so the background-controller copies a victim name",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122319 (CVSS 7.5)",
+   "cve": "CVE-2026-122319",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122319",
+   "date": "2026-11-05T03:17:24.700",
+   "summary": "Kyverno before 1.19.2 contains a denial-of-service vulnerability in the In and NotIn operators that allows attackers to crash the policy engine via an unchecked type assertion. Attackers can submit resources whose JMESPath-evaluated values yield arrays of integers, booleans, or mixed types, triggeri",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122318 (CVSS 7.7)",
+   "cve": "CVE-2026-122318",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122318",
+   "date": "2026-11-05T03:17:24.523",
+   "summary": "Kyverno before 1.19.2 contains an authentication bypass in matchCertificateData that skips verifyImages subject and subjectRegExp checks when the signing certificate has no Subject Alternative Name. Attackers holding a leaf certificate from a configured private trust root can omit the SAN, set the e",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122316 (CVSS 8.5)",
+   "cve": "CVE-2026-122316",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122316",
+   "date": "2026-11-05T03:17:24.360",
+   "summary": "Kyverno from 1.17.0 before 1.19.2 contains a missing authorization vulnerability in the mutate-existing background processor that allows namespaced tenants to modify resources outside their namespace. Attackers can create a NamespacedMutatingPolicy targeting Namespace objects or victim-namespace res",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122315 (CVSS 7.5)",
+   "cve": "CVE-2026-122315",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122315",
+   "date": "2026-11-05T03:17:24.200",
+   "summary": "Kyverno before 1.19.2 contains an unchecked type assertion in buildStatementMap that allows unauthenticated attackers to crash the policy engine via crafted attestation statements. Attackers can push an OCI referrer manifest with a non-string type field to bypass image verification under failurePoli",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122314 (CVSS 7.5)",
+   "cve": "CVE-2026-122314",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122314",
+   "date": "2026-11-05T03:17:24.037",
+   "summary": "Kyverno before 1.19.2 contains an unchecked type assertion in its variable-substitution engine that allows users who can submit resources to crash the policy engine. Attackers can submit resources with non-string fields referenced by {{- variable }} shallow substitution in policies, causing a panic ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122313 (CVSS 9.9)",
+   "cve": "CVE-2026-122313",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122313",
+   "date": "2026-11-05T03:17:23.853",
+   "summary": "Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allows namespace-scoped tenants to modify resources in other namespaces through NamespacedMutatingPolicy targetMatchConstraints.expression CEL output lacking namespace checks. Attackers can emit a literal target suc",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122312 (CVSS 7.7)",
+   "cve": "CVE-2026-122312",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122312",
+   "date": "2026-11-05T03:17:23.653",
+   "summary": "Kyverno from 1.19.1 before 1.19.2 contains a namespace isolation bypass in APICall Fetch() in pkg/engine/apicall/apiCall.go because path.Clean treats '?' as a path character, letting the namespace regex match segments inside the query string. Users who can create namespaced policies can supply a URL",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122311 (CVSS 9.9)",
+   "cve": "CVE-2026-122311",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122311",
+   "date": "2026-11-05T03:17:23.497",
+   "summary": "Kyverno from 1.16.0 before 1.19.2 fails to validate path segments in the resource argument of resource.get() and resource.post(), allowing namespaced CEL policies to escape their namespace. Tenants who can create a NamespacedValidatingPolicy can insert .. segments to read and write arbitrary cluster",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122310 (CVSS 9.9)",
+   "cve": "CVE-2026-122310",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122310",
+   "date": "2026-11-05T03:17:23.337",
+   "summary": "Kyverno from 1.19.1 before 1.19.2 validates a Policy's context.apiCall urlPath after cleaning it but executes the raw path, whose fragment or query the Kubernetes client discards. A namespace-scoped user who can create a Policy can hide ../ segments behind # or ? to reach cluster-scoped endpoints wi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122308 (CVSS 8.5)",
+   "cve": "CVE-2026-122308",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122308",
+   "date": "2026-11-05T03:17:23.000",
+   "summary": "Kyverno before 1.19.2 contains an authorization bypass vulnerability in the Generation Handler that allows users with create/update permissions to trigger synchronized generate policies by spoofing internal generate.kyverno.io labels. Attackers can label a ConfigMap as managed-by kyverno with crafte",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122307 (CVSS 7.7)",
+   "cve": "CVE-2026-122307",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122307",
+   "date": "2026-11-05T03:17:22.840",
+   "summary": "Kyverno before 1.19.2 contains a policy bypass vulnerability in the admissionpolicygenerator controller, which folds PolicyExceptions into generated ValidatingAdmissionPolicies while ignoring the --enablePolicyException, --exceptionNamespace, and policy kind gates. Users with namespaced create right",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122306 (CVSS 7.7)",
+   "cve": "CVE-2026-122306",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122306",
+   "date": "2026-11-05T03:17:22.680",
+   "summary": "Kyverno before 1.19.2 contains a denial of service vulnerability that allows namespaced policy authors to exhaust admission controller CPU by submitting pathological wildcard patterns. Attackers can create a Policy with crafted match and exclude names evaluated by ValidateMatchExcludeConflict, pinni",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122305 (CVSS 7.7)",
+   "cve": "CVE-2026-122305",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122305",
+   "date": "2026-11-05T03:17:22.527",
+   "summary": "Kyverno before 1.19.2 contains a denial of service vulnerability in substituteVariablesIfAny that allows low-privileged users to hang the admission webhook via self-referential variable templates. Attackers can create resources whose annotations re-introduce the embedded policy variable, causing unb",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122304 (CVSS 9.9)",
+   "cve": "CVE-2026-122304",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122304",
+   "date": "2026-11-05T03:17:22.353",
+   "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a namespaced CleanupPolicy with apiCall or globalReference co",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122303 (CVSS 9.9)",
+   "cve": "CVE-2026-122303",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122303",
+   "date": "2026-11-05T03:17:22.197",
+   "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace tenants to overwrite resources in other namespaces via NamespacedMutatingPolicy mutate-existing targetMatchConstraints.expression. Attackers can return a CEL map literal fabricating a target with a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122302 (CVSS 9.8)",
+   "cve": "CVE-2026-122302",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122302",
+   "date": "2026-11-05T03:17:22.030",
+   "summary": "Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace admins to create resources beyond their RBAC because generate-rule admission checks verify the controller's permissions, not the author's. Attackers can create a namespaced Policy with generate rules targeting ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122146 (CVSS 7.3)",
+   "cve": "CVE-2026-122146",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122146",
+   "date": "2026-11-05T01:17:22.143",
+   "summary": "A weakness has been identified in 101arrowz fflate up to 0.8.3. This issue affects the function unzipSync of the file esm/index.mjs. This manipulation causes memory corruption. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for att",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-109849 (CVSS 7.1)",
+   "cve": "CVE-2026-109849",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109849",
+   "date": "2026-11-05T01:17:21.490",
+   "summary": "Incorrect privilege assignment issue exists in Hinemos. If this vulnerability is exploited, an attacker who can access the password change API with specific permissions that can be assigned to non-administrative users may change the password of an administrative user.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122051 (CVSS 10.0)",
+   "cve": "CVE-2026-122051",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122051",
+   "date": "2026-11-05T00:17:24.013",
+   "summary": "A flaw has been found in Edimax BR-6208AC 1.32. Affected by this vulnerability is an unknown functionality of the file /goform/mp. Executing a manipulation can lead to command injection. The attack may be launched remotely. The exploit has been published and may be used. The vendor was contacted ear",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122050 (CVSS 7.3)",
+   "cve": "CVE-2026-122050",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122050",
+   "date": "2026-11-05T00:17:23.783",
+   "summary": "A vulnerability was found in Campcodes Complete Sales and Inventory System with Credit Management 1.0. This issue affects some unknown processing of the file /ahira/login.php. Performing a manipulation of the argument branch results in sql injection. The attack is possible to be carried out remotely",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-77372 (CVSS 8.8)",
+   "cve": "CVE-2026-77372",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77372",
+   "date": "2026-11-04T23:17:58.713",
+   "summary": "VeraCrypt provides disk encryption with strong security based on TrueCrypt. Prior to 1.26.30, the Unix, macOS, and FreeBSD serialization paths in src/Platform/Serializer.cpp and src/Volume/VolumePassword.cpp accept untrusted length and count values when deserializing data that can cross from the unp",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76892 (CVSS 8.7)",
+   "cve": "CVE-2026-76892",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76892",
+   "date": "2026-11-04T23:17:58.557",
+   "summary": "tsParticles is a TypeScript library for creating highly customizable particle animations. Prior to 4.3.1, the HTTP mode of @tsparticles/mcp-server calls JSON.parse outside a request-local error boundary in the POST /mcp handler in integrations/mcp-server/src/index.ts. A single unauthenticated malfor",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-76826 (CVSS 7.5)",
+   "cve": "CVE-2026-76826",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76826",
+   "date": "2026-11-04T23:17:58.400",
+   "summary": "tsParticles is a TypeScript library for creating highly customizable particle animations. From 4.0.0 until 4.3.2, the stable publish workflow interpolates steps.release.outputs.body directly into an echo command in Bash source before writing RAW_RELEASE.md. Contributor-controlled shell metacharacter",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-62662 (CVSS 7.7)",
+   "cve": "CVE-2026-62662",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62662",
+   "date": "2026-11-04T23:17:56.940",
+   "summary": "Pocket ID is an OIDC provider that allows users to authenticate with their passkeys to services. From 1.11.0 until 2.10.0, createTokenFromClientCredentials in backend/internal/service/oidc_service.go accepts the client-controlled resource parameter and embeds it directly in the access token aud clai",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-57152 (CVSS 7.1)",
+   "cve": "CVE-2026-57152",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57152",
+   "date": "2026-11-04T23:17:52.163",
+   "summary": "GLPI is a free asset and IT management software package. From 0.85 until 10.0.26 and from 11.0.0 until 11.0.8, under certain conditions, GLPI permission logic could grant a user access to a document without confirming that the document was linked to the targeted item. This could expose the file to a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-54384 (CVSS 9.8)",
+   "cve": "CVE-2026-54384",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54384",
+   "date": "2026-11-04T23:17:48.523",
+   "summary": "VitaFit cloud API before 2026-10-30 contained an authentication bypass vulnerability that allows remote attackers to obtain a full session for a victim's account by submitting a linked Google or Facebook account identifier to the POST /front/login/sns/ endpoint without providing proof of ownership f",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-54382 (CVSS 7.7)",
+   "cve": "CVE-2026-54382",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54382",
+   "date": "2026-11-04T23:17:48.193",
+   "summary": "VitaFit cloud API before 2026-10-30 contained an improper access control vulnerability in its Cognito-issued AWS role that allows authenticated attackers to perform s3:PutObject operations across the entire shared bucket instead of being restricted to their own folder. Attackers can overwrite other ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-54381 (CVSS 7.5)",
+   "cve": "CVE-2026-54381",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54381",
+   "date": "2026-11-04T23:17:48.033",
+   "summary": "VitaFit cloud API before 2026-10-30 contained a misconfigured cloud storage bucket vulnerability that allows unauthenticated attackers to list and download stored files without authentication. Attackers can enumerate the publicly accessible bucket containing 129,947 objects, including 126,881 user-u",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-52848 (CVSS 9.2)",
+   "cve": "CVE-2026-52848",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52848",
+   "date": "2026-11-04T23:17:46.560",
+   "summary": "GLPI is a free asset and IT management software package. From 11.0.0 until 11.0.8, during the login phase, an unauthenticated user could use a crafted URL to skip one-time-password verification, defeating two-factor authentication. This issue is fixed in version 11.0.8.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "date": "2026-11-04T21:31:18+00:00",
+   "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "date": "2026-11-04T20:58:19+00:00",
+   "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
   },
   {
    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
@@ -346,48 +680,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-57853 (CVSS 8.8)",
-   "cve": "CVE-2026-57853",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57853",
-   "date": "2026-11-04T18:17:44.877",
-   "summary": "DataGerry before 3.3.0 contains a server-side template injection vulnerability that allows authenticated attackers with base.docapi.template.add permission to store arbitrary Jinja2 payloads in the template_data field via POST /rest/docapi/template, which is later rendered in a non-sandboxed Jinja2 ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-122118 (CVSS 7.4)",
-   "cve": "CVE-2026-122118",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122118",
-   "date": "2026-11-04T18:17:43.667",
-   "summary": "In certain Yealink products before 2026-04-15, when the Wi-Fi AP function is enabled, a default 8-digit numeric PSK with insufficient strength is used. Attackers can exploit this weakness via brute-force attacks to gain unauthorized network access and intercept Wi-Fi traffic.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121971 (CVSS 8.2)",
-   "cve": "CVE-2026-121971",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121971",
-   "date": "2026-11-04T18:17:43.077",
-   "summary": "The component ScopingHttpClient in Symfony HttpClient merges the options of its default scope (such as auth_bearer or auth_basic) into a request before resolving a relative URL against the base_uri, allowing a network-path reference such as \"//evil.example/steal\" to be sent to another origin togethe",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Cyberattack disrupts blood storage refrigeration systems in France",
    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
    "date": "2026-11-04T18:02:56+00:00",
@@ -396,62 +688,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-76506 (CVSS 7.6)",
-   "cve": "CVE-2026-76506",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76506",
-   "date": "2026-11-04T17:17:37.030",
-   "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121926 (CVSS 7.3)",
-   "cve": "CVE-2026-121926",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121926",
-   "date": "2026-11-04T17:17:35.513",
-   "summary": "A vulnerability was detected in yezhihao jt808-server up to a07f68c466b560b97ef41edb8a4966469abdf83e. Affected is the function WebMvcConfig.addInterceptors of the component Web Management API. The manipulation results in missing authentication. The attack may be launched remotely. The exploit is now",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119749 (CVSS 7.5)",
-   "cve": "CVE-2026-119749",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119749",
-   "date": "2026-11-04T17:17:34.930",
-   "summary": "The GetPaid plugin for WordPress before 2.8.63 contains an improper input validation vulnerability that allows unauthenticated attackers to bypass payment processing by submitting a negative item quantity on a public payment form. Attackers can exploit the unchecked quantity value in process_item() ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119747 (CVSS 7.1)",
-   "cve": "CVE-2026-119747",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119747",
-   "date": "2026-11-04T17:17:34.607",
-   "summary": "The GetPaid plugin for WordPress before 2.8.63 contains an incorrect authorization vulnerability where the check_post_permissions() method in includes/api/class-getpaid-rest-posts-controller.php maps REST operations to generic WordPress post capabilities instead of enforcing the plugin's manage_invo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
@@ -484,188 +720,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-92704 (CVSS 8.3)",
-   "cve": "CVE-2026-92704",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92704",
-   "date": "2026-11-04T16:17:55.097",
-   "summary": "SharpEmu is an experimental PlayStation 5 emulator for Windows and Linux. In version 0.0.3-release.3 and earlier, the repository-provided debugger frontend tooling is vulnerable while running. This tooling is not included in the release archives. The frontend exposes an HTTP API on 127.0.0.1:8765 wi",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121966 (CVSS 8.7)",
-   "cve": "CVE-2026-121966",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121966",
-   "date": "2026-11-04T16:17:50.107",
-   "summary": "Traefik 2.x before 2.11.60 and 3.x before 3.7.16 sends ForwardAuth subrequests (and, in 3.7, Ingress NGINX auth-url requests) through an auth-server connection pool shared by all clients, exposing connection-bound NTLM or Negotiate authentication. An unauthenticated attacker can reuse another user's",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121964 (CVSS 7.5)",
-   "cve": "CVE-2026-121964",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121964",
-   "date": "2026-11-04T16:17:49.683",
-   "summary": "FreeRDP before 3.32.2 contains a heap-based buffer overflow in the RD Gateway RPC client, where rpc_client_recv_fragment writes BIND_ACK and ALTER_CONTEXT_RESP fragments into a persistent PDU stream after checking only total capacity rather than remaining capacity from the current stream position. A",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121962 (CVSS 8.1)",
-   "cve": "CVE-2026-121962",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121962",
-   "date": "2026-11-04T16:17:49.320",
-   "summary": "FreeRDP before 3.32.2 contains a heap buffer overflow in transport_default_read_pdu when handling partial Early User Authorization reads during PROTOCOL_HYBRID_EX CredSSP. A malicious RDP server can split the four-byte EUA result into short reads that advance the stream pointer beyond the 16 KiB all",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121960 (CVSS 7.5)",
-   "cve": "CVE-2026-121960",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121960",
-   "date": "2026-11-04T16:17:48.970",
-   "summary": "FreeRDP before 3.32.2 contains a denial of service vulnerability in the NLA-enabled shadow server when a CredSSP TSRequest omits negoTokens. Unauthenticated attackers can send a crafted seven-byte TSRequest containing only the version field to trigger a fatal WINPR_ASSERT and abort the server proces",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121958 (CVSS 8.8)",
-   "cve": "CVE-2026-121958",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121958",
-   "date": "2026-11-04T16:17:48.610",
-   "summary": "FreeRDP through 3.32.1 has a heap out-of-bounds write in the RDPGFX client because the delete_surface callback truncates surface hash keys to 16 bits, leaving the surface table inconsistent so HashTable_GetKeys writes past its allocated key array. A malicious or man-in-the-middle RDP server can expl",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121957 (CVSS 7.5)",
-   "cve": "CVE-2026-121957",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121957",
-   "date": "2026-11-04T16:17:48.423",
-   "summary": "FreeRDP before 3.32.2 contains a use-after-free vulnerability that allows malicious RDP servers to corrupt client memory by racing the RDPGFX ResetGraphics handler against the planar bitmap decoder. Attackers can send ResetGraphics while concurrently sending compressed bitmaps of 32 bpp or more to t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121956 (CVSS 7.5)",
-   "cve": "CVE-2026-121956",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121956",
-   "date": "2026-11-04T16:17:48.250",
-   "summary": "FreeRDP before 3.32.2 contains a double free in the WinPR Kerberos SSPI retrieveSomeTgt function, which installs the krb5 default realm into a target principal that has an empty realm without taking ownership of it. Unauthenticated remote clients can send a crafted NLA/CredSSP u2u TGT request whose ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121955 (CVSS 7.5)",
-   "cve": "CVE-2026-121955",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121955",
-   "date": "2026-11-04T16:17:48.070",
-   "summary": "FreeRDP before 3.32.2 contains a use-after-free vulnerability in Emulate_SCardReleaseContext that frees the emulated SCardContext before its worker thread is cancelled and joined. A malicious server can send ESTABLISHCONTEXT, a long-timeout GETSTATUSCHANGE, then RELEASECONTEXT smartcard IRPs to corr",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121953 (CVSS 9.8)",
-   "cve": "CVE-2026-121953",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121953",
-   "date": "2026-11-04T16:17:47.717",
-   "summary": "FreeRDP before 3.32.2 has a use-after-free in the client's rdpgfx dynamic virtual channel: a duplicate-name channel with a new ChannelId overwrites the listener's single callback slot, which rdpgfx_on_close frees without clearing. A malicious RDP server can open and close such a channel, then send a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121952 (CVSS 9.8)",
-   "cve": "CVE-2026-121952",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121952",
-   "date": "2026-11-04T16:17:47.530",
-   "summary": "FreeRDP before 3.32.2 has an out-of-bounds write in the proxy because rdp_read_bitmap_cache_v2_capability_set rejects only numCellCaches values above 5, yet the bitmap cache v2 cell array is later accessed at fixed indices 0 through 4. A client connecting to the proxy can declare fewer than five cel",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121951 (CVSS 7.5)",
-   "cve": "CVE-2026-121951",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121951",
-   "date": "2026-11-04T16:17:47.350",
-   "summary": "FreeRDP 3.0.0 before 3.32.2 server-side RDP peer input parsing skips the six-byte body of a slow-path input event with an unknown message type without checking it lies within the packet's declared length, causing a WinPR stream assertion failure. A remote RDP client with an active session can send a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109518 (CVSS 7.7)",
-   "cve": "CVE-2026-109518",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109518",
-   "date": "2026-11-04T16:17:33.010",
-   "summary": "On Debian, Ubuntu, and derivative Linux distributions, an on-path attacker who can manipulate the HTTP traffic (including a malicious mirror or proxy) between an APT client and an archive server triggered by a package install can trick the client into installing an attacker-controlled unverified pac",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
    "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
    "date": "2026-11-04T16:06:43+00:00",
@@ -684,20 +738,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-122006 (CVSS 9.8)",
-   "cve": "CVE-2026-122006",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122006",
-   "date": "2026-11-04T15:17:42.940",
-   "summary": "The activestorage gem before 8.1.4.1 for Ruby on Rails, when ImageMagick attachment processing occurs, can allow server read and write operations (e.g., reading secret_key_base) because the ImageMagick analyzer runs when a file is attached, and there is not an ImageMagick security policy to block un",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
@@ -723,7 +763,7 @@
    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
    "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
    "date": "2026-11-04T14:27:52+00:00",
-   "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScrip",
+   "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaS",
    "kind": "news",
    "tags": [],
    "source": "thn",
@@ -942,16 +982,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Barracuda warns of critical flaws allowing root access to devices",
-   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-   "date": "2026-11-03T15:06:16+00:00",
-   "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
@@ -1182,26 +1212,6 @@
    "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
    "date": "2026-10-31T12:01:56+00:00",
    "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials,",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "date": "2026-10-31T08:27:43+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS scor",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-   "date": "2026-10-31T05:33:41+00:00",
-   "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbs",
    "kind": "news",
    "tags": [],
    "source": "thn",
@@ -1814,16 +1824,6 @@
    "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
    "date": "2026-09-25T21:44:40+00:00",
    "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victim",
-   "kind": "news",
-   "tags": [],
-   "source": "krebs",
-   "source_name": "Krebs on Security"
-  },
-  {
-   "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-   "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-   "date": "2026-09-16T18:14:22+00:00",
-   "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides",
    "kind": "news",
    "tags": [],
    "source": "krebs",
