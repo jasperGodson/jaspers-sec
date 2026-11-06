@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:30:41.784513+00:00",
+ "updated": "2026-11-06T06:12:18.280905+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,114 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-119433 (CVSS 7.7)",
+   "cve": "CVE-2026-119433",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119433",
+   "date": "2026-11-06T05:18:20.970",
+   "summary": "A server-side request forgery (SSRF) vulnerability exists in an undocumented API endpoint of Foxit Workspace due to insufficient validation of user-supplied URL and network parameters. A remote attacker could exploit this issue to induce the server to send requests to arbitrary internal or external ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-119432 (CVSS 8.7)",
+   "cve": "CVE-2026-119432",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119432",
+   "date": "2026-11-06T05:18:20.830",
+   "summary": "A stored cross-site scripting (XSS) vulnerability exists in the Foxit Workspace's file share preview functionality. An attacker could upload a crafted file and share it with a victim. When the victim opens or previews the file, the embedded script executes in the application's origin, potentially ac",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-119431 (CVSS 7.7)",
+   "cve": "CVE-2026-119431",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119431",
+   "date": "2026-11-06T05:18:20.677",
+   "summary": "A server-side request forgery (SSRF) vulnerability exists in Foxit Workspace's file-upload functionality. Insufficient validation of user-supplied links may allow a remote attacker to induce the server to access internal resources and return their contents, potentially resulting in sensitive informa",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-77299 (CVSS 7.5)",
+   "cve": "CVE-2026-77299",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77299",
+   "date": "2026-11-06T02:17:52.893",
+   "summary": "Regexp2 is a feature-rich RegExp engine for Go. Prior to version 2.3.0, when regexp2 compiles and matches a pattern containing a large fixed-count quantifier applied to a zero-width subexpression — e.g. (?:){50000000} — the match engine executes the empty loop body m-1 times, pushing two integers on",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-63774 (CVSS 9.0)",
+   "cve": "CVE-2026-63774",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63774",
+   "date": "2026-11-06T01:17:50.470",
+   "summary": "Insufficient input validation in the PowerSYSTEM Center report designer allows an authenticated user to execute unauthorized SQL commands.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-63017 (CVSS 9.0)",
+   "cve": "CVE-2026-63017",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63017",
+   "date": "2026-11-06T01:17:50.297",
+   "summary": "Incorrect authorization in PowerSYSTEM Center allows a low-privileged, authenticated user to access resources normally limited to administrators.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2025-71458 (CVSS 7.5)",
+   "cve": "CVE-2025-71458",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71458",
+   "date": "2026-11-06T01:17:47.737",
+   "summary": "FTS3 Web Monitoring (fts-monitoring) versions 3.12.0 through 3.13.2 and 3.14.0 contain an unauthenticated sql injection vulnerability in the /linkinfo endpoint handled by get_linkinfo. Remote attackers can inject SQL through the source_se and dest_se query parameters to perform blind injection and r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "date": "2026-11-06T00:56:44+00:00",
+   "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
   {
    "title": "CVE-2026-93424 (CVSS 7.5)",
    "cve": "CVE-2026-93424",
@@ -532,104 +640,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-44875 (CVSS 7.8)",
-   "cve": "CVE-2026-44875",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44875",
-   "date": "2026-11-05T20:17:58.457",
-   "summary": "In HPE Cray Programming Environment versions 25.03 and 25.09, prior to 26.03, the method that CPE is deployed on HPCM potentially allows elevated access by a local unprivileged user.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116790 (CVSS 9.1)",
-   "cve": "CVE-2026-116790",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116790",
-   "date": "2026-11-05T20:17:46.557",
-   "summary": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, FreeSWITCH's inbound ICE handling accepted every connectivity check without cryptographically valida",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116789 (CVSS 7.4)",
-   "cve": "CVE-2026-116789",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116789",
-   "date": "2026-11-05T20:17:46.397",
-   "summary": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, dtls_state_setup() compared a peer certificate with the SDP a=fingerprint only when FreeSWITCH was t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116788 (CVSS 8.2)",
-   "cve": "CVE-2026-116788",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116788",
-   "date": "2026-11-05T20:17:46.240",
-   "summary": "FreeSWITCH is an open-source software telecommunications platform. Before version 1.11.2, an integer underflow in  switch_xml_decode()  can cause an undersized heap allocation when an XML document declares an entity with an empty replacement value. Subsequent copying overruns the allocated buffer. A",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116787 (CVSS 7.5)",
-   "cve": "CVE-2026-116787",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116787",
-   "date": "2026-11-05T20:17:46.073",
-   "summary": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, mod_event_socket used an unauthenticated Content-Length value directly as the allocation size for an",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116786 (CVSS 8.8)",
-   "cve": "CVE-2026-116786",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116786",
-   "date": "2026-11-05T20:17:45.900",
-   "summary": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, sofia_handle_sip_i_refer() placed raw Refer-To URI parameters and headers inside a sip_invite_params",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116785 (CVSS 9.1)",
-   "cve": "CVE-2026-116785",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116785",
-   "date": "2026-11-05T20:17:45.730",
-   "summary": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, ws_read_frame() decoded a WebSocket frame's 64-bit extended payload length with a 32-bit byte swap a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
    "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
    "date": "2026-11-05T20:15:08+00:00",
@@ -914,16 +924,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
    "date": "2026-11-04T16:00:18+00:00",
    "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "date": "2026-11-04T15:00:10+00:00",
-   "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used b",
    "kind": "news",
    "tags": [],
    "source": "bleeping",
