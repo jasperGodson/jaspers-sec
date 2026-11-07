@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:49:48.863568+00:00",
+ "updated": "2026-11-07T19:20:03.230933+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,208 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-124059 (CVSS 9.1)",
+   "cve": "CVE-2026-124059",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124059",
+   "date": "2026-11-07T19:17:28.480",
+   "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124058 (CVSS 9.1)",
+   "cve": "CVE-2026-124058",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124058",
+   "date": "2026-11-07T19:17:28.263",
+   "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be launched remotely. The exploit has been made available t",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124057 (CVSS 9.1)",
+   "cve": "CVE-2026-124057",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124057",
+   "date": "2026-11-07T18:17:21.607",
+   "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be initiated remotely. The exploit has been released to ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123991 (CVSS 7.3)",
+   "cve": "CVE-2026-123991",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123991",
+   "date": "2026-11-07T17:16:34.420",
+   "summary": "A vulnerability was detected in DataEase up to 2.10.27. Affected by this vulnerability is the function WhitelistUtils.endsWithAny of the file WhitelistUtils.java of the component Authentication Filter. Performing a manipulation of the argument File results in unrestricted upload. It is possible to i",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123990 (CVSS 7.3)",
+   "cve": "CVE-2026-123990",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123990",
+   "date": "2026-11-07T17:16:34.163",
+   "summary": "A security vulnerability has been detected in DataEase up to 2.10.27/3.1.0. Affected is the function ExtWhere2Str.extWhere2sqlOjb of the file engine/trans/ExtWhere2Str.java of the component Chart Data Handler. Such manipulation of the argument operator leads to sql injection. The attack may be perfo",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "date": "2026-11-07T15:25:35+00:00",
+   "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-124318 (CVSS 7.2)",
+   "cve": "CVE-2026-124318",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124318",
+   "date": "2026-11-07T15:17:16.270",
+   "summary": "Treeio through 2.0 contains an insecure deserialization vulnerability in UpdateRecord.get_format_strings and ModuleSetting.loads that allows staff users to execute code via unverified pickle data. Attackers can store a crafted base64 pickle payload in an UpdateRecord format_strings field through the",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123966 (CVSS 10.0)",
+   "cve": "CVE-2026-123966",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123966",
+   "date": "2026-11-07T14:17:01.800",
+   "summary": "A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the function saveParentControlInfo of the file /goform/saveParentControlInfo. This manipulation of the argument deviceId causes heap-based buffer overflow. The attack is possible to be carried out remotely. The explo",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120984 (CVSS 9.1)",
+   "cve": "CVE-2026-120984",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120984",
+   "date": "2026-11-07T14:17:01.580",
+   "summary": "A flaw was found in the Keycloak server's client management component. When a client is created or imported with authorization services enabled, the system fails to properly clear an internal session attribute used during the setup process. This allows an authenticated attacker with client managemen",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "date": "2026-11-07T14:10:19+00:00",
+   "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without deliver",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-123963 (CVSS 7.3)",
+   "cve": "CVE-2026-123963",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123963",
+   "date": "2026-11-07T13:16:38.013",
+   "summary": "A security vulnerability has been detected in OpenBMB Internet of Agents up to 9d78e88e47160eb42ee1ee8538c05e1c2c47877a. The impacted element is the function register of the file im_server/app.py of the component Agent Registry. Such manipulation of the argument desc/name leads to missing authentica",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122041 (CVSS 9.1)",
+   "cve": "CVE-2026-122041",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122041",
+   "date": "2026-11-07T13:16:36.067",
+   "summary": "The Checkout Field Editor for WooCommerce (Pro) plugin for WordPress is vulnerable to unauthorized deletion of arbitrary attachments due to a missing capability/ownership check in the ajax_remove_uploaded() function in versions up to, and including, 3.8.0. The handler is registered for both wp_ajax ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120841 (CVSS 8.8)",
+   "cve": "CVE-2026-120841",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120841",
+   "date": "2026-11-07T13:16:35.130",
+   "summary": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Magepeople inc. WpTravelly tour-booking-manager allows PHP Local File Inclusion.This issue affects WpTravelly: from n/a through 2.3.8.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120839 (CVSS 8.8)",
+   "cve": "CVE-2026-120839",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120839",
+   "date": "2026-11-07T13:16:34.973",
+   "summary": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Magepeople inc. WpTravelly tour-booking-manager allows PHP Local File Inclusion.This issue affects WpTravelly: from n/a through 2.3.8.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-119156 (CVSS 7.2)",
+   "cve": "CVE-2026-119156",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119156",
+   "date": "2026-11-07T13:16:34.510",
+   "summary": "The Download Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'wpdm_reg[first_name], wpdm_reg[last_name], wpdm_reg[user_login]' parameter in all versions up to, and including, 7.5.9 due to insufficient input sanitization and output escaping. This makes it possible fo",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-93766 (CVSS 7.2)",
    "cve": "CVE-2026-93766",
@@ -438,188 +640,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-119155 (CVSS 7.5)",
-   "cve": "CVE-2026-119155",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119155",
-   "date": "2026-11-07T10:17:07.150",
-   "summary": "The wpForo Forum plugin for WordPress is vulnerable to time-based SQL Injection via the 'href[locale]' parameter in all versions up to, and including, 3.2.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possibl",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107616 (CVSS 7.5)",
-   "cve": "CVE-2026-107616",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107616",
-   "date": "2026-11-07T10:17:06.593",
-   "summary": "The Amelia plugin for WordPress is vulnerable to unauthorized access of attendee data due to a missing authorization check on the GetEventAttendeesCommandHandler::handle() function in versions up to, and including, 9.9.1. The handler only enforces the broad `amelia_read_events` capability — which th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-103900 (CVSS 8.1)",
-   "cve": "CVE-2026-103900",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103900",
-   "date": "2026-11-07T10:17:05.140",
-   "summary": "The WPJAM Basic plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 7.1 This is due to the WPJAM_User_Signup::signup() function unpacking attacker-supplied `data[args]` from the AJAX POST body and merging it via PHP array union into the payload passed to WPJA",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-66669 (CVSS 8.8)",
-   "cve": "CVE-2026-66669",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66669",
-   "date": "2026-11-07T09:17:16.063",
-   "summary": "Cross-Site Request Forgery (CSRF) vulnerability in Suplugins Superb Addons: Blocks, Patterns &amp; Theme Designer superb-blocks allows Cross Site Request Forgery.This issue affects Superb Addons: Blocks, Patterns &amp; Theme Designer: from n/a through 4.2.4.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123958 (CVSS 9.9)",
-   "cve": "CVE-2026-123958",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123958",
-   "date": "2026-11-07T09:17:15.177",
-   "summary": "A vulnerability was identified in TOTOLINK CA300-PoE 6.2c.884. The affected element is the function setLanConfig of the file /cgi-bin/cstecgi.cgi. Such manipulation of the argument lanDns/lanSecDns/langType leads to buffer overflow. It is possible to launch the attack remotely. The exploit is public",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123957 (CVSS 9.9)",
-   "cve": "CVE-2026-123957",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123957",
-   "date": "2026-11-07T09:17:14.890",
-   "summary": "A vulnerability was determined in TOTOLINK CA300-PoE 6.2c.884. Impacted is the function setIpQosRules of the file /cgi-bin/cstecgi.cgi. This manipulation of the argument ipStart causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-104738 (CVSS 8.1)",
-   "cve": "CVE-2026-104738",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104738",
-   "date": "2026-11-07T09:17:11.253",
-   "summary": "The Advanced Form Integration — Connect Forms to 300+ Apps plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.10.2 via deserialization of untrusted input . This makes it possible for unauthenticated attackers to inject a PHP Object. No known POP chain ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123881 (CVSS 7.3)",
-   "cve": "CVE-2026-123881",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123881",
-   "date": "2026-11-07T08:16:26.000",
-   "summary": "A vulnerability was found in OpenBMB Internet of Agents up to 9d78e88e47160eb42ee1ee8538c05e1c2c47877a. This issue affects the function fetch_chat_record of the file im_server/app.py of the component Message Handler. The manipulation of the argument comm_id results in improper access controls. The a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-87112 (CVSS 8.8)",
-   "cve": "CVE-2026-87112",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87112",
-   "date": "2026-11-07T07:17:05.090",
-   "summary": "The QA Assistants – Driven by data plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 5.3.0 via the 'dlevent_ver' parameter. This is due to unrestricted PHP deserialization via wrap_unserialize_static() calling unserialize() without an allowed_classes re",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-122037 (CVSS 7.2)",
-   "cve": "CVE-2026-122037",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122037",
-   "date": "2026-11-07T07:17:04.540",
-   "summary": "The AgenWebsite Shipping – Plugin Ongkos Kirim & Generate Resi Otomatis Semua Kurir Indonesia plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'zipcode' parameter in all versions up to, and including, 9.2.41 due to insufficient input sanitization and output escaping. This ma",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120537 (CVSS 7.2)",
-   "cve": "CVE-2026-120537",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120537",
-   "date": "2026-11-07T07:17:04.057",
-   "summary": "The TranslatePress – Translate Multilingual sites with AI Translation plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment (storage); originals / language / original_language (exfiltration from endpoint)' parameter in all versions up to, and including, 3.3.8 due to insu",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116558 (CVSS 7.2)",
-   "cve": "CVE-2026-116558",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116558",
-   "date": "2026-11-07T07:17:02.590",
-   "summary": "The Unlimited Elements for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<title>/<description> inside the attacker-controlled RSS feed body' parameter in all versions up to, and including, 2.0.26 due to insufficient input sanitization and output escaping. This ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115811 (CVSS 7.2)",
-   "cve": "CVE-2026-115811",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115811",
-   "date": "2026-11-07T07:17:02.420",
-   "summary": "The Strong Testimonials plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'star_rating' parameter in all versions up to, and including, 3.3.16 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
    "date": "2026-11-07T06:44:17+00:00",
@@ -868,26 +888,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
    "date": "2026-11-05T20:15:08+00:00",
    "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-   "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-   "date": "2026-11-05T19:24:26+00:00",
-   "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-   "date": "2026-11-05T17:45:29+00:00",
-   "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
    "kind": "news",
    "tags": [],
    "source": "bleeping",
