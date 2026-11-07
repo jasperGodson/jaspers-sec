@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T05:40:30.367574+00:00",
+ "updated": "2026-11-07T12:49:48.863568+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,11 +60,11 @@
  ],
  "items": [
   {
-   "title": "CVE-2026-75590 (CVSS 7.2)",
-   "cve": "CVE-2026-75590",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75590",
-   "date": "2026-11-07T05:19:01.820",
-   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to access internal network resources and obtain sensitive information due to server-side request forgery. A protection that blocks requests to internal addresses can be bypassed, so the server could be made to contact internal s",
+   "title": "CVE-2026-93766 (CVSS 7.2)",
+   "cve": "CVE-2026-93766",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93766",
+   "date": "2026-11-07T12:17:47.280",
+   "summary": "The Happyforms Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'happyforms_client_referer' parameter in all versions up to, and including, 1.38.9 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject a",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -74,123 +74,95 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-19128 (CVSS 7.5)",
-   "cve": "CVE-2026-19128",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19128",
-   "date": "2026-11-07T05:19:00.717",
-   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to send unauthorized requests from the system due to server-side request forgery. This could be used to enumerate network resources or to support further attacks.",
+   "title": "CVE-2026-93755 (CVSS 7.2)",
+   "cve": "CVE-2026-93755",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93755",
+   "date": "2026-11-07T12:17:47.120",
+   "summary": "The Happyforms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via spoofable client IP headers in versions up to, and including, 1.38.9. This is due to the happyforms_get_client_ip() function reading raw HTTP_CLIENT_IP and HTTP_X_FORWARDED_FOR request headers without any validation",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.5"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-19121 (CVSS 8.3)",
-   "cve": "CVE-2026-19121",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19121",
-   "date": "2026-11-07T05:18:59.963",
-   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to gain unauthorized access due to improper authorization. Tenant context is not sufficiently verified against the authenticated user, which could allow access to another tenant's resources.",
+   "title": "CVE-2026-93429 (CVSS 7.2)",
+   "cve": "CVE-2026-93429",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93429",
+   "date": "2026-11-07T12:17:46.967",
+   "summary": "The VikBooking Hotel Booking Engine & PMS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'guests[][][documents]' Parameter in all versions up to, and including, 1.8.17 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attack",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.3"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-18838 (CVSS 9.4)",
-   "cve": "CVE-2026-18838",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18838",
-   "date": "2026-11-07T05:18:59.803",
-   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and modify API configurations due to improper authentication. Identity information supplied in requests is not sufficiently verified, which could allow a caller to impersonate another user.",
+   "title": "CVE-2026-123418 (CVSS 7.2)",
+   "cve": "CVE-2026-123418",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123418",
+   "date": "2026-11-07T12:17:45.933",
+   "summary": "The Church Admin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'lat' parameter in all versions up to, and including, 5.1.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in p",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.4"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-18836 (CVSS 9.3)",
-   "cve": "CVE-2026-18836",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18836",
-   "date": "2026-11-07T05:18:59.597",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to server-side request forgery. The affected component can be made to send requests to unintended destinations and return the response to the attacker.",
+   "title": "CVE-2026-122231 (CVSS 7.2)",
+   "cve": "CVE-2026-122231",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122231",
+   "date": "2026-11-07T12:17:45.763",
+   "summary": "The WS Form LITE – Drag & Drop Contact Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'field_<id>[0][0]' parameter in all versions up to, and including, 1.12.18 due to insufficient input sanitization and output escaping. This makes it possible for unauthentica",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.3"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-18535 (CVSS 9.6)",
-   "cve": "CVE-2026-18535",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18535",
-   "date": "2026-11-07T05:18:59.120",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 are vulnerable to a Regular Expression Denial of Service (ReDoS) attack and to improper neutralisation of wildcard query operators.",
+   "title": "CVE-2026-121765 (CVSS 7.1)",
+   "cve": "CVE-2026-121765",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121765",
+   "date": "2026-11-07T12:17:45.110",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Cozmoslabs TranslatePress translatepress-multilingual allows Stored XSS.This issue affects TranslatePress: from n/a through 3.3.8.",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.6"
+    "CVSS 7.1"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17411 (CVSS 7.6)",
-   "cve": "CVE-2026-17411",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17411",
-   "date": "2026-11-07T05:18:58.650",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to view, add, modify, or delete information in the back-end database due to SQL injection. Input is not properly neutralized before it is used in database queries.",
+   "title": "CVE-2026-119183 (CVSS 7.2)",
+   "cve": "CVE-2026-119183",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119183",
+   "date": "2026-11-07T12:17:44.197",
+   "summary": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<form field mapped to a post meta key, e.g. lst_cost>' parameter in all versions up to, and including, 3.6.8 due to insufficient input sanitization and output escaping. This ma",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.6"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17410 (CVSS 9.9)",
-   "cve": "CVE-2026-17410",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410",
-   "date": "2026-11-07T05:18:58.410",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17409 (CVSS 9.4)",
-   "cve": "CVE-2026-17409",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17409",
-   "date": "2026-11-07T05:18:58.157",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute unauthorized administrative operations and obtain sensitive information due to improper handling of case sensitivity. Access controls are not applied consistently to all variations of a ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17408 (CVSS 9.8)",
-   "cve": "CVE-2026-17408",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17408",
-   "date": "2026-11-07T05:18:57.917",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitrary code due to improper neutralization of special elements in an OS command.",
+   "title": "CVE-2026-119075 (CVSS 9.8)",
+   "cve": "CVE-2026-119075",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119075",
+   "date": "2026-11-07T12:17:44.033",
+   "summary": "The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege escalation due to a missing allow-list check in the FormHandler::validate_checkout_fields() function in versions up to, and including, 1.1.4 The My Account registration path (validate_fields()) validates a submitte",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -200,235 +172,11 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17407 (CVSS 8.5)",
-   "cve": "CVE-2026-17407",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17407",
-   "date": "2026-11-07T05:18:57.670",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to SQL injection. Values received during sign-in are not properly neutralized before being used in a database query, which could allow SQL comman",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17406 (CVSS 8.5)",
-   "cve": "CVE-2026-17406",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17406",
-   "date": "2026-11-07T05:18:57.427",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery. Address checks can be bypassed, which could allow the server to reach destinations that should be blocked.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17405 (CVSS 8.8)",
-   "cve": "CVE-2026-17405",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17405",
-   "date": "2026-11-07T05:18:57.187",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization. Access checks on keystore objects do not confirm that the requesting user is permitted to read them, which co",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17404 (CVSS 8.5)",
-   "cve": "CVE-2026-17404",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17404",
-   "date": "2026-11-07T05:18:56.937",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17403 (CVSS 9.0)",
-   "cve": "CVE-2026-17403",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17403",
-   "date": "2026-11-07T05:18:56.690",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17402 (CVSS 9.9)",
-   "cve": "CVE-2026-17402",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17402",
-   "date": "2026-11-07T05:18:56.460",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary commands due to OS command injection. User-supplied input is not properly neutralized before it is passed to the operating system, which could allow commands to r",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17401 (CVSS 7.2)",
-   "cve": "CVE-2026-17401",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17401",
-   "date": "2026-11-07T05:18:56.237",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to a stack-based buffer overflow.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17400 (CVSS 7.7)",
-   "cve": "CVE-2026-17400",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17400",
-   "date": "2026-11-07T05:18:56.020",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17399 (CVSS 9.9)",
-   "cve": "CVE-2026-17399",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17399",
-   "date": "2026-11-07T05:18:55.790",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to insufficient validation of uploaded content. Content uploaded to the product is not sufficiently checked before it is processed, which could allow cod",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17398 (CVSS 8.5)",
-   "cve": "CVE-2026-17398",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17398",
-   "date": "2026-11-07T05:18:55.557",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17397 (CVSS 8.5)",
-   "cve": "CVE-2026-17397",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17397",
-   "date": "2026-11-07T05:18:55.330",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17396 (CVSS 9.6)",
-   "cve": "CVE-2026-17396",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17396",
-   "date": "2026-11-07T05:18:55.103",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17394 (CVSS 9.6)",
-   "cve": "CVE-2026-17394",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17394",
-   "date": "2026-11-07T05:18:54.617",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improperly controlled modification of object attributes. A user-supplied value could change an access-related setting that should be controlled ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17392 (CVSS 9.9)",
-   "cve": "CVE-2026-17392",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17392",
-   "date": "2026-11-07T05:18:54.113",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain unauthorized administrative access to other tenants due to LDAP injection. User-supplied input is not properly neutralized in directory queries, which could change the query a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17388 (CVSS 8.5)",
-   "cve": "CVE-2026-17388",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17388",
-   "date": "2026-11-07T05:18:53.253",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17387 (CVSS 7.7)",
-   "cve": "CVE-2026-17387",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17387",
-   "date": "2026-11-07T05:18:53.060",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-17386 (CVSS 8.1)",
-   "cve": "CVE-2026-17386",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17386",
-   "date": "2026-11-07T05:18:52.857",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 could allow a remote attacker to gain full administrative control due to the use of a cryptographically weak pseudo-random number generator.",
+   "title": "CVE-2026-118267 (CVSS 8.1)",
+   "cve": "CVE-2026-118267",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118267",
+   "date": "2026-11-07T12:17:43.867",
+   "summary": "The WP Data Access – App Builder for Tables, Forms, Dashboards, Charts & Maps plugin for WordPress is vulnerable to Incorrect Authorization leading to Privilege Escalation in all versions up to, and including, 5.5.89 This is due to the plugin's write endpoints (`wpda/app/update`, `wpda/app/delete`, ",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -438,186 +186,448 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17385 (CVSS 8.5)",
-   "cve": "CVE-2026-17385",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17385",
-   "date": "2026-11-07T05:18:52.683",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "title": "CVE-2026-118066 (CVSS 9.1)",
+   "cve": "CVE-2026-118066",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118066",
+   "date": "2026-11-07T12:17:43.717",
+   "summary": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Account Takeover in all versions up to, and including, 5.7.6. This is due to the `OsModel::build_conditions_query()` function in `lib/models/model.php` com",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.5"
+    "CVSS 9.1"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17384 (CVSS 8.5)",
-   "cve": "CVE-2026-17384",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17384",
-   "date": "2026-11-07T05:18:52.500",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 could allow a remote authenticated attacker to obtain sensitive information due to a server-side request forgery vulnerability.",
+   "title": "CVE-2026-116751 (CVSS 7.5)",
+   "cve": "CVE-2026-116751",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116751",
+   "date": "2026-11-07T12:17:43.070",
+   "summary": "The Booking for Appointments and Events Calendar – Amelia Pro plugin for WordPress is vulnerable to time-based SQL Injection via the 'tag[] (array KEYS)' parameter in all versions up to, and including, 9.9.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparati",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.5"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17383 (CVSS 7.7)",
-   "cve": "CVE-2026-17383",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17383",
-   "date": "2026-11-07T05:18:52.323",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to broken object-level authorization.",
+   "title": "CVE-2026-116537 (CVSS 7.2)",
+   "cve": "CVE-2026-116537",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116537",
+   "date": "2026-11-07T12:17:42.913",
+   "summary": "The Link Library plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'link_description' parameter in all versions up to, and including, 7.10.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary we",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.7"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17382 (CVSS 8.5)",
-   "cve": "CVE-2026-17382",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17382",
-   "date": "2026-11-07T05:18:52.133",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to a path traversal vulnerability.",
+   "title": "CVE-2026-115548 (CVSS 7.2)",
+   "cve": "CVE-2026-115548",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115548",
+   "date": "2026-11-07T12:17:42.747",
+   "summary": "The Quttera ThreatSign – Web Malware Scanner for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'HTTP_USER_AGENT' parameter in all versions up to, and including, 4.1.0.48 due to insufficient input sanitization and output escaping. This makes it possible for unaut",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.5"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17381 (CVSS 8.5)",
-   "cve": "CVE-2026-17381",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17381",
-   "date": "2026-11-07T05:18:51.953",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization validation using user-controlled keys.",
+   "title": "CVE-2026-111370 (CVSS 7.2)",
+   "cve": "CVE-2026-111370",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111370",
+   "date": "2026-11-07T12:17:42.587",
+   "summary": "The WP Visitor Statistics (Real Time Traffic) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'os (also browser, res)' parameter in all versions up to, and including, 8.9.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticate",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.5"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17380 (CVSS 8.5)",
-   "cve": "CVE-2026-17380",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17380",
-   "date": "2026-11-07T05:18:51.750",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access sensitive information belonging to other tenants due to improper validation of a path parameter. A path value in a request is not sufficiently validated, which could allow a",
+   "title": "CVE-2026-111317 (CVSS 7.2)",
+   "cve": "CVE-2026-111317",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111317",
+   "date": "2026-11-07T12:17:42.430",
+   "summary": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<any form field name — e.g. 'payload'>' parameter in all versions up to, and including, 3.6.7 due to insufficient input sanitization and output escaping. This makes it possible",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.5"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17379 (CVSS 7.4)",
-   "cve": "CVE-2026-17379",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17379",
-   "date": "2026-11-07T05:18:51.560",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to bypass authentication and assign arbitrary roles due to improper verification of cryptographic signatures.",
+   "title": "CVE-2026-109991 (CVSS 7.5)",
+   "cve": "CVE-2026-109991",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109991",
+   "date": "2026-11-07T12:17:42.267",
+   "summary": "The FunnelKit Payment Gateway for Stripe WooCommerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.15.0.2 via the 'order-pay (WP query var from /checkout/order-pay/<ID>/)' parameter due to missing validation on a user controlled key. T",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.4"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17378 (CVSS 7.7)",
-   "cve": "CVE-2026-17378",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17378",
-   "date": "2026-11-07T05:18:51.370",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "title": "CVE-2026-109230 (CVSS 7.2)",
+   "cve": "CVE-2026-109230",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109230",
+   "date": "2026-11-07T12:17:42.110",
+   "summary": "The WP Visitor Statistics (Real Time Traffic) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'browser' parameter in all versions up to, and including, 8.7.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to ",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.7"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17376 (CVSS 7.7)",
-   "cve": "CVE-2026-17376",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17376",
-   "date": "2026-11-07T05:18:50.997",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "title": "CVE-2026-109214 (CVSS 7.2)",
+   "cve": "CVE-2026-109214",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109214",
+   "date": "2026-11-07T12:17:41.953",
+   "summary": "The User Frontend – Membership, User Registration, User Profile, User Directory & Content Restriction with Frontend Post Submission plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<taxonomy_field_name> (default: 'category')' parameter in all versions up to, and including, ",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.7"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17375 (CVSS 7.7)",
-   "cve": "CVE-2026-17375",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17375",
-   "date": "2026-11-07T05:18:50.800",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization. Authorization decisions rely on information supplied by the client, which could allow access to information the user sho",
+   "title": "CVE-2026-104768 (CVSS 7.5)",
+   "cve": "CVE-2026-104768",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104768",
+   "date": "2026-11-07T12:17:41.793",
+   "summary": "The AutomatorWP – No-Code Workflow Automation, Integration & Webhooks Plugin, now with AI plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.4. This is due to missing privilege-ceiling validation in the `create_user()` function within the anonymous-u",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.7"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17374 (CVSS 7.7)",
-   "cve": "CVE-2026-17374",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17374",
-   "date": "2026-11-07T05:18:50.613",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "title": "CVE-2026-104746 (CVSS 8.1)",
+   "cve": "CVE-2026-104746",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104746",
+   "date": "2026-11-07T12:17:41.480",
+   "summary": "The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the stm_listings_ajax_save_user_data function in all versions up to, and including, 1.4.125 This makes it possible for authenticated atta",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.7"
+    "CVSS 8.1"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17373 (CVSS 7.7)",
-   "cve": "CVE-2026-17373",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17373",
-   "date": "2026-11-07T05:18:50.430",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization.",
+   "title": "CVE-2026-104014 (CVSS 9.8)",
+   "cve": "CVE-2026-104014",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104014",
+   "date": "2026-11-07T12:17:41.313",
+   "summary": "The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_update_new_password action handled by CEOVW_AJAX::update_n",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.7"
+    "CVSS 9.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-17365 (CVSS 8.5)",
-   "cve": "CVE-2026-17365",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17365",
-   "date": "2026-11-07T05:18:48.900",
-   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "title": "CVE-2026-123961 (CVSS 9.9)",
+   "cve": "CVE-2026-123961",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123961",
+   "date": "2026-11-07T11:17:01.290",
+   "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiBasicConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument KeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed publicly an",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 8.5"
+    "CVSS 9.9"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-95870 (CVSS 7.5)",
+   "cve": "CVE-2026-95870",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95870",
+   "date": "2026-11-07T10:17:12.787",
+   "summary": "The wpForo Forum plugin for WordPress is vulnerable to generic SQL Injection via the 'data' parameter in all versions up to, and including, 3.2.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unaut",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123960 (CVSS 9.9)",
+   "cve": "CVE-2026-123960",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123960",
+   "date": "2026-11-07T10:17:12.357",
+   "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function setWanConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument pppoeUser/priDns/secDns can lead to buffer overflow. The attack can be launched remotely. The exploit has been made availab",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123959 (CVSS 9.1)",
+   "cve": "CVE-2026-123959",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123959",
+   "date": "2026-11-07T10:17:12.123",
+   "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument langType results in buffer overflow. The attack can be initiated remotely. The exploit has been released",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121762 (CVSS 8.8)",
+   "cve": "CVE-2026-121762",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121762",
+   "date": "2026-11-07T10:17:11.083",
+   "summary": "Cross-Site Request Forgery (CSRF) vulnerability in Blubrry Podcasting PowerPress Podcasting powerpress allows Cross Site Request Forgery.This issue affects PowerPress Podcasting: from n/a through 11.18.0.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-119164 (CVSS 7.5)",
+   "cve": "CVE-2026-119164",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119164",
+   "date": "2026-11-07T10:17:07.337",
+   "summary": "The wpForo Forum plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.2.2 via the `data[secondary_groupids]` parameter of the `wpforo_action_profile_update` POST handler. This is due to a type-confusion flaw in the secondary_groupids authorization guard ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-119155 (CVSS 7.5)",
+   "cve": "CVE-2026-119155",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119155",
+   "date": "2026-11-07T10:17:07.150",
+   "summary": "The wpForo Forum plugin for WordPress is vulnerable to time-based SQL Injection via the 'href[locale]' parameter in all versions up to, and including, 3.2.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possibl",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-107616 (CVSS 7.5)",
+   "cve": "CVE-2026-107616",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107616",
+   "date": "2026-11-07T10:17:06.593",
+   "summary": "The Amelia plugin for WordPress is vulnerable to unauthorized access of attendee data due to a missing authorization check on the GetEventAttendeesCommandHandler::handle() function in versions up to, and including, 9.9.1. The handler only enforces the broad `amelia_read_events` capability — which th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-103900 (CVSS 8.1)",
+   "cve": "CVE-2026-103900",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103900",
+   "date": "2026-11-07T10:17:05.140",
+   "summary": "The WPJAM Basic plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 7.1 This is due to the WPJAM_User_Signup::signup() function unpacking attacker-supplied `data[args]` from the AJAX POST body and merging it via PHP array union into the payload passed to WPJA",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-66669 (CVSS 8.8)",
+   "cve": "CVE-2026-66669",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66669",
+   "date": "2026-11-07T09:17:16.063",
+   "summary": "Cross-Site Request Forgery (CSRF) vulnerability in Suplugins Superb Addons: Blocks, Patterns &amp; Theme Designer superb-blocks allows Cross Site Request Forgery.This issue affects Superb Addons: Blocks, Patterns &amp; Theme Designer: from n/a through 4.2.4.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123958 (CVSS 9.9)",
+   "cve": "CVE-2026-123958",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123958",
+   "date": "2026-11-07T09:17:15.177",
+   "summary": "A vulnerability was identified in TOTOLINK CA300-PoE 6.2c.884. The affected element is the function setLanConfig of the file /cgi-bin/cstecgi.cgi. Such manipulation of the argument lanDns/lanSecDns/langType leads to buffer overflow. It is possible to launch the attack remotely. The exploit is public",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123957 (CVSS 9.9)",
+   "cve": "CVE-2026-123957",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123957",
+   "date": "2026-11-07T09:17:14.890",
+   "summary": "A vulnerability was determined in TOTOLINK CA300-PoE 6.2c.884. Impacted is the function setIpQosRules of the file /cgi-bin/cstecgi.cgi. This manipulation of the argument ipStart causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-104738 (CVSS 8.1)",
+   "cve": "CVE-2026-104738",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104738",
+   "date": "2026-11-07T09:17:11.253",
+   "summary": "The Advanced Form Integration — Connect Forms to 300+ Apps plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.10.2 via deserialization of untrusted input . This makes it possible for unauthenticated attackers to inject a PHP Object. No known POP chain ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123881 (CVSS 7.3)",
+   "cve": "CVE-2026-123881",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123881",
+   "date": "2026-11-07T08:16:26.000",
+   "summary": "A vulnerability was found in OpenBMB Internet of Agents up to 9d78e88e47160eb42ee1ee8538c05e1c2c47877a. This issue affects the function fetch_chat_record of the file im_server/app.py of the component Message Handler. The manipulation of the argument comm_id results in improper access controls. The a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-87112 (CVSS 8.8)",
+   "cve": "CVE-2026-87112",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87112",
+   "date": "2026-11-07T07:17:05.090",
+   "summary": "The QA Assistants – Driven by data plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 5.3.0 via the 'dlevent_ver' parameter. This is due to unrestricted PHP deserialization via wrap_unserialize_static() calling unserialize() without an allowed_classes re",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122037 (CVSS 7.2)",
+   "cve": "CVE-2026-122037",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122037",
+   "date": "2026-11-07T07:17:04.540",
+   "summary": "The AgenWebsite Shipping – Plugin Ongkos Kirim & Generate Resi Otomatis Semua Kurir Indonesia plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'zipcode' parameter in all versions up to, and including, 9.2.41 due to insufficient input sanitization and output escaping. This ma",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-120537 (CVSS 7.2)",
+   "cve": "CVE-2026-120537",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120537",
+   "date": "2026-11-07T07:17:04.057",
+   "summary": "The TranslatePress – Translate Multilingual sites with AI Translation plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment (storage); originals / language / original_language (exfiltration from endpoint)' parameter in all versions up to, and including, 3.3.8 due to insu",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-116558 (CVSS 7.2)",
+   "cve": "CVE-2026-116558",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116558",
+   "date": "2026-11-07T07:17:02.590",
+   "summary": "The Unlimited Elements for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<title>/<description> inside the attacker-controlled RSS feed body' parameter in all versions up to, and including, 2.0.26 due to insufficient input sanitization and output escaping. This ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-115811 (CVSS 7.2)",
+   "cve": "CVE-2026-115811",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115811",
+   "date": "2026-11-07T07:17:02.420",
+   "summary": "The Strong Testimonials plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'star_rating' parameter in all versions up to, and including, 3.3.16 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "date": "2026-11-07T06:44:17+00:00",
+   "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
   },
   {
    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
@@ -1252,16 +1262,6 @@
    "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
    "date": "2026-11-03T11:00:45+00:00",
    "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-   "date": "2026-11-03T08:31:48+00:00",
-   "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targ",
    "kind": "news",
    "tags": [],
    "source": "thn",
