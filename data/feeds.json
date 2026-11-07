@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:57:36.360089+00:00",
+ "updated": "2026-11-07T05:40:30.367574+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,35 +60,25 @@
  ],
  "items": [
   {
-   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-   "date": "2026-11-06T22:27:25+00:00",
-   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-68935 (CVSS 9.1)",
-   "cve": "CVE-2026-68935",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68935",
-   "date": "2026-11-06T22:17:59.390",
-   "summary": "Chartbrew is an open-source web application for creating charts from databases and APIs. In versions 4.8.5 through 5.2.2, API connection creation and update operations accept the internal  allowPrivateHost  field from user input. An authenticated user with permission to manage API connections can en",
+   "title": "CVE-2026-75590 (CVSS 7.2)",
+   "cve": "CVE-2026-75590",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75590",
+   "date": "2026-11-07T05:19:01.820",
+   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to access internal network resources and obtain sensitive information due to server-side request forgery. A protection that blocks requests to internal addresses can be bypassed, so the server could be made to contact internal s",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.1"
+    "CVSS 7.2"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-68933 (CVSS 7.5)",
-   "cve": "CVE-2026-68933",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68933",
-   "date": "2026-11-06T22:17:59.220",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, public dashboard passwords were stored in plaintext, accepted through a URL query parameter, and checked without effective attempt throttling. The vulnerable",
+   "title": "CVE-2026-19128 (CVSS 7.5)",
+   "cve": "CVE-2026-19128",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19128",
+   "date": "2026-11-07T05:19:00.717",
+   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to send unauthorized requests from the system due to server-side request forgery. This could be used to enumerate network resources or to support further attacks.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -98,249 +88,25 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-59104 (CVSS 9.8)",
-   "cve": "CVE-2026-59104",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59104",
-   "date": "2026-11-06T22:17:59.043",
-   "summary": "UgCS server before 6.2 contains an authentication bypass in the HCI protocol login handler (LoginHandler) exposed on TCP port 3334. When the user database contains exactly one user (the default single-operator installation), a LoginRequest with empty userLogin and userPassword fields is interpreted ",
+   "title": "CVE-2026-19121 (CVSS 8.3)",
+   "cve": "CVE-2026-19121",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19121",
+   "date": "2026-11-07T05:18:59.963",
+   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to gain unauthorized access due to improper authorization. Tenant context is not sufficiently verified against the authenticated user, which could allow access to another tenant's resources.",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.8"
+    "CVSS 8.3"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-50240 (CVSS 8.8)",
-   "cve": "CVE-2026-50240",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50240",
-   "date": "2026-11-06T22:17:58.757",
-   "summary": "A flaw was found in OpenShift Pipelines-as-Code (PAC). PAC does not verify whether the creator of a Repository custom resource has permission to create PipelineRuns. A namespace user with only Repository and Secret create/delete permissions can cause PAC to execute attacker-controlled PipelineRuns a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123791 (CVSS 7.3)",
-   "cve": "CVE-2026-123791",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123791",
-   "date": "2026-11-06T22:17:50.903",
-   "summary": "A vulnerability was detected in OpenBMB Internet of Agents up to 9d78e88e47160eb42ee1ee8538c05e1c2c47877a. This affects the function _primary_field_query of the file common/utils/milvus_utils.py of the component Agent Registry. The manipulation of the argument key results in improper neutralization ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-86044 (CVSS 9.6)",
-   "cve": "CVE-2026-86044",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86044",
-   "date": "2026-11-06T21:17:12.297",
-   "summary": "JupyterLab Desktop is the cross-platform desktop application for JupyterLab. Prior to 4.6.2-1, JupyterLab Desktop exposed getServerInfo to the renderer without confirming that the current page still had the local Jupyter server origin. In a local managed session using JupyterLab before 4.4.8, an att",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-86005 (CVSS 9.3)",
-   "cve": "CVE-2026-86005",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86005",
-   "date": "2026-11-06T21:17:12.117",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the administrative BullMQ dashboard was mounted without an authentication check. The vulnerable surface is the Bull Board/BullMQ administration dashboard at ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-85736 (CVSS 8.1)",
-   "cve": "CVE-2026-85736",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85736",
-   "date": "2026-11-06T21:17:11.757",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, connection creation or update stored attacker-chosen absolute SSL and SSH file paths, and later connection cleanup passed those stored paths to fs.unlink wit",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-85726 (CVSS 7.5)",
-   "cve": "CVE-2026-85726",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85726",
-   "date": "2026-11-06T21:17:11.567",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, a date-typed MongoDB variable placed inside a quoted query placeholder was inserted as an unescaped string, unlike the safely escaped or coerced string, numb",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-85712 (CVSS 8.8)",
-   "cve": "CVE-2026-85712",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85712",
-   "date": "2026-11-06T21:17:11.373",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the shared project permission check trusted a caller-controlled team_id and let the teamOwner/teamAdmin branch continue without confirming that the target pr",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-85708 (CVSS 7.5)",
-   "cve": "CVE-2026-85708",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85708",
-   "date": "2026-11-06T21:17:11.183",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, Chart share and embed tokens were signed with CB_SECRET, including known or shipped-default values in stock source and repository Docker Compose installs. Th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-85295 (CVSS 9.8)",
-   "cve": "CVE-2026-85295",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85295",
-   "date": "2026-11-06T21:17:10.890",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, four authentication helpers accepted session tokens signed with CB_SECRET, including known, weak, or shipped-default values. The vulnerable surface is sessio",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-71397 (CVSS 8.2)",
-   "cve": "CVE-2026-71397",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71397",
-   "date": "2026-11-06T21:17:10.480",
-   "summary": "Allocation of Resources Without Limits or Throttling vulnerability in elixir-grpc grpc_server allows unauthenticated attackers to exhaust memory and crash the node via an oversized client-streaming or bidirectional-streaming request body.\n\nThe streaming read clause of 'Elixir.GRPC.Server.Adapters.Co",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-63439 (CVSS 9.8)",
-   "cve": "CVE-2026-63439",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63439",
-   "date": "2026-11-06T21:17:09.970",
-   "summary": "2FAuth is a web app to manage Two-Factor Authentication (2FA) accounts and generate their security codes. Prior to 8.0.0, when AUTHENTICATION_GUARD=reverse-proxy-guard is enabled, ReverseProxyGuard::user() reads the default REMOTE_USER identity header, or a custom identity header selected by the AUT",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-63438 (CVSS 9.8)",
-   "cve": "CVE-2026-63438",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63438",
-   "date": "2026-11-06T21:17:09.770",
-   "summary": "2FAuth is a web app to manage Two-Factor Authentication (2FA) accounts and generate their security codes. Prior to 8.0.0, when AUTHENTICATION_GUARD=reverse-proxy-guard accepts authentication headers from a client that did not pass through a trusted proxy, RemoteUserProvider::retrieveById() creates a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-54589 (CVSS 7.0)",
-   "cve": "CVE-2026-54589",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54589",
-   "date": "2026-11-06T21:17:09.143",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.1, the outbound URL guard recognized ordinary IPv4, IPv6, and IPv4-mapped IPv6 destinations but did not recognize IPv4 addresses embedded in NAT64 prefixes. The",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-54349 (CVSS 9.8)",
-   "cve": "CVE-2026-54349",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54349",
-   "date": "2026-11-06T21:17:08.947",
-   "summary": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.1, SQL dashboard-variable substitution used attacker-controlled JavaScript replacement strings unsafely across SQL connectors and separately failed to escape ba",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124078 (CVSS 7.5)",
-   "cve": "CVE-2026-124078",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124078",
-   "date": "2026-11-06T21:17:08.567",
-   "summary": "plist.js (npm package 'plist') before 5.0.1 contains an uncontrolled resource consumption vulnerability in the binary property-list parser (parseBinary) that allows unauthenticated attackers to crash a Node.js process by exploiting unmemoized recursive resolution of shared object references for arra",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-102657 (CVSS 7.5)",
-   "cve": "CVE-2026-102657",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102657",
-   "date": "2026-11-06T21:17:05.863",
-   "summary": "esm.sh is a no-build content delivery network (CDN) for web development. Prior to server version 137_7, the documented web.NewHandler static file server in web/handler.go joins the URL-decoded r.URL.Path with Config.AppDir without verifying that the result remains inside the configured application d",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-102530 (CVSS 9.4)",
-   "cve": "CVE-2026-102530",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102530",
-   "date": "2026-11-06T21:17:05.510",
-   "summary": "JupyterLab Desktop is the cross-platform desktop application for JupyterLab. Prior to 4.6.2-1, remote-server URLs were inserted into the server-selection dialog and Welcome view without safe encoding. An attacker who convinces a user to submit a crafted URL can execute JavaScript in the Welcome rend",
+   "title": "CVE-2026-18838 (CVSS 9.4)",
+   "cve": "CVE-2026-18838",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18838",
+   "date": "2026-11-07T05:18:59.803",
+   "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and modify API configurations due to improper authentication. Identity information supplied in requests is not sufficiently verified, which could allow a caller to impersonate another user.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -350,11 +116,319 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-102344 (CVSS 8.1)",
-   "cve": "CVE-2026-102344",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102344",
-   "date": "2026-11-06T21:17:05.323",
-   "summary": "Lavish is the new editor for your HTML artifacts. Prior to 0.1.43, the lavish-axi loopback HTTP server did not authenticate requests or validate Host and Origin values on session, artifact, prompt, and polling routes. A website visited while the server is running can use DNS rebinding to send same-o",
+   "title": "CVE-2026-18836 (CVSS 9.3)",
+   "cve": "CVE-2026-18836",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18836",
+   "date": "2026-11-07T05:18:59.597",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to server-side request forgery. The affected component can be made to send requests to unintended destinations and return the response to the attacker.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-18535 (CVSS 9.6)",
+   "cve": "CVE-2026-18535",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18535",
+   "date": "2026-11-07T05:18:59.120",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 are vulnerable to a Regular Expression Denial of Service (ReDoS) attack and to improper neutralisation of wildcard query operators.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17411 (CVSS 7.6)",
+   "cve": "CVE-2026-17411",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17411",
+   "date": "2026-11-07T05:18:58.650",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to view, add, modify, or delete information in the back-end database due to SQL injection. Input is not properly neutralized before it is used in database queries.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17410 (CVSS 9.9)",
+   "cve": "CVE-2026-17410",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410",
+   "date": "2026-11-07T05:18:58.410",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17409 (CVSS 9.4)",
+   "cve": "CVE-2026-17409",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17409",
+   "date": "2026-11-07T05:18:58.157",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute unauthorized administrative operations and obtain sensitive information due to improper handling of case sensitivity. Access controls are not applied consistently to all variations of a ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17408 (CVSS 9.8)",
+   "cve": "CVE-2026-17408",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17408",
+   "date": "2026-11-07T05:18:57.917",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitrary code due to improper neutralization of special elements in an OS command.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17407 (CVSS 8.5)",
+   "cve": "CVE-2026-17407",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17407",
+   "date": "2026-11-07T05:18:57.670",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to SQL injection. Values received during sign-in are not properly neutralized before being used in a database query, which could allow SQL comman",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17406 (CVSS 8.5)",
+   "cve": "CVE-2026-17406",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17406",
+   "date": "2026-11-07T05:18:57.427",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery. Address checks can be bypassed, which could allow the server to reach destinations that should be blocked.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17405 (CVSS 8.8)",
+   "cve": "CVE-2026-17405",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17405",
+   "date": "2026-11-07T05:18:57.187",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization. Access checks on keystore objects do not confirm that the requesting user is permitted to read them, which co",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17404 (CVSS 8.5)",
+   "cve": "CVE-2026-17404",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17404",
+   "date": "2026-11-07T05:18:56.937",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17403 (CVSS 9.0)",
+   "cve": "CVE-2026-17403",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17403",
+   "date": "2026-11-07T05:18:56.690",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17402 (CVSS 9.9)",
+   "cve": "CVE-2026-17402",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17402",
+   "date": "2026-11-07T05:18:56.460",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary commands due to OS command injection. User-supplied input is not properly neutralized before it is passed to the operating system, which could allow commands to r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17401 (CVSS 7.2)",
+   "cve": "CVE-2026-17401",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17401",
+   "date": "2026-11-07T05:18:56.237",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to a stack-based buffer overflow.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17400 (CVSS 7.7)",
+   "cve": "CVE-2026-17400",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17400",
+   "date": "2026-11-07T05:18:56.020",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17399 (CVSS 9.9)",
+   "cve": "CVE-2026-17399",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17399",
+   "date": "2026-11-07T05:18:55.790",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to insufficient validation of uploaded content. Content uploaded to the product is not sufficiently checked before it is processed, which could allow cod",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17398 (CVSS 8.5)",
+   "cve": "CVE-2026-17398",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17398",
+   "date": "2026-11-07T05:18:55.557",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17397 (CVSS 8.5)",
+   "cve": "CVE-2026-17397",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17397",
+   "date": "2026-11-07T05:18:55.330",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17396 (CVSS 9.6)",
+   "cve": "CVE-2026-17396",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17396",
+   "date": "2026-11-07T05:18:55.103",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17394 (CVSS 9.6)",
+   "cve": "CVE-2026-17394",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17394",
+   "date": "2026-11-07T05:18:54.617",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improperly controlled modification of object attributes. A user-supplied value could change an access-related setting that should be controlled ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17392 (CVSS 9.9)",
+   "cve": "CVE-2026-17392",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17392",
+   "date": "2026-11-07T05:18:54.113",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain unauthorized administrative access to other tenants due to LDAP injection. User-supplied input is not properly neutralized in directory queries, which could change the query a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17388 (CVSS 8.5)",
+   "cve": "CVE-2026-17388",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17388",
+   "date": "2026-11-07T05:18:53.253",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17387 (CVSS 7.7)",
+   "cve": "CVE-2026-17387",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17387",
+   "date": "2026-11-07T05:18:53.060",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17386 (CVSS 8.1)",
+   "cve": "CVE-2026-17386",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17386",
+   "date": "2026-11-07T05:18:52.857",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 could allow a remote attacker to gain full administrative control due to the use of a cryptographically weak pseudo-random number generator.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -362,6 +436,208 @@
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17385 (CVSS 8.5)",
+   "cve": "CVE-2026-17385",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17385",
+   "date": "2026-11-07T05:18:52.683",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17384 (CVSS 8.5)",
+   "cve": "CVE-2026-17384",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17384",
+   "date": "2026-11-07T05:18:52.500",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 could allow a remote authenticated attacker to obtain sensitive information due to a server-side request forgery vulnerability.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17383 (CVSS 7.7)",
+   "cve": "CVE-2026-17383",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17383",
+   "date": "2026-11-07T05:18:52.323",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to broken object-level authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17382 (CVSS 8.5)",
+   "cve": "CVE-2026-17382",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17382",
+   "date": "2026-11-07T05:18:52.133",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to a path traversal vulnerability.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17381 (CVSS 8.5)",
+   "cve": "CVE-2026-17381",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17381",
+   "date": "2026-11-07T05:18:51.953",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization validation using user-controlled keys.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17380 (CVSS 8.5)",
+   "cve": "CVE-2026-17380",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17380",
+   "date": "2026-11-07T05:18:51.750",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access sensitive information belonging to other tenants due to improper validation of a path parameter. A path value in a request is not sufficiently validated, which could allow a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17379 (CVSS 7.4)",
+   "cve": "CVE-2026-17379",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17379",
+   "date": "2026-11-07T05:18:51.560",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to bypass authentication and assign arbitrary roles due to improper verification of cryptographic signatures.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17378 (CVSS 7.7)",
+   "cve": "CVE-2026-17378",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17378",
+   "date": "2026-11-07T05:18:51.370",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17376 (CVSS 7.7)",
+   "cve": "CVE-2026-17376",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17376",
+   "date": "2026-11-07T05:18:50.997",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17375 (CVSS 7.7)",
+   "cve": "CVE-2026-17375",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17375",
+   "date": "2026-11-07T05:18:50.800",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization. Authorization decisions rely on information supplied by the client, which could allow access to information the user sho",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17374 (CVSS 7.7)",
+   "cve": "CVE-2026-17374",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17374",
+   "date": "2026-11-07T05:18:50.613",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17373 (CVSS 7.7)",
+   "cve": "CVE-2026-17373",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17373",
+   "date": "2026-11-07T05:18:50.430",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17365 (CVSS 8.5)",
+   "cve": "CVE-2026-17365",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17365",
+   "date": "2026-11-07T05:18:48.900",
+   "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "date": "2026-11-07T00:00:55+00:00",
+   "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "date": "2026-11-06T22:27:25+00:00",
+   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
   },
   {
    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
@@ -374,258 +650,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-65960 (CVSS 8.8)",
-   "cve": "CVE-2026-65960",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65960",
-   "date": "2026-11-06T20:17:24.397",
-   "summary": "Tetragon is an eBPF-based security observability and runtime enforcement project. Versions before 1.7.0 can use a Helm default that exposes the privileged Tetragon gRPC API through an unauthenticated TCP listener on localhost:54321. An attacker who can run or compromise same-node hostNetwork pods ca",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58490 (CVSS 9.8)",
-   "cve": "CVE-2026-58490",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58490",
-   "date": "2026-11-06T20:17:23.253",
-   "summary": "Tracecat is an open-source security automation platform for teams and AI agents. From version 0.37.0 until 1.0.0-beta.49, Docker Compose deployments with SAML enabled can render SAML_SIGNED_ASSERTIONS and SAML_SIGNED_RESPONSES as empty values, overriding secure application defaults and disabling bot",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-33050 (CVSS 8.8)",
-   "cve": "CVE-2026-33050",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33050",
-   "date": "2026-11-06T20:17:22.570",
-   "summary": "GeoNode is a geospatial content management system, a platform for the management and publication of geospatial data. Prior to 5.1.0, a crafted vector file layer name supplied during upload allows a low-privileged remote user to inject shell syntax and execute arbitrary operating-system commands on t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124040 (CVSS 8.1)",
-   "cve": "CVE-2026-124040",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124040",
-   "date": "2026-11-06T20:17:22.203",
-   "summary": "CivetWeb through 1.16, when built with USE_HTTP2 and enable_http2 on, contains a use-after-free vulnerability in handle_http2() that retains freed :method and :path pointers. Unauthenticated remote attackers can send a later HEADERS frame omitting these pseudo-headers to influence request method or ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124027 (CVSS 7.5)",
-   "cve": "CVE-2026-124027",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124027",
-   "date": "2026-11-06T20:17:21.123",
-   "summary": "ChatWiki before 2.10.0 contains a missing authentication vulnerability in the GET /manage/getLibRawFileOnePage route that allows unauthenticated attackers to read other tenants' documents. Attackers can enumerate sequential admin_user_id and file id query parameters, bypassing the ownership check, t",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123974 (CVSS 7.8)",
-   "cve": "CVE-2026-123974",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123974",
-   "date": "2026-11-06T20:17:20.633",
-   "summary": "In all versions of PyTorch's TorchServe, a predictable extraction directory in /tmp lets a local user swap the model handler and run code as the TorchServe service account leading to local privilege escalation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-82308 (CVSS 7.5)",
-   "cve": "CVE-2026-82308",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82308",
-   "date": "2026-11-06T19:17:57.567",
-   "summary": "A pre-authentication heap-based buffer overflow vulnerability has been identified in the SonicOS SSL-VPN service, which could potentially enable a remote unauthenticated attacker to cause an application level denial of service.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-71495 (CVSS 10.0)",
-   "cve": "CVE-2026-71495",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71495",
-   "date": "2026-11-06T19:17:56.657",
-   "summary": "Wanderer is a self-hosted trail database for saving and sharing adventures. Prior to 0.20.0, when PUBLIC_PRIVATE_INSTANCE is not set to true, the unauthenticated POST /api/v1/trail/download handler passes the attacker-controlled JSON url field directly to event.fetch() and returns the fetched respon",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-62346 (CVSS 7.6)",
-   "cve": "CVE-2026-62346",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62346",
-   "date": "2026-11-06T19:17:53.770",
-   "summary": "Wanderer is a self-hosted trail database for saving and sharing adventures. Prior to 0.19.3, an authenticated local user can submit crafted waypoint.name and waypoint.icon values that the trail elevation graph interpolates into an innerHTML template in web/src/lib/vendor/maplibre-elevation-profile/e",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-62345 (CVSS 7.6)",
-   "cve": "CVE-2026-62345",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62345",
-   "date": "2026-11-06T19:17:53.607",
-   "summary": "Wanderer is a self-hosted trail database for saving and sharing adventures. Prior to 0.19.3, an authenticated user can store a crafted waypoint.icon value that createMarkerFromWaypoint() passes into FontawesomeMarker, where insertAdjacentHTML inserts the unvalidated value into map marker markup. Ope",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-19868 (CVSS 7.5)",
-   "cve": "CVE-2026-19868",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
-   "date": "2026-11-06T19:17:48.437",
-   "summary": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123998 (CVSS 8.3)",
-   "cve": "CVE-2026-123998",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123998",
-   "date": "2026-11-06T19:17:45.427",
-   "summary": "Hisense VIDAA Smart TV firmware V0000.01.00a.P0220 contains an authentication bypass vulnerability in its remote-control MQTT broker on TCP port 36669, which accepts publicly documented default credentials and an ineffective 4-digit pairing PIN with no rate limiting or lockout, allowing a brute forc",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123993 (CVSS 8.8)",
-   "cve": "CVE-2026-123993",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123993",
-   "date": "2026-11-06T19:17:44.550",
-   "summary": "Hisense VIDAA Smart TV firmware V0000.01.00a.P0220 contains an unauthenticated access vulnerability where a QA build of the Google Cobalt browser engine exposes the WebDriver automation server on TCP port 4444 across all network interfaces without any authentication or pairing requirement. A LAN-adj",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123356 (CVSS 7.5)",
-   "cve": "CVE-2026-123356",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123356",
-   "date": "2026-11-06T19:17:44.220",
-   "summary": "GROBID is machine learning software for extracting information from scholarly documents. Prior to 0.9.1, the unauthenticated /api/modelTraining endpoint calls GrobidRestProcessTraining.trainModel in GrobidRestProcessTraining.java, where each request creates Executors.newFixedThreadPool(1), submits a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119924 (CVSS 8.1)",
-   "cve": "CVE-2026-119924",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119924",
-   "date": "2026-11-06T19:17:39.593",
-   "summary": "An out-of-bounds read in the TDS RPC procedure-name parser in the Babelfish for PostgreSQL extension versions 1.0-1.5, 2.1-2.15, 3.1-3.12, 4.0-4.8, 5.1-5.4 and in Amazon Aurora PostgreSQL with Babelfish might allow remote authenticated users to read adjacent process memory or cause a denial of servi",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119923 (CVSS 9.8)",
-   "cve": "CVE-2026-119923",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119923",
-   "date": "2026-11-06T19:17:39.360",
-   "summary": "A heap-based buffer overflow in the TDS prelogin parser in the Babelfish for PostgreSQL extension versions 1.0-1.5, 2.1-2.15, 3.1-3.12, 4.0-4.8, 5.1-5.4 and in Amazon Aurora PostgreSQL with Babelfish might allow remote attackers to execute arbitrary OS commands as the database process user via a spe",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107155 (CVSS 8.8)",
-   "cve": "CVE-2026-107155",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107155",
-   "date": "2026-11-06T19:17:06.623",
-   "summary": "A permissive cross-domain policy vulnerability has been identified in the SonicOS management interface, which in specific conditions could potentially enable a remote unauthenticated attacker to perform unauthorized operations.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-107154 (CVSS 8.8)",
-   "cve": "CVE-2026-107154",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107154",
-   "date": "2026-11-06T19:17:06.440",
-   "summary": "A session validation vulnerability has been identified in the SonicOS management interface, which in specific conditions could potentially enable a remote unauthenticated attacker to perform unauthorized operations.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Fake security tools on GitHub push backdoors and infostealers",
    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
    "date": "2026-11-06T18:46:52+00:00",
@@ -634,20 +658,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-89017 (CVSS 7.5)",
-   "cve": "CVE-2026-89017",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89017",
-   "date": "2026-11-06T18:18:22.380",
-   "summary": "Skyline DataMiner BrokerGateway contains an embedded API key vulnerability that allows unauthenticated attackers to retrieve the installation-specific BrokerGateway key even while pairing mode is disabled. Attackers can use the retrieved key to obtain the unrestricted DataMinerUser.creds NATS creden",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
@@ -892,16 +902,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-   "date": "2026-11-05T16:24:26+00:00",
-   "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
