@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:51:49.659872+00:00",
+ "updated": "2026-11-08T21:55:22.703458+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,174 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-96146 (CVSS 7.5)",
+   "cve": "CVE-2026-96146",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96146",
+   "date": "2026-11-08T20:17:25.193",
+   "summary": "IBM SevOne Network Performance Management 7.0.0 through 8.2.2 could allow a remote attacker to cause a denial of service due to uncontrolled resource consumption.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-118904 (CVSS 8.1)",
+   "cve": "CVE-2026-118904",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118904",
+   "date": "2026-11-08T20:17:23.980",
+   "summary": "IBM webMethods Integration Server 12.1 could allow a remote authenticated attacker to bypass security restrictions due to improper authentication.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-9764 (CVSS 8.8)",
+   "cve": "CVE-2026-9764",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9764",
+   "date": "2026-11-08T19:17:54.247",
+   "summary": "IBM Bob 1.0.4 through 2.0.1 could allow a remote attacker to inject arbitrary code on the system, due to the improper control of user input code.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-97677 (CVSS 8.1)",
+   "cve": "CVE-2026-97677",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97677",
+   "date": "2026-11-08T19:17:54.077",
+   "summary": "IBM Langflow OSS 1.0.0 through 1.12.2 An authenticated flow author could write attacker-controlled file content into any directory writable by the service account, bypassing the platform's local file access isolation safeguard. Via a crafted on-disk index, the attacker could also read the contents o",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-93879 (CVSS 7.5)",
+   "cve": "CVE-2026-93879",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93879",
+   "date": "2026-11-08T19:17:43.763",
+   "summary": "Hibernate Validator could allow a remote attacker to cause a denial of service due to uncontrolled resource consumption resulting from improper escaping of user-controlled data in Expression Language (EL) expressions.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-8639 (CVSS 8.8)",
+   "cve": "CVE-2026-8639",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8639",
+   "date": "2026-11-08T19:17:42.573",
+   "summary": "IBM Security Verify Directory 10.0.0 through 10.0.4 and IBM Verify Directory 11.0.0 is vulnerable to session fixation. An attacker can establish a session and, after the victim authenticates, hijack the authenticated session to gain unauthorized access to the directory management console.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-6715 (CVSS 9.8)",
+   "cve": "CVE-2026-6715",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6715",
+   "date": "2026-11-08T19:17:39.980",
+   "summary": "IBM Concert 1.0 through 3.0.1.1 allows an attacker can supply crafted input that is incorporated into an operating system command without adequate validation or sanitization. Successful exploitation allows remote attackers to execute arbitrary commands on the underlying operating system with the pri",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-19133 (CVSS 8.1)",
+   "cve": "CVE-2026-19133",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19133",
+   "date": "2026-11-08T19:17:38.537",
+   "summary": "IBM Storage TS4500 Library 1.1.1.6 through 1.12.0.3 could allow a remote authenticated attacker to perform unauthorized account takeover due to improper authorization.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-18893 (CVSS 7.1)",
+   "cve": "CVE-2026-18893",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18893",
+   "date": "2026-11-08T19:17:38.380",
+   "summary": "IBM CockroachDB PostgreSQL for IBM VPC 26.2.0 through 26.2.3, 25.4.0 through 25.4.12, and 25.2.0 through 25.2.20 is vulnerable to privilege escalation via user-defined function.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-18093 (CVSS 7.5)",
+   "cve": "CVE-2026-18093",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18093",
+   "date": "2026-11-08T18:17:03.440",
+   "summary": "IBM App Connect Enterprise 13.0.1.0 through 13.0.8.2 could allow a remote attacker to obtain sensitive information due to broken access control.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-17466 (CVSS 9.1)",
+   "cve": "CVE-2026-17466",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17466",
+   "date": "2026-11-08T18:17:03.303",
+   "summary": "IBM Optim 1.0.0, 1.1.0, and 1.2.0 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-15266 (CVSS 9.8)",
+   "cve": "CVE-2026-15266",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15266",
+   "date": "2026-11-08T18:17:02.450",
+   "summary": "IBM Concert 1.0 through 3.0.1.1 contains components that allow potentially unsafe command execution, which could be exploited to run arbitrary system commands on the host.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-117545 (CVSS 8.8)",
    "cve": "CVE-2026-117545",
@@ -457,174 +625,6 @@
    "tags": [
     "NVD",
     "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124469 (CVSS 9.9)",
-   "cve": "CVE-2026-124469",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124469",
-   "date": "2026-11-08T14:18:15.130",
-   "summary": "OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-inventory lookup (DrugSalesService::sellDrug) that interpolates the prod[N][warehouse] POST field into an ORDER BY clause. Low-privileged authenticated users can submit Fee Sheet product lines with constant subqueries",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124468 (CVSS 7.1)",
-   "cve": "CVE-2026-124468",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124468",
-   "date": "2026-11-08T14:18:14.977",
-   "summary": "OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Standard REST API patient insurance and employer search, which concatenates query-string parameter names into SQL as column identifiers without escaping. Authenticated clients, including low-privilege patient-portal OAuth2 tokens, c",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124467 (CVSS 8.8)",
-   "cve": "CVE-2026-124467",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124467",
-   "date": "2026-11-08T14:18:14.823",
-   "summary": "OpenEMR before 8.4.0 contains a local file inclusion in the ESign router (library/ESign/Router.php), which passes the unsanitized module parameter into a require_once of '<module>/Controller.php', and the fax module's faxProcessUploads writes attacker-named files to a predictable temp path without e",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124466 (CVSS 7.2)",
-   "cve": "CVE-2026-124466",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124466",
-   "date": "2026-11-08T14:18:14.650",
-   "summary": "OpenEMR before 8.4.0 contains a server-side request forgery vulnerability that allows unauthenticated attackers to make the server send HTTP requests by registering an OAuth2 client with an unvalidated jwks_uri. Attackers can trigger the fetch via the token introspection endpoint with an unsigned cl",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124463 (CVSS 8.7)",
-   "cve": "CVE-2026-124463",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124463",
-   "date": "2026-11-08T14:18:14.167",
-   "summary": "OpenEMR before 8.3.0 contains a stored cross-site scripting vulnerability that allows authenticated users with CAMOS access to inject HTML by saving malicious CAMOS content through ajax_save.php. Attackers can store a script payload that executes unencoded when the entry is printed via the non-print",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124461 (CVSS 8.1)",
-   "cve": "CVE-2026-124461",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124461",
-   "date": "2026-11-08T14:18:13.853",
-   "summary": "OpenEMR before 8.3.0 contains a missing authorization vulnerability in library/ajax/upload.php that allows any authenticated user to read and overwrite document data by supplying an arbitrary doc_id. Low-privilege users can enumerate doc_id values with the fetch and save actions to disclose patient ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124459 (CVSS 8.1)",
-   "cve": "CVE-2026-124459",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124459",
-   "date": "2026-11-08T14:18:13.550",
-   "summary": "OpenEMR before 8.3.0 contains an insecure direct object reference vulnerability in many encounter-form view and save endpoints that lack patient/encounter ownership checks. Authenticated clinical users can enumerate sequential form id values in requests such as soap/view.php and save.php to read and",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124457 (CVSS 7.6)",
-   "cve": "CVE-2026-124457",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124457",
-   "date": "2026-11-08T14:18:13.240",
-   "summary": "OpenEMR before 8.3.0 contains a path traversal vulnerability in interface/billing/sl_eob_process.php that allows authenticated users to write and read files by supplying unsanitized eraname values. Attackers without billing privileges can inject ../ sequences to create ERA report .html files anywher",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124456 (CVSS 7.1)",
-   "cve": "CVE-2026-124456",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124456",
-   "date": "2026-11-08T14:18:13.090",
-   "summary": "OpenEMR before 8.3.0 contains missing authorization and insecure direct object reference vulnerabilities in the oe-module-prior-authorizations module that allow authenticated low-privilege users to access and modify other patients' records. Attackers can request public/reports/list_report.php to vie",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124453 (CVSS 7.1)",
-   "cve": "CVE-2026-124453",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124453",
-   "date": "2026-11-08T14:18:12.790",
-   "summary": "OpenEMR before 8.3.0 contains an insecure direct object reference vulnerability in portal/lib/persist.php that allows authenticated portal patients to write settings for other patients. Attackers can modify the setting_patient parameter in a JSON POST request to another patient's PID, altering that ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124450 (CVSS 9.9)",
-   "cve": "CVE-2026-124450",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124450",
-   "date": "2026-11-08T14:18:12.260",
-   "summary": "OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an unvalidated file_path parameter. Authenticated low-privilege users can read sqlconf.php to recover database credentials and write arbitrary files as the web user",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-124448 (CVSS 7.6)",
-   "cve": "CVE-2026-124448",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124448",
-   "date": "2026-11-08T14:18:11.960",
-   "summary": "OpenEMR before 8.3.0 contains a stored cross-site scripting vulnerability in the CCDA/CCD preview stylesheets, where cda.xsl copies event-handler attributes whose values evade a character denylist and ccd.xsl copies table-cell attributes unsanitized into preview HTML. Authenticated users can upload ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
