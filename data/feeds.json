@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T00:21:50.497923+00:00",
+ "updated": "2026-11-08T10:06:05.019667+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,99 +60,561 @@
  ],
  "items": [
   {
-   "title": "CVE-2026-120531 (CVSS 7.2)",
-   "cve": "CVE-2026-120531",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120531",
-   "date": "2026-11-07T22:16:36.090",
-   "summary": "The Subscribe2 – Form, Email Subscribers & Newsletters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘data[ip]’ parameter in all versions up to, and including, 10.47 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated att",
+   "title": "CVE-2026-114713 (CVSS 8.6)",
+   "cve": "CVE-2026-114713",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+   "date": "2026-11-08T03:16:33.410",
+   "summary": "The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 \"label\" message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.2"
+    "CVSS 8.6"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-124060 (CVSS 9.1)",
-   "cve": "CVE-2026-124060",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124060",
-   "date": "2026-11-07T21:17:00.150",
-   "summary": "A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the function UploadCustomModule of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument File results in buffer overflow. The attack may be launched remotely. The exploit is now public and may be used.",
+   "title": "CVE-2026-123616 (CVSS 7.5)",
+   "cve": "CVE-2026-123616",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123616",
+   "date": "2026-11-08T02:16:57.307",
+   "summary": "imgproxy from 3.3.0 before 4.0.16 contains an unbounded memory allocation vulnerability in the ICO loader that fails to validate the data_size field. Attackers can supply a crafted 23-byte ICO file declaring a ~4GB data_size to trigger memory exhaustion and worker crashes without authentication.",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.1"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-124059 (CVSS 9.1)",
-   "cve": "CVE-2026-124059",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124059",
-   "date": "2026-11-07T19:17:28.480",
-   "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has",
+   "title": "CVE-2026-123615 (CVSS 7.5)",
+   "cve": "CVE-2026-123615",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123615",
+   "date": "2026-11-08T02:16:57.147",
+   "summary": "imgproxy 3.3.0 before 4.0.17 contains an out-of-bounds heap read and write in the ICO loader's BMP header reconstruction (vips_foreign_load_ico_header in vips/icoload.c) when an ICO entry declares a tiny data size, causing unvalidated header fields to be read and written past the allocated buffer. U",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.1"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-124058 (CVSS 9.1)",
-   "cve": "CVE-2026-124058",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124058",
-   "date": "2026-11-07T19:17:28.263",
-   "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be launched remotely. The exploit has been made available t",
+   "title": "CVE-2026-123614 (CVSS 9.8)",
+   "cve": "CVE-2026-123614",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123614",
+   "date": "2026-11-08T02:16:56.983",
+   "summary": "imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allows remote attackers to trigger a heap buffer overflow via a crafted data_size value. Attackers can submit a crafted ICO image whose data_size wraps the allocation in vips/icoload.c, corrupting heap memory to cr",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.1"
+    "CVSS 9.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-124057 (CVSS 9.1)",
-   "cve": "CVE-2026-124057",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124057",
-   "date": "2026-11-07T18:17:21.607",
-   "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be initiated remotely. The exploit has been released to ",
+   "title": "CVE-2026-123608 (CVSS 7.5)",
+   "cve": "CVE-2026-123608",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123608",
+   "date": "2026-11-08T02:16:55.927",
+   "summary": "Hickory DNS hickory-proto from 0.3.1 before 0.26.1 contains a denial of service vulnerability in BinEncoder that allows remote attackers to exhaust CPU through quadratic-time name compression. Attackers can send malicious DNS messages with many records that add many candidate labels and trigger repe",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 9.1"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-123991 (CVSS 7.3)",
-   "cve": "CVE-2026-123991",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123991",
-   "date": "2026-11-07T17:16:34.420",
-   "summary": "A vulnerability was detected in DataEase up to 2.10.27. Affected by this vulnerability is the function WhitelistUtils.endsWithAny of the file WhitelistUtils.java of the component Authentication Filter. Performing a manipulation of the argument File results in unrestricted upload. It is possible to i",
+   "title": "CVE-2026-123607 (CVSS 7.5)",
+   "cve": "CVE-2026-123607",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123607",
+   "date": "2026-11-08T02:16:55.747",
+   "summary": "Hickory DNS hickory-proto 0.25.0-alpha.3 through 0.25.2 and hickory-net before 0.26.1 contain an unbounded loop vulnerability in DnssecDnsHandle NSEC3 closest-encloser proof validation when the SOA owner is not an ancestor of the QNAME. Upstream attackers can return NoData or NXDomain responses with",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.3"
+    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-123990 (CVSS 7.3)",
-   "cve": "CVE-2026-123990",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123990",
-   "date": "2026-11-07T17:16:34.163",
-   "summary": "A security vulnerability has been detected in DataEase up to 2.10.27/3.1.0. Affected is the function ExtWhere2Str.extWhere2sqlOjb of the file engine/trans/ExtWhere2Str.java of the component Chart Data Handler. Such manipulation of the argument operator leads to sql injection. The attack may be perfo",
+   "title": "CVE-2026-123606 (CVSS 7.5)",
+   "cve": "CVE-2026-123606",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123606",
+   "date": "2026-11-08T02:16:55.583",
+   "summary": "The hickory-dns recursor in hickory-recursor 0.25.0-alpha.3 through 0.25.2 and hickory-resolver 0.26.0-alpha.1 before 0.26.2 iterates every out-of-bailiwick NS target lacking glue in a referral without any per-query work budget. Remote attackers can serve such referrals to force A and AAAA lookups p",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.3"
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123605 (CVSS 8.8)",
+   "cve": "CVE-2026-123605",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123605",
+   "date": "2026-11-08T02:16:55.423",
+   "summary": "Hickory DNS hickory-proto 0.1 through 0.25.0-alpha.3 and hickory-net before 0.26.2 contain a DNSSEC validation bypass because the validator verifies an RRSIG against the DNSKEY of whatever name appears in its Signer's Name field without checking that this name is the zone containing the RRset. Attac",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123604 (CVSS 7.5)",
+   "cve": "CVE-2026-123604",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123604",
+   "date": "2026-11-08T02:16:55.273",
+   "summary": "Hickory DNS hickory-resolver 0.26.0-beta.1 before 0.26.2 contains an unbounded retry loop in NameServerPool::try_send, which re-queues truncated (TC) responses without checking the answering transport or counting iterations. A malicious authoritative server returning TC=1 on every transport keeps th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123596 (CVSS 8.8)",
+   "cve": "CVE-2026-123596",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123596",
+   "date": "2026-11-08T02:16:54.020",
+   "summary": "Hickory DNS hickory-proto through 0.26.0-alpha.1 and hickory-net 0.26.0-beta.1 before 0.26.2 contain a DNSSEC validation flaw in the validating recursor's NSEC handler that accepts parent-side ancestor-delegation NSEC records as proof of nonexistence for names below the zone cut. An on-path attacker",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123595 (CVSS 8.8)",
+   "cve": "CVE-2026-123595",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123595",
+   "date": "2026-11-08T02:16:53.863",
+   "summary": "Hickory DNS hickory-proto 0.25 through 0.26.0-alpha.1 and hickory-net 0.26.0-beta.1 before 0.26.2 contain a DNSSEC validation flaw in the validating recursor's NSEC3 handler, which matches the closest encloser by hash alone without checking the type bitmap and so accepts parent-side ancestor-delegat",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123588 (CVSS 7.5)",
+   "cve": "CVE-2026-123588",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123588",
+   "date": "2026-11-08T02:16:52.790",
+   "summary": "The recursive resolver in Hickory DNS (all versions of the hickory-recursor crate, and hickory-resolver 0.26.0 before 0.26.2) caches an empty connection pool when it follows a referral with no glue records and all queries for the name servers' IP addresses fail. An attacker able to spoof DNS respons",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123586 (CVSS 7.5)",
+   "cve": "CVE-2026-123586",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123586",
+   "date": "2026-11-08T02:16:52.477",
+   "summary": "Hickory DNS 0.25.0-alpha.3 through 0.25.2 contains a query amplification vulnerability in its recursive resolver, which mishandles cyclic sibling name server referrals that lack glue records. Attackers controlling two zones whose name servers reference each other without glue records can make the re",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123580 (CVSS 7.5)",
+   "cve": "CVE-2026-123580",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123580",
+   "date": "2026-11-08T02:16:51.540",
+   "summary": "Hickory DNS hickory-net 0.26.0-beta.1 before 0.26.2 and hickory-proto through 0.26.0-alpha.1 perform insufficient checks on NSEC3 record names during DNSSEC verification, comparing only the hashed label without confirming the record belongs to the correct zone. Attackers can supply NSEC3 records fro",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123577 (CVSS 7.5)",
+   "cve": "CVE-2026-123577",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123577",
+   "date": "2026-11-08T02:16:51.050",
+   "summary": "Hickory DNS from 0.24.0 before 0.26.2 contains a resource exhaustion vulnerability that allows remote attackers to consume server memory via unbounded DoH request bodies. Attackers can send large request bodies over HTTP/2 or HTTP/3 to a DNS over HTTP server, causing memory exhaustion and denial of ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123576 (CVSS 7.5)",
+   "cve": "CVE-2026-123576",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123576",
+   "date": "2026-11-08T02:16:50.780",
+   "summary": "Hickory DNS 0.24.0 through 0.26.1 contains a memory exhaustion vulnerability that allows remote attackers to consume server resources by sending incomplete DNS-over-QUIC request bodies. Attackers can open many connections and send only large length prefixes, causing pre-allocated buffers to persist ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123575 (CVSS 7.5)",
+   "cve": "CVE-2026-123575",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123575",
+   "date": "2026-11-08T02:16:50.600",
+   "summary": "Hickory DNS before 0.26.2 contains a resource exhaustion vulnerability in its DNS-over-HTTPS HTTP/2 server that lacks sufficient timeouts or limits for incomplete request bodies. Remote attackers can open DoH connections, send incomplete request bodies, and hold connections open to exhaust server me",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123574 (CVSS 7.5)",
+   "cve": "CVE-2026-123574",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123574",
+   "date": "2026-11-08T02:16:50.450",
+   "summary": "The zone file parser in the hickory-proto crate of Hickory DNS 0.24.0 before 0.26.2 panics when a single token in a zone file is 4096 bytes or longer. Attackers who can supply untrusted zone files to an application using the parser can trigger the panic to cause a denial of service.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123573 (CVSS 7.5)",
+   "cve": "CVE-2026-123573",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123573",
+   "date": "2026-11-08T02:16:50.297",
+   "summary": "hickory-dns from 0.20.1 before 0.26.2 contains a denial of service vulnerability in the hickory-proto SVCB and HTTPS record presentation format parser. Attackers can supply untrusted zone files where only a single or double quote replaces a service parameter value, triggering a panic that crashes th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123572 (CVSS 7.5)",
+   "cve": "CVE-2026-123572",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123572",
+   "date": "2026-11-08T02:16:50.140",
+   "summary": "Hickory-dns from 0.20.1 before 0.26.2 contains a denial of service vulnerability in the hickory-proto SVCB and HTTPS record presentation format parser, which panics on malformed alpn values. Attackers can supply untrusted zone files with unbalanced quotes, consecutive commas, or invalid escapes in a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123571 (CVSS 7.5)",
+   "cve": "CVE-2026-123571",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123571",
+   "date": "2026-11-08T02:16:49.990",
+   "summary": "Hickory DNS from 0.26.0 before 0.26.2 contains an integer underflow vulnerability in TSIG RDATA decoding that allows remote attackers to trigger a panic via malformed records. Attackers can send a crafted TSIG record in DNS wire format to cause unchecked subtraction underflow, crashing builds with o",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123570 (CVSS 7.5)",
+   "cve": "CVE-2026-123570",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123570",
+   "date": "2026-11-08T02:16:49.830",
+   "summary": "The DNS wire-format message parser in hickory-proto (Hickory DNS) 0.18 before 0.26.2 preallocates record vectors sized by the untrusted ANCOUNT, NSCOUNT, and ARCOUNT header fields before reading record data. Remote attackers can send a UDP datagram, or a spoofed response to a client/resolver, with t",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123569 (CVSS 7.5)",
+   "cve": "CVE-2026-123569",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123569",
+   "date": "2026-11-08T02:16:49.673",
+   "summary": "The devalue package for npm before 5.6.3 can consume excessive CPU and memory when serializing sparse arrays with uneval or stringify. An attacker who manages to get a sparse array created on the server, which mainstream wire formats do not allow, and serialized there can cause a denial of service.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123566 (CVSS 7.5)",
+   "cve": "CVE-2026-123566",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123566",
+   "date": "2026-11-08T02:16:49.197",
+   "summary": "Sveltejs devalue before 5.9.3 contains a denial of service vulnerability that allows attackers to cause CPU amplification by supplying sparse arrays to uneval. Attackers who influence sparse values passed to uneval can force synchronous work proportional to the declared array length, blocking the ev",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123565 (CVSS 7.5)",
+   "cve": "CVE-2026-123565",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123565",
+   "date": "2026-11-08T02:16:49.040",
+   "summary": "Sveltejs devalue before 5.9.3 contains a resource exhaustion vulnerability where repeated primitive strings cause quadratic expansion in the uneval function. Attackers can supply a small crafted payload that is parsed and then passed to uneval, producing a very large serialized string that exhausts ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123564 (CVSS 7.5)",
+   "cve": "CVE-2026-123564",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123564",
+   "date": "2026-11-08T02:16:48.877",
+   "summary": "Sveltejs devalue from 1.0.0 before 5.9.3 contains a memory exhaustion flaw in uneval, whose generated code for sparse arrays allocates memory proportional to the array's declared length when evaluated. Attackers who can influence a very large sparse array serialized by an application can exhaust mem",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123563 (CVSS 7.5)",
+   "cve": "CVE-2026-123563",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123563",
+   "date": "2026-11-08T02:16:48.720",
+   "summary": "Devalue before 5.9.3 contains a validation bypass vulnerability that allows custom ArrayBuffer revivers to skip typed-array allocation checks in the parse function. Attackers can supply very small crafted input processed by a malformed ArrayBuffer reviver to allocate massive ArrayBuffers, causing me",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123562 (CVSS 7.5)",
+   "cve": "CVE-2026-123562",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123562",
+   "date": "2026-11-08T02:16:48.567",
+   "summary": "devalue (sveltejs/devalue) 5.8.0 before 5.9.3 contains an unhandled promise rejection in stringifyAsync: when serializing multiple promises, a later promise rejecting before an earlier one settles leaves an internal rejection unhandled, even if the caller catches the returned promise. An attacker ab",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123560 (CVSS 7.5)",
+   "cve": "CVE-2026-123560",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123560",
+   "date": "2026-11-08T02:16:48.227",
+   "summary": "Zebra before 7.0.0 contains an incomplete cleanup vulnerability that allows unauthenticated peers to stall initial sync by serving a forged checkpoint block body. Attackers can supply a body with forged authorizing data near the final checkpoint, leaving rejected hashes in the sent-hash set so the n",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123559 (CVSS 7.5)",
+   "cve": "CVE-2026-123559",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123559",
+   "date": "2026-11-08T02:16:48.047",
+   "summary": "Zebra before 7.0.0 contains an inefficient algorithmic complexity vulnerability that allows unauthenticated peers to exhaust verification threads by submitting transactions with many transparent inputs. Attackers can relay invalid transactions with tens of thousands of inputs, forcing quadratic ZIP-",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123558 (CVSS 7.5)",
+   "cve": "CVE-2026-123558",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123558",
+   "date": "2026-11-08T02:16:47.863",
+   "summary": "Zebra zebrad before 7.0.0 contains a denial of service vulnerability that allows a malicious peer to stall checkpoint sync by cancelling the verifier rewind after a failed commit. Attackers can serve a forged block with altered authorizing data plus a restart-triggering block, leaving the verifier r",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123555 (CVSS 7.5)",
+   "cve": "CVE-2026-123555",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123555",
+   "date": "2026-11-08T02:16:47.313",
+   "summary": "Zebra from 2.3.0 before 7.0.0 contains a denial of service vulnerability that allows unauthenticated peers to evade misbehavior scoring by sending transactions or blocks with invalid transparent scripts. Attackers can flood mempool with script-failing transactions or serve forged v5 block bodies wit",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123554 (CVSS 7.5)",
+   "cve": "CVE-2026-123554",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123554",
+   "date": "2026-11-08T02:16:47.120",
+   "summary": "Zebra zebrad 6.4.0 before 7.0.0 performs quadratic work in the mempool coinbase-maturity check because Transaction::coinbase_spend_restriction() rebuilds the transaction's output list once per spent outpoint. Any connected peer can repeatedly send unsigned transactions with many transparent inputs a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123551 (CVSS 10.0)",
+   "cve": "CVE-2026-123551",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551",
+   "date": "2026-11-08T02:16:46.603",
+   "summary": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty ID-FF endpoints, co",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123550 (CVSS 9.8)",
+   "cve": "CVE-2026-123550",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123550",
+   "date": "2026-11-08T02:16:46.410",
+   "summary": "OpenAM before 16.1.4 contains an authentication bypass vulnerability in its SAML v2.0 service provider that accepts unsigned assertions on the ECP (PAOS) and HTTP-Artifact bindings when WantAssertionsSigned is false. Unauthenticated remote attackers can submit forged assertions to obtain sessions as",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123549 (CVSS 9.8)",
+   "cve": "CVE-2026-123549",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123549",
+   "date": "2026-11-08T02:16:46.247",
+   "summary": "OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-registration, allowing anonymous attackers to set restricted attributes including group membership. Attackers can register through the legacy self-service REST endpoint or User Self-Service flow to join administrati",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123545 (CVSS 7.1)",
+   "cve": "CVE-2026-123545",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123545",
+   "date": "2026-11-08T02:16:45.597",
+   "summary": "OpenAM from 14.5.1 before 16.1.4 contains a cross-site request forgery vulnerability in the OAuth 2.0 device authorization flow that allows attackers to approve device codes when consent is skipped for implied-consent clients. Attackers can start a device authorization and lure a logged-in user to a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123543 (CVSS 7.5)",
+   "cve": "CVE-2026-123543",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123543",
+   "date": "2026-11-08T02:16:45.253",
+   "summary": "OpenAM before 16.1.4 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server resources by sending serialized Java data without size or structure limits. Attackers can send small crafted requests to remote SDK endpoints, classic login pages, or the administr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123531 (CVSS 8.8)",
+   "cve": "CVE-2026-123531",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123531",
+   "date": "2026-11-08T02:16:43.190",
+   "summary": "Vikunja from 1.0.0 before 2.7.1 contains an uncontrolled resource consumption vulnerability that allows authenticated users to bypass service.maxitemsperpage by sending page=0 to /api/v1 list endpoints. Attackers can self-register and repeatedly request page=0 to force unbounded SQL queries, memory ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123522 (CVSS 7.1)",
+   "cve": "CVE-2026-123522",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123522",
+   "date": "2026-11-08T02:16:41.607",
+   "summary": "Vikunja before 2.7.1 contains an authorization bypass vulnerability that allows authenticated users to read any task by injecting a crafted task object into a no-op Kanban bucket move. Attackers can set task.id to a victim task and task.project_id to their own project, routing full task contents to ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
@@ -168,48 +630,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-124318 (CVSS 7.2)",
-   "cve": "CVE-2026-124318",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124318",
-   "date": "2026-11-07T15:17:16.270",
-   "summary": "Treeio through 2.0 contains an insecure deserialization vulnerability in UpdateRecord.get_format_strings and ModuleSetting.loads that allows staff users to execute code via unverified pickle data. Attackers can store a crafted base64 pickle payload in an UpdateRecord format_strings field through the",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123966 (CVSS 10.0)",
-   "cve": "CVE-2026-123966",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123966",
-   "date": "2026-11-07T14:17:01.800",
-   "summary": "A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the function saveParentControlInfo of the file /goform/saveParentControlInfo. This manipulation of the argument deviceId causes heap-based buffer overflow. The attack is possible to be carried out remotely. The explo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120984 (CVSS 9.1)",
-   "cve": "CVE-2026-120984",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120984",
-   "date": "2026-11-07T14:17:01.580",
-   "summary": "A flaw was found in the Keycloak server's client management component. When a client is created or imported with authorization services enabled, the system fails to properly clear an internal session attribute used during the setup process. This allows an authenticated attacker with client managemen",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
    "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
    "date": "2026-11-07T14:10:19+00:00",
@@ -218,426 +638,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-123963 (CVSS 7.3)",
-   "cve": "CVE-2026-123963",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123963",
-   "date": "2026-11-07T13:16:38.013",
-   "summary": "A security vulnerability has been detected in OpenBMB Internet of Agents up to 9d78e88e47160eb42ee1ee8538c05e1c2c47877a. The impacted element is the function register of the file im_server/app.py of the component Agent Registry. Such manipulation of the argument desc/name leads to missing authentica",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-122041 (CVSS 9.1)",
-   "cve": "CVE-2026-122041",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122041",
-   "date": "2026-11-07T13:16:36.067",
-   "summary": "The Checkout Field Editor for WooCommerce (Pro) plugin for WordPress is vulnerable to unauthorized deletion of arbitrary attachments due to a missing capability/ownership check in the ajax_remove_uploaded() function in versions up to, and including, 3.8.0. The handler is registered for both wp_ajax ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120841 (CVSS 8.8)",
-   "cve": "CVE-2026-120841",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120841",
-   "date": "2026-11-07T13:16:35.130",
-   "summary": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Magepeople inc. WpTravelly tour-booking-manager allows PHP Local File Inclusion.This issue affects WpTravelly: from n/a through 2.3.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120839 (CVSS 8.8)",
-   "cve": "CVE-2026-120839",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120839",
-   "date": "2026-11-07T13:16:34.973",
-   "summary": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Magepeople inc. WpTravelly tour-booking-manager allows PHP Local File Inclusion.This issue affects WpTravelly: from n/a through 2.3.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119156 (CVSS 7.2)",
-   "cve": "CVE-2026-119156",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119156",
-   "date": "2026-11-07T13:16:34.510",
-   "summary": "The Download Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'wpdm_reg[first_name], wpdm_reg[last_name], wpdm_reg[user_login]' parameter in all versions up to, and including, 7.5.9 due to insufficient input sanitization and output escaping. This makes it possible fo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-93766 (CVSS 7.2)",
-   "cve": "CVE-2026-93766",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93766",
-   "date": "2026-11-07T12:17:47.280",
-   "summary": "The Happyforms Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'happyforms_client_referer' parameter in all versions up to, and including, 1.38.9 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-93755 (CVSS 7.2)",
-   "cve": "CVE-2026-93755",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93755",
-   "date": "2026-11-07T12:17:47.120",
-   "summary": "The Happyforms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via spoofable client IP headers in versions up to, and including, 1.38.9. This is due to the happyforms_get_client_ip() function reading raw HTTP_CLIENT_IP and HTTP_X_FORWARDED_FOR request headers without any validation",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-93429 (CVSS 7.2)",
-   "cve": "CVE-2026-93429",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93429",
-   "date": "2026-11-07T12:17:46.967",
-   "summary": "The VikBooking Hotel Booking Engine & PMS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'guests[][][documents]' Parameter in all versions up to, and including, 1.8.17 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attack",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123418 (CVSS 7.2)",
-   "cve": "CVE-2026-123418",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123418",
-   "date": "2026-11-07T12:17:45.933",
-   "summary": "The Church Admin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'lat' parameter in all versions up to, and including, 5.1.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in p",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-122231 (CVSS 7.2)",
-   "cve": "CVE-2026-122231",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122231",
-   "date": "2026-11-07T12:17:45.763",
-   "summary": "The WS Form LITE – Drag & Drop Contact Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'field_<id>[0][0]' parameter in all versions up to, and including, 1.12.18 due to insufficient input sanitization and output escaping. This makes it possible for unauthentica",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121765 (CVSS 7.1)",
-   "cve": "CVE-2026-121765",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121765",
-   "date": "2026-11-07T12:17:45.110",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Cozmoslabs TranslatePress translatepress-multilingual allows Stored XSS.This issue affects TranslatePress: from n/a through 3.3.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119183 (CVSS 7.2)",
-   "cve": "CVE-2026-119183",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119183",
-   "date": "2026-11-07T12:17:44.197",
-   "summary": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<form field mapped to a post meta key, e.g. lst_cost>' parameter in all versions up to, and including, 3.6.8 due to insufficient input sanitization and output escaping. This ma",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-119075 (CVSS 9.8)",
-   "cve": "CVE-2026-119075",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119075",
-   "date": "2026-11-07T12:17:44.033",
-   "summary": "The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege escalation due to a missing allow-list check in the FormHandler::validate_checkout_fields() function in versions up to, and including, 1.1.4 The My Account registration path (validate_fields()) validates a submitte",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118267 (CVSS 8.1)",
-   "cve": "CVE-2026-118267",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118267",
-   "date": "2026-11-07T12:17:43.867",
-   "summary": "The WP Data Access – App Builder for Tables, Forms, Dashboards, Charts & Maps plugin for WordPress is vulnerable to Incorrect Authorization leading to Privilege Escalation in all versions up to, and including, 5.5.89 This is due to the plugin's write endpoints (`wpda/app/update`, `wpda/app/delete`, ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-118066 (CVSS 9.1)",
-   "cve": "CVE-2026-118066",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118066",
-   "date": "2026-11-07T12:17:43.717",
-   "summary": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Account Takeover in all versions up to, and including, 5.7.6. This is due to the `OsModel::build_conditions_query()` function in `lib/models/model.php` com",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116751 (CVSS 7.5)",
-   "cve": "CVE-2026-116751",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116751",
-   "date": "2026-11-07T12:17:43.070",
-   "summary": "The Booking for Appointments and Events Calendar – Amelia Pro plugin for WordPress is vulnerable to time-based SQL Injection via the 'tag[] (array KEYS)' parameter in all versions up to, and including, 9.9.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparati",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-116537 (CVSS 7.2)",
-   "cve": "CVE-2026-116537",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116537",
-   "date": "2026-11-07T12:17:42.913",
-   "summary": "The Link Library plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'link_description' parameter in all versions up to, and including, 7.10.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary we",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115548 (CVSS 7.2)",
-   "cve": "CVE-2026-115548",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115548",
-   "date": "2026-11-07T12:17:42.747",
-   "summary": "The Quttera ThreatSign – Web Malware Scanner for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'HTTP_USER_AGENT' parameter in all versions up to, and including, 4.1.0.48 due to insufficient input sanitization and output escaping. This makes it possible for unaut",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-111370 (CVSS 7.2)",
-   "cve": "CVE-2026-111370",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111370",
-   "date": "2026-11-07T12:17:42.587",
-   "summary": "The WP Visitor Statistics (Real Time Traffic) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'os (also browser, res)' parameter in all versions up to, and including, 8.9.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticate",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-111317 (CVSS 7.2)",
-   "cve": "CVE-2026-111317",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111317",
-   "date": "2026-11-07T12:17:42.430",
-   "summary": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<any form field name — e.g. 'payload'>' parameter in all versions up to, and including, 3.6.7 due to insufficient input sanitization and output escaping. This makes it possible",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109991 (CVSS 7.5)",
-   "cve": "CVE-2026-109991",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109991",
-   "date": "2026-11-07T12:17:42.267",
-   "summary": "The FunnelKit Payment Gateway for Stripe WooCommerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.15.0.2 via the 'order-pay (WP query var from /checkout/order-pay/<ID>/)' parameter due to missing validation on a user controlled key. T",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109230 (CVSS 7.2)",
-   "cve": "CVE-2026-109230",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109230",
-   "date": "2026-11-07T12:17:42.110",
-   "summary": "The WP Visitor Statistics (Real Time Traffic) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'browser' parameter in all versions up to, and including, 8.7.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-109214 (CVSS 7.2)",
-   "cve": "CVE-2026-109214",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109214",
-   "date": "2026-11-07T12:17:41.953",
-   "summary": "The User Frontend – Membership, User Registration, User Profile, User Directory & Content Restriction with Frontend Post Submission plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '<taxonomy_field_name> (default: 'category')' parameter in all versions up to, and including, ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-104768 (CVSS 7.5)",
-   "cve": "CVE-2026-104768",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104768",
-   "date": "2026-11-07T12:17:41.793",
-   "summary": "The AutomatorWP – No-Code Workflow Automation, Integration & Webhooks Plugin, now with AI plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.4. This is due to missing privilege-ceiling validation in the `create_user()` function within the anonymous-u",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-104746 (CVSS 8.1)",
-   "cve": "CVE-2026-104746",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104746",
-   "date": "2026-11-07T12:17:41.480",
-   "summary": "The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the stm_listings_ajax_save_user_data function in all versions up to, and including, 1.4.125 This makes it possible for authenticated atta",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-104014 (CVSS 9.8)",
-   "cve": "CVE-2026-104014",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104014",
-   "date": "2026-11-07T12:17:41.313",
-   "summary": "The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_update_new_password action handled by CEOVW_AJAX::update_n",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123961 (CVSS 9.9)",
-   "cve": "CVE-2026-123961",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123961",
-   "date": "2026-11-07T11:17:01.290",
-   "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiBasicConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument KeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed publicly an",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95870 (CVSS 7.5)",
-   "cve": "CVE-2026-95870",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95870",
-   "date": "2026-11-07T10:17:12.787",
-   "summary": "The wpForo Forum plugin for WordPress is vulnerable to generic SQL Injection via the 'data' parameter in all versions up to, and including, 3.2.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unaut",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123960 (CVSS 9.9)",
-   "cve": "CVE-2026-123960",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123960",
-   "date": "2026-11-07T10:17:12.357",
-   "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function setWanConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument pppoeUser/priDns/secDns can lead to buffer overflow. The attack can be launched remotely. The exploit has been made availab",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-123959 (CVSS 9.1)",
-   "cve": "CVE-2026-123959",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123959",
-   "date": "2026-11-07T10:17:12.123",
-   "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument langType results in buffer overflow. The attack can be initiated remotely. The exploit has been released",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
