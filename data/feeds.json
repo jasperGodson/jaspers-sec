@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T01:10:35.870807+00:00",
+ "updated": "2026-11-11T10:38:55.153847+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,66 @@
   }
  ],
  "items": [
+  {
+   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+   "date": "2026-11-11T10:12:08+00:00",
+   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+   "date": "2026-11-11T09:07:27+00:00",
+   "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "date": "2026-11-11T08:17:53+00:00",
+   "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, a",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+   "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+   "date": "2026-11-11T07:49:04+00:00",
+   "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company b",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "date": "2026-11-11T07:21:05+00:00",
+   "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permi",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "date": "2026-11-11T06:04:02+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
   {
    "title": "Railway breach leads to $740,000 in fraudulent AI charges",
    "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
@@ -120,39 +180,11 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-95947 (CVSS 7.8)",
-   "cve": "CVE-2026-95947",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95947",
-   "date": "2026-11-10T19:21:47.107",
-   "summary": "An elevation of privilege vulnerability exists in Windows Error Reporting (WER) when WER handles and executes files. The vulnerability could allow elevation of privilege if an attacker can successfully exploit it.\nAn attacker who successfully exploited the vulnerability could gain greater access to ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95942 (CVSS 7.8)",
-   "cve": "CVE-2026-95942",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95942",
-   "date": "2026-11-10T19:21:46.600",
-   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95938 (CVSS 7.0)",
-   "cve": "CVE-2026-95938",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95938",
-   "date": "2026-11-10T19:21:46.417",
-   "summary": "Heap-based buffer overflow in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96155 (CVSS 7.0)",
+   "cve": "CVE-2026-96155",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96155",
+   "date": "2026-11-10T19:22:12.637",
+   "summary": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -162,67 +194,11 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-95935 (CVSS 7.8)",
-   "cve": "CVE-2026-95935",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95935",
-   "date": "2026-11-10T19:21:46.217",
-   "summary": "Integer overflow or wraparound in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95934 (CVSS 7.8)",
-   "cve": "CVE-2026-95934",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95934",
-   "date": "2026-11-10T19:21:46.043",
-   "summary": "Double free in Windows Diagnostic Policy Service allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95933 (CVSS 7.8)",
-   "cve": "CVE-2026-95933",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95933",
-   "date": "2026-11-10T19:21:45.863",
-   "summary": "Heap-based buffer overflow in Windows OLE allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95932 (CVSS 7.8)",
-   "cve": "CVE-2026-95932",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95932",
-   "date": "2026-11-10T19:21:45.663",
-   "summary": "Inclusion of functionality from untrusted control sphere in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95923 (CVSS 7.0)",
-   "cve": "CVE-2026-95923",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95923",
-   "date": "2026-11-10T19:21:45.463",
-   "summary": "Heap-based buffer overflow in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96153 (CVSS 7.0)",
+   "cve": "CVE-2026-96153",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96153",
+   "date": "2026-11-10T19:22:12.447",
+   "summary": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -232,11 +208,25 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-95922 (CVSS 7.0)",
-   "cve": "CVE-2026-95922",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95922",
-   "date": "2026-11-10T19:21:45.267",
-   "summary": "Heap-based buffer overflow in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96152 (CVSS 7.8)",
+   "cve": "CVE-2026-96152",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96152",
+   "date": "2026-11-10T19:22:12.257",
+   "summary": "Stack-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96139 (CVSS 7.0)",
+   "cve": "CVE-2026-96139",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96139",
+   "date": "2026-11-10T19:22:11.440",
+   "summary": "Untrusted pointer dereference in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -246,11 +236,25 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-95920 (CVSS 7.8)",
-   "cve": "CVE-2026-95920",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95920",
-   "date": "2026-11-10T19:21:45.080",
-   "summary": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96134 (CVSS 7.5)",
+   "cve": "CVE-2026-96134",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96134",
+   "date": "2026-11-10T19:22:10.690",
+   "summary": "Uncontrolled resource consumption in Windows DHCP Server allows an unauthorized attacker to deny service over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96129 (CVSS 7.8)",
+   "cve": "CVE-2026-96129",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96129",
+   "date": "2026-11-10T19:22:10.363",
+   "summary": "Inclusion of functionality from untrusted control sphere in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -260,206 +264,10 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-95909 (CVSS 7.8)",
-   "cve": "CVE-2026-95909",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95909",
-   "date": "2026-11-10T19:21:44.427",
-   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95906 (CVSS 7.0)",
-   "cve": "CVE-2026-95906",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95906",
-   "date": "2026-11-10T19:21:44.073",
-   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95902 (CVSS 7.8)",
-   "cve": "CVE-2026-95902",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95902",
-   "date": "2026-11-10T19:21:43.700",
-   "summary": "Heap-based buffer overflow in Windows USB Hub Driver allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95901 (CVSS 9.8)",
-   "cve": "CVE-2026-95901",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95901",
-   "date": "2026-11-10T19:21:43.510",
-   "summary": "Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95898 (CVSS 7.8)",
-   "cve": "CVE-2026-95898",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95898",
-   "date": "2026-11-10T19:21:43.327",
-   "summary": "Heap-based buffer overflow in Windows iSCSI allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95896 (CVSS 7.8)",
-   "cve": "CVE-2026-95896",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95896",
-   "date": "2026-11-10T19:21:43.140",
-   "summary": "Heap-based buffer overflow in Windows Microsoft DirectMusic allows an authorized attacker to execute code locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95895 (CVSS 7.8)",
-   "cve": "CVE-2026-95895",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95895",
-   "date": "2026-11-10T19:21:42.973",
-   "summary": "Use after free in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95894 (CVSS 7.8)",
-   "cve": "CVE-2026-95894",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95894",
-   "date": "2026-11-10T19:21:42.790",
-   "summary": "Heap-based buffer overflow in Windows Task Scheduler allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95891 (CVSS 7.8)",
-   "cve": "CVE-2026-95891",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95891",
-   "date": "2026-11-10T19:21:42.427",
-   "summary": "Heap-based buffer overflow in Windows Microsoft DirectMusic allows an authorized attacker to execute code locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95888 (CVSS 7.0)",
-   "cve": "CVE-2026-95888",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95888",
-   "date": "2026-11-10T19:21:42.040",
-   "summary": "Heap-based buffer overflow in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95885 (CVSS 8.1)",
-   "cve": "CVE-2026-95885",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95885",
-   "date": "2026-11-10T19:21:41.857",
-   "summary": "Use after free in Windows Client for NFS allows an unauthorized attacker to elevate privileges over a network.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95882 (CVSS 9.8)",
-   "cve": "CVE-2026-95882",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95882",
-   "date": "2026-11-10T19:21:41.527",
-   "summary": "Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95881 (CVSS 7.8)",
-   "cve": "CVE-2026-95881",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95881",
-   "date": "2026-11-10T19:21:41.347",
-   "summary": "Heap-based buffer overflow in Windows Push Notifications allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95879 (CVSS 7.8)",
-   "cve": "CVE-2026-95879",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95879",
-   "date": "2026-11-10T19:21:40.997",
-   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95877 (CVSS 7.8)",
-   "cve": "CVE-2026-95877",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95877",
-   "date": "2026-11-10T19:21:40.793",
+   "title": "CVE-2026-96127 (CVSS 7.8)",
+   "cve": "CVE-2026-96127",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96127",
+   "date": "2026-11-10T19:22:10.190",
    "summary": "Heap-based buffer overflow in Windows Biometric Service allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
@@ -470,25 +278,11 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-95876 (CVSS 7.0)",
-   "cve": "CVE-2026-95876",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95876",
-   "date": "2026-11-10T19:21:40.560",
-   "summary": "Use after free in Windows Local Session Manager (LSM) allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95874 (CVSS 7.8)",
-   "cve": "CVE-2026-95874",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95874",
-   "date": "2026-11-10T19:21:40.380",
-   "summary": "Heap-based buffer overflow in Xbox allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96126 (CVSS 7.8)",
+   "cve": "CVE-2026-96126",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96126",
+   "date": "2026-11-10T19:22:10.000",
+   "summary": "Heap-based buffer overflow in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -498,108 +292,10 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-95872 (CVSS 7.8)",
-   "cve": "CVE-2026-95872",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95872",
-   "date": "2026-11-10T19:21:40.190",
-   "summary": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-95871 (CVSS 7.0)",
-   "cve": "CVE-2026-95871",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95871",
-   "date": "2026-11-10T19:21:39.963",
-   "summary": "Heap-based buffer overflow in Windows Broadcast DVR User Service allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-94531 (CVSS 7.8)",
-   "cve": "CVE-2026-94531",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94531",
-   "date": "2026-11-10T19:21:38.960",
-   "summary": "Stack-based buffer overflow in Windows COM allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-94529 (CVSS 7.0)",
-   "cve": "CVE-2026-94529",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94529",
-   "date": "2026-11-10T19:21:38.680",
-   "summary": "Heap-based buffer overflow in Windows Broadcast DVR User Service allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-94527 (CVSS 7.8)",
-   "cve": "CVE-2026-94527",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94527",
-   "date": "2026-11-10T19:21:38.440",
-   "summary": "Heap-based buffer overflow in Windows GDI allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-94525 (CVSS 7.0)",
-   "cve": "CVE-2026-94525",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94525",
-   "date": "2026-11-10T19:21:38.227",
-   "summary": "An elevation of privilege vulnerability exists in Windows Error Reporting (WER) when WER handles and executes files. The vulnerability could allow elevation of privilege if an attacker can successfully exploit it.\nAn attacker who successfully exploited the vulnerability could gain greater access to ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-94522 (CVSS 7.0)",
-   "cve": "CVE-2026-94522",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94522",
-   "date": "2026-11-10T19:21:37.963",
-   "summary": "Use after free in Kernel Transaction Manager allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-94519 (CVSS 7.0)",
-   "cve": "CVE-2026-94519",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94519",
-   "date": "2026-11-10T19:21:37.803",
+   "title": "CVE-2026-96124 (CVSS 7.0)",
+   "cve": "CVE-2026-96124",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96124",
+   "date": "2026-11-10T19:22:09.813",
    "summary": "Use after free in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
@@ -610,11 +306,11 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-94515 (CVSS 7.8)",
-   "cve": "CVE-2026-94515",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94515",
-   "date": "2026-11-10T19:21:37.420",
-   "summary": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96122 (CVSS 7.8)",
+   "cve": "CVE-2026-96122",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96122",
+   "date": "2026-11-10T19:22:09.627",
+   "summary": "Untrusted pointer dereference in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -624,25 +320,25 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-94514 (CVSS 7.0)",
-   "cve": "CVE-2026-94514",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94514",
-   "date": "2026-11-10T19:21:37.170",
-   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96117 (CVSS 7.8)",
+   "cve": "CVE-2026-96117",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96117",
+   "date": "2026-11-10T19:22:09.447",
+   "summary": "Heap-based buffer overflow in Windows LUAFV allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
-    "CVSS 7.0"
+    "CVSS 7.8"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-94513 (CVSS 8.0)",
-   "cve": "CVE-2026-94513",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94513",
-   "date": "2026-11-10T19:21:36.950",
-   "summary": "Heap-based buffer overflow in SQL Server allows an authorized attacker to elevate privileges over a network.",
+   "title": "CVE-2026-96115 (CVSS 8.0)",
+   "cve": "CVE-2026-96115",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96115",
+   "date": "2026-11-10T19:22:09.303",
+   "summary": "Double free in Windows DHCP Client allows an authorized attacker to elevate privileges over an adjacent network.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -652,11 +348,263 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-94511 (CVSS 8.8)",
-   "cve": "CVE-2026-94511",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94511",
-   "date": "2026-11-10T19:21:36.760",
-   "summary": "Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network.",
+   "title": "CVE-2026-96107 (CVSS 7.0)",
+   "cve": "CVE-2026-96107",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96107",
+   "date": "2026-11-10T19:22:08.830",
+   "summary": "Null pointer dereference in Windows Phone Service allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96103 (CVSS 7.8)",
+   "cve": "CVE-2026-96103",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96103",
+   "date": "2026-11-10T19:22:08.670",
+   "summary": "Heap-based buffer overflow in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96102 (CVSS 7.8)",
+   "cve": "CVE-2026-96102",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96102",
+   "date": "2026-11-10T19:22:08.480",
+   "summary": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96097 (CVSS 7.0)",
+   "cve": "CVE-2026-96097",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96097",
+   "date": "2026-11-10T19:22:08.170",
+   "summary": "Release of invalid pointer or reference in Windows Brokering File System allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96092 (CVSS 8.1)",
+   "cve": "CVE-2026-96092",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96092",
+   "date": "2026-11-10T19:22:07.853",
+   "summary": "Use after free in DNS Server allows an unauthorized attacker to execute code over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96088 (CVSS 7.0)",
+   "cve": "CVE-2026-96088",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96088",
+   "date": "2026-11-10T19:22:07.670",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Connected User Experiences and Telemetry allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96085 (CVSS 7.8)",
+   "cve": "CVE-2026-96085",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96085",
+   "date": "2026-11-10T19:22:07.320",
+   "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96084 (CVSS 7.8)",
+   "cve": "CVE-2026-96084",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96084",
+   "date": "2026-11-10T19:22:06.890",
+   "summary": "Heap-based buffer overflow in Graphic Fonts allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96081 (CVSS 7.5)",
+   "cve": "CVE-2026-96081",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96081",
+   "date": "2026-11-10T19:22:06.413",
+   "summary": "Heap-based buffer overflow in Windows Rich Text Edit Control allows an unauthorized attacker to execute code over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96078 (CVSS 9.8)",
+   "cve": "CVE-2026-96078",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96078",
+   "date": "2026-11-10T19:22:06.210",
+   "summary": "Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96077 (CVSS 7.5)",
+   "cve": "CVE-2026-96077",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96077",
+   "date": "2026-11-10T19:22:06.010",
+   "summary": "Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96076 (CVSS 7.8)",
+   "cve": "CVE-2026-96076",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96076",
+   "date": "2026-11-10T19:22:05.783",
+   "summary": "Use after free in Windows DIAL Client allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96075 (CVSS 7.0)",
+   "cve": "CVE-2026-96075",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96075",
+   "date": "2026-11-10T19:22:05.563",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Feedback Hub allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96074 (CVSS 7.8)",
+   "cve": "CVE-2026-96074",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96074",
+   "date": "2026-11-10T19:22:05.363",
+   "summary": "Heap-based buffer overflow in Windows AppX Package Manager allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96073 (CVSS 7.0)",
+   "cve": "CVE-2026-96073",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96073",
+   "date": "2026-11-10T19:22:05.163",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96072 (CVSS 7.0)",
+   "cve": "CVE-2026-96072",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96072",
+   "date": "2026-11-10T19:22:04.973",
+   "summary": "Use after free in Windows Connected User Experiences and Telemetry allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96067 (CVSS 9.8)",
+   "cve": "CVE-2026-96067",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96067",
+   "date": "2026-11-10T19:22:04.777",
+   "summary": "Integer overflow or wraparound in Microsoft Color Management allows an unauthorized attacker to execute code over a network.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96066 (CVSS 7.8)",
+   "cve": "CVE-2026-96066",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96066",
+   "date": "2026-11-10T19:22:04.590",
+   "summary": "Stack-based buffer overflow in Windows Local Security Authority Subsystem Service (LSASS) allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96064 (CVSS 8.8)",
+   "cve": "CVE-2026-96064",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96064",
+   "date": "2026-11-10T19:22:04.450",
+   "summary": "Heap-based buffer overflow in DNS Server allows an authorized attacker to execute code over a network.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -666,11 +614,123 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-94507 (CVSS 7.8)",
-   "cve": "CVE-2026-94507",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94507",
-   "date": "2026-11-10T19:21:36.543",
-   "summary": "Heap-based buffer overflow in Windows DirectX allows an authorized attacker to elevate privileges locally.",
+   "title": "CVE-2026-96062 (CVSS 7.8)",
+   "cve": "CVE-2026-96062",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96062",
+   "date": "2026-11-10T19:22:04.277",
+   "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96061 (CVSS 7.0)",
+   "cve": "CVE-2026-96061",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96061",
+   "date": "2026-11-10T19:22:04.093",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96060 (CVSS 7.8)",
+   "cve": "CVE-2026-96060",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96060",
+   "date": "2026-11-10T19:22:03.910",
+   "summary": "Out-of-bounds read in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96057 (CVSS 7.8)",
+   "cve": "CVE-2026-96057",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96057",
+   "date": "2026-11-10T19:22:03.343",
+   "summary": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96056 (CVSS 7.8)",
+   "cve": "CVE-2026-96056",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96056",
+   "date": "2026-11-10T19:22:03.153",
+   "summary": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96055 (CVSS 7.8)",
+   "cve": "CVE-2026-96055",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96055",
+   "date": "2026-11-10T19:22:02.953",
+   "summary": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96054 (CVSS 7.0)",
+   "cve": "CVE-2026-96054",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96054",
+   "date": "2026-11-10T19:22:02.743",
+   "summary": "Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96053 (CVSS 7.8)",
+   "cve": "CVE-2026-96053",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96053",
+   "date": "2026-11-10T19:22:02.527",
+   "summary": "Improper neutralization of special elements used in a command ('command injection') in Windows Task Scheduler allows an authorized attacker to elevate privileges locally.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96052 (CVSS 7.8)",
+   "cve": "CVE-2026-96052",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96052",
+   "date": "2026-11-10T19:22:02.370",
+   "summary": "Integer underflow (wrap or wraparound) in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "kind": "vuln",
    "tags": [
     "NVD",
@@ -910,20 +970,10 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "Fireworks AI discloses new breach after cloud provider hack",
-   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-   "date": "2026-11-10T07:49:58+00:00",
-   "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
    "date": "2026-11-10T06:52:54+00:00",
-   "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component",
+   "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has&nbsp;been described as a use-after-free bug in the XML comp",
    "kind": "news",
    "tags": [],
    "source": "thn",
@@ -1032,16 +1082,6 @@
    ],
    "source": "kev",
    "source_name": "CISA KEV"
-  },
-  {
-   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-   "date": "2026-11-09T23:52:12+00:00",
-   "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
@@ -1310,26 +1350,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-   "date": "2026-11-06T05:58:54+00:00",
-   "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in it",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-   "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-   "date": "2026-11-06T05:39:10+00:00",
-   "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, C",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
    "title": "CVE-2026-19868 · SonicWall SonicOS SSLVPN: SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
    "cve": "CVE-2026-19868",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
@@ -1342,26 +1362,6 @@
    ],
    "source": "kev",
    "source_name": "CISA KEV"
-  },
-  {
-   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-   "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-   "date": "2026-11-05T16:42:46+00:00",
-   "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw cri",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-   "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-   "date": "2026-11-05T16:42:32+00:00",
-   "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration ri",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
   },
   {
    "title": "Post-Quantum Questions to Ask Your Vendors",
