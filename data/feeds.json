@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:29:00.732418+00:00",
+ "updated": "2026-11-12T02:12:08.439869+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,46 @@
   }
  ],
  "items": [
+  {
+   "title": "Baker Tilly notifies clients of data breach at third-party provider",
+   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "date": "2026-11-11T23:01:31+00:00",
+   "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "date": "2026-11-11T22:56:21+00:00",
+   "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "date": "2026-11-11T21:27:40+00:00",
+   "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "date": "2026-11-11T20:54:20+00:00",
+   "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
   {
    "title": "Who Runs the Ransomware Group Qilin?",
    "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -240,6 +280,174 @@
    "source_name": "The Hacker News"
   },
   {
+   "title": "CVE-2025-0008 (CVSS 8.4)",
+   "cve": "CVE-2025-0008",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0008",
+   "date": "2026-11-10T23:17:18.703",
+   "summary": "Insufficient verification of data authenticity may allow a local attacker to bypass Secure Debug Unlock (SDU), potentially resulting in unauthorized debug access.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-96437 (CVSS 8.2)",
+   "cve": "CVE-2026-96437",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96437",
+   "date": "2026-11-10T22:21:17.753",
+   "summary": "The ai-azure-content-safety plugin in Kong Gateway Enterprise skips inspection of request bodies larger than the in-memory body buffer, allowing prompts to bypass input content-safety checks.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-92545 (CVSS 8.7)",
+   "cve": "CVE-2026-92545",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92545",
+   "date": "2026-11-10T22:21:15.290",
+   "summary": "The proxy-cache and proxy-cache-advanced plugins in Kong Gateway Enterprise and Kong AI Gateway omit the request hostname from the cache key which may allow a response cached for a hostname to be served for another.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-92443 (CVSS 8.2)",
+   "cve": "CVE-2026-92443",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92443",
+   "date": "2026-11-10T22:21:15.133",
+   "summary": "The caching plugins in Kong Gateway Enterprise and Kong AI Gateway may serve a response cached for a request carrying an Authorization or Proxy-Authorization to different callers.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-92442 (CVSS 8.3)",
+   "cve": "CVE-2026-92442",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92442",
+   "date": "2026-11-10T22:21:14.987",
+   "summary": "The graphql-proxy-cache-advanced plugin in Kong Gateway Enterprise omits the caller's identity from the cache key, allowing a response cached for one caller to be served to another.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-92441 (CVSS 7.8)",
+   "cve": "CVE-2026-92441",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92441",
+   "date": "2026-11-10T22:21:14.867",
+   "summary": "Kong Gateway Enterprise and Kong AI Gateway include decoded CR/LF characters from the request path in the X-Forwarded-Prefix header on regex Routes, allowing HTTP header injection and request smuggling to the upstream.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-92439 (CVSS 7.8)",
+   "cve": "CVE-2026-92439",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92439",
+   "date": "2026-11-10T22:21:14.740",
+   "summary": "The SAML plugin in Kong Gateway Enterprise does not enforce AudienceRestriction, allowing a valid assertion issued for another Service Provider to be replayed to authenticate to Kong.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-91000 (CVSS 8.4)",
+   "cve": "CVE-2026-91000",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91000",
+   "date": "2026-11-10T22:21:14.613",
+   "summary": "Missing authentication for critical function vulnerability in N-able N-central allows Privilege Escalation.\n\nThis issue affects N-central: before 2026.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-90833 (CVSS 7.8)",
+   "cve": "CVE-2026-90833",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90833",
+   "date": "2026-11-10T22:21:14.320",
+   "summary": "The simulated EEPROM driver validated access ranges in eeprom_range_is_valid() (drivers/eeprom/eeprom_simulator.c) with a single test, (offset + len) <= config->size. Because offset is a signed off_t and len an unsigned size_t of the same rank, the addition is evaluated in unsigned arithmetic: a neg",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-89324 (CVSS 9.8)",
+   "cve": "CVE-2026-89324",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89324",
+   "date": "2026-11-10T22:21:14.003",
+   "summary": "The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.18. The vulnerability exists because a missing-quotes coding error in the defined() call for SECURE_AUTH_SALT inside BASEL_Auth::get_config() causes PHP to evaluate the constant's",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-82391 (CVSS 9.1)",
+   "cve": "CVE-2026-82391",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82391",
+   "date": "2026-11-10T22:21:05.710",
+   "summary": "The HTTP/2 front-end of the Zephyr HTTP server aliased connection receive state as a scratch output. In subsys/net/lib/http/http_server_http2.c, handle_http2_static_fs_resource() passed &client->data_len as the file_size out-parameter of http_server_find_file(). client->data_len is the count of unpr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-77685 (CVSS 8.3)",
+   "cve": "CVE-2026-77685",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77685",
+   "date": "2026-11-10T22:20:53.717",
+   "summary": "The RFCOMM multiplexer control-channel handler in subsys/bluetooth/host/classic/rfcomm.c computed the echo length for a BT_RFCOMM_TEST command as buf->len - 1 and passed it to rfcomm_send_test(), whose length parameter is a uint8_t. A malformed but FCS-valid UIH frame on DLCI 0 can leave buf->len ==",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
    "title": "Railway breach leads to $740,000 in fraudulent AI charges",
    "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
    "date": "2026-11-10T22:20:19+00:00",
@@ -248,6 +456,398 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-126186 (CVSS 8.8)",
+   "cve": "CVE-2026-126186",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126186",
+   "date": "2026-11-10T22:18:31.843",
+   "summary": "Active Storage makes it simple to upload and reference files in cloud services and attach those files to Active Record objects. Prior to 8.1.4.1 and 8.0.5.2, ActiveStorage::Blob#open writes a blob to a tempfile whose name carries the extension of the uploaded filename, and hands that path to ffprobe",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125958 (CVSS 7.5)",
+   "cve": "CVE-2026-125958",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125958",
+   "date": "2026-11-10T22:18:31.287",
+   "summary": "Download of code without integrity check vulnerability in N-able N-central allows Remote Code Inclusion.\n\nThis issue affects N-central: through 24.6.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125883 (CVSS 9.3)",
+   "cve": "CVE-2026-125883",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125883",
+   "date": "2026-11-10T22:18:31.143",
+   "summary": "Improper restriction of XML external entity reference vulnerability in N-able N-central allows XML Schema Poisoning.\n\nThis issue affects N-central: before 26.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125882 (CVSS 8.6)",
+   "cve": "CVE-2026-125882",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125882",
+   "date": "2026-11-10T22:18:31.000",
+   "summary": "Relative path traversal vulnerability in N-able N-central allows Path Traversal.\n\nThis issue affects N-central: before 26.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125881 (CVSS 9.3)",
+   "cve": "CVE-2026-125881",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125881",
+   "date": "2026-11-10T22:18:30.860",
+   "summary": "Server-Side request forgery (SSRF) vulnerability in N-able N-central allows Server Side Request Forgery.\n\nThis issue affects N-central: before 26.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125880 (CVSS 8.3)",
+   "cve": "CVE-2026-125880",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125880",
+   "date": "2026-11-10T22:18:30.710",
+   "summary": "Improper neutralization of HTTP headers for scripting syntax vulnerability in N-able N-central allows Cross-Site Scripting (XSS).\n\nThis issue affects N-central: before 26.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125879 (CVSS 8.6)",
+   "cve": "CVE-2026-125879",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125879",
+   "date": "2026-11-10T22:18:30.553",
+   "summary": "Incorrect privilege assignment vulnerability in N-able N-central allows Privilege Escalation.\n\nThis issue affects N-central: before 26.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125878 (CVSS 8.7)",
+   "cve": "CVE-2026-125878",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125878",
+   "date": "2026-11-10T22:18:30.380",
+   "summary": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in N-able N-central allows Resource Injection.\n\nThis issue affects N-central: before 26.4.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125298 (CVSS 9.8)",
+   "cve": "CVE-2026-125298",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125298",
+   "date": "2026-11-10T22:18:30.240",
+   "summary": "AsiaInfo Business Support System (BSS) 9.2.0 through 9.2.40 does not correctly verify cryptographic signatures for JSON Web Tokens (JWT). A remote, unauthenticated attacker could forge a well-formed JWT without a valid signature and use it to execute privileged actions. Fixed in 9.2.41.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125297 (CVSS 9.8)",
+   "cve": "CVE-2026-125297",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125297",
+   "date": "2026-11-10T22:18:30.080",
+   "summary": "AsiaInfo Business Support System (BSS) 9.2.0 through 9.2.40 accepts unauthenticated requests via the management API '/bss/sysmgnt/api/'. A remote, unauthenticated attacker could provision a new account with administrative privileges or take over existing accounts, and perform other administrative ac",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-123041 (CVSS 8.2)",
+   "cve": "CVE-2026-123041",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123041",
+   "date": "2026-11-10T22:18:28.870",
+   "summary": "The request-callout plugin in Kong Gateway Enterprise and Kong AI Gateway omits callout headers not sent by the client from its cache key, allowing a cached callout response for a caller to be served to another.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122102 (CVSS 8.7)",
+   "cve": "CVE-2026-122102",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122102",
+   "date": "2026-11-10T22:18:28.730",
+   "summary": "Adobe Connect is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the vulnerable ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121913 (CVSS 8.8)",
+   "cve": "CVE-2026-121913",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121913",
+   "date": "2026-11-10T22:18:27.920",
+   "summary": "Adobe Connect is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive information or functionality. Exploitation of this issue does not require user interaction.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121908 (CVSS 9.9)",
+   "cve": "CVE-2026-121908",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121908",
+   "date": "2026-11-10T22:18:27.533",
+   "summary": "Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. E",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121906 (CVSS 9.9)",
+   "cve": "CVE-2026-121906",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121906",
+   "date": "2026-11-10T22:18:27.400",
+   "summary": "Adobe Connect is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary file system read. An attacker could exploit this vulnerability to access sensitive files and directories outside the intended access scope. Exploi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121904 (CVSS 9.6)",
+   "cve": "CVE-2026-121904",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121904",
+   "date": "2026-11-10T22:18:27.280",
+   "summary": "Adobe Connect is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the vulnerable ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121902 (CVSS 9.4)",
+   "cve": "CVE-2026-121902",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121902",
+   "date": "2026-11-10T22:18:27.143",
+   "summary": "Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability to execute arbitrary SQL commands, potentially compromising the confidentiali",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121900 (CVSS 8.3)",
+   "cve": "CVE-2026-121900",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121900",
+   "date": "2026-11-10T22:18:27.020",
+   "summary": "Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary SQL com",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121898 (CVSS 9.9)",
+   "cve": "CVE-2026-121898",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121898",
+   "date": "2026-11-10T22:18:26.897",
+   "summary": "Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. E",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121896 (CVSS 9.9)",
+   "cve": "CVE-2026-121896",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121896",
+   "date": "2026-11-10T22:18:26.773",
+   "summary": "Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. E",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121894 (CVSS 9.9)",
+   "cve": "CVE-2026-121894",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121894",
+   "date": "2026-11-10T22:18:26.650",
+   "summary": "Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary SQL com",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121892 (CVSS 9.9)",
+   "cve": "CVE-2026-121892",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121892",
+   "date": "2026-11-10T22:18:26.520",
+   "summary": "Adobe Connect is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue d",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121890 (CVSS 7.7)",
+   "cve": "CVE-2026-121890",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121890",
+   "date": "2026-11-10T22:18:26.350",
+   "summary": "Adobe Connect is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could lead to arbitrary file system read. A low-privileged attacker could exploit this vulnerability to access sensitive files and directories outside the intended access scope. Exploitat",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121889 (CVSS 10.0)",
+   "cve": "CVE-2026-121889",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121889",
+   "date": "2026-11-10T22:18:26.180",
+   "summary": "Adobe Connect is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121887 (CVSS 9.9)",
+   "cve": "CVE-2026-121887",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121887",
+   "date": "2026-11-10T22:18:26.060",
+   "summary": "Adobe Connect is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this iss",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121356 (CVSS 10.0)",
+   "cve": "CVE-2026-121356",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121356",
+   "date": "2026-11-10T22:18:25.637",
+   "summary": "Adobe Connect is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121355 (CVSS 9.1)",
+   "cve": "CVE-2026-121355",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121355",
+   "date": "2026-11-10T22:18:25.510",
+   "summary": "Adobe Connect is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. An attacker could exploit this vulnerability to gain elevated access to sensitive information or functionality. Exploitation of this issue does not require user interaction.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-121354 (CVSS 9.9)",
+   "cve": "CVE-2026-121354",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121354",
+   "date": "2026-11-10T22:18:25.373",
+   "summary": "Adobe Connect is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary file system read. An attacker could exploit this vulnerability to access sensitive files and directories outside the intended access scope. Exploi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
   },
   {
    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
@@ -268,552 +868,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-59632 (CVSS 7.5)",
-   "cve": "CVE-2026-59632",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59632",
-   "date": "2026-11-10T20:19:32.860",
-   "summary": "In RespondReceivedMessage of MtsMessageController.cpp, there is a possible way to trigger memory exhaustion via an undrained message queue due to a type confusion. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitat",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59623 (CVSS 7.5)",
-   "cve": "CVE-2026-59623",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59623",
-   "date": "2026-11-10T20:19:32.140",
-   "summary": "In CompareTelUris of SipAddress.cpp, there is a possible way to trigger an unhandled out of range exception and process crash due to an incorrect bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59613 (CVSS 7.5)",
-   "cve": "CVE-2026-59613",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59613",
-   "date": "2026-11-10T20:19:31.600",
-   "summary": "In multiple locations, there is a possible way to trigger an out of bounds read and temporary denial of service due to improper input validation. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59611 (CVSS 7.5)",
-   "cve": "CVE-2026-59611",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59611",
-   "date": "2026-11-10T20:19:31.393",
-   "summary": "In multiple locations, there is a possible way to trigger a temporary denial of service via an integer overflow trap due to improper input validation. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59603 (CVSS 7.5)",
-   "cve": "CVE-2026-59603",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59603",
-   "date": "2026-11-10T20:19:30.757",
-   "summary": "In RespondReceivedMessage of MtsMessageController.cpp, there is a possible way to trigger a double free and process abort during message retry handling due to a use after free. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59595 (CVSS 7.5)",
-   "cve": "CVE-2026-59595",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59595",
-   "date": "2026-11-10T20:19:30.123",
-   "summary": "In DecodeHeaderComponent of SipStack.cpp, there is a possible way to trigger stack exhaustion via unbounded mutual recursion due to a resource exhaustion. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59585 (CVSS 7.5)",
-   "cve": "CVE-2026-59585",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59585",
-   "date": "2026-11-10T20:19:29.473",
-   "summary": "In SetDisplayName of RegInfoContact.cpp, there is a possible denial of service due to a missing null check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59582 (CVSS 7.5)",
-   "cve": "CVE-2026-59582",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59582",
-   "date": "2026-11-10T20:19:29.267",
-   "summary": "In StartTimer of UcePublishManager.cpp, there is a possible way to trigger a process abort during timer calculation due to an integer overflow. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58807 (CVSS 7.5)",
-   "cve": "CVE-2026-58807",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58807",
-   "date": "2026-11-10T20:19:27.717",
-   "summary": "In Retry_MtsMessageInPending of MtsMessageController.cpp, there is a possible way to trigger memory exhaustion via leaked message objects due to a logic error. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-58789 (CVSS 7.5)",
-   "cve": "CVE-2026-58789",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58789",
-   "date": "2026-11-10T20:19:26.303",
-   "summary": "In s_gen_tile_param of multiple files, there is a possible way to trigger an out of bounds write in tile parameter arrays due to an incorrect bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-50077 (CVSS 7.7)",
-   "cve": "CVE-2026-50077",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50077",
-   "date": "2026-11-10T20:19:12.123",
-   "summary": "Invalid Memory Access via the MSI-X table in QVM could allow an attacker in the guest to execute arbitrary code in the QVM to cause memory corruption, information disclosure or a crash of the QVM.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-26248 (CVSS 8.8)",
-   "cve": "CVE-2026-26248",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26248",
-   "date": "2026-11-10T20:19:11.280",
-   "summary": "A improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox 4.2 all versions, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-125337 (CVSS 8.3)",
-   "cve": "CVE-2026-125337",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125337",
-   "date": "2026-11-10T20:19:08.097",
-   "summary": "Winter CMS is a content management system built on the Laravel PHP framework. Prior to 1.2.14, the ImportExportController behavior applies userHasAccess() only to the import() and export() page actions, while Backend\\Classes\\Controller::execAjaxHandlers() dispatches onImport(), onImportLoadForm(), o",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121529 (CVSS 9.6)",
-   "cve": "CVE-2026-121529",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121529",
-   "date": "2026-11-10T20:18:56.790",
-   "summary": "A origin validation error vulnerability in Fortinet FortiClientMac 7.4.0 through 7.4.7, FortiClientWindows 7.4.0 through 7.4.7, FortiClientWindows 7.2.0 through 7.2.14, FortiClientWindowsPAM 7.4.7, FortiClientWindowsPAM 7.2.14 may allow an unauthorized remote attacker to execute unauthorized code or",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121371 (CVSS 7.5)",
-   "cve": "CVE-2026-121371",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121371",
-   "date": "2026-11-10T20:18:56.640",
-   "summary": "On affected EOS versions with the eAPI service enabled, a specially crafted HTTP request can allow an unauthenticated, remote attacker to read arbitrary files, including sensitive credentials from the switch filesystem.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121370 (CVSS 8.6)",
-   "cve": "CVE-2026-121370",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121370",
-   "date": "2026-11-10T20:18:56.507",
-   "summary": "On affected platforms running Arista EOS with Precision Time Protocol (PTP) configured, an unauthenticated attacker with network access to a PTP-enabled port can create a denial of service (DoS) condition by sending traffic to the system.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121368 (CVSS 8.6)",
-   "cve": "CVE-2026-121368",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121368",
-   "date": "2026-11-10T20:18:56.123",
-   "summary": "On affected platforms running Arista EOS with Bidirectional Forwarding Detection (BFD) configured to use keyed MD5 or keyed SHA1 authentication, an unauthenticated attacker with network adjacency (direct or multi-hop) to a BFD-enabled interface can send a specially crafted BFD packet resulting in a ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121367 (CVSS 9.6)",
-   "cve": "CVE-2026-121367",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121367",
-   "date": "2026-11-10T20:18:55.933",
-   "summary": "On affected Arista EOS platforms with Routing Information Protocol version 2 (RIPv2) configured, under certain conditions, RIPv2 might be silently enabled on management interfaces even when the RIP agent intends to disable it. It allows an unauthenticated attacker with access to the adjacent network",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121295 (CVSS 8.6)",
-   "cve": "CVE-2026-121295",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121295",
-   "date": "2026-11-10T20:18:55.750",
-   "summary": "On affected platforms running Arista EOS configured as S-BFD peers, an unauthenticated attacker could send a crafted S-BFD PDU to an initiator device. This crafted PDU could cause the kernel on the initiator device to crash, resulting in an unexpected device reboot.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121292 (CVSS 8.2)",
-   "cve": "CVE-2026-121292",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121292",
-   "date": "2026-11-10T20:18:54.743",
-   "summary": "A malformed Error Report can cause EOS to read beyond packet boundaries, potentially terminating the RPKI agent or exposing unintended memory contents through logging.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121291 (CVSS 8.2)",
-   "cve": "CVE-2026-121291",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121291",
-   "date": "2026-11-10T20:18:54.597",
-   "summary": "A crafted Error Report can leave EOS stuck believing that a cache reset is in progress, preventing ROA publication, withdrawal reconciliation, and BGP origin-validation updates.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121290 (CVSS 8.2)",
-   "cve": "CVE-2026-121290",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121290",
-   "date": "2026-11-10T20:18:54.447",
-   "summary": "On affected platforms running Arista EOS with Border Gateway Protocol (BGP) changing the BGP listen port from its default value disables default protective Access Control List (ACL) rules against unexpected BGP peering attempts.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121289 (CVSS 9.8)",
-   "cve": "CVE-2026-121289",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121289",
-   "date": "2026-11-10T20:18:54.283",
-   "summary": "On affected platforms running Arista EOS with BGP configured, a specially crafted packet can cause the BGP agent to crash.\n\nSuccessful exploitation causes the BGP agent process to terminate, resulting in the loss of all BGP sessions on the affected device and possible disruption to network routing u",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121288 (CVSS 8.1)",
-   "cve": "CVE-2026-121288",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121288",
-   "date": "2026-11-10T20:18:54.130",
-   "summary": "An unauthenticated attacker on an adjacent network segment can bypass MD5 authentication and have unauthorized RIP route updates accepted by the device. Successful exploitation requires that RIPv2 MD5 authentication is configured on the affected interface. An attacker who can inject crafted RIPv2 pa",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-121287 (CVSS 8.8)",
-   "cve": "CVE-2026-121287",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121287",
-   "date": "2026-11-10T20:18:53.950",
-   "summary": "An unauthenticated attacker on an adjacent network segment can send crafted RIPv2 packets to a RIP-enabled interface on the device to trigger the Rip agent crash without providing valid credentials. Repeated exploitation reliably interrupts routing service on the affected device, which may also disr",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120983 (CVSS 7.6)",
-   "cve": "CVE-2026-120983",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120983",
-   "date": "2026-11-10T20:18:53.653",
-   "summary": "On affected EOS platforms where 802.1x is configured in multi-host authenticated mode and the device is configured with Policy Based Routing (PBR), traffic from unauthenticated hosts may be forwarded to the destination configured in the PBR policies. This could potentially allow unauthenticated host",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120982 (CVSS 7.5)",
-   "cve": "CVE-2026-120982",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120982",
-   "date": "2026-11-10T20:18:53.507",
-   "summary": "On affected platforms running Arista EOS with Border Gateway Protocol (BGP) configured, An unauthenticated attacker who can establish a BGP peering session with an affected device and can send specially crafted BGP messages to cause repeated BGP session resets, enabling sustained disruption to netwo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120979 (CVSS 8.1)",
-   "cve": "CVE-2026-120979",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120979",
-   "date": "2026-11-10T20:18:53.073",
-   "summary": "This vulnerability affects customers using Arista Pathfinder for WAN path selection with Border Gateway Protocol-Link State (BGP-LS) configured for Dynamic Path Selection (DPS). On affected platforms running Arista EOS with BGP-LS configured for DPS, an attacker who has established an authenticated ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120977 (CVSS 8.2)",
-   "cve": "CVE-2026-120977",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120977",
-   "date": "2026-11-10T20:18:52.800",
-   "summary": "On affected platforms running Arista EOS with 802.1X with Dynamic Host Configuration Protocol (DHCP) device profiling enabled, a network-adjacent attacker can send a crafted DHCP packet to force the device to record a spoofed device profile. This may potentially allow the authenticated supplicant to",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120815 (CVSS 8.4)",
-   "cve": "CVE-2026-120815",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120815",
-   "date": "2026-11-10T20:18:52.193",
-   "summary": "An incorrect authorization check in the MongoDB Server authorization subsystem may allow an unauthenticated party with local host access to obtain administrative privileges on a database server that has authorization enabled. This may result in unintended access to stored data and credentials, unint",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120814 (CVSS 7.2)",
-   "cve": "CVE-2026-120814",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120814",
-   "date": "2026-11-10T20:18:52.047",
-   "summary": "An improper privilege management issue in the sharding subsystem of MongoDB Server may allow a user holding certain shard-level administrative privileges to cause persisted internal coordination state to be reprocessed with elevated internal authority. Because that state is trusted rather than re-va",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120808 (CVSS 7.4)",
-   "cve": "CVE-2026-120808",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120808",
-   "date": "2026-11-10T20:18:51.180",
-   "summary": "An issue exists in MongoDB's macOS TLS client implementation where certificate chain-of-trust validation is bypassed for outbound connections to IPv6-addressed peers. When a MongoDB process using the Apple SecureTransport TLS backend connects to an IPv6 target, the trust evaluation result from SecTr",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120804 (CVSS 7.5)",
-   "cve": "CVE-2026-120804",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120804",
-   "date": "2026-11-10T20:18:50.593",
-   "summary": "A flaw exists in the server-side SSPI Kerberos authentication handler on Windows Enterprise builds of MongoDB. When processing certain authentication requests, the server fails to properly release an underlying system resource due to an internal tracking error. An unauthenticated user can trigger th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-120803 (CVSS 7.1)",
-   "cve": "CVE-2026-120803",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120803",
-   "date": "2026-11-10T20:18:50.420",
-   "summary": "A use-after-free issue exists in MongoDB’s SBE (Slot-Based Execution) implementation of a window function accumulator used by certain $setWindowFields aggregation pipelines. Under specific conditions, the accumulator can retain a dangling pointer to memory that has since been freed. When this stale ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115539 (CVSS 7.7)",
-   "cve": "CVE-2026-115539",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115539",
-   "date": "2026-11-10T20:18:03.897",
-   "summary": "SwarmKit's Cluster-API proxy can overwrite a forwarded client's TLS identity with an intermediary manager's identity. WithMetadataForwardTLSInfo replaces outgoing metadata with a copy of the incoming metadata, discarding the redirect guard's changes when built with grpc-go 1.39 or later. During a sh",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115538 (CVSS 7.0)",
-   "cve": "CVE-2026-115538",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115538",
-   "date": "2026-11-10T20:18:03.747",
-   "summary": "Moby's overlay network driver does not restore the iptables rules for encrypted overlay networks after firewalld deletes them. Unlike other Docker Engine networking components, the overlay driver does not handle firewalld reload or start signals over D-Bus. The missing rules cause outgoing VXLAN dat",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115483 (CVSS 7.5)",
-   "cve": "CVE-2026-115483",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115483",
-   "date": "2026-11-10T20:18:03.537",
-   "summary": "The Everest Forms plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 3.6.3 via the attach_entry_files() function. This is due to the function attaching any entry field value whose meta key matches /signature_/ to the notification email after only a file_e",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-102166 (CVSS 8.8)",
-   "cve": "CVE-2026-102166",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102166",
-   "date": "2026-11-10T20:17:21.237",
-   "summary": "Arista C-260 and C-250 access points ship with fleet-wide static cryptographic keys used for firmware image verification and SSLP authentication. An attacker who is able to access these keys would be able to create modified firmware that will pass verification checks. This vulnerability is specific ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2025-61625 (CVSS 8.1)",
-   "cve": "CVE-2025-61625",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61625",
-   "date": "2026-11-10T20:17:20.203",
-   "summary": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.4, FortiAnalyzer 7.4.0 through 7.4.7, FortiAnalyzer 7.2.0 through 7.2.11, FortiManager 7.6.0 through 7.6.4, FortiManager 7.4.0 through 7.4.7, FortiManager 7.2.0",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Microsoft releases Windows 10 KB5131096 extended security update",
@@ -846,20 +900,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-97013 (CVSS 7.8)",
-   "cve": "CVE-2026-97013",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97013",
-   "date": "2026-11-10T19:22:23.497",
-   "summary": "Access of resource using incompatible type ('type confusion') in Windows Shell allows an authorized attacker to elevate privileges locally.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
    "date": "2026-11-10T19:19:39+00:00",
@@ -868,26 +908,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-   "date": "2026-11-10T19:07:36+00:00",
-   "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-   "date": "2026-11-10T18:33:26+00:00",
-   "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
@@ -910,16 +930,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-   "date": "2026-11-10T16:17:16+00:00",
-   "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
    "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
    "date": "2026-11-10T16:00:55+00:00",
@@ -928,16 +938,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-   "date": "2026-11-10T15:59:19+00:00",
-   "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
