@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:22:57.689350+00:00",
+ "updated": "2026-11-14T10:02:23.281977+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,48 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-129181 (CVSS 7.3)",
+   "cve": "CVE-2026-129181",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129181",
+   "date": "2026-11-14T08:17:18.090",
+   "summary": "A vulnerability has been found in projectworlds Visitor Management System 1.0. This issue affects the function mysqli_query of the file /img/user%20page.php of the component Login Endpoint. Such manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotel",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-126173 (CVSS 9.8)",
+   "cve": "CVE-2026-126173",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126173",
+   "date": "2026-11-14T05:18:37.750",
+   "summary": "The AutomatorWP Pro plugin for WordPress' webhook addon is vulnerable to authorization bypass in all versions up to, and including, 1.4.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to reset th",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124969 (CVSS 7.1)",
+   "cve": "CVE-2026-124969",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124969",
+   "date": "2026-11-14T05:18:32.480",
+   "summary": "The Optimole – Optimize Images | Convert WebP & AVIF | CDN & Lazy Load | Image Optimization plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the replace_urls_in_value function in all versions up to, and including, 4.2.19. This makes it possibl",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-71531 (CVSS 8.1)",
    "cve": "CVE-2026-71531",
@@ -583,48 +625,6 @@
    "tags": [
     "NVD",
     "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-67444 (CVSS 7.1)",
-   "cve": "CVE-2026-67444",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67444",
-   "date": "2026-11-13T19:19:34.503",
-   "summary": "Hubleys is a dashboard for self-hosted services. Prior to version 0.5.2, any authenticated (non-admin) Hubleys user can upload a file with an arbitrary extension as their dashboard \"background image,\" and the server will later serve that file back with a Content-Type derived straight from the attack",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-62976 (CVSS 8.7)",
-   "cve": "CVE-2026-62976",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62976",
-   "date": "2026-11-13T19:19:33.137",
-   "summary": "BACnet Stack is a BACnet open source protocol stack C library for embedded systems. Prior to version 1.5.1, the RAMFS-backed FILE object implementation stores appended records as NUL-terminated strings, but its record-counting logic later walks the buffer as if an additional terminating empty record",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-128082 (CVSS 7.5)",
-   "cve": "CVE-2026-128082",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128082",
-   "date": "2026-11-13T19:19:30.743",
-   "summary": "AutoMapper is a convention-based object-object mapper in .NET. Prior to 15.1.4 and from 16.0.0 until 16.3.0, AutoMapper increments type depth only after creating the destination, so recursive mapping performed through constructor parameters occurs before MaxDepth is counted. Destinations built throu",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
