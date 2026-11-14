@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T17:53:10.504459+00:00",
+ "updated": "2026-11-14T22:14:17.560319+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,20 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-129456 (CVSS 7.7)",
+   "cve": "CVE-2026-129456",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129456",
+   "date": "2026-11-14T20:17:40.060",
+   "summary": "In FRRouting, bgpd accepts a Tunnel Encapsulation attribute (type 23) whose outer TLV length does not match the length of the attribute: the mismatch is only logged and the attribute is processed anyway. A BGP neighbor can send UPDATE messages carrying such an attribute that put the reference count ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "Cursor confirms security breach led to malicious Claude Code extension",
    "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -631,20 +645,6 @@
    "tags": [
     "NVD",
     "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-128128 (CVSS 7.5)",
-   "cve": "CVE-2026-128128",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128128",
-   "date": "2026-11-13T21:17:44.597",
-   "summary": "AIOHTTP is an asynchronous HTTP client/server framework for asyncio and Python. Prior to 3.14.4, the C WebSocket reader adds a declared frame length to the size of an already buffered partial message using signed 64-bit arithmetic. A length near two to the power of 63 can overflow, allowing the max_",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
