@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:42:20.751360+00:00",
+ "updated": "2026-11-16T05:59:59.702340+00:00",
  "sources": [
   {
    "id": "kev",
@@ -11,9 +11,9 @@
   {
    "id": "nvd",
    "name": "NVD high severity",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "count": 40,
+   "error": ""
   },
   {
    "id": "cisa-adv",
@@ -60,6 +60,188 @@
  ],
  "items": [
   {
+   "title": "CVE-2026-82156 (CVSS 8.8)",
+   "cve": "CVE-2026-82156",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82156",
+   "date": "2026-11-16T04:16:44.230",
+   "summary": "Dell PowerStore contains an authorization-bypass vulnerability. A low-privileged attacker could exploit it, potentially leading to elevation of privilege to administrator.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-129540 (CVSS 8.8)",
+   "cve": "CVE-2026-129540",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129540",
+   "date": "2026-11-16T02:17:12.100",
+   "summary": "VoAPI 1.0.0 through 1.2.0 contains a sql injection vulnerability that allows authenticated users to inject SQL by supplying crafted column names as search[...] filter keys on list endpoints such as GET /api/log. Attackers can read the HS256 JWT signing secret from the option table and forge a manage",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-129494 (CVSS 7.5)",
+   "cve": "CVE-2026-129494",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129494",
+   "date": "2026-11-16T01:17:20.053",
+   "summary": "CloudPaste 1.1.0 through 1.9.1 contains an information disclosure vulnerability that allows unauthenticated attackers to obtain WebDAV storage credentials through the unauthenticated /api/proxy/link endpoint. Attackers who know a public share slug can retrieve the Basic Authorization header containi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-129493 (CVSS 7.5)",
+   "cve": "CVE-2026-129493",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129493",
+   "date": "2026-11-16T01:17:19.897",
+   "summary": "Bolo (bolo-solo) 1.7 through 2.6.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read article view passwords via the public GET /articles endpoint. Attackers can retrieve the plaintext articleViewPwd field returned by ArticleProcessor.getArticlesByPage and",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-129091 (CVSS 8.1)",
+   "cve": "CVE-2026-129091",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129091",
+   "date": "2026-11-15T19:17:16.730",
+   "summary": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Mikado-Themes GrandPrix Core grandprix-core allows PHP Local File Inclusion.This issue affects GrandPrix Core: from n/a through 1.0.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125830 (CVSS 7.1)",
+   "cve": "CVE-2026-125830",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125830",
+   "date": "2026-11-15T19:17:16.580",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Belingo belingoGeo belingogeo allows Reflected XSS.This issue affects belingoGeo: from n/a through 1.13.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125823 (CVSS 7.5)",
+   "cve": "CVE-2026-125823",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125823",
+   "date": "2026-11-15T19:17:16.273",
+   "summary": "Allocation of Resources Without Limits or Throttling vulnerability in Jegstudio Gutenverse gutenverse allows HTTP DoS.This issue affects Gutenverse: from n/a through 4.2.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125822 (CVSS 7.1)",
+   "cve": "CVE-2026-125822",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125822",
+   "date": "2026-11-15T19:17:16.123",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Nickboss WordPress File Upload wp-file-upload allows Stored XSS.This issue affects WordPress File Upload: from n/a through 5.2.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125818 (CVSS 7.1)",
+   "cve": "CVE-2026-125818",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125818",
+   "date": "2026-11-15T19:17:15.850",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AdvancedCoding wpDiscuz wpdiscuz allows Stored XSS.This issue affects wpDiscuz: from n/a through 7.6.75.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125817 (CVSS 7.1)",
+   "cve": "CVE-2026-125817",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125817",
+   "date": "2026-11-15T19:17:15.703",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themeisle Feedzy feedzy-rss-feeds allows Stored XSS.This issue affects Feedzy: from n/a through 5.2.15.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125804 (CVSS 7.1)",
+   "cve": "CVE-2026-125804",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125804",
+   "date": "2026-11-15T19:17:15.557",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Meow Apps AI Engine ai-engine allows Stored XSS.This issue affects AI Engine: from n/a through 3.9.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125798 (CVSS 7.1)",
+   "cve": "CVE-2026-125798",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125798",
+   "date": "2026-11-15T19:17:15.413",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Zaytech Smart Online Order for Clover clover-online-orders allows DOM-Based XSS.This issue affects Smart Online Order for Clover: from n/a through 1.6.6.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125760 (CVSS 7.1)",
+   "cve": "CVE-2026-125760",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125760",
+   "date": "2026-11-15T19:17:15.073",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bit Apps Bit Assist bit-assist allows DOM-Based XSS.This issue affects Bit Assist: from n/a through 1.8.4.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
    "date": "2026-11-15T18:29:53+00:00",
@@ -78,6 +260,384 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-128893 (CVSS 7.1)",
+   "cve": "CVE-2026-128893",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128893",
+   "date": "2026-11-15T15:16:47.467",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Marcin Wise Chat wise-chat allows Reflected XSS.This issue affects Wise Chat: from n/a through 3.4.5.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125799 (CVSS 7.5)",
+   "cve": "CVE-2026-125799",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125799",
+   "date": "2026-11-15T15:16:47.317",
+   "summary": "Insertion of Sensitive Information into Externally-Accessible File or Directory vulnerability in Looks Awesome Flow-Flow Social Stream flow-flow-social-streams allows Retrieve Embedded Sensitive Data.This issue affects Flow-Flow Social Stream: from n/a through 5.0.5.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125795 (CVSS 9.8)",
+   "cve": "CVE-2026-125795",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125795",
+   "date": "2026-11-15T15:16:47.163",
+   "summary": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Estatik Estatik estatik allows PHP Local File Inclusion.This issue affects Estatik: from n/a through 4.3.6.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125793 (CVSS 7.1)",
+   "cve": "CVE-2026-125793",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125793",
+   "date": "2026-11-15T15:16:47.027",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in flexmls Flexmls® IDX flexmls-idx allows Reflected XSS.This issue affects Flexmls® IDX: from n/a through 4.1.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125771 (CVSS 7.2)",
+   "cve": "CVE-2026-125771",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125771",
+   "date": "2026-11-15T15:16:46.890",
+   "summary": "Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege Escalation.This issue affects MCP Server for WordPress: from n/a through 2.0.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125765 (CVSS 7.1)",
+   "cve": "CVE-2026-125765",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125765",
+   "date": "2026-11-15T15:16:46.743",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ShortPixel ShortPixel Adaptive Images shortpixel-adaptive-images allows Stored XSS.This issue affects ShortPixel Adaptive Images: from n/a through 3.11.6.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125733 (CVSS 7.1)",
+   "cve": "CVE-2026-125733",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125733",
+   "date": "2026-11-15T15:16:46.600",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DevItems ShopLentor woolentor-addons allows Reflected XSS.This issue affects ShopLentor: from n/a through 3.5.7.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125447 (CVSS 7.1)",
+   "cve": "CVE-2026-125447",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125447",
+   "date": "2026-11-15T15:16:45.760",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kaliforms Kali Forms kali-forms allows Reflected XSS.This issue affects Kali Forms: from n/a through 2.4.31.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-129483 (CVSS 9.1)",
+   "cve": "CVE-2026-129483",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129483",
+   "date": "2026-11-15T14:17:27.530",
+   "summary": "Cyrus SASL through 2.1.28 contains an authentication bypass vulnerability in the SRP server mechanism because srp_server_mech_step2 does not reject client public values A that are multiples of N. Unauthenticated network clients can send A equal to N to force a zero shared secret, authenticating as a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-129453 (CVSS 9.9)",
+   "cve": "CVE-2026-129453",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129453",
+   "date": "2026-11-15T14:17:26.583",
+   "summary": "A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of the file /cgi-bin/mainfunction.cgi of the component File Existence Check. Performing a manipulation of the argument upload_name results in heap-based buffer overflow. The attack may be initiat",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.9"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125832 (CVSS 8.5)",
+   "cve": "CVE-2026-125832",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125832",
+   "date": "2026-11-15T14:17:26.137",
+   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Passionate Programmer Peter WP Data Access wp-data-access allows SQL Injection.This issue affects WP Data Access: from n/a through 5.5.92.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125828 (CVSS 7.1)",
+   "cve": "CVE-2026-125828",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125828",
+   "date": "2026-11-15T14:17:25.990",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Liquid Web / StellarWP BookIt bookit allows Stored XSS.This issue affects BookIt: from n/a through 2.6.0.7.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125813 (CVSS 7.1)",
+   "cve": "CVE-2026-125813",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125813",
+   "date": "2026-11-15T14:17:25.847",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Ays Pro Survey Maker survey-maker allows Reflected XSS.This issue affects Survey Maker: from n/a through 5.2.4.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125791 (CVSS 7.1)",
+   "cve": "CVE-2026-125791",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125791",
+   "date": "2026-11-15T14:17:25.563",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in iWorks Orphans sierotki allows Stored XSS.This issue affects Orphans: from n/a through 3.4.6.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125790 (CVSS 7.1)",
+   "cve": "CVE-2026-125790",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125790",
+   "date": "2026-11-15T14:17:25.423",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS vikbooking allows Stored XSS.This issue affects VikBooking Hotel Booking Engine & PMS: from n/a through 1.8.20.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125789 (CVSS 7.1)",
+   "cve": "CVE-2026-125789",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125789",
+   "date": "2026-11-15T14:17:25.277",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS vikbooking allows Stored XSS.This issue affects VikBooking Hotel Booking Engine & PMS: from n/a through 1.8.20.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125780 (CVSS 7.5)",
+   "cve": "CVE-2026-125780",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125780",
+   "date": "2026-11-15T14:17:25.130",
+   "summary": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Acowebs Woocommerce Custom Product Addons Pro woo-custom-product-addons-pro allows Path Traversal.This issue affects Woocommerce Custom Product Addons Pro: from n/a through 5.9.0.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125775 (CVSS 7.1)",
+   "cve": "CVE-2026-125775",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125775",
+   "date": "2026-11-15T14:17:24.977",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CRM Perks CRM Perks Forms crm-perks-forms allows Reflected XSS.This issue affects CRM Perks Forms: from n/a through 1.1.8.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125769 (CVSS 9.8)",
+   "cve": "CVE-2026-125769",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125769",
+   "date": "2026-11-15T14:17:24.813",
+   "summary": "Incorrect Privilege Assignment vulnerability in Nasir Ahmed Advanced Form Integration advanced-form-integration allows Privilege Escalation.This issue affects Advanced Form Integration: from n/a through 2.11.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125764 (CVSS 7.1)",
+   "cve": "CVE-2026-125764",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125764",
+   "date": "2026-11-15T14:17:24.647",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in E2Pdf.com e2pdf e2pdf allows Stored XSS.This issue affects e2pdf: from n/a through 1.32.65.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125449 (CVSS 8.8)",
+   "cve": "CVE-2026-125449",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125449",
+   "date": "2026-11-15T14:17:24.497",
+   "summary": "Deserialization of Untrusted Data vulnerability in Mamunur Rashid Testimonial Slider testimonial-slider-and-showcase allows Object Injection.This issue affects Testimonial Slider: from n/a through 3.0.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-125443 (CVSS 7.1)",
+   "cve": "CVE-2026-125443",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125443",
+   "date": "2026-11-15T14:17:24.340",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Denishua WPJAM Basic wpjam-basic allows DOM-Based XSS.This issue affects WPJAM Basic: from n/a through 7.1.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124995 (CVSS 7.1)",
+   "cve": "CVE-2026-124995",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124995",
+   "date": "2026-11-15T14:17:24.187",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Michal Jaworski Track, Analyze & Optimize by WP Tao wp-tao allows Stored XSS.This issue affects Track, Analyze & Optimize by WP Tao: from n/a through 1.3.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124270 (CVSS 7.1)",
+   "cve": "CVE-2026-124270",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124270",
+   "date": "2026-11-15T14:17:21.687",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Basix NEX-Forms nex-forms-express-wp-form-builder allows Reflected XSS.This issue affects NEX-Forms: from n/a through 9.3.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124259 (CVSS 7.1)",
+   "cve": "CVE-2026-124259",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124259",
+   "date": "2026-11-15T14:17:21.543",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Franky Events Made Easy events-made-easy allows Reflected XSS.This issue affects Events Made Easy: from n/a through 3.3.5.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-124254 (CVSS 7.1)",
+   "cve": "CVE-2026-124254",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124254",
+   "date": "2026-11-15T14:17:21.387",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Exactly WWW LLC EWWW Image Optimizer ewww-image-optimizer allows Stored XSS.This issue affects EWWW Image Optimizer: from n/a through 8.9.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-122662 (CVSS 9.8)",
+   "cve": "CVE-2026-122662",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122662",
+   "date": "2026-11-15T14:17:20.507",
+   "summary": "Deserialization of Untrusted Data vulnerability in Barn2 Plugins Document Library Pro document-library-pro allows Object Injection.This issue affects Document Library Pro: from n/a before 4.2.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
   },
   {
    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
