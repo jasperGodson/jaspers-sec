@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:00:35.768076+00:00",
+ "updated": "2026-11-22T01:07:26.516659+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,58 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-134543 (CVSS 7.1)",
+   "cve": "CVE-2026-134543",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134543",
+   "date": "2026-11-22T00:17:00.150",
+   "summary": "A flaw has been found in jprocms up to 1.7.7. Affected is the function StrUtil.format of the component Database Backup Module. Executing a manipulation of the argument host/port/username/password/dbName can lead to os command injection. The attack can be launched remotely. The exploit has been publi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134541 (CVSS 7.3)",
+   "cve": "CVE-2026-134541",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134541",
+   "date": "2026-11-22T00:16:59.950",
+   "summary": "A vulnerability was detected in Surya2Developer Online Shopping System 1.0. This impacts an unknown function of the file product.php of the component GET Parameter Handler. Performing a manipulation of the argument p results in sql injection. The attack can be initiated remotely. The exploit is now ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "date": "2026-11-21T22:59:58+00:00",
+   "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-125294 (CVSS 9.8)",
+   "cve": "CVE-2026-125294",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
+   "date": "2026-11-21T19:16:31.403",
+   "summary": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-133993 (CVSS 10.0)",
    "cve": "CVE-2026-133993",
@@ -588,48 +640,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-134303 (CVSS 7.9)",
-   "cve": "CVE-2026-134303",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134303",
-   "date": "2026-11-21T17:16:50.480",
-   "summary": "SurrealKV before 1.1.0 contains an out-of-bounds read vulnerability in the safe InternalKeyRef::from_encoded constructor, which only checks key length with a debug-only assertion. Callers passing keys shorter than 16 bytes, or crafted or corrupted SSTable blocks, trigger unchecked length underflow i",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-134300 (CVSS 8.1)",
-   "cve": "CVE-2026-134300",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134300",
-   "date": "2026-11-21T17:16:49.917",
-   "summary": "SurrealDB from 2.2.0 before 4.0.0 contains an authorization bypass vulnerability in Document::purge_references that lets authenticated users bypass target table PERMISSIONS by triggering REFERENCE ON DELETE cascades. Attackers can delete a referenced record to delete, unset, or run CUSTOM expression",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-134299 (CVSS 7.5)",
-   "cve": "CVE-2026-134299",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134299",
-   "date": "2026-11-21T17:16:49.743",
-   "summary": "SurrealDB 3.0.4 before 4.0.0 does not apply operator-configured WebSocket frame, message, and buffer size limits to the GraphQL WebSocket upgrade handler at GET /graphql, falling back to permissive library defaults. Unauthenticated remote attackers who supply the target namespace and database in req",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
    "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
    "date": "2026-11-21T15:17:27+00:00",
@@ -984,16 +994,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-   "date": "2026-11-19T18:20:01+00:00",
-   "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
