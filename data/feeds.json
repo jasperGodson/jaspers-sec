@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:24:46.063538+00:00",
+ "updated": "2026-11-23T01:29:40.981162+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,230 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-134838 (CVSS 7.4)",
+   "cve": "CVE-2026-134838",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134838",
+   "date": "2026-11-22T22:17:39.607",
+   "summary": "Weblate before 2026.11 contains an account takeover vulnerability in the reset_password view that allows unauthenticated attackers to reset victim passwords by abusing case-insensitive Unicode e-mail matching. Attackers controlling a lookalike mailbox using a dotless i or other case-folding variant ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.4"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134836 (CVSS 8.1)",
+   "cve": "CVE-2026-134836",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134836",
+   "date": "2026-11-22T22:17:39.237",
+   "summary": "Dashy 4.0.0 before 4.9.12 contains a credential disclosure vulnerability in isLocalRequest that attaches user credentials to lookalike hosts due to prefix-only origin checks. Attackers can lure logged-in users to a crafted ?config= link pointing to a lookalike host, capturing bearer tokens or HTTP a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134830 (CVSS 7.5)",
+   "cve": "CVE-2026-134830",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134830",
+   "date": "2026-11-22T22:17:38.227",
+   "summary": "Casdoor before 4.27.1 contains an uncontrolled resource consumption vulnerability in decodeSamlMessage that allows unauthenticated attackers to exhaust memory by sending unbounded DEFLATE-compressed SAML messages. Attackers can send a small, highly compressed SAMLRequest or SAMLResponse to the /api/",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134827 (CVSS 7.7)",
+   "cve": "CVE-2026-134827",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134827",
+   "date": "2026-11-22T22:17:37.707",
+   "summary": "Lightdash before 3.212.0 contains an insufficiently protected credentials vulnerability in getGitlabInstallationRepoReadAccess that sends the organization GitLab app token to unverified hosts. Project developers can set the dbt connection host_domain to an attacker-controlled server and capture the ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134826 (CVSS 7.3)",
+   "cve": "CVE-2026-134826",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134826",
+   "date": "2026-11-22T22:17:37.550",
+   "summary": "erxes before 3.4.14 contains a missing authentication vulnerability in the insurance_api plugin that allows unauthenticated attackers to create, overwrite or delete contract templates via GraphQL mutations. Attackers can inject HTML into templates rendered by headless Chromium during generateContrac",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134821 (CVSS 7.5)",
+   "cve": "CVE-2026-134821",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134821",
+   "date": "2026-11-22T22:17:36.770",
+   "summary": "Gunicorn 25.2.0 before 27.0.0 contains a memory exhaustion vulnerability in the pure-Python ASGI HTTP/1 parser that buffers protocol lines without size limits. Unauthenticated remote attackers can send request lines, headers, chunk-size lines or trailers lacking CRLF to grow worker memory and consum",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134817 (CVSS 7.1)",
+   "cve": "CVE-2026-134817",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134817",
+   "date": "2026-11-22T22:17:36.147",
+   "summary": "mcp-server-kubernetes before 4.2.0 contains an argument injection vulnerability that allows remote MCP clients to inject kubectl flags by supplying dash-prefixed values as positional operands in tools such as exec_in_pod, kubectl_patch, and kubectl_logs. Attackers connected over SSE or Streamable HT",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134815 (CVSS 8.1)",
+   "cve": "CVE-2026-134815",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134815",
+   "date": "2026-11-22T22:17:35.807",
+   "summary": "simple-git before 4.1.0 contains an argument injection vulnerability that allows attackers to bypass the allowUnsafePack guard by supplying the --exec option to non-push git operations. Attackers who influence arguments passed to listRemote() or raw() can inject --exec for ls-remote, archive, fetch-",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134814 (CVSS 8.1)",
+   "cve": "CVE-2026-134814",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134814",
+   "date": "2026-11-22T22:17:35.660",
+   "summary": "binary-parser before 2.3.1 contains a code injection vulnerability that allows attackers controlling parser definitions to inject JavaScript through string-typed options passed unvalidated by Context.generateOption(). Attackers can supply crafted length, lengthInBytes, key, tag, offset, or namely() ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134813 (CVSS 7.5)",
+   "cve": "CVE-2026-134813",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134813",
+   "date": "2026-11-22T22:17:35.497",
+   "summary": "Faye websocket-driver 0.5.0 before 0.8.0, permessage-deflate before 0.2.0, and websocket-extensions before 0.2.0 contain a decompression bomb vulnerability because messages are fully inflated before maxLength is enforced. Unauthenticated remote clients negotiating permessage-deflate can send highly ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134812 (CVSS 7.5)",
+   "cve": "CVE-2026-134812",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134812",
+   "date": "2026-11-22T22:17:35.343",
+   "summary": "msgpackr before 2.1.4 contains an inefficient algorithmic complexity vulnerability that allows remote attackers to cause denial of service by repeatedly re-decoding buffered incomplete values. Attackers can stream a large container of small elements in small chunks to UnpackrStream or decodeIter, tr",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134808 (CVSS 7.5)",
+   "cve": "CVE-2026-134808",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134808",
+   "date": "2026-11-22T22:17:34.697",
+   "summary": "Gogs before 0.14.4 on Windows contains a path equivalence vulnerability in isRepositoryGitPath that allows authenticated users with write access to bypass .git directory protection using NTFS aliases. Attackers can create, rename or upload files via aliases like git~1 or .git::$INDEX_ALLOCATION to o",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134804 (CVSS 8.8)",
+   "cve": "CVE-2026-134804",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134804",
+   "date": "2026-11-22T22:17:34.037",
+   "summary": "Portainer 2.39.0 before 2.39.9, 2.40.0 before 2.45.4, and 3.0.0 before 3.1.0 contains an authorization bypass vulnerability that allows Standard users to access other users' containers via the WebSocket attach and exec endpoints. Attackers with shared environment access can use leaked container or e",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134803 (CVSS 8.1)",
+   "cve": "CVE-2026-134803",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134803",
+   "date": "2026-11-22T22:17:33.857",
+   "summary": "DBHub before 1.7.0 contains a read-only mode bypass vulnerability that allows MCP clients restricted to readonly execute_sql to run write and DDL statements via backslash-escaped quotes. Attackers can hide stacked statements that clear transaction_read_only or COMMIT inside strings misparsed by scan",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134793 (CVSS 7.8)",
+   "cve": "CVE-2026-134793",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134793",
+   "date": "2026-11-22T22:17:32.177",
+   "summary": "Electerm before 5.9.0 on Windows contains an OS command injection vulnerability that allows attackers to execute PowerShell code via crafted file or folder names containing Unicode quote characters. Attackers can deliver names containing U+2019 through archives, WSL distributions, or SMB shares, whi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134765 (CVSS 7.7)",
+   "cve": "CVE-2026-134765",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134765",
+   "date": "2026-11-22T22:17:31.983",
+   "summary": "Kirby 5.0.0 before 5.6.4 contains a race condition in Kirby\\Api\\Upload::processChunk() that allows authenticated users with upload permission to bypass SVG sanitization. Attackers can race concurrent chunked uploads sharing a filename to swap a benign SVG with a script-bearing SVG, executing stored ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-134624 (CVSS 9.3)",
    "cve": "CVE-2026-134624",
@@ -426,202 +650,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-131742 (CVSS 7.1)",
-   "cve": "CVE-2026-131742",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131742",
-   "date": "2026-11-22T11:16:47.007",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PluginUs.Net Active Products Tables for WooCommerce profit-products-tables-for-woocommerce allows Reflected XSS.This issue affects Active Products Tables for WooCommerce: from n/a through 2.1.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131724 (CVSS 7.1)",
-   "cve": "CVE-2026-131724",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131724",
-   "date": "2026-11-22T11:16:46.860",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Liquid Web / StellarWP Event Tickets event-tickets allows Stored XSS.This issue affects Event Tickets: from n/a through 5.31.1.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131718 (CVSS 7.1)",
-   "cve": "CVE-2026-131718",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131718",
-   "date": "2026-11-22T11:16:46.413",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Liquid Web / StellarWP Event Tickets event-tickets allows Reflected XSS.This issue affects Event Tickets: from n/a through 5.31.1.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131714 (CVSS 7.1)",
-   "cve": "CVE-2026-131714",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131714",
-   "date": "2026-11-22T11:16:46.260",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kaliforms Kali Forms kali-forms allows Reflected XSS.This issue affects Kali Forms: from n/a through 2.4.32.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131702 (CVSS 7.1)",
-   "cve": "CVE-2026-131702",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131702",
-   "date": "2026-11-22T11:16:46.110",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NextScripts NextScripts social-networks-auto-poster-facebook-twitter-g allows Stored XSS.This issue affects NextScripts: from n/a through 4.4.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131701 (CVSS 8.5)",
-   "cve": "CVE-2026-131701",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131701",
-   "date": "2026-11-22T11:16:45.960",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in JoomUnited WP Media folder wp-media-folder allows Blind SQL Injection.This issue affects WP Media folder: from n/a through 6.2.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131720 (CVSS 7.5)",
-   "cve": "CVE-2026-131720",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131720",
-   "date": "2026-11-22T10:16:40.293",
-   "summary": "Insertion of Sensitive Information Into Sent Data vulnerability in Liquid Web / StellarWP BookIt bookit allows Retrieve Embedded Sensitive Data.This issue affects BookIt: from n/a through 2.6.0.8.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131708 (CVSS 7.1)",
-   "cve": "CVE-2026-131708",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131708",
-   "date": "2026-11-22T10:16:40.140",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss ProfileGrid profilegrid-user-profiles-groups-and-communities allows Reflected XSS.This issue affects ProfileGrid: from n/a through 6.0.0.6.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131707 (CVSS 8.8)",
-   "cve": "CVE-2026-131707",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131707",
-   "date": "2026-11-22T10:16:39.993",
-   "summary": "Deserialization of Untrusted Data vulnerability in Metagauss ProfileGrid profilegrid-user-profiles-groups-and-communities allows Object Injection.This issue affects ProfileGrid: from n/a through 6.0.0.6.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131706 (CVSS 7.5)",
-   "cve": "CVE-2026-131706",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131706",
-   "date": "2026-11-22T10:16:39.840",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid profilegrid-user-profiles-groups-and-communities allows Blind SQL Injection.This issue affects ProfileGrid: from n/a through 6.0.0.6.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131705 (CVSS 8.5)",
-   "cve": "CVE-2026-131705",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131705",
-   "date": "2026-11-22T10:16:39.683",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid: from n/a through 6.0.0.6.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-131700 (CVSS 7.1)",
-   "cve": "CVE-2026-131700",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131700",
-   "date": "2026-11-22T10:16:39.523",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Dylan Kuhn  Geo Mashup geo-mashup allows Reflected XSS.This issue affects  Geo Mashup: from n/a through 1.13.23.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-129016 (CVSS 7.1)",
-   "cve": "CVE-2026-129016",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129016",
-   "date": "2026-11-22T10:16:38.553",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Andrea Tarantini Menubar menubar allows Reflected XSS.This issue affects Menubar: from n/a through 5.9.4.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-134623 (CVSS 7.3)",
-   "cve": "CVE-2026-134623",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134623",
-   "date": "2026-11-22T05:18:43.323",
-   "summary": "A flaw has been found in Microweber up to 2.0.20. This impacts the function UserManager::make_logged of the file src/MicroweberPackages/App/Http/Controllers/ApiController.php of the component Generic API Dispatcher. This manipulation causes improper access controls. Remote exploitation of the attack",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
    "date": "2026-11-22T05:06:55+00:00",
@@ -640,34 +668,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-134704 (CVSS 7.8)",
-   "cve": "CVE-2026-134704",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134704",
-   "date": "2026-11-22T02:17:09.620",
-   "summary": "OpenShot Video Editor (openshot-qt) through 4.1.1 contains an unsafe deserialization vulnerability in ProjectDataStore.load() and read_legacy_project_file() that passes non-JSON project files to pickle.load() without restriction. Attackers can trick users into opening a crafted .osp project file con",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-134694 (CVSS 7.8)",
-   "cve": "CVE-2026-134694",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134694",
-   "date": "2026-11-22T02:17:07.790",
-   "summary": "Gammapy through 2.1 contains a code injection vulnerability in WcsGeom.from_header() that passes the WCSSHAPE FITS header card to eval(). Attackers can supply a crafted .fits file with a Python expression in WCSSHAPE, executing code as the user who loads it via Map.read().",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
