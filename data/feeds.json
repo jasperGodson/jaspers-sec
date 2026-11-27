@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:58:18.462664+00:00",
+ "updated": "2026-11-27T21:04:43.393924+00:00",
  "sources": [
   {
    "id": "kev",
@@ -60,6 +60,656 @@
  ],
  "items": [
   {
+   "title": "CVE-2026-138034 (CVSS 7.5)",
+   "cve": "CVE-2026-138034",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138034",
+   "date": "2026-11-27T20:18:19.317",
+   "summary": "bigcommerce-api-mcp before 1.0.1 contains a missing authentication vulnerability that allows remote unauthenticated attackers to invoke MCP tools because the /sse and /messages routes skip the authenticateRequest middleware. Attackers can open /sse to obtain a session id and POST JSON-RPC tool calls",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138028 (CVSS 7.5)",
+   "cve": "CVE-2026-138028",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138028",
+   "date": "2026-11-27T20:18:18.337",
+   "summary": "Bagel (bagel-mcp) before 2.5.5 contains an argument injection vulnerability in RsyncFilesToLocalDirectory that allows attackers to inject rsync options because only --quiet and --log-format values are rejected. Attackers who influence the LLM through prompt-injected content can trigger run_pipeline ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138027 (CVSS 7.5)",
+   "cve": "CVE-2026-138027",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138027",
+   "date": "2026-11-27T20:18:18.177",
+   "summary": "Bagel (bagel-mcp) before 2.5.5 exposes unsandboxed DuckDB SQL execution through the read-only annotated query_messages MCP tool, allowing file access and network requests. Attackers who prompt-inject the driving LLM via recorded logs or topics can invoke read_csv_auto, COPY TO, or httpfs to read and",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138026 (CVSS 7.3)",
+   "cve": "CVE-2026-138026",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138026",
+   "date": "2026-11-27T20:18:17.927",
+   "summary": "Crypto APIs MCP server packages (@cryptoapis-io/mcp-*) before 0.4.0, mcp-blockchain-events, mcp-blockchain-fees, mcp-broadcast and mcp-prepare-transactions before 0.5.0, and mcp-aml before 0.2.0 contain a missing authentication vulnerability that allows unauthenticated network attackers to invoke to",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137898 (CVSS 7.3)",
+   "cve": "CVE-2026-137898",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137898",
+   "date": "2026-11-27T20:18:17.753",
+   "summary": "A flaw was found in pam. When built with libeconf and an unconfigured vendor directory, the pam_econf configuration handler misinterprets the search path, causing it to look for configuration files in a relative directory within the current working directory. A local attacker can exploit this by pla",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-131776 (CVSS 7.1)",
+   "cve": "CVE-2026-131776",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131776",
+   "date": "2026-11-27T20:18:16.523",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Hai Zheng / Lite Speed Cache LiteSpeed Cache litespeed-cache allows Stored XSS.This issue affects LiteSpeed Cache: from n/a through 7.9.3.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "date": "2026-11-27T19:26:04+00:00",
+   "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-136117 (CVSS 7.1)",
+   "cve": "CVE-2026-136117",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136117",
+   "date": "2026-11-27T19:17:00.060",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Solid Plugins, LLC Solid Affiliate solid-affiliate allows Stored XSS.This issue affects Solid Affiliate: from n/a through 3.3.0.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136116 (CVSS 7.1)",
+   "cve": "CVE-2026-136116",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136116",
+   "date": "2026-11-27T19:16:59.900",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Solid Plugins, LLC Solid Affiliate solid-affiliate allows Reflected XSS.This issue affects Solid Affiliate: from n/a through 3.3.0.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136115 (CVSS 9.8)",
+   "cve": "CVE-2026-136115",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136115",
+   "date": "2026-11-27T19:16:59.730",
+   "summary": "Incorrect Privilege Assignment vulnerability in expresstechsoftware MemberPress Discord Addon expresstechsoftwares-memberpress-discord-add-on allows Privilege Escalation.This issue affects MemberPress Discord Addon: from n/a through 1.1.5.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136114 (CVSS 7.1)",
+   "cve": "CVE-2026-136114",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136114",
+   "date": "2026-11-27T19:16:59.490",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS vikbooking allows Stored XSS.This issue affects VikBooking Hotel Booking Engine & PMS: from n/a through 1.8.22.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136113 (CVSS 9.3)",
+   "cve": "CVE-2026-136113",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136113",
+   "date": "2026-11-27T19:16:59.340",
+   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Hello Clever Pty Hello Clever Gateway for WooCommerce cleverpay-gateway allows SQL Injection.This issue affects Hello Clever Gateway for WooCommerce: from n/a through 1.8.4.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136112 (CVSS 7.1)",
+   "cve": "CVE-2026-136112",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136112",
+   "date": "2026-11-27T19:16:59.200",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Amit Mittal Shipment Tracker for Woocommerce shipment-tracker-for-woocommerce allows Stored XSS.This issue affects Shipment Tracker for Woocommerce: from n/a through 1.5.7.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-134129 (CVSS 7.5)",
+   "cve": "CVE-2026-134129",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134129",
+   "date": "2026-11-27T19:16:59.050",
+   "summary": "smalot/pdfparser before 2.14.0 contains an inefficient algorithmic complexity vulnerability that allows remote attackers to cause a denial of service by submitting a crafted PDF with deeply nested unbalanced parentheses in a content-stream string. Attackers can exploit the regex-based string isolati",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "date": "2026-11-27T18:57:42+00:00",
+   "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-132876 (CVSS 7.7)",
+   "cve": "CVE-2026-132876",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132876",
+   "date": "2026-11-27T18:16:46.217",
+   "summary": "Dreamweaver Desktop is affected by a Dependency on Vulnerable Third-Party Component vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation depends on conditions beyond the at",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-81041 (CVSS 7.1)",
+   "cve": "CVE-2026-81041",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81041",
+   "date": "2026-11-27T17:18:01.733",
+   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Improper Certificate Validation vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to Denial of service and Information exposure.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137999 (CVSS 7.8)",
+   "cve": "CVE-2026-137999",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137999",
+   "date": "2026-11-27T17:17:59.310",
+   "summary": "JSONSchema2PoPo2 through 3.0.3 contains a code injection vulnerability that allows attackers to inject Python code by supplying JSON Schema default or format values that are written unescaped. Attackers can place a single quote in a string property default to break out of the literal in the generate",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137998 (CVSS 7.8)",
+   "cve": "CVE-2026-137998",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137998",
+   "date": "2026-11-27T17:17:59.160",
+   "summary": "Detoxify 0.5.3 through 0.5.4 contains an insecure deserialization vulnerability in load_checkpoint that allows attackers to execute code by supplying a crafted checkpoint file. Attackers can embed a pickle __reduce__ gadget in a .ckpt file loaded via torch.load with weights_only=False to run code wi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137997 (CVSS 7.8)",
+   "cve": "CVE-2026-137997",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137997",
+   "date": "2026-11-27T17:17:59.007",
+   "summary": "HCIPy through 0.7.1 contains an insecure deserialization vulnerability that allows attackers to execute code by supplying crafted .pkl files to read_field, read_grid or read_mode_basis. Because hcipy/util/io.py selects pickle by file extension and calls pickle.load, a __reduce__ gadget in a pupil, a",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137994 (CVSS 7.8)",
+   "cve": "CVE-2026-137994",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137994",
+   "date": "2026-11-27T17:17:58.530",
+   "summary": "Leo through 6.8.10 contains an insecure deserialization vulnerability that allows attackers to execute code by embedding pickled data in unknown XML attributes of .leo outlines. Attackers can place a pickle __reduce__ gadget in a <t> or <v> element attribute that resolveUa passes to pickle.loads, ex",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137992 (CVSS 7.5)",
+   "cve": "CVE-2026-137992",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137992",
+   "date": "2026-11-27T17:17:58.203",
+   "summary": "libexpat through 2.11.0 contains a denial of service vulnerability in defineAttribute() of lib/xmlparse.c that fails to detect duplicate non-ID #IMPLIED or #REQUIRED attribute declarations. Attackers can supply a crafted XML document with repeated ATTLIST declarations in an internal DTD subset to ca",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137684 (CVSS 7.3)",
+   "cve": "CVE-2026-137684",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137684",
+   "date": "2026-11-27T17:17:56.900",
+   "summary": "A security flaw has been discovered in eosphoros-ai DB-GPT up to 0.8.3. This affects the function editor_sql_run of the file packages/dbgpt-app/src/dbgpt_app/openapi/api_v1/editor/api_editor_v1.py of the component Editor SQL Run API. Performing a manipulation of the argument db_name results in autho",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "date": "2026-11-27T17:06:13+00:00",
+   "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "date": "2026-11-27T16:36:11+00:00",
+   "summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has b",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
+   "title": "CVE-2026-80510 (CVSS 7.7)",
+   "cve": "CVE-2026-80510",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80510",
+   "date": "2026-11-27T16:18:12.660",
+   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Authorization Bypass Through User-Controlled Key vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Elevation of privileges.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.7"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137978 (CVSS 7.5)",
+   "cve": "CVE-2026-137978",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137978",
+   "date": "2026-11-27T16:18:10.817",
+   "summary": "Nmap before 7.992 contains a use-after-free vulnerability in DNS::ResolverImpl::process_request in libnetutil/massdns.cc that frees still-referenced requests when rescheduling after DNS server disconnects. Attackers answering for at least two configured DNS servers can force a disconnect and send a ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137977 (CVSS 7.5)",
+   "cve": "CVE-2026-137977",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137977",
+   "date": "2026-11-27T16:18:10.660",
+   "summary": "Nmap before 7.992 contains a use-after-free vulnerability in DNS::ResolverImpl::handle_write in libnetutil/massdns.cc that dereferences freed request objects after writes complete. Attackers controlling or on-path to a DNS server can send timed DNS responses with forged ICMP port-unreachable message",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137964 (CVSS 9.8)",
+   "cve": "CVE-2026-137964",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137964",
+   "date": "2026-11-27T16:18:09.053",
+   "summary": "ToolJet before 3.21.96-LTS contains a command injection vulnerability in its GitHub Actions release workflow, which interpolates the pull request title directly into a shell run block. Attackers can submit a pull request against a release branch with shell metacharacters in its title that, once merg",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137963 (CVSS 7.5)",
+   "cve": "CVE-2026-137963",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137963",
+   "date": "2026-11-27T16:18:08.890",
+   "summary": "ToolJet before 3.21.96-LTS contains a hard-coded credentials vulnerability where the Helm chart values.yaml sets secret_key_base and lockbox_key to a static published constant. Unauthenticated attackers can sign session tokens with the known key to impersonate any user and decrypt all stored datasou",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137959 (CVSS 8.2)",
+   "cve": "CVE-2026-137959",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137959",
+   "date": "2026-11-27T16:18:08.273",
+   "summary": "n8n before 1.123.96, 2.x before 2.47.6, 2.48.x before 2.48.3, and 3.x before 3.2.2 does not verify that the user activating a workflow can access the credentials set on its trigger nodes. An authenticated member who knows another user's credential ID can activate a workflow whose trigger uses it, ca",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137957 (CVSS 8.2)",
+   "cve": "CVE-2026-137957",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137957",
+   "date": "2026-11-27T16:18:07.933",
+   "summary": "n8n before 1.123.96, 2.47.6, 2.48.3, and 3.2.2 contains a path traversal vulnerability in integration nodes that build API request paths from unencoded record, table, or resource ID parameters. Attackers can supply relative path segments through untrusted input such as webhook bodies to read, modify",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.2"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137954 (CVSS 7.5)",
+   "cve": "CVE-2026-137954",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137954",
+   "date": "2026-11-27T16:18:07.473",
+   "summary": "Pydantic Deep 0.2.18 before 0.4.0 contains a server-side request forgery and local file read vulnerability in the DeepResearch export_report handler for /export/pdf. Attackers can inject raw HTML into reports via the unauthenticated /upload endpoint, causing WeasyPrint to fetch internal URLs and emb",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137953 (CVSS 8.6)",
+   "cve": "CVE-2026-137953",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137953",
+   "date": "2026-11-27T16:18:07.320",
+   "summary": "Pydantic Deep 0.2.18 before 0.4.0 contains a missing authentication vulnerability in the bundled DeepResearch FastAPI app that exposes HTTP routes and the /ws/chat WebSocket. Remote attackers reaching the server bound to all interfaces can enumerate sessions, read event logs and workspace files, dri",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137952 (CVSS 7.5)",
+   "cve": "CVE-2026-137952",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137952",
+   "date": "2026-11-27T16:18:07.167",
+   "summary": "svglib before 2.5.0 contains a denial of service vulnerability in SvgRenderer.renderNode() that recursively renders internal <image> href fragment references without expansion limits or cycle detection. Attackers can supply crafted SVGs to svg2rlg() with nested groups referencing each other twice or",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136119 (CVSS 7.1)",
+   "cve": "CVE-2026-136119",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136119",
+   "date": "2026-11-27T16:18:06.710",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in InfornWeb News & Blog Designer Pack blog-designer-pack allows Reflected XSS.This issue affects News & Blog Designer Pack: from n/a through 4.0.14.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-136118 (CVSS 7.1)",
+   "cve": "CVE-2026-136118",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136118",
+   "date": "2026-11-27T16:18:06.570",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Seerox WP Dynamic Keywords Injector wp-dynamic-keywords-injector allows Reflected XSS.This issue affects WP Dynamic Keywords Injector: from n/a through 2.3.29.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135983 (CVSS 7.1)",
+   "cve": "CVE-2026-135983",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135983",
+   "date": "2026-11-27T16:18:06.430",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in themeansar Newsup newsup allows Stored XSS.This issue affects Newsup: from n/a through 5.7.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135979 (CVSS 7.1)",
+   "cve": "CVE-2026-135979",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135979",
+   "date": "2026-11-27T16:18:06.150",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Premmerce Premmerce Brands for WooCommerce premmerce-woocommerce-brands allows DOM-Based XSS.This issue affects Premmerce Brands for WooCommerce: from n/a through 1.2.16.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135974 (CVSS 7.1)",
+   "cve": "CVE-2026-135974",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135974",
+   "date": "2026-11-27T16:18:06.013",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPManageNinja FluentPlayer – Video Player With Forms &amp; Lead Capture fluent-player allows DOM-Based XSS.This issue affects FluentPlayer – Video Player With Forms &amp; Lead Capture: from n/a thro",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135968 (CVSS 8.6)",
+   "cve": "CVE-2026-135968",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135968",
+   "date": "2026-11-27T16:18:05.880",
+   "summary": "Unrestricted Upload of File with Dangerous Type vulnerability in theMarketer theMarketer themarketer allows Using Malicious Files.This issue affects theMarketer: from n/a through 1.5.9.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135962 (CVSS 7.1)",
+   "cve": "CVE-2026-135962",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135962",
+   "date": "2026-11-27T16:18:05.743",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Qode Interactive Qode Essential Addons qode-essential-addons allows Stored XSS.This issue affects Qode Essential Addons: from n/a through 1.6.7.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135957 (CVSS 7.1)",
+   "cve": "CVE-2026-135957",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135957",
+   "date": "2026-11-27T16:18:05.600",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in bgermann CformsII cforms2 allows Reflected XSS.This issue affects CformsII: from n/a through 15.2.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-135945 (CVSS 7.1)",
+   "cve": "CVE-2026-135945",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135945",
+   "date": "2026-11-27T16:18:05.353",
+   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themeum Tutor LMS tutor allows Stored XSS.This issue affects Tutor LMS: from n/a through 4.2.1.",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.1"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "date": "2026-11-27T15:09:40+00:00",
+   "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "date": "2026-11-27T15:00:10+00:00",
+   "summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "date": "2026-11-27T14:22:06+00:00",
+   "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "date": "2026-11-27T12:00:00+00:00",
+   "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulnerability&nbsp; CVE-2026-136716 Drupal Cor",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "date": "2026-11-27T11:49:34+00:00",
+   "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.code",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
+  {
    "title": "Microsoft removes WSUS server role in Windows Server 2028",
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
    "date": "2026-11-27T11:18:36+00:00",
@@ -70,20 +720,6 @@
    "source_name": "BleepingComputer"
   },
   {
-   "title": "CVE-2026-127118 (CVSS 7.1)",
-   "cve": "CVE-2026-127118",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127118",
-   "date": "2026-11-27T11:17:05.393",
-   "summary": "RCDevs OpenOTP SMS integration connector does not validate the TLS certificate of the remote endpoint, and transmitted the connection credentials and the message content as parameters in the request URL. An attacker in a privileged network position can intercept or tamper with this traffic.\n\n\nThis i",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
    "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
    "date": "2026-11-27T10:32:18+00:00",
@@ -92,76 +728,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-80477 (CVSS 8.4)",
-   "cve": "CVE-2026-80477",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80477",
-   "date": "2026-11-27T10:17:30.073",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Script injection.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80475 (CVSS 7.7)",
-   "cve": "CVE-2026-80475",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80475",
-   "date": "2026-11-27T10:17:29.807",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains a Server-Side Request Forgery (SSRF) vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Server-side request forgery.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80472 (CVSS 8.1)",
-   "cve": "CVE-2026-80472",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80472",
-   "date": "2026-11-27T10:17:29.417",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to Script injection",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80459 (CVSS 7.3)",
-   "cve": "CVE-2026-80459",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80459",
-   "date": "2026-11-27T10:17:28.887",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Insecure Temporary File vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to Filesystem access for attacker.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80457 (CVSS 7.8)",
-   "cve": "CVE-2026-80457",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80457",
-   "date": "2026-11-27T10:17:28.610",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to Denial of service.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Drupal warns of new site takeover flaw exploited in attacks",
@@ -194,174 +760,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-80453 (CVSS 8.4)",
-   "cve": "CVE-2026-80453",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80453",
-   "date": "2026-11-27T09:17:04.077",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains a Download of Code Without Integrity Check vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Unauthorized access.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80451 (CVSS 7.8)",
-   "cve": "CVE-2026-80451",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80451",
-   "date": "2026-11-27T09:17:03.817",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains a Use of Hard-coded Cryptographic Key vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to Remote execution.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80450 (CVSS 7.7)",
-   "cve": "CVE-2026-80450",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80450",
-   "date": "2026-11-27T09:17:03.683",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Improper Certificate Validation vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Elevation of privileges and Remote execution.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80448 (CVSS 7.7)",
-   "cve": "CVE-2026-80448",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80448",
-   "date": "2026-11-27T09:17:03.407",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains a Server-Side Request Forgery (SSRF) vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Unauthorized access.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-80268 (CVSS 7.8)",
-   "cve": "CVE-2026-80268",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80268",
-   "date": "2026-11-27T09:17:03.140",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Exposure of Resource to Wrong Sphere vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to Remote execution.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-59103 (CVSS 9.8)",
-   "cve": "CVE-2026-59103",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59103",
-   "date": "2026-11-27T09:17:02.453",
-   "summary": "MONEO ERP exposes the Ping method of its _slave JSON-RPC service over WebSocket as @rpc.openpublic, so it can be called without a valid session. The method's only guard compares the calling application name with \"_login\", but that value is taken from the client-controlled params.appname field of the",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-133941 (CVSS 9.3)",
-   "cve": "CVE-2026-133941",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133941",
-   "date": "2026-11-27T09:17:02.120",
-   "summary": "The country manager page of the JTL-Shop administration backend (/admin/countries) writes the request parameter activeSortOrder without output encoding into a single-quoted JavaScript string and into HTML attributes. The overview page requires no CSRF token. An unauthenticated remote attacker can th",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-133939 (CVSS 9.3)",
-   "cve": "CVE-2026-133939",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133939",
-   "date": "2026-11-27T09:17:01.753",
-   "summary": "The OPC (OnPage Composer) start menu, which JTL-Shop shows to logged-in backend users on storefront pages, writes the current page identifier (which contains the search term on search pages) and further values into single-quoted JavaScript strings without escaping. A single quote in the search term ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-133938 (CVSS 9.3)",
-   "cve": "CVE-2026-133938",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133938",
-   "date": "2026-11-27T09:17:01.530",
-   "summary": "The backend language switch action (quick_change_language) of the JTL-Shop administration backend is executed without a CSRF token check, and the supplied language value is neither validated against the installed backend languages nor encoded on output. The value is stored in the session and in the ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-133845 (CVSS 7.3)",
-   "cve": "CVE-2026-133845",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133845",
-   "date": "2026-11-27T09:17:01.363",
-   "summary": "A flaw was found in Flatpak’s flatpak-portal. When a sandboxed application invokes Spawn() and maps two different file descriptors to the same handle, dup2() can fail. Affected Flatpak versions do not handle that failure, so a file descriptor that was open inside flatpak-portal (commonly the unfilte",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-133842 (CVSS 8.2)",
-   "cve": "CVE-2026-133842",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133842",
-   "date": "2026-11-27T09:17:01.180",
-   "summary": "A flaw was found in Flatpak’s flatpak-system-helper. When a system-wide app, runtime, or extension uses the extra-data mechanism and its apply_extra logic creates a deeply nested directory tree, permission canonicalization can fail (for example with EMFILE). Affected Flatpak versions can still repor",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-132890 (CVSS 8.3)",
-   "cve": "CVE-2026-132890",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132890",
-   "date": "2026-11-27T09:17:01.030",
-   "summary": "In Eclipse Dataspace Components (EDC) Connector 1.0.0-RC2 through 1.0.0-RC7, the HashiCorp Vault extension does not reject .. path segments in secret aliases. In a multi-participant (virtual) control plane where vault partitions share the runtime's Vault token, an authenticated participant can set a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
    "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
    "date": "2026-11-27T09:08:16+00:00",
@@ -380,62 +778,6 @@
    "tags": [],
    "source": "bleeping",
    "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CVE-2026-137738 (CVSS 9.8)",
-   "cve": "CVE-2026-137738",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137738",
-   "date": "2026-11-27T06:17:09.867",
-   "summary": "In RealVNC Server before 7.19.1, UDP-based connections could potentially be exploited without authentication to execute code remotely or cause the software to crash. This could allow an attacker to remotely execute code as root on certain platforms or perform a denial of service attack. This issue a",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137724 (CVSS 10.0)",
-   "cve": "CVE-2026-137724",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137724",
-   "date": "2026-11-27T06:17:09.727",
-   "summary": "A vulnerability in the Platform component of Mitel OpenScape 4000, and OpenScape 4000 Manager could allow an unauthenticated attacker to conduct an unauthorized access attack due to improper authentication mechanisms. A successful exploit could allow an attacker to obtain sensitive information and g",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137723 (CVSS 9.6)",
-   "cve": "CVE-2026-137723",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137723",
-   "date": "2026-11-27T06:17:09.587",
-   "summary": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137721 (CVSS 10.0)",
-   "cve": "CVE-2026-137721",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137721",
-   "date": "2026-11-27T06:17:09.443",
-   "summary": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 10.0"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
@@ -458,256 +800,46 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "CVE-2026-137715 (CVSS 7.7)",
-   "cve": "CVE-2026-137715",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137715",
-   "date": "2026-11-27T05:19:02.787",
-   "summary": "Webmin through 2.670 before 07d1949 does not escape a save_log.cgi log file path. This is relevant for code execution if a shared-hosting provider offers Webalizer module access.",
+   "title": "CVE-2026-120705 · OSGeo GeoServer: OSGeo GeoServer XML Injection Vulnerability",
+   "cve": "CVE-2026-120705",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+   "date": "2026-11-27",
+   "summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
    "kind": "vuln",
    "tags": [
-    "NVD",
-    "CVSS 7.7"
+    "KEV",
+    "OSGeo"
    ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
+   "source": "kev",
+   "source_name": "CISA KEV"
   },
   {
-   "title": "CVE-2026-136995 (CVSS 7.2)",
-   "cve": "CVE-2026-136995",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136995",
-   "date": "2026-11-27T05:19:01.603",
-   "summary": "The Upsell Funnel Builder for WooCommerce – Create Upsells, Cross-Sells, Order Bumps, Frequently Bought, and Popups. plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'form_data' parameter in all versions up to, and including, 3.1.7 due to insufficient input sanitization and ",
+   "title": "CVE-2026-129243 · OSGeo GeoServer: OSGeo GeoServer Incorrect Authorization Vulnerability",
+   "cve": "CVE-2026-129243",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+   "date": "2026-11-27",
+   "summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
    "kind": "vuln",
    "tags": [
-    "NVD",
-    "CVSS 7.2"
+    "KEV",
+    "OSGeo"
    ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
+   "source": "kev",
+   "source_name": "CISA KEV"
   },
   {
-   "title": "CVE-2026-119071 (CVSS 8.1)",
-   "cve": "CVE-2026-119071",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119071",
-   "date": "2026-11-27T05:19:00.467",
-   "summary": "The W3 Total Cache plugin for WordPress is vulnerable to unauthorized File Deletion in all versions up to, and including, 2.11.0 via the `ajax_revert()` AJAX handler. The vulnerability exists because the `remove_optimizations()` function reads attacker-controlled values from the unprotected `w3tc_im",
+   "title": "CVE-2026-136716 · Drupal Core: Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "cve": "CVE-2026-136716",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+   "date": "2026-11-27",
+   "summary": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
    "kind": "vuln",
    "tags": [
-    "NVD",
-    "CVSS 8.1"
+    "KEV",
+    "Drupal"
    ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115288 (CVSS 8.4)",
-   "cve": "CVE-2026-115288",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115288",
-   "date": "2026-11-27T05:19:00.283",
-   "summary": "Missing authentication vulnerability in BS2500/BS500 Virtage Firmware.\n\nThis issue affects BladeSymphony BS2500: from 02-02 through 02-76*; BladeSymphony BS500: from 01-01 through 02-76*.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115287 (CVSS 7.3)",
-   "cve": "CVE-2026-115287",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115287",
-   "date": "2026-11-27T05:19:00.097",
-   "summary": "DoS vulnerability in BS2500/BS500 Virtage Firmware.\n\nThis issue affects BladeSymphony BS2500: from 02-02 through 02-76; BladeSymphony BS500: from 01-01 through 02-76.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115286 (CVSS 7.3)",
-   "cve": "CVE-2026-115286",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115286",
-   "date": "2026-11-27T05:18:59.907",
-   "summary": "DoS vulnerability in BS2500/BS500 Virtage Firmware.\n\nThis issue affects BladeSymphony BS2500: from 02-02 through 02-76; BladeSymphony BS500: from 01-01 through 02-76.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115285 (CVSS 7.6)",
-   "cve": "CVE-2026-115285",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115285",
-   "date": "2026-11-27T05:18:59.717",
-   "summary": "DoS vulnerability in BS2500/BS500 Virtage Firmware.\n\nThis issue affects BladeSymphony BS2500: from 02-02 through 02-76; BladeSymphony BS500: from 01-01 through 02-76.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115284 (CVSS 8.4)",
-   "cve": "CVE-2026-115284",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115284",
-   "date": "2026-11-27T05:18:59.523",
-   "summary": "Missing authentication vulnerability in BS2500/BS500 Virtage Firmware.\n\nThis issue affects BladeSymphony BS2500: from 02-02 through 02-76; BladeSymphony BS500: from 01-01 through 02-76.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.4"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-115283 (CVSS 8.8)",
-   "cve": "CVE-2026-115283",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115283",
-   "date": "2026-11-27T05:18:59.320",
-   "summary": "Missing authentication vulnerability in BS2500/BS500 Virtage Firmware.\n\n\nThis issue affects BladeSymphony BS2500: from 02-02 through 02-76; BladeSymphony BS500: from 01-01 through 02-76.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-105917 (CVSS 8.8)",
-   "cve": "CVE-2026-105917",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105917",
-   "date": "2026-11-27T05:18:58.960",
-   "summary": "File Permission Vulnerability in RV3000 Log Monitor for VMware.\n\nThis issue affects RV3000 Log Monitor for VMware(CIM): before 98-09; RV3000 Log Monitor for VMware: before 97-05.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137679 (CVSS 7.3)",
-   "cve": "CVE-2026-137679",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137679",
-   "date": "2026-11-27T04:16:40.427",
-   "summary": "A vulnerability was detected in code-projects Online Job Portal 1.0. This affects the function GetSQLValueString of the file JobSeeker/SearchJob.php of the component JobSeeker. Performing a manipulation of the argument cmbQual results in sql injection. The attack may be initiated remotely. The explo",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135627 (CVSS 7.5)",
-   "cve": "CVE-2026-135627",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135627",
-   "date": "2026-11-27T04:16:40.263",
-   "summary": "The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.9.0 The vulnerability exists because the `bulk_operation_menu()` function accepts the `swpm_bulk_change_level_to` parameter from `$_REQUEST` with only `sanitize_text_field()` appl",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135626 (CVSS 7.5)",
-   "cve": "CVE-2026-135626",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135626",
-   "date": "2026-11-27T04:16:40.110",
-   "summary": "The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.9.0 This is due to the `SwpmLevelForm::role()` function applying only `sanitize_text_field()` to the user-supplied `role` parameter with no allowlist, permitting the `administrato",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137706 (CVSS 9.9)",
-   "cve": "CVE-2026-137706",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137706",
-   "date": "2026-11-27T03:17:04.263",
-   "summary": "Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authenticated remote attackers can add a specified account to the Active Directory Domain Admins group, thereby obtaining domain administrator privileges.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.9"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137705 (CVSS 7.5)",
-   "cve": "CVE-2026-137705",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137705",
-   "date": "2026-11-27T03:17:04.120",
-   "summary": "Smart Portal developed by Direk Tech has an Arbitrary File Read vulnerability.Unauthenticated remote attackers can exploit Relative Path Traversal to download arbitrary system files.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137704 (CVSS 8.8)",
-   "cve": "CVE-2026-137704",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137704",
-   "date": "2026-11-27T03:17:03.963",
-   "summary": "D-Link DWM-222W developed by D-Link Corporation has a Use of Hard-coded Credentials vulnerability. Unauthenticated adjacent network attackers can use the administrator account embedded in the firmware to access the configuration backup endpoint and obtain plaintext passwords for all user accounts.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137678 (CVSS 7.3)",
-   "cve": "CVE-2026-137678",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137678",
-   "date": "2026-11-27T03:17:03.600",
-   "summary": "A security vulnerability has been detected in code-projects Online Job Portal 1.0. Affected by this issue is some unknown functionality of the file Admin/InsertUser.php. Such manipulation of the argument txtUserName/txtPassword leads to sql injection. The attack can be launched remotely. The exploit",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137041 (CVSS 7.2)",
-   "cve": "CVE-2026-137041",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137041",
-   "date": "2026-11-27T03:17:03.383",
-   "summary": "The E2Pdf – Export Pdf Tool for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'your-name (or any CF7 field referenced in the action's error_message/condition)' parameter in all versions up to, and including, 2.00.05 due to insufficient input sanitization and out",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
+   "source": "kev",
+   "source_name": "CISA KEV"
   },
   {
    "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
@@ -770,16 +902,6 @@
    "source_name": "The Hacker News"
   },
   {
-   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-   "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-   "date": "2026-11-26T11:50:17+00:00",
-   "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
    "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
    "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
    "date": "2026-11-26T10:57:55+00:00",
@@ -828,56 +950,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-   "date": "2026-11-25T22:05:09+00:00",
-   "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "1Password customer data stolen after employee GitHub account breach",
-   "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-   "date": "2026-11-25T21:33:33+00:00",
-   "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-   "date": "2026-11-25T19:39:31+00:00",
-   "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-   "date": "2026-11-25T16:13:40+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-   "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-   "date": "2026-11-25T15:00:10+00:00",
-   "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
   },
   {
    "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
@@ -1420,26 +1492,6 @@
    "source_name": "CISA KEV"
   },
   {
-   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-   "date": "2026-11-22T05:06:55+00:00",
-   "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-   "date": "2026-11-22T05:03:41+00:00",
-   "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
    "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
    "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
    "date": "2026-11-21T00:36:39+00:00",
@@ -1516,6 +1568,16 @@
    "source_name": "CISA KEV"
   },
   {
+   "title": "libumqtt",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "date": "2026-11-19T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt &lt;=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libum",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
    "title": "Elecbrakes EB2, VM1, ELBC2000",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
    "date": "2026-11-19T12:00:00+00:00",
@@ -1530,16 +1592,6 @@
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
    "date": "2026-11-19T12:00:00+00:00",
    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime &lt;=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy Logic OpenPLC Ru",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "libumqtt",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "date": "2026-11-19T12:00:00+00:00",
-   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt &lt;=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libum",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -1623,80 +1675,10 @@
    "source_name": "CISA KEV"
   },
   {
-   "title": "Siemens Industrial Software Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "title": "Siemens SIMATIC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
    "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Dorsett Controls InfoScan",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Contro",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious ",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens Mendix Studio Pro",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Critical Java Vulnerability Requires Immediate Patching",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Ja",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens meta-iot2050",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fi",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens Simcenter Femap",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and rec",
+   "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigati",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -1713,20 +1695,10 @@
    "source_name": "CISA advisories"
   },
   {
-   "title": "Siemens SIMATIC",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "title": "Siemens Simcenter Femap",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
    "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigati",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens Industrial Automation Software Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-   "date": "2026-11-17T12:00:00+00:00",
-   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
+   "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and rec",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -1743,10 +1715,90 @@
    "source_name": "CISA advisories"
   },
   {
+   "title": "Siemens meta-iot2050",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fi",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Siemens Industrial Software Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
    "title": "Siemens SIMATIC WinCC",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
    "date": "2026-11-17T12:00:00+00:00",
    "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Critical Java Vulnerability Requires Immediate Patching",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Ja",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Siemens Mendix Studio Pro",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious ",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Dorsett Controls InfoScan",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Contro",
+   "kind": "news",
+   "tags": [],
+   "source": "cisa-adv",
+   "source_name": "CISA advisories"
+  },
+  {
+   "title": "Siemens Industrial Automation Software Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "date": "2026-11-17T12:00:00+00:00",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -1805,20 +1857,10 @@
    "source_name": "CISA KEV"
   },
   {
-   "title": "Siemens Building Automation and Energy Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "title": "Siemens Desigo, Gridscale",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
    "date": "2026-11-12T12:00:00+00:00",
-   "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of imp",
-   "kind": "news",
-   "tags": [],
-   "source": "cisa-adv",
-   "source_name": "CISA advisories"
-  },
-  {
-   "title": "Siemens Industrial Edge Management",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-   "date": "2026-11-12T12:00:00+00:00",
-   "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM softwar",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -1835,20 +1877,20 @@
    "source_name": "CISA advisories"
   },
   {
-   "title": "Siemens Desigo, Gridscale",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "title": "Siemens RUGGEDCOM APE1808",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
    "date": "2026-11-12T12:00:00+00:00",
-   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
+   "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarounds provided in ",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
    "source_name": "CISA advisories"
   },
   {
-   "title": "Siemens RUGGEDCOM APE1808",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+   "title": "Siemens Building Automation and Energy Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
    "date": "2026-11-12T12:00:00+00:00",
-   "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarounds provided in ",
+   "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of imp",
    "kind": "news",
    "tags": [],
    "source": "cisa-adv",
@@ -2039,20 +2081,6 @@
    "source_name": "Krebs on Security"
   },
   {
-   "title": "CVE-2024-27834 · Apple Multiple Products: Apple Multiple Products Improper Authentication Vulnerability",
-   "cve": "CVE-2024-27834",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
-   "date": "2026-11-04",
-   "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-   "kind": "vuln",
-   "tags": [
-    "KEV",
-    "Apple"
-   ],
-   "source": "kev",
-   "source_name": "CISA KEV"
-  },
-  {
    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
    "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
    "date": "2026-11-03T02:24:31+00:00",
@@ -2061,34 +2089,6 @@
    "tags": [],
    "source": "krebs",
    "source_name": "Krebs on Security"
-  },
-  {
-   "title": "CVE-2026-119977 · WordPress WordPress Core: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-   "cve": "CVE-2026-119977",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
-   "date": "2026-11-03",
-   "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
-   "kind": "vuln",
-   "tags": [
-    "KEV",
-    "WordPress"
-   ],
-   "source": "kev",
-   "source_name": "CISA KEV"
-  },
-  {
-   "title": "CVE-2026-118527 · Ivanti Connect Secure: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-   "cve": "CVE-2026-118527",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
-   "date": "2026-10-30",
-   "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
-   "kind": "vuln",
-   "tags": [
-    "KEV",
-    "Ivanti"
-   ],
-   "source": "kev",
-   "source_name": "CISA KEV"
   },
   {
    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
