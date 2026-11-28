@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:04:43.393924+00:00",
+ "updated": "2026-11-28T07:26:58.427120+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,188 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-138163 (CVSS 7.8)",
+   "cve": "CVE-2026-138163",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138163",
+   "date": "2026-11-28T03:17:08.383",
+   "summary": "Gammu before 1.45.2 contains a heap-based buffer overflow in ReadWAPSettingsEntry() that allows attackers to corrupt heap memory via crafted backup files with excess WAP or MMS settings entries. Attackers can supply a backup with more than four TitleNN keys in a [WAPSettings] or [MMSSettings] sectio",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138162 (CVSS 7.0)",
+   "cve": "CVE-2026-138162",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138162",
+   "date": "2026-11-28T03:17:08.223",
+   "summary": "Gammu before 1.45.2 contains a stack-based buffer overflow vulnerability in ALCATEL_EncodeString() that allows attackers to overwrite stack memory via oversized encoded phonebook text. Attackers can supply a crafted backup restored with gammu restore or addnew to an attached Alcatel phone, using GSM",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138161 (CVSS 7.8)",
+   "cve": "CVE-2026-138161",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138161",
+   "date": "2026-11-28T03:17:08.073",
+   "summary": "Gammu before 1.45.2 contains a buffer overflow vulnerability in LoadBackup() that allows attackers to corrupt memory by supplying an overlong MD5 value in a crafted backup file. Attackers can overwrite adjacent phonebook and calendar entry pointers via strcpy() into MD5Original when files are loaded",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138160 (CVSS 7.8)",
+   "cve": "CVE-2026-138160",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138160",
+   "date": "2026-11-28T03:17:07.910",
+   "summary": "Gammu before 1.45.2 contains a stack-based buffer overflow vulnerability in ReadBackupTextLen() that allows attackers to overwrite stack memory via crafted backup files. Attackers can supply overlong quoted text values decoded into a 10,000-byte stack array during convertbackup, restore, or GSM_Read",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138159 (CVSS 7.5)",
+   "cve": "CVE-2026-138159",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138159",
+   "date": "2026-11-28T03:17:07.753",
+   "summary": "edbrowse through 3.8.19 contains an integer overflow in stringAndBytes() that allows malicious servers to write past a heap buffer by sending response bodies larger than 2 GB. When a user browses to an attacker-controlled HTTP, FTP, or gopher server, the oversized body skips reallocation and corrupt",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138154 (CVSS 8.6)",
+   "cve": "CVE-2026-138154",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138154",
+   "date": "2026-11-28T03:17:06.863",
+   "summary": "POSTAL 2 before build 26810491 contains a sandbox escape vulnerability that allows malicious Steam Workshop mods to execute code by calling ConsoleCommand with a start file URI. Attackers can ship a batch file in a mod at the predictable workshop install path and launch it via ShellExecuteW, executi",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.6"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138119 (CVSS 8.8)",
+   "cve": "CVE-2026-138119",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138119",
+   "date": "2026-11-28T02:17:33.497",
+   "summary": "Kestra before 1.3.36 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to execute JavaScript by injecting HTML into the executions page sort parameter. Attackers can lure logged-in users to a crafted link whose invalid sort value is rendered unsanitized in",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 8.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138118 (CVSS 7.8)",
+   "cve": "CVE-2026-138118",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138118",
+   "date": "2026-11-28T02:17:33.327",
+   "summary": "HyperSpy from 1.4.0 before 2.6.0 contains an insecure deserialization vulnerability that allows attackers to execute arbitrary Python code by supplying crafted stored-model data in .hspy or .zspy files. Attackers can embed a malicious pickle payload in a component's _class_dump or a 'fn'-flagged _wh",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138117 (CVSS 7.8)",
+   "cve": "CVE-2026-138117",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138117",
+   "date": "2026-11-28T02:17:33.150",
+   "summary": "HyperSpy from 1.2.0 before 2.6.0 contains a code execution vulnerability that allows attackers to run Python code by embedding malicious expression strings evaluated with sympy.sympify(). Attackers can craft .hspy or .zspy files with malicious axis, Expression component, or twin function expressions",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138004 (CVSS 10.0)",
+   "cve": "CVE-2026-138004",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138004",
+   "date": "2026-11-27T23:16:36.390",
+   "summary": "A security vulnerability has been detected in TRENDnet TEW-751DR and TEW-733GR 1.03B01. Affected is the function soapcgi_main of the file /soap.cgi of the component UPnP Igd Control Endpoint. Such manipulation of the argument service leads to os command injection. The attack may be performed from re",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138003 (CVSS 9.0)",
+   "cve": "CVE-2026-138003",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138003",
+   "date": "2026-11-27T22:17:54.837",
+   "summary": "A weakness has been identified in TRENDnet TEW-751DR 1.03B01. This impacts the function FUN_0040ed90 of the file wfadev.cgi of the component UPnP/WFA. This manipulation of the argument SOAPAction causes stack-based buffer overflow. The attack is possible to be carried out remotely. A high degree of ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 9.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137974 (CVSS 7.0)",
+   "cve": "CVE-2026-137974",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137974",
+   "date": "2026-11-27T21:17:14.770",
+   "summary": "A flaw was found in tuned. This vulnerability allows local privilege escalation because the spindown-disk profile script does not properly validate filesystem mount sources before executing remount operations with root privileges. A local user capable of creating user-space filesystems can craft a m",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-137941 (CVSS 7.8)",
+   "cve": "CVE-2026-137941",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137941",
+   "date": "2026-11-27T21:17:14.603",
+   "summary": "A flaw was found in GIMP. The Levels configuration setter does not validate the channel enum before using it to index fixed-size per-channel arrays. A crafted XCF file with a non-destructive Levels filter can set an out-of-range channel (LUMINANCE or RGB), causing a heap out-of-bounds read and write",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.8"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
   {
    "title": "CVE-2026-138034 (CVSS 7.5)",
    "cve": "CVE-2026-138034",
@@ -473,188 +655,6 @@
    "tags": [
     "NVD",
     "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137957 (CVSS 8.2)",
-   "cve": "CVE-2026-137957",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137957",
-   "date": "2026-11-27T16:18:07.933",
-   "summary": "n8n before 1.123.96, 2.47.6, 2.48.3, and 3.2.2 contains a path traversal vulnerability in integration nodes that build API request paths from unencoded record, table, or resource ID parameters. Attackers can supply relative path segments through untrusted input such as webhook bodies to read, modify",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137954 (CVSS 7.5)",
-   "cve": "CVE-2026-137954",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137954",
-   "date": "2026-11-27T16:18:07.473",
-   "summary": "Pydantic Deep 0.2.18 before 0.4.0 contains a server-side request forgery and local file read vulnerability in the DeepResearch export_report handler for /export/pdf. Attackers can inject raw HTML into reports via the unauthenticated /upload endpoint, causing WeasyPrint to fetch internal URLs and emb",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137953 (CVSS 8.6)",
-   "cve": "CVE-2026-137953",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137953",
-   "date": "2026-11-27T16:18:07.320",
-   "summary": "Pydantic Deep 0.2.18 before 0.4.0 contains a missing authentication vulnerability in the bundled DeepResearch FastAPI app that exposes HTTP routes and the /ws/chat WebSocket. Remote attackers reaching the server bound to all interfaces can enumerate sessions, read event logs and workspace files, dri",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137952 (CVSS 7.5)",
-   "cve": "CVE-2026-137952",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137952",
-   "date": "2026-11-27T16:18:07.167",
-   "summary": "svglib before 2.5.0 contains a denial of service vulnerability in SvgRenderer.renderNode() that recursively renders internal <image> href fragment references without expansion limits or cycle detection. Attackers can supply crafted SVGs to svg2rlg() with nested groups referencing each other twice or",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-136119 (CVSS 7.1)",
-   "cve": "CVE-2026-136119",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136119",
-   "date": "2026-11-27T16:18:06.710",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in InfornWeb News & Blog Designer Pack blog-designer-pack allows Reflected XSS.This issue affects News & Blog Designer Pack: from n/a through 4.0.14.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-136118 (CVSS 7.1)",
-   "cve": "CVE-2026-136118",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136118",
-   "date": "2026-11-27T16:18:06.570",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Seerox WP Dynamic Keywords Injector wp-dynamic-keywords-injector allows Reflected XSS.This issue affects WP Dynamic Keywords Injector: from n/a through 2.3.29.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135983 (CVSS 7.1)",
-   "cve": "CVE-2026-135983",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135983",
-   "date": "2026-11-27T16:18:06.430",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in themeansar Newsup newsup allows Stored XSS.This issue affects Newsup: from n/a through 5.7.2.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135979 (CVSS 7.1)",
-   "cve": "CVE-2026-135979",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135979",
-   "date": "2026-11-27T16:18:06.150",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Premmerce Premmerce Brands for WooCommerce premmerce-woocommerce-brands allows DOM-Based XSS.This issue affects Premmerce Brands for WooCommerce: from n/a through 1.2.16.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135974 (CVSS 7.1)",
-   "cve": "CVE-2026-135974",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135974",
-   "date": "2026-11-27T16:18:06.013",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPManageNinja FluentPlayer – Video Player With Forms &amp; Lead Capture fluent-player allows DOM-Based XSS.This issue affects FluentPlayer – Video Player With Forms &amp; Lead Capture: from n/a thro",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135968 (CVSS 8.6)",
-   "cve": "CVE-2026-135968",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135968",
-   "date": "2026-11-27T16:18:05.880",
-   "summary": "Unrestricted Upload of File with Dangerous Type vulnerability in theMarketer theMarketer themarketer allows Using Malicious Files.This issue affects theMarketer: from n/a through 1.5.9.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.6"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135962 (CVSS 7.1)",
-   "cve": "CVE-2026-135962",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135962",
-   "date": "2026-11-27T16:18:05.743",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Qode Interactive Qode Essential Addons qode-essential-addons allows Stored XSS.This issue affects Qode Essential Addons: from n/a through 1.6.7.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135957 (CVSS 7.1)",
-   "cve": "CVE-2026-135957",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135957",
-   "date": "2026-11-27T16:18:05.600",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in bgermann CformsII cforms2 allows Reflected XSS.This issue affects CformsII: from n/a through 15.2.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-135945 (CVSS 7.1)",
-   "cve": "CVE-2026-135945",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135945",
-   "date": "2026-11-27T16:18:05.353",
-   "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themeum Tutor LMS tutor allows Stored XSS.This issue affects Tutor LMS: from n/a through 4.2.1.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.1"
    ],
    "source": "nvd",
    "source_name": "NVD high severity"
