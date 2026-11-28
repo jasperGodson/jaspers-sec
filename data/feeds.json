@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:26:58.427120+00:00",
+ "updated": "2026-11-28T17:27:45.970631+00:00",
  "sources": [
   {
    "id": "kev",
@@ -59,6 +59,124 @@
   }
  ],
  "items": [
+  {
+   "title": "CVE-2026-138294 (CVSS 7.5)",
+   "cve": "CVE-2026-138294",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138294",
+   "date": "2026-11-28T17:16:44.200",
+   "summary": "GPAC before 26.07.0 contains a path traversal vulnerability in the httpout filter that allows unauthenticated remote attackers to read files outside the rdirs root by sending unnormalized request paths. Attackers can send GET or HEAD requests containing ../ or %2e%2e%2f sequences to read configurati",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.5"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138075 (CVSS 7.3)",
+   "cve": "CVE-2026-138075",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138075",
+   "date": "2026-11-28T17:16:43.857",
+   "summary": "A vulnerability was determined in shopizer-ecommerce shopizer up to 3.2.5. The impacted element is an unknown function of the file sm-core/src/main/resources/authentication.properties. This manipulation causes use of hard-coded cryptographic key\r . It is possible to initiate the attack remotely. The",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138074 (CVSS 7.3)",
+   "cve": "CVE-2026-138074",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138074",
+   "date": "2026-11-28T17:16:43.657",
+   "summary": "A vulnerability was found in go-dev-frame sponge up to 1.16.1. The affected element is an unknown function of the file pkg/jwt/option.go of the component JWT. The manipulation results in use of hard-coded cryptographic key\r . The attack may be performed from remote. The exploit has been made public ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138056 (CVSS 7.3)",
+   "cve": "CVE-2026-138056",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138056",
+   "date": "2026-11-28T16:16:47.910",
+   "summary": "A vulnerability was determined in SonicJs-Org SonicJS up to 3.0.1. This impacts the function AuthManager.verifyToken of the file packages/core/src/middleware/auth.ts. Executing a manipulation can lead to use of hard-coded cryptographic key\r . It is possible to launch the attack remotely. The exploit",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138055 (CVSS 7.3)",
+   "cve": "CVE-2026-138055",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138055",
+   "date": "2026-11-28T16:16:47.713",
+   "summary": "A vulnerability was found in Cloud-CV EvalAI up to 30128ca50ab24a0c65e556d78199309e8ecc3eae. This affects an unknown function of the file settings/common.py of the component JWT Authentication. Performing a manipulation of the argument SECRET_KEY results in use of hard-coded cryptographic key\r . It ",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+   "url": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/",
+   "date": "2026-11-28T15:32:49+00:00",
+   "summary": "Official distribution channels for the Q-Dir and DesktopOK Windows utilities were compromised to deliver trojanized installers containing Python-based remote access malware. [...]",
+   "kind": "news",
+   "tags": [],
+   "source": "bleeping",
+   "source_name": "BleepingComputer"
+  },
+  {
+   "title": "CVE-2026-138050 (CVSS 7.3)",
+   "cve": "CVE-2026-138050",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138050",
+   "date": "2026-11-28T14:17:49.773",
+   "summary": "A weakness has been identified in OpenAirInterface oai-cn5g-udr up to 2.2.2. This vulnerability affects unknown code of the file src/udr_app/database/mysql_db.cpp of the component Nudr_DR. Executing a manipulation of the argument ueId can lead to sql injection. The attack may be launched remotely. T",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 7.3"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "CVE-2026-138005 (CVSS 10.0)",
+   "cve": "CVE-2026-138005",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138005",
+   "date": "2026-11-28T10:17:00.010",
+   "summary": "A vulnerability was detected in TRENDnet TEW-751DR 1.03B01. Affected by this vulnerability is the function gena.php::GENA_notify_init of the file htdocs/upnpinc/gena.php of the component UPnP Event Handler. Performing a manipulation of the argument uri results in os command injection. It is possible",
+   "kind": "vuln",
+   "tags": [
+    "NVD",
+    "CVSS 10.0"
+   ],
+   "source": "nvd",
+   "source_name": "NVD high severity"
+  },
+  {
+   "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+   "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+   "date": "2026-11-28T08:08:11+00:00",
+   "summary": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in respo",
+   "kind": "news",
+   "tags": [],
+   "source": "thn",
+   "source_name": "The Hacker News"
+  },
   {
    "title": "CVE-2026-138163 (CVSS 7.8)",
    "cve": "CVE-2026-138163",
@@ -542,20 +660,6 @@
    "source_name": "NVD high severity"
   },
   {
-   "title": "CVE-2026-137684 (CVSS 7.3)",
-   "cve": "CVE-2026-137684",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137684",
-   "date": "2026-11-27T17:17:56.900",
-   "summary": "A security flaw has been discovered in eosphoros-ai DB-GPT up to 0.8.3. This affects the function editor_sql_run of the file packages/dbgpt-app/src/dbgpt_app/openapi/api_v1/editor/api_editor_v1.py of the component Editor SQL Run API. Performing a manipulation of the argument db_name results in autho",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.3"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
    "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
    "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
    "date": "2026-11-27T17:06:13+00:00",
@@ -574,90 +678,6 @@
    "tags": [],
    "source": "thn",
    "source_name": "The Hacker News"
-  },
-  {
-   "title": "CVE-2026-80510 (CVSS 7.7)",
-   "cve": "CVE-2026-80510",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80510",
-   "date": "2026-11-27T16:18:12.660",
-   "summary": "Dell Secure Connect Gateway - Virtual Edition, versions prior to 5.36.00.16, contains an Authorization Bypass Through User-Controlled Key vulnerability. An unauthenticated local attacker could potentially exploit this vulnerability, leading to Elevation of privileges.",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.7"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137978 (CVSS 7.5)",
-   "cve": "CVE-2026-137978",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137978",
-   "date": "2026-11-27T16:18:10.817",
-   "summary": "Nmap before 7.992 contains a use-after-free vulnerability in DNS::ResolverImpl::process_request in libnetutil/massdns.cc that frees still-referenced requests when rescheduling after DNS server disconnects. Attackers answering for at least two configured DNS servers can force a disconnect and send a ",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137977 (CVSS 7.5)",
-   "cve": "CVE-2026-137977",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137977",
-   "date": "2026-11-27T16:18:10.660",
-   "summary": "Nmap before 7.992 contains a use-after-free vulnerability in DNS::ResolverImpl::handle_write in libnetutil/massdns.cc that dereferences freed request objects after writes complete. Attackers controlling or on-path to a DNS server can send timed DNS responses with forged ICMP port-unreachable message",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137964 (CVSS 9.8)",
-   "cve": "CVE-2026-137964",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137964",
-   "date": "2026-11-27T16:18:09.053",
-   "summary": "ToolJet before 3.21.96-LTS contains a command injection vulnerability in its GitHub Actions release workflow, which interpolates the pull request title directly into a shell run block. Attackers can submit a pull request against a release branch with shell metacharacters in its title that, once merg",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 9.8"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137963 (CVSS 7.5)",
-   "cve": "CVE-2026-137963",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137963",
-   "date": "2026-11-27T16:18:08.890",
-   "summary": "ToolJet before 3.21.96-LTS contains a hard-coded credentials vulnerability where the Helm chart values.yaml sets secret_key_base and lockbox_key to a static published constant. Unauthenticated attackers can sign session tokens with the known key to impersonate any user and decrypt all stored datasou",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 7.5"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
-  },
-  {
-   "title": "CVE-2026-137959 (CVSS 8.2)",
-   "cve": "CVE-2026-137959",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137959",
-   "date": "2026-11-27T16:18:08.273",
-   "summary": "n8n before 1.123.96, 2.x before 2.47.6, 2.48.x before 2.48.3, and 3.x before 3.2.2 does not verify that the user activating a workflow can access the credentials set on its trigger nodes. An authenticated member who knows another user's credential ID can activate a workflow whose trigger uses it, ca",
-   "kind": "vuln",
-   "tags": [
-    "NVD",
-    "CVSS 8.2"
-   ],
-   "source": "nvd",
-   "source_name": "NVD high severity"
   },
   {
    "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
@@ -876,16 +896,6 @@
    "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
    "date": "2026-11-26T17:15:27+00:00",
    "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
-   "kind": "news",
-   "tags": [],
-   "source": "bleeping",
-   "source_name": "BleepingComputer"
-  },
-  {
-   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-   "date": "2026-11-26T15:23:28+00:00",
-   "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
    "kind": "news",
    "tags": [],
    "source": "bleeping",
@@ -1448,16 +1458,6 @@
    "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
    "date": "2026-11-23T09:04:08+00:00",
    "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and ",
-   "kind": "news",
-   "tags": [],
-   "source": "thn",
-   "source_name": "The Hacker News"
-  },
-  {
-   "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-   "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-   "date": "2026-11-23T08:24:15+00:00",
-   "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial t",
    "kind": "news",
    "tags": [],
    "source": "thn",
